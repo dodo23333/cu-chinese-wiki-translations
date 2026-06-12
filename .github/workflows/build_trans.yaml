@@ -1,5 +1,5 @@
 # See https://docs.astral.sh/uv/guides/integration/github/#multiple-python-versions
-name: Validate Data Format
+name: 构建翻译
 on:
   push:
     branches: [main]
@@ -7,25 +7,35 @@ on:
     branches: [main]
 
 jobs:
-  validate-data-format:
+  merge-translations:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: 拉取项目
         uses: actions/checkout@v6.0.3
         with:
           submodules: true
 
-      - name: Install uv
+      - name: 安装uv
         uses: astral-sh/setup-uv@v8.2.0
         with:
           enable-cache: true
 
-      - name: Set up Python
+      - name: 设置Python
         run: uv python install
 
-      - name: Install the project
+      - name: 安装环境
         run: uv sync --locked --all-extras --dev
 
-      - name: Run validate_data.py
+      - name: 验证数据格式正确
         run: uv run validate-data
+
+      - name: 合并翻译
+        run: uv run merge-trans
+
+      - name: 上传翻译
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: 维基简中
+          path: 维基简中.json
+          if-no-files-found: error
