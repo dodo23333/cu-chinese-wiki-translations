@@ -29,3 +29,10 @@ jobs:
 
       - name: Run validate_data.py
         run: uv run merge-trans
+
+      - name: Upload merged translation
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: 维基简中
+          path: 维基简中.json
+          if-no-files-found: error
