@@ -30,6 +30,9 @@ jobs:
       - name: 验证数据格式正确
         run: uv run validate-data
 
+      - name: 拉取最新官方翻译 
+        run: git submodule update --init --recursive --remote
+
       - name: 合并翻译
         run: uv run merge-trans
 
