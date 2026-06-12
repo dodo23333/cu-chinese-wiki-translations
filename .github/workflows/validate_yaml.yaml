@@ -1,0 +1,29 @@
+# See https://docs.astral.sh/uv/guides/integration/github/#multiple-python-versions
+name: Validate Data Format
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-data-format:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6.0.3
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v8.2.0
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Install the project
+        run: uv sync --locked --all-extras --dev
+
+      - name: Run validate_data.py
+        run: uv run validate-data
