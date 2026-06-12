@@ -34,7 +34,9 @@ def append_string(config: Merger, path: list, base: str, nxt: str) -> str:
         return nxt
     if not nxt:
         return base
-    return f"{base}\n{nxt}"
+
+    key = str(path[-1]) if path else ""
+    return f"{base}\n{nxt}" if key.endswith(".dsc") else f"{base}{nxt}"
 
 
 translation_merger = Merger(
