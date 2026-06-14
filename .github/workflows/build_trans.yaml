@@ -33,12 +33,17 @@ jobs:
       - name: 拉取最新官方翻译 
         run: git submodule update --init --recursive --remote
 
-      - name: 合并翻译
+      - name: 合并官方翻译
         run: uv run merge-trans
+
+      - name: 合并软盘翻译
+        run: uv run merge-trans -v 基准汉化_软盘.json -o 维基简中_基于软盘汉化.json 
 
       - name: 上传翻译
         uses: actions/upload-artifact@v7.0.1
         with:
           name: 维基简中
-          path: 维基简中.json
+          path: |
+            维基简中_基于官方翻译.json
+            维基简中_基于软盘汉化.json
           if-no-files-found: error

@@ -1,5 +1,7 @@
 """合并基准翻译和中间文件"""
 
+from argparse import Namespace, ArgumentParser
+
 import json
 from copy import deepcopy
 from pathlib import Path
@@ -13,7 +15,7 @@ if TYPE_CHECKING:
 
 VENDOR_JSON = Path("vendor/zh-CN.json")
 RAW_YAML = Path("维基中文中间文件.yaml")
-OUTPUT_JSON = Path("维基简中.json")
+OUTPUT_JSON = Path("维基简中_基于官方翻译.json")
 
 
 def load_yaml(path: Path) -> dict:
@@ -57,14 +59,47 @@ def merge_data(raw: dict, vendor: dict) -> MutableMapping:
     return merged
 
 
+def parse_args() -> Namespace:
+    """解析命令行参数"""
+    parser = ArgumentParser(description="合并基准翻译和wiki汉化组补丁")
+
+    parser.add_argument(
+        "-v",
+        "--vendor",
+        type=Path,
+        default=VENDOR_JSON,
+        help=f"基准翻译，默认：{VENDOR_JSON}",
+    )
+
+    parser.add_argument(
+        "-r",
+        "--raw",
+        type=Path,
+        default=RAW_YAML,
+        help=f"wiki汉化组补丁，默认：{RAW_YAML}",
+    )
+
+    parser.add_argument(
+        "-o",
+        "--output",
+        type=Path,
+        default=OUTPUT_JSON,
+        help=f"合并后文件，默认：{OUTPUT_JSON}",
+    )
+
+    return parser.parse_args()
+
+
 def main() -> None:
     """合并翻译"""
-    raw_data = load_yaml(RAW_YAML)
-    vendor_data = load_json(VENDOR_JSON)
+    args = parse_args()
+
+    raw_data = load_yaml(args.raw)
+    vendor_data = load_json(args.vendor)
 
     merged_data = merge_data(raw_data, vendor_data)
 
-    with OUTPUT_JSON.open("w", encoding="utf-8") as f:
+    with args.output.open("w", encoding="utf-8") as f:
         json.dump(merged_data, f, ensure_ascii=False, indent=4)
 
 
