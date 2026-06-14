@@ -1,8 +1,7 @@
 """合并基准翻译和中间文件"""
 
-from argparse import Namespace, ArgumentParser
-
 import json
+from argparse import ArgumentParser, Namespace
 from copy import deepcopy
 from pathlib import Path
 from typing import TYPE_CHECKING
