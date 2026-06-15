@@ -259,7 +259,7 @@ main:
     legpouchdsc: |-
         ┃(穿戴且装有物品时)腐败：<color=#ffaa00>0.48%/分钟</color>
         ┃获取：<color=#aaaaaa>空投舱/交易/制作</color>
-        <color=#ffaa00>容量适中，负重减免极高。与自动泵冲突。</color>
+        <color=#ffaa00>容量适中，负重减免极高。</color>
     liquidpouchdsc: |-
         ┃容量：<color=#88ff88>1000u (仅液体)</color>
         ┃获取：<color=#aaaaaa>物资箱/生命舱箱子/空投舱</color>
@@ -1067,7 +1067,7 @@ main:
         ┃<color=#88ff88>骨折 -80%</color>
         ┃<color=#ff4444>皮肤 -15</color>
         ┃疼痛 +30
-        ┃消耗 34% 耐久
+        ┃消耗 50% 耐久
         ┃获取：<color=#aaaaaa>医疗箱/交易</color>
         ┃制作(14)：3废料板+2电线捆+1电路板(>=90%)+20mL生化流体+10mL LRD血清
         <color=#ffaa00>快速处理骨折，但会造成较大附带损伤。</color>
