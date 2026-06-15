@@ -42,20 +42,20 @@ jobs:
         run: uv run merge-trans
 
       - name: 合并软盘翻译
-        run: uv run merge-trans -v 基准汉化_软盘.json -o 维基简中_基于软盘汉化.json 
+        run: uv run merge-trans -v 基准汉化_软盘.json -o wiki_translation_floppy.json 
 
       - name: 上传维基简中_基于官方翻译
         uses: actions/upload-artifact@v7.0.1
         with:
           name: 维基简中_基于官方翻译
-          path: 维基简中_基于官方翻译.json
+          path: wiki_translation_official.json
           if-no-files-found: error
 
       - name: 上传维基简中_基于软盘汉化
         uses: actions/upload-artifact@v7.0.1
         with:
           name: 维基简中_基于软盘汉化
-          path: 维基简中_基于软盘汉化.json
+          path: wiki_translation_floppy.json
           if-no-files-found: error
 
       - name: 自动发布Release
@@ -63,6 +63,6 @@ jobs:
         uses: softprops/action-gh-release@v3
         with:
           files: |
-            维基简中_基于官方翻译.json
-            维基简中_基于软盘汉化.json
+            wiki_translation_official.json
+            wiki_translation_floppy.json
           generate_release_notes: true
