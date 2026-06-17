@@ -62,6 +62,7 @@ jobs:
         if: github.ref_type == 'tag'
         uses: softprops/action-gh-release@v3
         with:
+          preserve_order: true
           files: |
             维基简中_基于官方翻译.json
             维基简中_基于软盘翻译.json
