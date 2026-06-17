@@ -14,7 +14,7 @@ if TYPE_CHECKING:
 
 VENDOR_JSON = Path("vendor/zh-CN.json")
 RAW_YAML = Path("维基简中中间文件.yaml")
-OUTPUT_JSON = Path("维基简中_基于官方翻译.json")
+OUTPUT_JSON = Path("wiki_translations_official.json")
 
 
 def load_yaml(path: Path) -> dict:
