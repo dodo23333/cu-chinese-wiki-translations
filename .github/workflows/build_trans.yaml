@@ -42,7 +42,7 @@ jobs:
         run: uv run merge-trans
 
       - name: 合并软盘翻译
-        run: uv run merge-trans -v 基准汉化_软盘.json -o 维基中文_基于软盘翻译.json 
+        run: uv run merge-trans -v 基准汉化_软盘.json -o 维基简中_基于软盘翻译.json 
 
       - name: 上传维基简中_基于官方翻译
         uses: actions/upload-artifact@v7.0.1
