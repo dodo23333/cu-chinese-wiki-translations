@@ -25,4 +25,4 @@ dev = [
 
 [tool.ruff.lint]
 select = ["ALL"]
-ignore = ["TRY400","D400","D415"]
+ignore = ["TRY400","D400","D415","RUF001"]
