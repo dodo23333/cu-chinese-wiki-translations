@@ -17,10 +17,19 @@ RAW_YAML = Path("维基简中中间文件.yaml")
 OUTPUT_JSON = Path("wiki_translations_official.json")
 
 
+def _convert_none_to_empty_str(data):
+    """递归将dict/list中的None值转换为空字符串"""
+    if isinstance(data, dict):
+        return {k: _convert_none_to_empty_str(v) for k, v in data.items()}
+    if isinstance(data, list):
+        return [_convert_none_to_empty_str(item) for item in data]
+    return "" if data is None else data
+
+
 def load_yaml(path: Path) -> dict:
     """加载yaml文件"""
     with path.open("r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+        return _convert_none_to_empty_str(yaml.safe_load(f))
 
 
 def load_json(path: Path) -> dict:
