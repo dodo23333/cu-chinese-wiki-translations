@@ -3410,11 +3410,6 @@ other:
   krokosha_coop_gamesetkrokosha_coop_woundview: MP 打开别人的医疗面板
   krokosha_coop_gamesetkrokosha_coop_inventory: MP 打开别人的背包
   krokosha_coop_gamesetkrokosha_coop_showplrs: MP 显示玩家名字
-  layermodifier0: 的
-  layermodifier1: 的
-  layermodifier3: 的
-  layermodifier6: 的
-  layermodifier7: 的
   strengthdsc: |-
     ┃每升1等级：
     ┃近战伤害 +3.34%

@@ -1804,7 +1804,7 @@
         "hpimmunitydsc": "身体抵抗感染的能力\n免疫力低下时消毒感染仍会恶化",
         "hptemperature": "核心体温",
         "hptemperaturedsc": "最低体温低于28度或最高温体温超过42度则会致命。",
-        "hpsickness": "恶心值",
+        "hpsickness": "患病程度",
         "hphappiness": "情绪状态",
         "hphunger": "饥饿值",
         "hpthirst": "口渴值",
