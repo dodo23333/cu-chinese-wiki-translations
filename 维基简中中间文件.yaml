@@ -3706,7 +3706,7 @@ other:
   trapdepthincrease: 陷阱层数增量
   radlinedisable: 禁用时间限制(无辐射线)
   unchipped: 未植入芯片(无健康面板)
-  looatmountdsc: |-
+  looatmountdsc: |- # 系奥桑在5.0版本的错拼，与我们无关
     所有战利品的生成占比
 
     影响每层战利品生成数量，如空投舱，物资箱等在每层刷新生成
@@ -3749,7 +3749,8 @@ other:
   pushupsdsc: 体感上俯卧撑是力量0.3/s，
   squatsdsc: 体感上深蹲是韧性0.3/s
   plankdsc: 体感上平板支撑韧性0.15/s和力量0.15/s
-  hpbrainhealth: |-
+  hpbrainhealth: |2-
+
     <color=#FCFCFC>┃自然恢复 +0.18/分钟
     ┃<95 开始随机事件(幻觉/镜像/呕吐/丢物品/颤抖)
     ┃<82.5 口齿不清 | <50 失语 | <30 昏迷
@@ -3759,7 +3760,7 @@ other:
     ┃<color=#FCFCFC>自然恢复 +3/s
     ┃受大脑健康/血压/温度/疼痛/辐射/精力
     等多种因素上限限制</color>
-  hppaindsc: |-
+  hppaindsc: |2-
     ┃总量=(最高肢体疼痛)
     ┃>30 减心情(-3起) | >31 无法睡眠
     ┃>55 开始休克 | >80 致瘫
@@ -3790,11 +3791,13 @@ other:
     ┃基础产热 +0.04°C/s
     ┃>41.5°C 脑组织-0.5/s
     ┃<28°C 触发呼吸停止
-  hpsickness: |-
+  hpsickness: |2-
+
     <color=#FCFCFC>┃减免疫(-0.8/点) | 负重(-0.025u/点)
     ┃心情(-0.1/点) | 精力消耗(最多3倍)
     ┃>50 减意识(最多-50) | >85 腹部感染</color>
-  hphappiness: |-
+  hphappiness: |2-
+
     ┃<color=#FCFCFC>范围大小 -100~100
     ┃<-30 背水一战0%概率触发
     ┃<-70 概率自残
@@ -3846,18 +3849,20 @@ other:
     ┃<nobr><70/46 致命 | <60/40 意识归零+脑损伤</nobr>
     ┃<nobr>>130/86 高血压 | >155/102 流鼻血</nobr>
     ┃<nobr>>180/119 2%/s中风风险 | 头痛最高50</nobr>
-  hpradiation: |-
+  hpradiation: |2-
+
     ┃<color=#FCFCFC>0Gy< 减脑健康/意识/免疫/心情/肌肉
     ┃>3Gy 失血 | 24Gy 以上严重
     ┃>9Gy 随机感染/内出血/脑损伤</color>
-  hpinfection: |-
+  hpinfection: |2-
+
     <color=#FCFCFC>┃感染增生 +7.2/分钟 | 消毒抵消 -12.24/分钟
     ┃>75 肌肉开始衰减 | >90 扩散相邻肢体
     ┃免疫>195.8 不再增生</color>
   keybinds: 键位设置
   keybindsdsc: 打开键位绑定的文件。记得保存更改！
   custommusic: 自定义背景音乐
-  custommusicdsc: |-
+  custommusicdsc: |2- #历史遗留
     打开自定义音乐存放文件夹。
     你可以将mp3/.ogg./.wav格式的音频文件放置到这个自定义音乐文件夹中。之后在游戏内使用MP3播放器时，这些文件会自动显示在可选列表中。
     除支持的音频格式外，其他文件格式均不支持。
