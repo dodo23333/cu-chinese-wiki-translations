@@ -121,7 +121,6 @@ main:
     ┃获取：<color=#aaaaaa>医疗箱/制作(10智力?)</color>
     ┃制作(10)：2废料板+1电线捆+1塑料块+1废料管+1钉子+1(可捶打)
     <color=#ffaa00>提示：默认含50mL血清。是正式版L.R.D.的下位替代，制作简单。</color>
-  lrd: （LRD）
   lrddsc: |-
     ┃外敷：
     ┃<color=#88ff88>肌肉 +50(相邻肢体+40)</color>
@@ -1769,7 +1768,6 @@ buildings:
     <color=#888888>来源层：</color><color=#aaaaaa>冰封裂谷层</color>
     <color=#ffaa00>该植物尚未正式加入游戏。</color>
   lifepodheaterdsc: 未在wiki上找到相关信息
-  barbedwirefence: 围栏
   barbedwirefencedsc: |2-
 
     <color=#888888>初始血量：</color><color=#88ff88>600</color>
@@ -3432,8 +3430,6 @@ other:
     ┃并受伤：疼痛+40┃皮肤-15┃出血2-5
     ┃使用工具有效开锁度数=智力等级-10（空手开锁为-1）
     ┃除颤器精度70-智力等级* 5（最小5）
-  concretetile: 板
-  copper: 矿
   lrdserumdsc: |-
     ┃饮用(每100mL)：患病 +5
     ┃制作(11)：25mL(消毒)+50mL(液体)+25mL(阿片)+25mL(血液)+25mL生化流体=25mL LRD血清
@@ -3726,9 +3722,6 @@ other:
     该设置开启后，将禁用你的健康芯片功能，你需要投入更多精力，去排查和应对场景中无处不在的危险
 
     不建议新手使用，不过该效果仍有可能在游戏内罕见出现，以地层修饰符的形式随机生成
-  pausegiveup: 本局
-  tabgame: 玩法
-  gamesetpause: 游戏
   resettodefaultdsc: 重置全部运行设置为默认值
   mainmenu: |-
     主
@@ -3740,7 +3733,6 @@ other:
 
     ┃<color=#FCFCFC>权重偏移 -80~100 | 显示 偏移×0.34+50
     ┃影响负重/隔热/血压/移动</color>
-  cqflammable: 的
   pushupsdsc: 体感上俯卧撑是力量0.3/s，
   squatsdsc: 体感上深蹲是韧性0.3/s
   plankdsc: 体感上平板支撑韧性0.15/s和力量0.15/s
