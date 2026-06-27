@@ -13,8 +13,8 @@ if TYPE_CHECKING:
     from collections.abc import MutableMapping
 
 VENDOR_JSON = Path("vendor/zh-CN.json")
-RAW_YAML = Path("维基简中中间文件.yaml")
-OUTPUT_JSON = Path("wiki_translations_official.json")
+RAW_YAML = Path("维基中文中间文件.yaml")
+OUTPUT_JSON = Path("维基中文_基于官方翻译.json")
 
 
 def _convert_none_to_empty_str(data):
