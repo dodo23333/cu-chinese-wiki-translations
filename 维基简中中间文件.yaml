@@ -1,13 +1,16 @@
-name: 维基中文
-version: v1.7.5.7
-extend_description: >-
-  <color="orange">包含内华达刃脊锁补丁的多人联机汉化</color> ，
-  并由 <color="yellow">维基中文制作组</color> 在此基础上扩展的功能性维基翻译补丁。
-  <color="green">当前版本1.7.5(测试版2026-6-16)</color>；
-  <color="blue">再次感谢简中版及内华达刃脊制作组。</color>
-  <color="purple">所有数据信息均来自英文官方wiki和制作组解包数据，保证准确率高。</color>
-  <color="red">Github上的该项目(更详细的信息)：https://github.com/StreamWind114514/scavprototype-- </color>，
-  <color="orange">往后的更新及改动内容请前往Github查看。</color>
+name: <color=yellow>维基中文</color>
+version: v1.8.0
+extend_description: |-
+  <color=orange>包含内华达刃脊锁补丁的多人联机汉化</color> 
+  并由<color=yellow>维基中文制作组</color>在此基础上扩展的功能性维基翻译补丁
+
+  <color=green>当前版本1.8.0(2026-6-27)</color>
+  <color=blue>再次感谢简中版及内华达刃脊制作组</color>
+
+  <color=purple>所有数据信息均来自制作组解包数据，保证准确率高</color>
+  <color=red>Github上的该项目以及贡献者(更详细的信息)：</color>
+  <color=yellow>https://github.com/StreamWind114514/Casualties-Unknown-Simplified-Chinese-Wiki</color>
+  <color=orange>往后的更新及改动内容请前往Github查看</color>
 main:
   bandagedsc: |-
     ┃每一圈(共12圈)：
@@ -156,7 +159,7 @@ main:
   autopumpdsc: |-
     ┃使用效果：
     ┃<color=#88FF88>穿戴且有电时:若血压<85，则血压+44</color>
-    ┃<color=#aaaaaa>穿戴时每秒消耗0.083%电量，每次抬升血压消耗0.2%电量</color>
+    ┃<color=#aaaaaa>穿戴时每秒消耗0.08%电量，每次抬升血压消耗0.2%电量</color>
     ┃<color=#88ff88>心脏停搏时中电池满电最少可用7分20秒</color>
     ┃获取：<color=#aaaaaa>医疗箱/生命舱箱子/空投舱/交易</color>
     ┃机制：激活期间玩家不会因失血、心脏停搏等导致的低血压而昏迷。不能唤醒已昏迷者，不能维持意识和大脑健康。极端温度、饥饿等直接损伤头部肌肉或大脑的威胁不受保护。
@@ -1104,9 +1107,11 @@ main:
   boneweldingtooldsc: |-
     <color=#ffaa00>智力要求：12</color>
     ┃外敷：
-    ┃<color=#88ff88>骨折 -80%</color>
-    ┃<color=#ff4444>皮肤 -15</color>
+    ┃<color=#88ff88>骨折 -75%</color>
+    ┃<color=#ff4444>皮肤 -25</color>
     ┃疼痛 +30
+    ┃肌肉 -26
+    ┃血粘 +2
     ┃消耗 50% 耐久
     ┃获取：<color=#aaaaaa>医疗箱/交易</color>
     ┃制作(14)：3废料板+2电线捆+1电路板(>=90%)+20mL生化流体+10mL LRD血清
@@ -1702,7 +1707,7 @@ main:
     <color=#ffaa00>只能手持</color>┃容量 10,000mL(10L) | 每次饮用100ml
     ┃获取：<color=#aaaaaa>各层随机生成(不可制作/交易)</color>
     <color=#ffaa00>随机最高8种液体，可分离：用离心机分离损失1/3。
-    桶+液体交易上限50价值，过重时摔落伤害大大增加，版本v1752
+    桶+液体交易上限50价值，过重时摔落伤害大大增加，版本v1.8.0
     长按投掷出去可进行反推力作用，重量越大后坐力越大(小心会受伤)。</color>
 buildings:
   animalcorpsedsc: |-
@@ -1768,7 +1773,7 @@ buildings:
     <color=#888888>来源层：</color><color=#aaaaaa>冰封裂谷层</color>
     <color=#ffaa00>该植物尚未正式加入游戏。</color>
   lifepodheaterdsc: 未在wiki上找到相关信息
-  barbedwirefencedsc: |2-
+  barbedwirefencedsc: |-
 
     <color=#888888>初始血量：</color><color=#88ff88>600</color>
     <color=#888888>破坏掉落：</color><color=#aaaaaa>金属废料80~100%</color>
@@ -2038,7 +2043,7 @@ buildings:
     <color=#ff4444>头部额外：意识归零┃50%脑伤5~70/毁容┃失明(脑伤和失明2选1)┃物品被击中状态归零。</color>
 
     <color=#ffaa00>投掷物品可安全激活。激活后永久失效。</color>
-  spikestabberdscused: |2-
+  spikestabberdscused: |-
 
     即使从高处砸在它上面也不会有事。
     不会进行二次充能，它已完全废弃。
@@ -2233,6 +2238,7 @@ moodles:
   withdrawal1: (<-5%)
   withdrawal2: (<-15%)
   withdrawal3: (<-25%)
+  withdrawal4: (<-34%)
   stimulated: (>0秒)
   drugoverdose: (>80%)
   bleeding1: (>0 L/分钟)
@@ -2262,6 +2268,7 @@ moodles:
   sepsis3: (>80%)
   concussion: (<14.4%)
   unconscious: (<20%)
+  incapacitated: (<30%)
   asleep: (<20%)
   confused1: (<90%)
   confused2: (<72%)
@@ -2272,12 +2279,44 @@ moodles:
   tired4: (<=7%)
   hunger1: (<75)
   hunger2: (<50)
+  hunger3: (<35)
   hunger4: (<=15)
+  hunger5: (>100)
+  hunger6: (>120)
+  thirst1: (<=75)
+  thirst2: (<=55)
+  thirst3: (<=35)
+  thirst4: (<=20)
+  overhydrated1: (>100)
+  overhydrated2: (>125)
   overhydrated3: (>175)
   sick1: (>10)
+  sick2: (>30)
   sick3: (>50)
   sick4: (>75)
+  hot1: (38.0°C~39.0°C)
+  hot2: (39.0°C~40.25°C)
+  hot3: (40.25°C~41.5°C)
+  hot4: (>41.5°C)
+  cold1: (34.0°C~35.5°C)
+  cold2: (32.5°C~34.0°C)
+  cold3: (28.0°C~32.5°C)
+  cold4: (<28.0°C)
+  wet1: (>5%)
+  wet2: (>20%)
+  wet3: (>45%)
+  wet4: (>70%)
+  underweight1: (<44.9kg)
+  underweight2: (<39.8kg)
+  underweight3: (<36.4kg)
+  underweight4: (<33kg)
+  overweight1: (>55kg)
+  overweight2: (>60.2kg)
+  overweight3: (>63.6kg)
+  overweight4: (>67kg)
   depression1: (<-10)
+  depression2: (<-30)
+  depression3: (<-50)
   depression4: (<-75)
   trauma1: (>10%)
   trauma2: (>25%)
@@ -2287,17 +2326,29 @@ moodles:
   happy2: (>30)
   happy3: (>50)
   happy4: (>80)
+  impairedspeech: (嘴部问题)
+  deaf2: (>15%)
+  deaf3: (>40%)
+  deaf4: (>70%)
+  encumbered1: (>0%)
+  encumbered2: (>30%)
+  encumbered3: (>55%)
   encumbered4: (>85%)
   irradiated1: (>3.0 Gy)
   irradiated2: (>9.0 Gy)
+  irradiated3: (>15.0 Gy)
   irradiated4: (>24.0 Gy)
   hemothorax: (>40%)
   hollow: (永久)
+  dirty1: (>50%)
   dirty2: (>80%)
   adrenaline: (>20%)
   tachycardia: (>110)
   bradycardia: (<60)
+  lowimmunity: (<55%)
   highimmunity: (>150%)
+  clawdamage1: (<60%)
+  clawdamage2: (<25%)
   braindamage4dsc: |-
     <color=#ff4444>脑组织完整性 < 30%</color>
     <color=#888888>┃状态：完全丧失意识。</color>
@@ -3050,6 +3101,7 @@ moodles:
     ┃恐惧值替换为专注值
     ┃距离大于45格时以20/1s的速度减少</color>
 other:
+  # 多人模式翻译
   krokosha_coop_loaderror_possible_nonascii_path: 请确保您的游戏路径仅英文：
   krokosha_coop_autostarting_run: 正在自动开始游戏！
   krokosha_coop_wait_for_host: 等待主机！
@@ -3402,6 +3454,67 @@ other:
   krokosha_coop_gamesetkrokosha_coop_woundview: MP 打开别人的医疗面板
   krokosha_coop_gamesetkrokosha_coop_inventory: MP 打开别人的背包
   krokosha_coop_gamesetkrokosha_coop_showplrs: MP 显示玩家名字
+  # 兼容旧版本的翻译
+  volumewarning: 音量警告
+  volumewarningtext: |-
+    本层可能出现极大的噪音
+    建议调低音量。没人想损伤听力。
+  looatmount: 物资数量
+  trapamount: 陷阱数量
+  lootdepthmultiplier: 物资层数减量
+  trapdepthincrease: 陷阱层数增量
+  radlinedisable: 禁用时间限制(无辐射线)
+  unchipped: 未植入芯片(无健康面板)
+  looatmountdsc: |- # 系奥桑在5.0版本的错拼，与我们无关
+    所有战利品的生成占比
+
+    影响每层战利品生成数量，如空投舱，物资箱等在每层刷新生成
+
+    数值过高可能导致性能异常
+  trapamountdsc: |-
+    所有陷阱的生成占比
+
+    该设置会影响游戏中生成的陷阱总数，如钉刺陷阱、敌人等在每层刷新生成
+
+    数值过高可能导致性能异常
+  lootdepthmultiplierdsc: |-
+    该设置为战利品数量倍率，每穿过一层地图，战利品的生成数量都会乘以这个倍率
+
+    也就是说，如将其设为50%，每向下一层，战利品数量将会减半
+  trapdepthincreasedsc: |-
+    该设置为陷阱数量增量值，每穿过一层地图，当前地层的陷阱生成数量都会加上这个数值
+
+    也就是说，如将其设为50%，陷阱的生成占比会从100%开始，逐层增加至150%、200%、250%以此类推
+  radlinedisabledsc: 开启后，禁用每层时间限制
+  unchippeddsc: |-
+    该设置开启后，将禁用你的健康芯片功能，你需要投入更多精力，去排查和应对场景中无处不在的危险
+
+    不建议新手使用，不过该效果仍有可能在游戏内罕见出现，以地层修饰符的形式随机生成
+  resettodefaultdsc: 重置全部运行设置为默认值
+  mainmenu: |-
+    主
+    菜单
+  screenbrightness: 屏幕亮度
+  gamma: 伽马值
+  paneltip: 按ESC键打开/关闭面板
+  keybinds: 键位设置
+  keybindsdsc: 打开键位绑定的文件。记得保存更改！
+  custommusic: 自定义背景音乐
+  custommusicdsc: |-
+    打开自定义音乐存放文件夹。
+    你可以将mp3/.ogg./.wav格式的音频文件放置到这个自定义音乐文件夹中。之后在游戏内使用MP3播放器时，这些文件会自动显示在可选列表中。
+    除支持的音频格式外，其他文件格式均不支持。
+  deceased: 已死亡
+  statusreport: 状态报告
+  firmware: 固件版本
+  depth: 当前深度
+  caloriesconsumed: 摄入热量
+  mentalstate: 精神状态
+  timetaken: 耗时
+  missionstatus: 任务状态
+  missionstatusfailure: 失败
+  casualties: 伤亡情况
+  unknown: 未知
   strengthdsc: |-
     ┃每升1等级：
     ┃近战伤害 +3.34%
@@ -3490,7 +3603,7 @@ other:
     ┃饮用(每100mL)：阿片类水平 +4000(稀释后为纯液的1/10)
     ┃注射(每100mL)：阿片类水平 +4200(稀释后为纯液的1/10)
     ┃制作(11)：50mL吗啡+25mL生化流体+25mL(液体)+易燃粉末=10mL芬太尼
-    无耐受纯液体过量阈值：口服2mL 注射1.905mL
+    无耐受过量阈值：口服2mL 注射1.905mL
   ceftriaxonedsc: |-
     ┃注射(每100mL)：免疫力 +70(时长约18分45秒)┃疼痛 +80
     在极度痛苦(Miserable)状态下仍可使用。
@@ -3556,7 +3669,7 @@ other:
   alienblooddsc: |-
     ┃ 价值2
     ┃饮用(每100mL)：口渴 +3┃患病 +8┃心情 -1
-    ┃注射(每100mL)：血容量 +0.09L┃患病 +3┃败血症 +1
+    ┃注射(每100mL)：血容量 +0.9L┃患病 +3┃败血症 +1
     ┃获取：暗影爬行者/沙漠追猎者┃制作(2)：血囊=50mL外星血液
   antiserumdsc: |-
     ┃饮用(每100mL)：患病 +30┃提供1分40秒+70免疫力
@@ -3638,7 +3751,8 @@ other:
     ┃获取：物资箱/交易
     ┃制作(4)：发光果=10mL生化流体
   groundwaterdsc: |-
-    ┃饮用(每100mL)：口渴 +8┃体温 -0.25┃若不使用过滤吸管，则：<color=#888888>50%患病 +7~15(与饮用毫升数无关)┃心情 -0.05</color>
+    ┃饮用(每100mL)：口渴 +8┃体温 -0.25
+    ┃若不使用过滤吸管，则：50%概率患病 +7~15(与饮用毫升数无关)┃心情 -0.5┃体温 -0.25
     ┃获取：地表水/间歇泉/挖掘
   waterdsc: |-
     ┃饮用(每100mL)：口渴 +9┃体温 -0.25
@@ -3675,67 +3789,25 @@ other:
     ┃ 价值1.8
     ┃饮用(每100mL)：饥饿 +2.5┃口渴 +9.5┃心情 +0.2┃体重 +0.07kg┃体温 -0.2
     ┃制作(4)：250mL混合果汁+热源=200mL精制果汁
-  volumewarning: 音量警告
-  volumewarningtext: |-
-    本层可能出现极大的噪音
-    建议调低音量。没人想损伤听力。
-  looatmount: 物资数量
-  trapamount: 陷阱数量
-  lootdepthmultiplier: 物资层数减量
-  trapdepthincrease: 陷阱层数增量
-  radlinedisable: 禁用时间限制(无辐射线)
-  unchipped: 未植入芯片(无健康面板)
-  looatmountdsc: |- # 系奥桑在5.0版本的错拼，与我们无关
-    所有战利品的生成占比
-
-    影响每层战利品生成数量，如空投舱，物资箱等在每层刷新生成
-
-    数值过高可能导致性能异常
-  trapamountdsc: |-
-    所有陷阱的生成占比
-
-    该设置会影响游戏中生成的陷阱总数，如钉刺陷阱、敌人等在每层刷新生成
-
-    数值过高可能导致性能异常
-  lootdepthmultiplierdsc: |-
-    该设置为战利品数量倍率，每穿过一层地图，战利品的生成数量都会乘以这个倍率
-
-    也就是说，如将其设为50%，每向下一层，战利品数量将会减半
-  trapdepthincreasedsc: |-
-    该设置为陷阱数量增量值，每穿过一层地图，当前地层的陷阱生成数量都会加上这个数值
-
-    也就是说，如将其设为50%，陷阱的生成占比会从100%开始，逐层增加至150%、200%、250%以此类推
-  radlinedisabledsc: 开启后，禁用每层时间限制
-  unchippeddsc: |-
-    该设置开启后，将禁用你的健康芯片功能，你需要投入更多精力，去排查和应对场景中无处不在的危险
-
-    不建议新手使用，不过该效果仍有可能在游戏内罕见出现，以地层修饰符的形式随机生成
-  resettodefaultdsc: 重置全部运行设置为默认值
-  mainmenu: |-
-    主
-    菜单
-  screenbrightness: 屏幕亮度
-  gamma: 伽马值
-  paneltip: 按ESC键打开/关闭面板
-  watchweight: |2-
+  watchweight: |-
 
     ┃<color=#FCFCFC>权重偏移 -80~100 | 显示 偏移×0.34+50
     ┃影响负重/隔热/血压/移动</color>
   pushupsdsc: 体感上俯卧撑是力量0.3/s，
   squatsdsc: 体感上深蹲是韧性0.3/s
   plankdsc: 体感上平板支撑韧性0.15/s和力量0.15/s
-  hpbrainhealth: |2-
+  hpbrainhealth: |-
 
     <color=#FCFCFC>┃自然恢复 +0.18/分钟
     ┃<95 开始随机事件(幻觉/镜像/呕吐/丢物品/颤抖)
     ┃<82.5 口齿不清 | <50 失语 | <30 昏迷
     ┃<15 再凭心情概率触发背水一战</color>
-  hpconsciousness: |2-
+  hpconsciousness: |-
 
     ┃<color=#FCFCFC>自然恢复 +3/s
     ┃受大脑健康/血压/温度/疼痛/辐射/精力
     等多种因素上限限制</color>
-  hppaindsc: |2-
+  hppaindsc: |-
     ┃总量=(最高肢体疼痛)
     ┃>30 减心情(-3起) | >31 无法睡眠
     ┃>55 开始休克 | >80 致瘫
@@ -3767,24 +3839,24 @@ other:
     ┃基础产热 +0.04°C/s
     ┃>41.5°C 脑组织-0.5/s
     ┃<28°C 触发呼吸停止
-  hpsickness: |2-
+  hpsickness: |-
 
     <color=#FCFCFC>┃减免疫(-0.8/点) | 负重(-0.025u/点)
     ┃心情(-0.1/点) | 精力消耗(最多3倍)
     ┃>50 减意识(最多-50) | >85 腹部感染</color>
-  hphappiness: |2-
+  hphappiness: |-
 
     ┃<color=#FCFCFC>范围大小 -100~100
     ┃<-30 背水一战0%概率触发
     ┃<-70 概率自残
     ┃<-75 无法使用非阿片类药物
     ┃<-90 概率挖眼/自杀</color>
-  hphunger: |2-
+  hphunger: |-
 
     ┃<color=#FCFCFC>自然消耗 -2.6/分钟
     ┃>100 加负重+1.5u | <40 减负重-1.5u
     ┃<=0 全肢肌肉衰退</color>
-  hpthirst: |2-
+  hpthirst: |-
 
     ┃<color=#FCFCFC>自然消耗 -3.5/分钟
     ┃>100 消耗翻倍(-7/分钟) | <40 减负重-1u
@@ -3793,7 +3865,7 @@ other:
     ┃恢复 +1.4/s
     ┃<70 减移动/攻击 | <50 血管收缩
     ┃<1 强制瘫倒5秒
-  hprr: |2-
+  hprr: |-
 
     ┃<color=#FCFCFC>正常频率 25次/分钟
     ┃频率<12.5/分钟 无法维持血氧
@@ -3825,34 +3897,16 @@ other:
     ┃<nobr><70/46 致命 | <60/40 意识归零+脑损伤</nobr>
     ┃<nobr>>130/86 高血压 | >155/102 流鼻血</nobr>
     ┃<nobr>>180/119 2%/s中风风险 | 头痛最高50</nobr>
-  hpradiation: |2-
+  hpradiation: |-
 
     ┃<color=#FCFCFC>0Gy< 减脑健康/意识/免疫/心情/肌肉
     ┃>3Gy 失血 | 24Gy 以上严重
     ┃>9Gy 随机感染/内出血/脑损伤</color>
-  hpinfection: |2-
+  hpinfection: |-
 
     <color=#FCFCFC>┃感染增生 +7.2/分钟 | 消毒抵消 -12.24/分钟
     ┃>75 肌肉开始衰减 | >90 扩散相邻肢体
     ┃免疫>195.8 不再增生</color>
-  keybinds: 键位设置
-  keybindsdsc: 打开键位绑定的文件。记得保存更改！
-  custommusic: 自定义背景音乐
-  custommusicdsc: |2- #历史遗留
-    打开自定义音乐存放文件夹。
-    你可以将mp3/.ogg./.wav格式的音频文件放置到这个自定义音乐文件夹中。之后在游戏内使用MP3播放器时，这些文件会自动显示在可选列表中。
-    除支持的音频格式外，其他文件格式均不支持。
-  deceased: 已死亡
-  statusreport: 状态报告
-  firmware: 固件版本
-  depth: 当前深度
-  caloriesconsumed: 摄入热量
-  mentalstate: 精神状态
-  timetaken: 耗时
-  missionstatus: 任务状态
-  missionstatusfailure: 失败
-  casualties: 伤亡情况
-  unknown: 未知
 pauseQuotes:
 - |-
   已暂停。
@@ -4429,7 +4483,7 @@ pauseQuotes:
 - |-
   喂，好戏才刚刚开场呢！
 
-  <size=60%><color=#84D6FF>韧性对情感方面也有点影响</color></size>
+  <size=60%><color=#84D6FF>韧性对心情方面也有点影响</color></size>
 - |-
   别太得意了。
 
