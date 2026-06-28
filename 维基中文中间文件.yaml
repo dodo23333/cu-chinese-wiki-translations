@@ -119,9 +119,9 @@ main:
     ┃肌肉 +50(相邻肢体+40)
     ┃感染 -10(相邻肢体-5)
     ┃消毒 6分40秒(相邻肢体5分钟)
-    ┃内出血(仅胸部) -25%</color>
+    ┃内出血(仅胸部) -25%
+    ┃额外效果：提供1分钟精力充沛，60肾上腺素 | 毒素 -12</color>
     <color=#ffa726>┃消耗 50% 耐久</color>
-    ┃额外效果：<color=#72d572>提供1分钟精力充沛，60肾上腺素</color> | 毒素 -12
     <color=#ffee58>┃获取：医疗箱/制作(10智力?)
     ┃制作(10)：2废料板+1电线捆+1塑料块+1废料管+1钉子+1(可捶打)</color>
     <color=orange>提示：默认含50mL血清。是正式版L.R.D.的下位替代，制作简单。</color>
@@ -160,8 +160,8 @@ main:
   autopumpdsc: |-
     <color=#72d572>┃使用效果：
     ┃穿戴且有电时:若血压<85，则血压+44
-    ┃穿戴时每秒消耗0.08%电量，每次抬升血压消耗0.2%电量
-    ┃心脏停搏时中电池满电最少可用7分20秒</color>
+    <color=#91a7ff>┃穿戴时每秒消耗0.08%电量，每次抬升血压消耗0.2%电量
+    ┃心脏停搏时中电池满电最少可用7分20秒</color></color>
     <color=#ffee58>┃获取：医疗箱/生命舱箱子/空投舱/交易</color>
     ┃机制：激活期间玩家不会因失血、心脏停搏等导致的低血压而昏迷。不能唤醒已昏迷者，不能维持意识和大脑健康。极端温度、饥饿等直接损伤头部肌肉或大脑的威胁不受保护。
     <color=orange>冷知识：新版本激活时血容低仍可致死，因此尽量保证血容量不要太低。</color>
@@ -176,10 +176,10 @@ main:
     <color=#72d572>┃对上半身使用：</color>
     ┃<color=#ff4444>皮肤 -5</color>
     ┃疼痛 +20
-    ┃待机耗电 -0.13%/s
+    <color=#91a7ff>┃待机耗电 -0.13%/s
     ┃电击消耗(每焦耳)：
-    ┃小/中电池<color=#91a7ff>0.05%/0.03%</color>
-    ┃200J全功率<color=#91a7ff>消耗10%/5%</color>
+    ┃小/中电池0.05%/0.03%
+    ┃200J全功率消耗10%/5%</color>
     <color=#ffee58>┃获取：生命舱/生命舱箱子/空投舱/医疗箱/交易</color>
     <color=orange>精准除颤需2倍纤颤%的焦耳。
     偏差每焦耳-2.5%成功率，>=40J偏差无效。
@@ -208,7 +208,8 @@ main:
     <color=#ffee58>┃获取：使用沙玫瑰荚获得
     ┃用途：制作抗菌糊剂。</color>
   splintdsc: |-
-    <color=#72d572>┃佩戴效果： ┃ 脱臼愈合速度 +100%
+    <color=#72d572>┃佩戴效果：
+    ┃脱臼愈合速度 +100%
     ┃骨折愈合速度 +150%</color>
     <color=#ffa726>┃耐久消耗：┃仅当佩戴在肢体上时，每分钟消耗1.50%耐久。</color>
     <color=#ffee58>┃获取/制作：
@@ -268,7 +269,7 @@ main:
     <color=orange>早期不错容器，寿命约47分钟。</color>
   gravbagdsc: |-
     <color=#ffa726>┃(装有物品时)腐败：-1%/分钟</color>
-    ┃电池：<color=#88ccff>中型</color>
+    <color=#91a7ff>┃电池：中型</color>
     <color=#ffee58>┃获取：交易/生命舱箱/物资箱/空投舱</color>
     <color=#ff4444>爆炸：半径12格</color> ┃ <color=#ff4444>耳鸣30格</color>
     <color=#ff4444>肢体：</color>
@@ -277,8 +278,8 @@ main:
     <color=#ff4444>40%概率5破片</color> ┃ <color=#ff4444>13.5%脱臼</color> ┃ <color=#ff4444>6%骨折。</color>
     <color=#ff4444>头部：15%毁容</color> ┃ <color=#ff4444>15%单眼失明</color> ┃ <color=#ff4444>70%概率0~30脑损伤</color>
     <color=orange>机制：</color>
-    <color=orange>用工具取出电池永久安全(无负重减免)，勿放废电池。</color>
-    <color=orange>睡觉前取出延长寿命；小灯泡电池可合成中型电池供电</color>
+    <color=#91a7ff>用工具取出电池永久安全(无负重减免)，勿放废电池。</color>
+    <color=#91a7ff>睡觉前取出延长寿命；小灯泡电池可合成中型电池供电</color>
     <color=orange>避免手持或叼着以防掉陷阱引爆。</color>
   legpouchdsc: |-
     <color=#ffa726>┃(穿戴且装有物品时)腐败：0.48%/分钟</color>
@@ -319,7 +320,7 @@ main:
     <color=#ffee58>┃获取：物资箱/生命舱箱子/空投舱/交易</color>
     <color=orange>限制：仅能存放医疗类物品。液体药袋无论内容物均可放入。满箱仅重1.80u。</color>
   scaffoldingpackdsc: |-
-    ┃使用：<color=#91a7ff>放置实心脚手架方块(每1%耐久=1块)</color>
+    <color=#91a7ff>┃使用：放置实心脚手架方块(每1%耐久=1块)</color>
     <color=#ffa726>┃耐久消耗：1%/次</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(14)：2厚钛板+1绳子+1塑料块
@@ -514,9 +515,9 @@ main:
     ┃制作(2)：1麦片+500mL牛奶=3麦片碗</color>
     <color=orange>提示：一次制作产出3份。</color>
   makeshifthelmetdsc: |-
-    ┃护甲：<color=#91a7ff>0.75</color>
-    ┃保温：<color=#91a7ff>4%</color>
-    ┃损耗系数：1.15
+    <color=#91a7ff>┃护甲：0.75
+    ┃保温：4%
+    ┃损耗系数：1.15</color>
     <color=#ffa726>┃(穿戴时)腐败：0.60%/分钟</color>
     <color=#ffee58>┃获取：交易
     ┃制作(8)：1大型虫尸+1绳子+1细绳+10mL生化流体</color>
@@ -619,7 +620,6 @@ main:
     ┃心情 -2
     ┃66%几率患病值+10~30</color>
     <color=#ffa726>┃腐败：-6.67%/分钟</color>
-    ┃不可交易
     <color=#ffee58>┃制作(12)：2颗粒菇组织块+1mL生化流体
     ┃用途：植物绳/帆布/引火器/叶片餐；2颗粒菇组织块可合成1植物纤维。</color>
   foliagemealdsc: |-
@@ -651,26 +651,27 @@ main:
     <color=#ffee58>┃获取：破坏发光草/交易
     ┃用途：临时头灯/地形扫描仪/抗菌糊剂等多种配方。</color>
   flashlightdsc: |-
-    ┃电池：<color=#91a7ff>中型</color>
+    <color=#91a7ff>┃电池：中型
     ┃模式：
-    ┃关(0/m) / 亮(1.50/m) / 暗(0.75/m) / 频闪(0.75/m)
+    ┃关(0/m) / 亮(1.50/m) / 暗(0.75/m) / 频闪(0.75/m)</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(10)：1灯泡+1废料管+1柔性玻璃+1塑料块+1电线捆+1电路板(>=90%)+1钉子+1(可捶打)</color>
-    <color=orange>！：放入容器仍会耗电。</color>
+    <color=#91a7ff>！：放入容器仍会耗电。</color>
   emergencylightdsc: |-
     <color=#ffa726>┃耐久消耗：10%/分钟(使用中)</color>
     ┃效果：<color=#91a7ff>发出微弱定向光束</color>
     <color=#ffee58>┃获取：开局自带/空投舱/生命舱箱子/交易</color>
-    <color=orange>！：电池不可更换，总寿命10分钟。</color>
+    <color=#91a7ff>！：电池不可更换，总寿命10分钟。</color>
   lanterndsc: |-
     <color=#ffa726>┃耐久消耗：0.83%/分钟</color>
     ┃效果：<color=#91a7ff>明亮光源，寿命约2小时</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(10)：1荧光晶碎片+1柔性玻璃+2木板+1钉子+1(可捶打)</color>
-    <color=orange>非电池光源中续航最长。可以放在皮带上这样也可以发光不占位置</color>
+    <color=#91a7ff>非电池光源中续航最长。</color>
+    <color=orange>可以放在皮带上这样也可以发光不占位置</color>
   lightbulbdsc: |-
-    ┃电池：<color=#91a7ff>小型</color>
-    ┃<color=orange>持续消耗 5/分钟</color>
+    <color=#91a7ff>┃电池：小型
+    ┃持续消耗 5/分钟</color>
     <color=#ffee58>┃获取：生命舱顶灯拆取/物资箱/交易
     ┃制作(11)：2柔性玻璃+1废料块+1钉子+2电线捆</color>
     <color=orange>！：放入头部槽约2秒后爆炸(75疼痛/30皮肤伤/5肌肉伤/出血/破片)。不自动拾取。</color>
@@ -726,19 +727,21 @@ main:
     <color=#91a7ff>┃工具属性：
     ┃方块 25.1 ┃ 敌人 15
     ┃体力 0 ┃ 冷却 0.16秒</color>
-    ┃电池：<color=#88ccff>中型</color>
-    ┃<color=orange>每次消耗 0.14电量</color>
+    <color=#91a7ff>┃电池：中型
+    ┃每次消耗 0.14电量</color>
     <color=#ffee58>┃获取：生命舱箱子/交易
     ┃制作(16)：3钛板+2柔性玻璃+2电线捆+1电路板(>=90%)+1手电筒+1塑料块+1钉子+1(可切割)+1(可捶打)</color>
-    <color=#ffa726>提示：仅挖掘/攻击消耗耐久。满电约700次，总方块伤害17570。</color>
+    <color=#ffa726>提示：仅挖掘/攻击消耗耐久。</color>
+    <color=#91a7ff>提示：满电约700次，总方块伤害17570。</color>
   heavydrilldsc: |-
     <color=#91a7ff>┃工具属性：
     ┃方块 60 ┃ 敌人 50
     ┃体力 0 ┃ 冷却 0.16秒</color>
-    ┃电池：<color=#88ccff>大型</color>
-    ┃<color=orange>每次消耗 0.24电量</color>
+    <color=#91a7ff>┃电池：大型
+    ┃每次消耗 0.24电量</color>
     <color=#ffee58>┃获取：交易</color>
-    <color=#ffa726>提示：仅挖掘/攻击消耗耐久。满电约1260次，总方块伤害75600。</color>
+    <color=#ffa726>提示：仅挖掘/攻击消耗耐久。</color>
+    <color=#91a7ff>提示：满电约1260次，总方块伤害75600。</color>
   pickaxedsc: |-
     <color=#91a7ff>┃工具属性：
     ┃方块 110 ┃ 敌人 60
@@ -879,33 +882,34 @@ main:
     <color=#ffee58>┃获取：破坏仙人掌/交易</color>
     <color=orange>可解渴，但会增加头部疼痛。</color>
   neuralboosterdsc: |-
-    ┃首次使用：
-    <color=#72d572>┃脑健康 +10 | 消除中风
-    ┃心情 +20 | 精力充沛 10分钟</color>
+    <color=#72d572>┃首次使用：
+    ┃脑健康 +10 | 消除中风
+    ┃心情 +20 | 精力充沛 10分钟
     ┃快速神经元再患病 20分钟
-    ┃<color=#91a7ff>永久跳跃速度 +20%</color>
-    ┃<color=#91a7ff>永久移动速度 +25%</color>
-    ┃再次使用(永久失明)：
-    ┃<color=#ff4444>脑损伤 -30(随后+10治愈)</color>
-    ┃<color=#ff4444>心情仅 +10 | 患病 +100</color>
-    ┃<color=#ff4444>内出血 0.86L/分钟</color>
-    ┃<color=#ff4444>所有肢体肌肉 -80%</color>
-    ┃<color=#ff4444>体温 +5°C | 瘫倒、呕吐</color>
+    ┃永久跳跃速度 +20%
+    ┃永久移动速度 +25%</color>
+    <color=#ff4444>┃再次使用(永久失明)：
+    ┃脑损伤 -30(随后+10治愈)
+    ┃心情仅 +10 | 患病 +100
+    ┃内出血 0.86L/分钟
+    ┃所有肢体肌肉 -80%
+    ┃体温 +5°C | 瘫倒、呕吐</color>
     <color=#ffee58>┃获取：交易/制作
     ┃制作(18)：50mL生化流体+80mL增脑剂+30mL精神抹除剂+1塑料块+1电路板(>=90%)</color>
     <color=orange>20分钟内勿再用同类药，否则脑清空。
     增脑剂可先用一次再制成此药，后续出血用地狱菜叶/LRD处理</color>
   watchdsc: |-
-    ┃电池：<color=#91a7ff>小型</color>
-    ┃持续消耗<color=orange>0.33/分钟</color>
+    <color=#91a7ff>┃电池：小型
+    ┃持续消耗0.33/分钟</color>
     ┃功能：
     ┃<color=#91a7ff>每20s报房颤；每30s报失血时间；每1分40s报感染/骨折/脱臼；每10分报体重变化(+3.25心情)</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   mp3playerdsc: |-
-    ┃电池：<color=#91a7ff>小型</color>
+    <color=#91a7ff>┃电池：小型</color>
     ┃效果：<color=#91a7ff>切换/播放音乐，提升心情</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
-    <color=orange>可播放自定义歌曲(放入文件夹)。极轻(0.10u)，可拆电池。</color>
+    <color=orange>可播放自定义歌曲(放入文件夹)。极轻(0.10u)。</color>
+    <color=#91a7ff>可拆电池。</color>
   mushpeardsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +5
@@ -949,68 +953,68 @@ main:
     ┃制作(13)：2绳子+1木板+5帆布+3细绳+1(可切割)</color>
     <color=orange>容量大且极度耐用(约2.8小时)。推荐后期使用。</color>
   bikehelmetdsc: |-
-    ┃护甲：<color=#91a7ff>1.0</color>
-    ┃保温：<color=#91a7ff>8%</color>
-    ┃损耗系数：0.80
+    <color=#91a7ff>┃护甲：1.0
+    ┃保温：8%
+    ┃损耗系数：0.80</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(13)：1简易头盔+4废料板+1塑料块+1钉子+10mL生化流体+1(可切割)</color>
     <color=orange>早期头部保护，建议尽快制作。</color>
   riothelmetdsc: |-
-    ┃护甲：<color=#91a7ff>2.0</color>
-    ┃保温：<color=#91a7ff>20%</color>
-    ┃损耗系数：0.30
+    <color=#91a7ff>┃护甲：2.0
+    ┃保温：20%
+    ┃损耗系数：0.30</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(17)：1自行车头盔+3钛板+2柔性玻璃+1塑料块+40mL生化流体+1(可捶打)</color>
     <color=orange>顶级头部防护。</color>
   holidayhatdsc: |-
-    ┃护甲：<color=#91a7ff>0.1</color>
-    ┃保温：<color=#91a7ff>20%</color>
+    <color=#91a7ff>┃护甲：0.1
+    ┃保温：20%</color>
     <color=#ffa726>┃(穿戴时)腐败：0%/分钟</color>
     <color=#ffee58>┃获取：开启礼物/交易</color>
     <color=orange>无实用属性，纯装饰品。</color>
   headlampdsc: |-
-    ┃电池：<color=#91a7ff>小型</color>
-    ┃<color=orange>持续消耗 1.25/分钟</color>
+    <color=#91a7ff>┃电池：小型
+    ┃持续消耗 1.25/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(8)：1手电筒+1绳子+1(钉子)+1(可捶打)</color>
   dustmaskdsc: |-
-    ┃护甲：<color=#91a7ff>0.1</color>
-    ┃保温：<color=#91a7ff>8%</color>
-    ┃损耗系数：0.35
+    <color=#91a7ff>┃护甲：0.1
+    ┃保温：8%
+    ┃损耗系数：0.35</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   scarfdsc: |-
-    ┃保温：<color=#91a7ff>15%</color>
+    <color=#91a7ff>┃保温：15%</color>
     <color=#ffa726>┃(穿戴时)腐败：0%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(10)：5帆布+3细绳</color>
     <color=orange>早期优秀保暖装备，保温性能极佳。</color>
   blueprintdsc: <color=#ffee58>┃获取：生命舱箱子/空投舱/交易</color>
   safetyglassesdsc: |-
-    ┃护甲：<color=#91a7ff>0.25</color>
-    ┃损耗系数：0.45
+    <color=#91a7ff>┃护甲：0.25
+    ┃损耗系数：0.45</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   autozoomgogglesdsc: |-
     ┃效果：<color=#91a7ff>视野距离增加</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   blindfolddsc: |-
-    ┃护甲：<color=#91a7ff>0.1</color>
-    ┃保温：<color=#91a7ff>10%</color>
-    ┃损耗系数：0.30
+    <color=#91a7ff>┃护甲：0.1
+    ┃保温：10%
+    ┃损耗系数：0.30</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   balaclavadsc: |-
-    ┃护甲：<color=#91a7ff>0.25</color>
-    ┃保温：<color=#91a7ff>20%</color>
-    ┃损耗系数：0.35
+    <color=#91a7ff>┃护甲：0.25
+    ┃保温：20%
+    ┃损耗系数：0.35</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   latexglovesdsc: |-
-    ┃保温：<color=#91a7ff>8%</color>
-    ┃损耗系数：0.50
+    <color=#91a7ff>┃保温：8%
+    ┃损耗系数：0.50</color>
     <color=#ffa726>┃(穿戴时)腐败：0%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   tacticalglovesdsc: |-
-    ┃护甲：<color=#91a7ff>1.0</color>
-    ┃保温：<color=#91a7ff>15%</color>
-    ┃损耗系数：0.15
+    <color=#91a7ff>┃护甲：1.0
+    ┃保温：15%
+    ┃损耗系数：0.15</color>
     <color=#ffa726>┃(穿戴时)腐败：(需要600分钟才能损坏)</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(15)：1钛板+2废料板+1塑料块+1细绳+20mL生化流体+1(可切割)</color>
@@ -1025,9 +1029,9 @@ main:
     ┃制作：10子弹带=2帆布+1细绳</color>
     <color=orange>专用于存放弹药，可减轻负重。</color>
   bellyarmordsc: |-
-    ┃护甲：<color=#91a7ff>1.0</color>
-    ┃保温：<color=#91a7ff>10%</color>
-    ┃损耗系数：0.75
+    <color=#91a7ff>┃护甲：1.0
+    ┃保温：10%
+    ┃损耗系数：0.75</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作：12腹部装甲=1废料板+2木板+1钉子+10mL生化流体(需锤击)</color>
   beltdsc: |-
@@ -1036,8 +1040,8 @@ main:
     ┃制作(10)：2绳子+2细绳+1木板+1(可切割)=1皮带(50%)</color>
     <color=orange>工具腰带，可挂载物品。</color>
   traumarigdsc: |-
-    ┃护甲：<color=#91a7ff>0.8</color>
-    ┃损耗系数：0.10
+    <color=#91a7ff>┃护甲：0.8
+    ┃损耗系数：0.10</color>
     <color=#ffa726>┃(穿戴且装有物品时)腐败：0.42%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(15)：1皮带+2钛板+3细绳+3塑料块+30mL生化流体+1(可切割)</color>
@@ -1056,9 +1060,9 @@ main:
     ┃冷却：30秒
     <color=#ffee58>┃获取：交易</color>
   hoodiedsc: |-
-    ┃护甲：<color=#91a7ff>0.25</color>
-    ┃保温：<color=#91a7ff>60%</color>
-    ┃损耗系数：0.25
+    <color=#91a7ff>┃护甲：0.25
+    ┃保温：60%
+    ┃损耗系数：0.25</color>
     <color=#ffa726>┃(穿戴时)腐败：0%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   metabolismchipdsc: |-
@@ -1087,8 +1091,8 @@ main:
     <color=#ffee58>┃获取：交易</color>
     <color=orange>身体潮湿时，概率不受控制熄火</color>
   dynamitedsc: |-
-    ┃使用：
-    ┃点燃后5秒爆炸
+    <color=#91a7ff>┃使用：
+    ┃点燃后5秒爆炸</color>
     <color=#ffee58>┃获取：制作
     ┃制作(10)：2易燃粉末+1细绳+1废料板+1(可捶打)</color>
     <color=orange>爆炸范围大，伤害高，注意保持距离。</color>
@@ -1100,11 +1104,12 @@ main:
     <color=#91a7ff>┃工具属性：
     ┃方块 10(对金属x10即100) ┃ 敌人 10
     ┃体力 0 ┃ 冷却 0.1秒</color>
-    ┃电池：<color=#88ccff>大型</color>
-    ┃<color=orange>每次消耗 0.1电量</color>
+    <color=#91a7ff>┃电池：大型
+    ┃每次消耗 0.1电量</color>
     ┃医疗用途：皮肤-12，出血-80%，疼痛+45(灼烧止血)
     <color=#ffee58>┃获取：物资箱/生命舱箱子/空投舱/交易</color>
-    <color=orange>提示：满电约3000次，金属方块总伤害30万。突破钢制结构的首选工具。</color>
+    <color=#91a7ff>提示：满电约3000次，金属方块总伤害30万。</color>
+    <color=orange>突破钢制结构的首选工具。</color>
   grapplinghookdsc: |-
     ┃效果：<color=#91a7ff>发射钩爪，牵引至目标点</color>
     <color=#ffee58>┃获取：交易</color>
@@ -1155,21 +1160,20 @@ main:
     <color=#ffee58>┃获取：制作
     ┃制作(6)：1大型虫尸+1硬化虫尸+1绳子</color>
   terrainscannerdsc: |-
-    ┃电池：<color=#91a7ff>中型</color>
-    ┃每次消耗<color=orange>1.50%</color>
-    ┃效果：<color=#91a7ff>显示周围地形及金属物体</color>
+    <color=#91a7ff>┃电池：中型
+    ┃每次消耗1.50%
+    ┃效果：显示周围地形及金属物体</color>
     <color=#ffee58>┃获取：交易
     ┃制作(12)：3废料板+1废料管+1液晶显示屏+1钉子+1电线捆+1电路板(>=90%)+1(可捶打)</color>
     <color=orange>探宝探矿利器，可发现隐藏金属物。</color>
   geigercounterdsc: |-
-    ┃电池：<color=#91a7ff>小型</color>
+    <color=#91a7ff>┃电池：小型</color>
     ┃效果：<color=#91a7ff>显示环境辐射水平</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(11)：2废料板+1废料块(>=90%)+1液晶显示屏+1电线捆+1电路板(>=90%)+10mL生化流体+1(可捶打)</color>
   handcrankdsc: |-
-    ┃效果：<color=#91a7ff>为插入的电池充电</color>
-    ┃每1体力恢复0.22点电力
-    ┃小电池50┃中电池100┃大电池300
+    <color=#91a7ff>┃效果：为插入的电池充电
+    ┃每1体力恢复0.22点电力</color>
     <color=#ffee58>┃获取：交易
     ┃制作(14)：1电路板(>=90%)+2钛板+1加工铜块+2电线捆+1废料管+1塑料块+20mL生化流体+1(可捶打)</color>
   sleepingbagdsc: |-
@@ -1180,7 +1184,7 @@ main:
     ┃冷却：60秒
     <color=#ffee58>┃获取：交易</color>
   epdadsc: |-
-    ┃电池：<color=#91a7ff>中型</color>
+    <color=#91a7ff>┃电池：中型</color>
     ┃效果：<color=#91a7ff>阅读监管者笔记，提升智力经验</color>
     <color=#ffee58>┃获取：生命舱箱子/交易</color>
   bloodcoagulantdsc: <color=#ffee58>┃获取：医疗箱/空投舱/交易</color>
@@ -1188,13 +1192,13 @@ main:
   streptokinasedsc: <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
   chestdraindsc: |-
     <color=#72d572>┃对胸部使用：
-    ┃血胸 -35</color>
-    ┃<color=orange>出血 +0.04L/分钟</color>
+    ┃血胸 -35
+    ┃出血 +0.04L/分钟</color>
     <color=#ffa726>┃消耗 100% 耐久</color>
     ┃特点：
     ┃使用后耐久耗尽，但会随时间自动充能恢复，可重复使用。
     <color=#ffee58>┃制作(12)：1自动注射器+1塑料块+2柔性玻璃+1废料管+20mL生化流体+1(可切割)</color>
-    <color=orange>！：仅能用于胸部，用于缓解肺部周围积血导致的呼吸受限。</color>
+    <color=orange>仅能用于胸部，用于缓解肺部周围积血导致的呼吸受限。</color>
   tweezersdsc: |-
     <color=#72d572>┃外敷：
     ┃开启取弹片小游戏，允许无视速度限制快速拔出，且不会造成疼痛、肢体损伤和出血。</color>
@@ -1216,44 +1220,44 @@ main:
     ┃制作(14)：2寒霜果(>=50%)+200mL(液体)+2帆布+1细绳+1电路板(>=90%)
     特殊用途：可降低体温以通过炮塔的热感应；在炎热地区挖矿或战斗时极其实用。</color>
   armwarmersdsc: |-
-    ┃护甲：<color=#91a7ff>0.25</color>
-    ┃保温：<color=#91a7ff>10%</color>
-    ┃损耗系数：0.40
+    <color=#91a7ff>┃护甲：0.25
+    ┃保温：10%
+    ┃损耗系数：0.40</color>
     <color=#ffa726>┃(穿戴时)腐败：0.28%/分钟</color>
     ┃可撕碎
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   carapacedsc: |-
-    ┃护甲：<color=#91a7ff>1.0</color>
-    ┃保温：<color=#91a7ff>15%</color>
-    ┃损耗系数：0.50
+    <color=#91a7ff>┃护甲：1.0
+    ┃保温：15%
+    ┃损耗系数：0.50</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
     <color=orange>胸部顶级防护。</color>
   limbwrapsdsc: |-
-    ┃护甲：<color=#91a7ff>0.25</color>
-    ┃保温：<color=#91a7ff>7%</color>
-    ┃损耗系数：0.35
+    <color=#91a7ff>┃护甲：0.25
+    ┃保温：7%
+    ┃损耗系数：0.35</color>
     <color=#ffa726>┃(穿戴时)腐败：0.28%/分钟</color>
     <color=#ffee58>┃制作(6)：2绷带(>=90%)</color>
     <color=orange>可撕碎为绷带。早期易得防护。</color>
   kneepadsdsc: |-
-    ┃护甲：<color=#91a7ff>1.0</color>
-    ┃保温：<color=#91a7ff>5%</color>
-    ┃损耗系数：0.75
+    <color=#91a7ff>┃护甲：1.0
+    ┃保温：5%
+    ┃损耗系数：0.75</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   plushiedsc: |-
     ┃效果：<color=#91a7ff>心情低于-60时自动摧毁玩偶并恢复5心情</color>
     <color=#ffee58>┃获取：交易/空投舱</color>
     <color=orange>不同类型叫声不同(蜥蜴玩偶会“Weh”)。</color>
   tornshirtdsc: |-
-    ┃护甲：<color=#91a7ff>0.25</color>
-    ┃保温：<color=#91a7ff>10%</color>
-    ┃损耗系数：0.40
+    <color=#91a7ff>┃护甲：0.25
+    ┃保温：10%
+    ┃损耗系数：0.40</color>
     <color=#ffa726>┃(穿戴时)腐败：0.55%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
     <color=orange>可撕碎为绷带。</color>
   rangefinderdsc: |-
-    ┃电池：<color=#91a7ff>小型</color>
-    ┃每次消耗<color=orange>0.50%</color>
+    <color=#91a7ff>┃电池：小型
+    ┃每次消耗0.50%</color>
     ┃效果：<color=#91a7ff>显示光标方向最近固体距离</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     用途：测量深渊深度。</color>
@@ -1263,10 +1267,10 @@ main:
     (v6.0+，原装瓶限定；转移液体可绕过限制)</color>
     <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
   scubadivinggeardsc: |-
-    ┃护甲：<color=#91a7ff>0.8</color>
+    <color=#91a7ff>┃护甲：0.8
     ┃效果：
-    ┃<color=#91a7ff>液体中呼吸/回耐 +50%移速</color>
-    ┃出水 -3潮湿/s
+    ┃液体中呼吸/回耐 +50%移速
+    ┃出水 -3潮湿/s</color>
     <color=#ffa726>┃(穿戴时)腐败：0.36%/分钟</color>
     <color=#ffee58>┃获取：交易/物资箱
     ┃制作(12)：1氧晶碎片+2废料板+2废料管+1柔性玻璃+2塑料块+10mL生化流体+1电线捆+1(可捶打)+1(可切割)</color>
@@ -1280,13 +1284,13 @@ main:
     <color=#91a7ff>┃工具属性：
     ┃方块 25 ┃ 敌人 15
     ┃体力 1 ┃ 冷却 0.2秒</color>
-    ┃医疗用途：<color=#91a7ff>复位脱臼(每次仅+4~10疼痛，无骨折风险)</color>
+    <color=#72d572>┃医疗用途：复位脱臼(每次仅+4~10疼痛，无骨折风险)</color>
     <color=#ffee58>┃获取：物资箱/空投舱/生命舱箱子/交易
     ┃制作(12)：1临时扳手+2废料管+10mL生化流体+1(可捶打)</color>
   makeshiftwrenchdsc: |-
     <color=#91a7ff>┃工具属性：
     ┃方块 20 ┃ 敌人 14
-    ┃体力 1</color>
+    ┃体力 1 ┃ 冷却 0.2秒</color>
     <color=#ffee58>┃获取：物资箱/空投舱/生命舱箱子/交易
     ┃制作(9)：2废料管+10mL生化流体+1(可捶打)
     ┃用途：可升级为正式扳手。</color>
@@ -1311,13 +1315,13 @@ main:
     <color=orange>特点：极轻(0.10u)，可放入材料袋。止血效果立竿见影，适合处理致命大出血。</color>
   tourniquetdsc: |-
     <color=#72d572>┃佩戴效果：
-    ┃完全暂停目标肢体及远端肢体的所有出血。</color>
+    ┃完全暂停目标肢体及远端肢体的所有出血。
     ┃副作用：
-    ┃佩戴肢体疼痛逐渐增加至40.00。9分钟后开始快速造成肌肉损伤。佩戴在头部会直接导致呼吸停止。
-    ┃消耗：
-    <color=#ffa726>┃每次佩戴/取下消耗12.50%耐久。</color>
+    ┃佩戴肢体疼痛逐渐增加至40.00。9分钟后开始快速造成肌肉损伤。佩戴在头部会直接导致呼吸停止。</color>
+    <color=#ffa726>┃消耗：
+    ┃每次佩戴/取下消耗12.50%耐久。</color>
     <color=#ffee58>┃制作(9)：2绳子+1细绳+1塑料块+10mL生化流体=1止血带(50%)</color>
-    <color=orange>！：佩戴后重量不计入负重。切勿长时间佩戴，仅作紧急止血争取时间之用。</color>
+    <color=orange>佩戴后重量不计入负重。切勿长时间佩戴，仅作紧急止血争取时间之用。</color>
   browncapdsc: |-
     <color=#72d572>┃食用效果：随机效果(见下表)</color>
     <color=#ffa726>┃消耗100%耐久</color>
@@ -1325,17 +1329,17 @@ main:
     <color=#ffee58>┃获取：破坏棕蘑菇/交易</color>
     <color=orange>效果表：<20:饥饿+10；20-35:心情+2.5；35-55:心情-2.5 +患病+所有肢体感染-20% +免疫提升8分20秒； 55-65:饥饿+7 呕吐；65-75:饥饿+7 +35阿片当量；75-99.6:饥饿+7 心情-1 +50精力；>99.6:中风(不扣心情) 饥饿+7。 额外随机:10%意识归零/5%辐射+4.5Gy/5%精力归零/6%呼吸停止5秒/10%口渴+20/10%口渴-20/8%体温+4.5°C。</color>
   sneakersdsc: |-
-    ┃护甲：<color=#91a7ff>1.0</color>
-    ┃保温：<color=#91a7ff>7%</color>
-    ┃损耗系数：0.60
+    <color=#91a7ff>┃护甲：1.0
+    ┃保温：7%
+    ┃损耗系数：0.60</color>
     ┃效果：<color=#91a7ff>踩玻璃碎片每次-6%耐久(约16-17次)</color>
     <color=#ffa726>┃(穿戴时)腐败：0.33%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
     <color=orange>可撕碎为绷带。</color>
   tacticalbootsdsc: |-
-    ┃护甲：<color=#91a7ff>2.0</color>
-    ┃保温：<color=#91a7ff>30%</color>
-    ┃损耗系数：0.10
+    <color=#91a7ff>┃护甲：2.0
+    ┃保温：30%
+    ┃损耗系数：0.10</color>
     <color=#ffa726>┃(穿戴时)腐败：0%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(16)：2钛板+2塑料块+2细绳+30mL生化流体+1(可切割)</color>
@@ -1392,14 +1396,12 @@ main:
     ┃肌肉 -2(相邻肢体-1)
     ┃疼痛 +10</color>
     <color=#ffa726>┃消耗 100% 耐久</color>
-    ┃效果：
-    ┃同时消毒目标肢体及相邻肢体，但造成轻微肌肉/皮肤损伤。
     <color=#ffee58>┃制作(8)：1摔炮果苞叶+1玫瑰灯</color>
     <color=orange>！：保质期短(6.00%/分钟)，单次使用即消耗全部。</color>
   striderpeltdsc: |-
-    ┃护甲：<color=#91a7ff>0.4</color>
-    ┃保温：<color=#91a7ff>40%</color>
-    ┃损耗系数：0.35
+    <color=#91a7ff>┃护甲：0.4
+    ┃保温：40%
+    ┃损耗系数：0.35</color>
     <color=#ffa726>┃(穿戴时)腐败：-1.66%/分钟</color>
     <color=#ffee58>┃获取：雪地漫游者掉落(开发中)</color>
   funguschunkdsc: |-
@@ -1427,22 +1429,19 @@ main:
     <color=#ffa726>┃腐败：-0.83%/分钟</color>
     <color=#ffee58>┃获取：交易</color>
   smallbatterydsc: |-
-    ┃最大存储电量：<color=#88ccff>50</color>
-    ┃电量：50.00
+    <color=#91a7ff>┃最大电量：50</color>
     <color=#ffee58>┃制作(11)：1加工铜块+2塑料块+10mL生化流体+1(可捶打)=2小型电池
     ┃用途：合成中型电池</color>
   mediumbatterydsc: |-
-    ┃最大存储电量：<color=#88ccff>100</color>
-    ┃电量：100.00
+    <color=#91a7ff>┃最大电量：100</color>
     <color=#ffee58>┃制作(12)：2小型电池+1废料板+1塑料块+10mL生化流体
     ┃用途：合成大型电池</color>
   largebatterydsc: |-
-    ┃最大存储电量：<color=#88ccff>300</color>
-    ┃电量：300.00
+    <color=#91a7ff>┃最大电量：300</color>
     <color=#ffee58>┃制作(13)：1中型电池+1加工铜块+1塑料块+20mL生化流体</color>
   pistoldsc: |-
-    ┃伤害：<color=#91a7ff>76.5 ~ 103.5</color>
-    ┃弹药：9mm | 小弹匣供弹 | 半自动
+    <color=#91a7ff>┃伤害：76.5 ~ 103.5
+    ┃弹药：9mm | 小弹匣供弹 | 半自动</color>
     <color=#ffee58>┃获取：商人交易</color>
     <color=orange>单弹匣可输出大量伤害，
     2匣吓退/4匣击杀长老棘背。
@@ -1450,17 +1449,17 @@ main:
     在主手时可增加威胁商人成功率(沙丘除外)
     耐久100~50 卡壳率0~0.25％┃耐久50~0 卡壳率0.25%~10%┃潮湿固定+4.5%</color>
   rifledsc: |-
-    ┃伤害：<color=#91a7ff>102 ~ 155.25</color>
-    ┃弹药：5.56mm | 步枪弹匣 | 全自动
+    <color=#91a7ff>┃伤害：102 ~ 155.25
+    ┃弹药：5.56mm | 步枪弹匣 | 全自动</color>
     <color=#ffee58>┃获取：商人交易</color>
     <color=orange>伤害极高，1匣可吓退长老棘背，
     2匣击杀。5.56弹药略难获取。
     在主手时可增加威胁商人成功率(沙丘除外)
     耐久100~50 卡壳率0~0.25％┃耐久50~0 卡壳率0.25%~10%┃潮湿固定+4.5%</color>
   shotgundsc: |-
-    ┃伤害：<color=#91a7ff>204 ~ 276</color>(8发弹丸全中)
-    ┃单发弹丸：<color=#91a7ff>25.5 ~ 34.5</color>
-    ┃弹药：12号霰弹 | 内置弹仓 | 泵动式
+    <color=#91a7ff>┃伤害：204 ~ 276(8发弹丸全中)
+    ┃单发弹丸：25.5 ~ 34.5
+    ┃弹药：12号霰弹 | 内置弹仓 | 泵动式</color>
     <color=#ffee58>┃获取：各层随机刷新</color>
     <color=orange>近战专用，每发需手动泵动两次。
     全弹命中伤害极高，注意战斗间距。
@@ -1480,13 +1479,13 @@ main:
     ┃制作(8)：1木板+2塑料块+1(可切割)</color>
     <color=orange>不能直接插入霰弹枪，需先取出子弹手动装填。</color>
   smallmagazinedsc: |-
-    ┃容量 17发
-    ┃价值：空0，满22
+    <color=#91a7ff>┃容量 17发
+    ┃价值：空0，满22</color>
     <color=#ffee58>┃获取：制作
     ┃制作(12)：1弹匣基座+1塑料块+1(可捶打)</color>
   riflemagazinedsc: |-
-    ┃容量 30发
-    ┃价值：空0，满32
+    <color=#91a7ff>┃容量 30发
+    ┃价值：空0，满32</color>
     <color=#ffee58>┃获取：制作
     ┃制作(12)：1弹匣基座+1废料板+1(可捶打)</color>
   magazinebasedsc: |-
@@ -1625,11 +1624,11 @@ main:
     ┃用途：修复钻探舱，乘坐可向下穿越2层</color>
     <color=orange>策略：常用于跳过干涸沙漠直抵废土。</color>
   campfiredsc: |-
-    在沙漠等环境温度远超 38°C 的地区，靠近篝火能帮你把体温降到 38°C 左右。
-    同样，如果维生舱加热器设在 39°C，而环境温度是 42°C，靠近它也是在降温
     <color=#ffee58>┃获取：火种/打火机+3可燃物(木废料、木板、树枝、木炭)
     ┃制作(4)：1(火种)+3(易燃)</color>
-    <color=orange>可拾起篝火，但立即掉落且无伤害。</color>
+    <color=orange>可拾起篝火，但立即掉落且无伤害。
+    在沙漠等环境温度远超 38°C 的地区，靠近篝火能帮你把体温降到 38°C 左右。
+    同样，如果维生舱加热器设在 39°C，而环境温度是 42°C，靠近它也是在降温</color>
   firestarterdsc: |-
     <color=#ffee58>┃制作(8)：2木棍+1绳子+1纤维
     ┃用途：篝火(需3燃料)</color>
@@ -1950,7 +1949,7 @@ buildings:
     <color=#888888>初始血量：</color><color=#91a7ff>2000</color>
     <color=orange>必掉一张设计图！不受物理影响，可在上面睡觉(普通质量)。</color>
   LifePodLightdsc: |-
-    可进行拆解，会获得小型电池。
+    <color=#91a7ff>可进行拆解，会获得小型电池。</color>
     将可拆卸工具移至该灯泡的物品栏上方即可拆卸。
     你知道怎么做。
   medcratedsc: |-
@@ -1961,7 +1960,6 @@ buildings:
   rechargingstationdsc: |-
     一个充电站有两个充电口，可同时供两个电池充电。
     充电完成后，鼠标对准上面的电池，像正常拾取物品一样拖动到物品栏即可收回。
-    别再问怎么收回了。
   hydreeddsc: |-
     <color=#888888>破坏掉落：</color>
     <color=#aaaaaa>水泡果x2-4 (50%)、菌柄x1-3 (50%)、麻木浆果 (100%)、瞌睡尾 (50%)</color>
@@ -3571,14 +3569,16 @@ other:
   powderedmilkdsc: <color=#72d572>┃食用效果（每100g）：口渴 -26.7┃饥饿 +26.7┃体重 +0.45k┃患病 +13.3┃心情 -1.67</color>
   morphinedsc: |-
     <color=#72d572>┃饮用(每100mL)：阿片类水平 +40
-    ┃注射(每100mL)：阿片类水平 +90</color>
+    ┃注射(每100mL)：阿片类水平 +90
+    ┃无耐受过量阈值：口服200mL 注射88.8mL</color>
     <color=#ffee58>┃制作(9)：75(鸦片)+10mL生化流体+15mL(液体)=50mL吗啡</color>
-    无耐受过量阈值：口服200mL 注射88.8mL
+    
   opiumdsc: |-
     <color=#72d572>┃饮用(每100mL)：阿片类水平 +20
-    ┃注射(每100mL)：阿片类水平 +40</color>
+    ┃注射(每100mL)：阿片类水平 +40
+    ┃无耐受过量阈值：口服400mL 注射200mL</color>
     <color=#ffee58>┃制作(7)：2水芦莓+10mL生化流体+50mL(液体)=50mL鸦片</color>
-    无耐受过量阈值：口服400mL 注射200mL
+    
   heroindsc: |-
     <color=#72d572>┃饮用(每100mL)：阿片类水平 +60 ┃ 患病 +25
     ┃注射(每100mL)：阿片类水平 +130 ┃ 患病 +50
@@ -3588,9 +3588,9 @@ other:
     ┃效果逐渐生效而非瞬间清除。无法过量。</color>
   fentanyldsc: |-
     <color=#72d572>┃饮用(每100mL)：阿片类水平 +4000(稀释后为纯液的1/10)
-    ┃注射(每100mL)：阿片类水平 +4200(稀释后为纯液的1/10)</color>
+    ┃注射(每100mL)：阿片类水平 +4200(稀释后为纯液的1/10)
+    ┃无耐受过量阈值：口服2mL 注射1.905mL</color>
     <color=#ffee58>┃制作(11)：50mL吗啡+25mL生化流体+25mL(液体)+易燃粉末=10mL芬太尼</color>
-    无耐受过量阈值：口服2mL 注射1.905mL
   ceftriaxonedsc: |-
     <color=#72d572>┃注射(每100mL)：免疫力 +70(时长约18分45秒) ┃ 疼痛 +80
     ┃在极度痛苦(Miserable)状态下仍可使用。</color>
@@ -3627,7 +3627,7 @@ other:
   painkillersdsc: |-
     <color=#72d572>┃饮用(每100mL)：阿片类水平 +140</color>
     <color=#ffee58>┃制作(10)：镇痛晶碎片+塑料块+20mL生化流体+50mL(液体)=200mL止痛药</color>
-    总效力为游戏中第二强阿片类
+    <color=orange>总效力为游戏中第二强阿片类</color>
   disinfectantdsc: |-
     <color=#72d572>┃饮用(每100mL)：口渴 +4 ┃ 患病 +15 ┃ 头部消毒 4分钟
     ┃外敷(每100mL)：消毒 4分钟 ┃ 疼痛 +10</color>
@@ -3683,14 +3683,14 @@ other:
     ┃注射(每100mL)：持续200秒(每0.5秒触发： ┃ 呼吸频率 +8 ┃ 血氧 +5.5 ┃ 体力 +8 ┃ 纤颤 -4 ┃ 血容量 +0.3</color>
   antidepressantsdsc: |-
     <color=#72d572>┃吃一口(每20mL)：9分钟抗抑郁效果(心情值削减60%，上限下限设为+-40)
-    ┃饮用(每100mL)：抗抑郁药水平 +500 ┃ 心情 +5 ┃ 30%患病 +30</color>
+    ┃饮用(每100mL)：抗抑郁药水平 +500 ┃ 心情 +5 ┃ 30%患病 +30
+    ┃效果时间超过22分30秒(约吃2.5口┃50ml┃250药量)时触发过量┃血压 -3*时间┃药量每秒 -0.19</color>
     <color=#ffee58>┃制作(10)：宁神晶碎片+20mL生化流体+易燃粉末=200mL抗抑郁药</color>
-    效果时间超过22分30秒(约吃2.5口┃50ml┃250药量)时触发过量┃血压 -3*时间┃药量每秒 -0.19
   antiraddsc: |-
-    <color=#72d572>┃吃一口(每20mL)：辐射量 -5.4 Gy(持续90秒生效，次/3s 辐射病 -0.2)</color>
-    ┃超过180秒副作用(次/3s)： ┃ 患病 +0.6 ┃ 腿部疼痛 +1.5</color>
+    <color=#72d572>┃吃一口(每20mL)：辐射量 -5.4 Gy(持续90秒生效，次/3s 辐射病 -0.2)
+    ┃超过180秒副作用(次/3s)： ┃ 患病 +0.6 ┃ 腿部疼痛 +1.5
+    ┃单次使用超过2剂会引发过量</color>
     <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
-    单次使用超过2剂会引发过量
   braingrowdsc: |-
     <color=#72d572>┃吃一口（每10mL）：脑健康 +10 ┃ 患病 +20 ┃ 心情 -5 ┃ 50%几率立即呕吐 | 治疗中风</color>
     <color=#ffee58>┃获取：医疗箱/物资箱/交易/尸体</color>
@@ -3945,7 +3945,7 @@ pauseQuotes:
 - |-
   喂！
 
-  <size=60%><color=#84D6FF>你可以将小电池装进本不属于它的电器，
+  <size=60%><color=#91a7ff>你可以将小电池装进本不属于它的电器，
 
   原价卖给商人</color></size>
 - |-
@@ -4151,7 +4151,7 @@ pauseQuotes:
 - |-
   这无法改变你的命运。
 
-  <size=60%><color=#84D6FF>电器/液体容器耐久与电量/液体量挂钩，
+  <size=60%><color=#91a7ff>电器/液体容器耐久与电量/液体量挂钩，
 
   受到伤害时会消耗其中电量/液体量
 
@@ -4159,13 +4159,13 @@ pauseQuotes:
 - |-
   我说你完了，你就是完了。
 
-  <size=60%><color=#84D6FF>手摇充电器：
+  <size=60%><color=#91a7ff>手摇充电器：
 
   中型电池3/4圈1%电、大型电池2圈半1%电</color></size>
 - |-
   我讨厌被打扰。
 
-  <size=60%><color=#84D6FF>手摇充电器在时间加速的时候充电更快
+  <size=60%><color=#91a7ff>手摇充电器在时间加速的时候充电更快
 
   当然，体力消耗和恢复也更快</color></size>
 - |-
@@ -4301,7 +4301,7 @@ pauseQuotes:
 - |-
   我有我需要的所有时间。你也不能这么说。
 
-  <size=60%><color=#84D6FF>睡觉前记得摘下电池(节约用电)</color></size>
+  <size=60%><color=#91a7ff>睡觉前记得摘下电池(节约用电)</color></size>
 - |-
   一个巨大的错觉。巨大的失败和浪费。但对我来说不是。
 
@@ -4311,7 +4311,7 @@ pauseQuotes:
 - |-
   真有趣。请继续。
 
-  <size=60%><color=#84D6FF>骨骼焊接器是一次性用品，
+  <size=60%><color=#91a7ff>骨骼焊接器是一次性用品，
 
   尽管使用后会保留，但并不能充电或修复</color></size>
 - |-
@@ -4341,7 +4341,7 @@ pauseQuotes:
 - |-
   要开始认真了吗？
 
-  <size=60%><color=#84D6FF>自动泵可以佩戴在身上并拆卸电池
+  <size=60%><color=#91a7ff>自动泵可以佩戴在身上并拆卸电池
 
   可以节约你的背包空间</color></size>
 - |-
@@ -4459,7 +4459,7 @@ pauseQuotes:
 - |-
   推迟无法避免的结局？
 
-  <size=60%><color=#84D6FF>重力袋放小电池不是个明智的选择，耗电非常快容易炸</color></size>
+  <size=60%><color=#91a7ff>重力袋放小电池不是个明智的选择，耗电非常快容易炸</color></size>
 - |-
   这里恐怕是终点站了。
 
