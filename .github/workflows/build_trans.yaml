@@ -77,5 +77,4 @@ jobs:
           preserve_order: true
           files: |
             维基中文_基于官方翻译${{ steps.translation-version.outputs.version }}.json
-            维基中文_基于软盘翻译${{ steps.translation-version.outputs.version }}.json
           generate_release_notes: true
