@@ -269,12 +269,12 @@ main:
     ┃(装有物品时)腐败：<color=#ffaa00>-1%/分钟</color>
     ┃电池：<color=#88ccff>中型</color>
     ┃获取：<color=#aaaaaa>交易/生命舱箱/物资箱/空投舱</color>
-    <color=#ff4444>爆炸：半径12格 ┃ 耳鸣30格</color>
+    <color=#ff4444>爆炸：半径12格</color> ┃ <color=#ff4444>耳鸣30格</color>
     <color=#ff4444>肢体：</color>
-    <color=#ff4444>肌肉伤害0-60 ┃ 波及胸部50%内出血0~0.21L/m。</color>
-    <color=#ff4444>20%皮肤健康0-75 ┃ 15%流血0.06~0.45L/m</color>
-    <color=#ff4444>40%概率5破片 ┃ 13.5%脱臼 ┃ 6%骨折。</color>
-    <color=#ff4444>头部：15%毁容 ┃ 15%单眼失明 ┃ 70%概率0~30脑损伤</color>
+    <color=#ff4444>肌肉伤害0-60</color> ┃ <color=#ff4444>波及胸部50%内出血0~0.21L/m。</color>
+    <color=#ff4444>20%皮肤健康0-75</color> ┃ <color=#ff4444>15%流血0.06~0.45L/m</color>
+    <color=#ff4444>40%概率5破片</color> ┃ <color=#ff4444>13.5%脱臼</color> ┃ <color=#ff4444>6%骨折。</color>
+    <color=#ff4444>头部：15%毁容</color> ┃ <color=#ff4444>15%单眼失明</color> ┃ <color=#ff4444>70%概率0~30脑损伤</color>
     <color=#ffaa00>机制：</color>
     <color=#ffaa00>用工具取出电池永久安全(无负重减免)，勿放废电池。</color>
     <color=#ffaa00>睡觉前取出延长寿命；小灯泡电池可合成中型电池供电</color>
@@ -664,134 +664,128 @@ main:
     ┃制作(9)：1(热源)+1(面粉)+1农产品(>=50%)+25脂肪
     <color=#ffaa00>特点：永不腐败，完美长期储备粮。</color>
   primitivediggingtooldsc: |-
-    ┃<color=#88ff88>方块 75 ┃ 敌人 50</color>
-    ┃体力 1.65 ┃ 冷却 0.4秒
+    ┃<color=#88ff88>方块 75</color> ┃ <color=#88ff88>敌人 50</color>
+    ┃<color=#88ff88>体力 1.65</color> ┃ <color=#88ff88>冷却 0.4秒</color>
     ┃获取：<color=#aaaaaa>物资箱/空投舱/交易 (Demo5起不可制作)</color>
     <color=#ffaa00>提示：满耐久约580次，总方块伤害44000。临时挖掘工具的直接升级版。</color>
   makeshiftdiggingtooldsc: |-
-    ┃<color=#88ff88>方块 65 ┃ 敌人 32</color>
-    ┃体力 1.65 ┃ 冷却 0.4秒
+    ┃<color=#88ff88>方块 65</color> ┃ <color=#88ff88>敌人 32</color>
+    ┃<color=#88ff88>体力 1.65</color> ┃ <color=#88ff88>冷却 0.4秒</color>
     ┃获取：<color=#aaaaaa>制作(可升级为镐)</color>
     ┃制作(7)：1脆弱的刀+1绳子+2木棍+10mL生化流体
     <color=#ffaa00>100%耐久可使用400次，总地块伤害可达32900。</color>
   makeshiftheadlampdsc: |-
-    ┃穿戴使用
     ┃耐久消耗：<color=#ffaa00>2.70%/分钟</color>
     ┃制作(4)：1硬化虫尸+1发光果+1绳子
     <color=#ffaa00>解放双手但寿命短。</color>
   shoveldsc: |-
-    ┃<color=#88ff88>方块 45 ┃ 敌人 27</color>
-    ┃体力 1 ┃ 冷却 0.26秒
+    ┃<color=#88ff88>方块 45</color> ┃ <color=#88ff88>敌人 27</color>
+    ┃<color=#88ff88>体力 1</color> ┃ <color=#88ff88>冷却 0.26秒</color>
     ┃获取：<color=#aaaaaa>物资箱/空投舱/交易 (不可制作)</color>
     <color=#ffaa00>镐的轻量替代版，伤害约一半但体力消耗和速度更优。满耐久550次，总方块伤害24750。</color>
   woodshoveldsc: |-
-    ┃<color=#88ff88>方块 40 ┃ 敌人 20</color>
-    ┃体力 0.75 ┃ 冷却 0.25秒
+    ┃<color=#88ff88>方块 40</color> ┃ <color=#88ff88>敌人 20</color>
+    ┃<color=#88ff88>体力 0.75</color> ┃ <color=#88ff88>冷却 0.25秒</color>
     ┃获取：<color=#aaaaaa>物资箱/交易 (不可制作)</color>
     <color=#ffaa00>提示：满耐久约300次，总方块伤害12000。重量轻、体力消耗低。</color>
   pitchforkdsc: |-
-    ┃<color=#88ff88>方块 40 ┃ 敌人 50</color>
-    ┃体力 0.87 ┃ 冷却 0.35秒
+    ┃<color=#88ff88>方块 40</color> ┃ <color=#88ff88>敌人 50</color>
+    ┃<color=#88ff88>体力 0.87</color> ┃ <color=#88ff88>冷却 0.35秒</color>
     ┃获取：<color=#aaaaaa>物资箱/空投舱/交易</color>
   woodpitchforkdsc: |-
-    ┃<color=#88ff88>方块 35 ┃ 敌人 43</color>
-    ┃体力 0.8 ┃ 冷却 0.32秒
+    ┃<color=#88ff88>方块 35</color> ┃ <color=#88ff88>敌人 43</color>
+    ┃<color=#88ff88>体力 0.8</color> ┃ <color=#88ff88>冷却 0.32秒</color>
     ┃获取：<color=#aaaaaa>物资箱/交易</color>
   minilaserdrilldsc: |-
-    ┃<color=#88ff88>方块 25.1 ┃ 敌人 15</color>
-    ┃体力 0 ┃ 冷却 0.16秒
+    ┃<color=#88ff88>方块 25.1</color> ┃ <color=#88ff88>敌人 15</color>
+    ┃<color=#88ff88>体力 0</color> ┃ <color=#88ff88>冷却 0.16秒</color>
     ┃电池：<color=#88ccff>中型</color>
     ┃每次消耗 <color=#ffaa00>0.14电量</color>
     ┃获取：<color=#aaaaaa>生命舱箱子/交易</color>
     ┃制作(16)：3钛板+2柔性玻璃+2电线捆+1电路板(>=90%)+1手电筒+1塑料块+1钉子+1(可切割)+1(可捶打)
     <color=#ffaa00>提示：仅挖掘/攻击消耗耐久。满电约700次，总方块伤害17570。</color>
   heavydrilldsc: |-
-    ┃<color=#88ff88>方块 60 ┃ 敌人 50</color>
-    ┃体力 0 ┃ 冷却 0.16秒
+    ┃<color=#88ff88>方块 60</color> ┃ <color=#88ff88>敌人 50</color>
+    ┃<color=#88ff88>体力 0</color> ┃ <color=#88ff88>冷却 0.16秒</color>
     ┃电池：<color=#88ccff>大型</color>
     ┃每次消耗 <color=#ffaa00>0.24电量</color>
-    ┃锤击性质：<color=#88ff88>100</color>
     ┃获取：<color=#aaaaaa>交易</color>
     <color=#ffaa00>提示：仅挖掘/攻击消耗耐久。满电约1260次，总方块伤害75600。</color>
   pickaxedsc: |-
-    ┃<color=#88ff88>方块 110 ┃ 敌人 60</color>
-    ┃体力 1.75 ┃ 冷却 0.55秒
+    ┃<color=#88ff88>方块 110</color> ┃ <color=#88ff88>敌人 60</color>
+    ┃<color=#88ff88>体力 1.75</color> ┃ <color=#88ff88>冷却 0.55秒</color>
     ┃获取：<color=#aaaaaa>物资箱/交易/合成</color>
     ┃制作(12)：1临时挖掘工具+2废料管+1废料板+1钉子+10mL生化流体+1(可捶打)
     <color=#ffaa00>提示：满耐久约550次，总方块伤害60500。</color>
   titaniumpickaxedsc: |-
-    ┃<color=#88ff88>方块 140 ┃ 敌人 70</color>
-    ┃体力 1.7 ┃ 冷却 0.48秒
+    ┃<color=#88ff88>方块 140</color> ┃ <color=#88ff88>敌人 70</color>
+    ┃<color=#88ff88>体力 1.7</color> ┃ <color=#88ff88>冷却 0.48秒</color>
     ┃获取：<color=#aaaaaa>物资箱/交易</color>
     ┃制作(16)：1十字镐+2钛棒+1塑料块+20mL生化流体+1(可捶打)
     <color=#ffaa00>提示：满耐久约3300次，总方块伤害46万。游戏中最强挖掘工具之一。</color>
   titaniummultitooldsc: |-
-    </color>┃<color=#88ff88>方块 25 ┃ 敌人 20</color>
-    ┃体力 0.6 ┃ 冷却 0.25秒
-    ┃工具性质：切割 300 | 锤击 300
+    </color>┃<color=#88ff88>方块 25</color> ┃ <color=#88ff88>敌人 20</color>
+    ┃<color=#88ff88>体力 0.6</color> ┃ <color=#88ff88>冷却 0.25秒</color>
     ┃获取：<color=#aaaaaa>制作/交易/集装箱/空投舱/生命舱箱子</color>
     ┃制作(16)：1钛板+1钛棒+1塑料块+20mL生化流体+1(可捶打)+1(可切割)
     <color=#ffaa00>极轻(0.3u)，近乎无限使用。</color>
   titaniummachetedsc: |-
-    </color>┃<color=#88ff88>方块 50 ┃ 敌人 80</color>
-    ┃体力 0.7 ┃ 冷却 0.32秒
-    ┃锤击性质：<color=#88ff88>40</color>
-    ┃切割性质：<color=#88ff88>500</color>
+    </color>┃<color=#88ff88>方块 50</color> ┃ <color=#88ff88>敌人 80</color>
+    ┃<color=#88ff88>体力 0.7</color> ┃ <color=#88ff88>冷却 0.32秒</color>
     ┃获取：<color=#aaaaaa>制作/交易</color>
     ┃制作(16)：1砍刀+2钛板+1塑料块+20mL生化流体+1(可捶打)
     <color=#ffaa00>极高的性价比。伤害极高，几乎媲美手枪。</color>
     <color=#aaaaaa>约可使用3300次</color>
   sledgehammerdsc: |-
-    ┃<color=#88ff88>方块 90 ┃ 敌人 60</color>
-    ┃体力 1.75 ┃ 冷却 0.66秒
-    ┃锤击性质：<color=#88ff88>1000</color>
+    ┃<color=#88ff88>方块 90</color> ┃ <color=#88ff88>敌人 60</color>
+    ┃<color=#88ff88>体力 1.75</color> ┃ <color=#88ff88>冷却 0.66秒</color>
     ┃获取：<color=#aaaaaa>物资箱/交易 (不可制作)</color>
   woodpickaxedsc: |-
-    ┃<color=#88ff88>方块 105 ┃ 敌人 55</color>
-    ┃体力 1.5 ┃ 冷却 0.49秒
+    ┃<color=#88ff88>方块 105</color> ┃ <color=#88ff88>敌人 55</color>
+    ┃<color=#88ff88>体力 1.5</color> ┃ <color=#88ff88>冷却 0.49秒</color>
     ┃获取：<color=#aaaaaa>交易 (不可制作)</color>
     <color=#ffaa00>提示：满耐久约140次，总方块伤害约14788。</color>
   wooddiggingtooldsc: |-
-    ┃<color=#88ff88>方块 49 ┃ 敌人 38</color>
-    ┃体力 1 ┃ 冷却 0.33秒
+    ┃<color=#88ff88>方块 49</color> ┃ <color=#88ff88>敌人 38</color>
+    ┃<color=#88ff88>体力 1</color> ┃ <color=#88ff88>冷却 0.33秒</color>
     <color=#ffaa00>100%耐久可使用约300次，总地块伤害约14700。</color>
   machetedsc: |-
-    </color>┃<color=#88ff88>方块 38 ┃ 敌人 50</color>
-    ┃体力 0.75 ┃ 冷却 0.35秒
+    </color>┃<color=#88ff88>方块 38</color> ┃ <color=#88ff88>敌人 50</color>
+    ┃<color=#88ff88>体力 0.75</color> ┃ <color=#88ff88>冷却 0.35秒</color>
     ┃获取：<color=#aaaaaa>制作</color>
     ┃制作(12)：1粗制菜刀+3废料板+30mL生化流体+1(可捶打)
     <color=#ffaa00>制作简单，手感好，伤害可观——游戏中期性价比最高的近战武器之一。可用于割下动物尸体上的肉。</color>
   crudecleaverdsc: |-
-    </color>┃<color=#88ff88>方块 20 ┃ 敌人 25</color>
-    ┃体力 0.55 ┃ 冷却 0.3秒
+    </color>┃<color=#88ff88>方块 20</color> ┃ <color=#88ff88>敌人 25</color>
+    ┃<color=#88ff88>体力 0.55</color> ┃ <color=#88ff88>冷却 0.3秒</color>
     ┃获取：<color=#aaaaaa>制作</color>
     ┃制作(9)：1木棍+2废料板+1钉子+1(可捶打)
     <color=#ffaa00>早期优秀近战武器，制作简单便宜。可用于切砍等。</color>
   sickledsc: |-
-    </color>┃<color=#88ff88>方块 35 ┃ 敌人 40</color>
-    ┃体力 0.7 ┃ 冷却 0.3秒
+    </color>┃<color=#88ff88>方块 35</color> ┃ <color=#88ff88>敌人 40</color>
+    ┃<color=#88ff88>体力 0.7</color> ┃ <color=#88ff88>冷却 0.3秒</color>
     ┃获取：<color=#aaaaaa>物资箱/空投舱/交易</color>
   woodsickledsc: |-
-    ┃<color=#88ff88>方块 32 ┃ 敌人 38</color>
-    ┃体力 0.7 ┃ 冷却 0.3秒
+    ┃<color=#88ff88>方块 32</color> ┃ <color=#88ff88>敌人 38</color>
+    ┃<color=#88ff88>体力 0.7</color> ┃ <color=#88ff88>冷却 0.3秒</color>
     ┃获取：<color=#aaaaaa>物资箱/交易</color>
   rakedsc: |-
-    ┃<color=#88ff88>方块 35 ┃ 敌人 30</color>
-    ┃体力 0.88 ┃ 冷却 0.35秒
+    ┃<color=#88ff88>方块 35</color> ┃ <color=#88ff88>敌人 30</color>
+    ┃<color=#88ff88>体力 0.88</color> ┃ <color=#88ff88>冷却 0.35秒</color>
     ┃获取：<color=#aaaaaa>物资箱/交易</color>
   clawsdsc: |-
-    </color>┃<color=#88ff88>方块 24 ┃ 敌人 35</color>
-    ┃体力 0.5 ┃ 冷却 0.15秒
+    </color>┃<color=#88ff88>方块 24</color> ┃ <color=#88ff88>敌人 35</color>
+    ┃<color=#88ff88>体力 0.5</color> ┃ <color=#88ff88>冷却 0.15秒</color>
     ┃获取：<color=#aaaaaa>物资箱/交易</color>
     <color=#ffaa00>攻速极快，综合DPS高，早期优秀近战武器。</color>
   troweldsc: |-
-    ┃<color=#88ff88>方块 32 ┃ 敌人 16</color>
-    ┃体力 0.6 ┃ 冷却 0.25秒
+    ┃<color=#88ff88>方块 32</color> ┃ <color=#88ff88>敌人 16</color>
+    ┃<color=#88ff88>体力 0.6</color> ┃ <color=#88ff88>冷却 0.25秒</color>
     ┃获取：<color=#aaaaaa>物资箱/交易</color>
     <color=#ffaa00>木制园艺铲的全面升级版。</color>
   woodtroweldsc: |-
-    ┃<color=#88ff88>方块 28 ┃ 敌人 15</color>
-    ┃体力 0.5 ┃ 冷却 0.24秒
+    ┃<color=#88ff88>方块 28</color> ┃ <color=#88ff88>敌人 15</color>
+    ┃<color=#88ff88>体力 0.5</color> ┃ <color=#88ff88>冷却 0.24秒</color>
     ┃获取：<color=#aaaaaa>物资箱/交易</color>
     <color=#ffaa00>金属版的下位替代，但仍优于徒手。</color>
   experimentfleshdsc: |-
@@ -928,7 +922,6 @@ main:
     ┃获取：<color=#aaaaaa>开启礼物/交易</color>
     <color=#ffaa00>无实用属性，纯装饰品。</color>
   headlampdsc: |-
-    ┃穿戴使用
     ┃电池：<color=#88ff88>小型</color>
     ┃持续消耗 <color=#ffaa00>1.25/分钟</color>
     ┃获取：<color=#aaaaaa>物资箱/空投舱/交易</color>
@@ -1042,7 +1035,6 @@ main:
     ┃获取：<color=#aaaaaa>破坏热能蕨/交易</color>
     <color=#ffaa00>野外可得的消毒物品。</color>
   jetpackdsc: |-
-    ┃穿戴使用
     ┃燃料：<color=#ffaa00>100</color>
     ┃使用消耗<color=#ffaa00>0.75/s(飞行中)</color>
     ┃获取：<color=#aaaaaa>交易</color>
@@ -1054,13 +1046,12 @@ main:
     ┃制作(10)：2易燃粉末+1细绳+1废料板+1(可捶打)
     <color=#ffaa00>爆炸范围大，伤害高，注意保持距离。</color>
   climbingclawsdsc: |-
-    ┃穿戴使用
     ┃效果：<color=#88ff88>可在墙壁上攀爬和跳跃</color>
     ┃获取：<color=#aaaaaa>交易</color>
     <color=#ffaa00>早期探索利器，方便进入高处区域。</color>
   plasmacutterdsc: |-
-    ┃<color=#88ff88>方块 10(对金属x10即100) ┃ 敌人 10</color>
-    ┃体力 0 ┃ 冷却 0.1秒
+    ┃<color=#88ff88>方块 10(对金属x10即100)</color> ┃ <color=#88ff88>敌人 10</color>
+    ┃<color=#88ff88>体力 0</color> ┃ <color=#88ff88>冷却 0.1秒</color>
     ┃电池：<color=#88ccff>大型</color>
     ┃每次消耗 <color=#ffaa00>0.1电量</color>
     ┃医疗用途：皮肤-12，出血-80%，疼痛+45(灼烧止血)
@@ -1230,7 +1221,6 @@ main:
     ┃获取：<color=#aaaaaa>医疗箱/空投舱/生命舱箱子/交易/尸体</color>
   scubadivinggeardsc: |-
     ┃护甲：<color=#88ff88>0.8</color>
-    ┃穿戴使用
     ┃效果：
     ┃<color=#88ff88>液体中呼吸/回耐 +50%移速</color>
     ┃出水 -3潮湿/s
@@ -1244,14 +1234,13 @@ main:
     ┃腐败：<color=#ffaa00>-0.60%/分钟</color>
     ┃获取：<color=#aaaaaa>物资箱/交易 (稀有)</color>
   wrenchdsc: |-
-    ┃<color=#88ff88>方块 25 ┃ 敌人 15</color>
-    ┃体力 1 ┃ 冷却 0.2秒
-    ┃锤击性质：<color=#88ff88>150</color>
+    ┃<color=#88ff88>方块 25</color> ┃ <color=#88ff88>敌人 15</color>
+    ┃<color=#88ff88>体力 1</color> ┃ <color=#88ff88>冷却 0.2秒</color>
     ┃医疗用途：<color=#88ff88>复位脱臼(每次仅+4~10疼痛，无骨折风险)</color>
     ┃获取：<color=#aaaaaa>物资箱/空投舱/生命舱箱子/交易</color>
     ┃制作(12)：1临时扳手+2废料管+10mL生化流体+1(可捶打)
   makeshiftwrenchdsc: |-
-    ┃<color=#88ff88>方块 20 ┃ 敌人 14</color>
+    ┃<color=#88ff88>方块 20</color> ┃ <color=#88ff88>敌人 14</color>
     ┃体力 1
     ┃获取：<color=#aaaaaa>物资箱/空投舱/生命舱箱子/交易</color>
     ┃制作(9)：2废料管+10mL生化流体+1(可捶打)
@@ -1481,16 +1470,13 @@ main:
     ┃用途：
     ┃临时扳手/扳手/手电筒/临时步枪/地形扫描仪/开锁工具/高级水肺/镐/自动注射器/IV袋/夹板/临时L.R.D./钻头修理包/注射器
   woodscrapsdsc: |-
-    ┃性质：易燃(1.00)
     ┃制作(3)：4纤维=1木废料
     ┃用途：<color=#aaaaaa>木块(3木废料+10mL生化流体)</color>
   woodcubedsc: |-
-    ┃性质：易燃(1.00)
     ┃制作(4)：3木废料+10mL生化流体
     ┃用途：
     ┃木板(x5)/木棍(x2)/脆弱的刀
   woodpaneldsc: |-
-    ┃性质：易燃(1.00)
     ┃制作(4)：1木块(>=90%)+1(可切割)=5木板
     ┃用途：
     ┃12号弹盒/提灯/背包/木凉鞋/行李袋/材料袋/皮带/夹板
@@ -1507,9 +1493,6 @@ main:
     ┃用途：
     ┃挎包/炸药/简易头盔/临时步枪/背包/木凉鞋/行李袋/材料袋/皮带/止血带/冰敷包/围巾
   stickdsc: |-
-    ┃性质：
-    ┃锤击1.00
-    ┃易燃1.00
     ┃制作(4)：1木块+1(可切割)=2木棍
     ┃用途：
     ┃粗制菜刀/临时挖掘工具/引火器/火把
@@ -1521,7 +1504,6 @@ main:
     ┃用途：
     ┃钛板(x5)/钛棒(x2)/脚手架包
   titaniumroddsc: |-
-    ┃性质：锤击(8.00)
     ┃制作(15)：1厚钛板+10mL生化流体+4(可切割)=2钛棒
     ┃用途：
     ┃钛镐/钛多功能工具
@@ -1547,9 +1529,8 @@ main:
     ┃用途：
     ┃修理电路板/手电筒/液晶屏/灯泡/微型激光钻/地形扫描仪/潜水装备/自动注射器/自动泵/骨骼焊接器/血袋/L.R.D./钻头维修包
   flimsyknifedsc: |-
-    </color>┃<color=#88ff88>方块 16 ┃ 敌人 16</color>
-    ┃体力 0.4 ┃ 冷却 0.2秒
-    ┃工具性质：切割 8
+    </color>┃<color=#88ff88>方块 16</color> ┃ <color=#88ff88>敌人 16</color>
+    ┃<color=#88ff88>体力 0.4</color> ┃ <color=#88ff88>冷却 0.2秒</color>
     ┃获取：<color=#aaaaaa>制作</color>
     ┃制作(4)：1金属废料(>=90%)+1绳子+1木块
     <color=#ffaa00>成本极低，但战斗/挖掘不如用爪。
@@ -1604,7 +1585,6 @@ main:
     ┃制作(8)：2木棍+1绳子+1纤维
     ┃用途：<color=#aaaaaa>篝火(需3燃料)</color>
   charcoaldsc: |-
-    ┃性质：易燃(1.00)
     ┃制作(7)：1(热源)+1屎+10mL生化流体=3木炭
     ┃用途：<color=#aaaaaa>篝火(易燃材料)</color>
   ryebulbdsc: |-
