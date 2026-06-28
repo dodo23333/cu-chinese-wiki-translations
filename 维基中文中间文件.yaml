@@ -132,9 +132,9 @@ main:
     ┃消毒 10分钟(相邻肢体5分钟)
     ┃出血 -30%(相邻肢体-25%)
     ┃阿片类水平 35
-    ┃内出血(仅胸部) -55%</color>
+    ┃内出血(仅胸部) -55%
+    ┃额外效果：提供1分钟精力充沛，90肾上腺素 | 毒素 -12</color>
     <color=#ffa726>┃消耗 50% 耐久</color>
-    ┃额外效果：<color=#72d572>提供1分钟精力充沛，90肾上腺素</color> | 毒素 -12
     <color=#ffee58>┃获取：医疗箱/制作(15智力?)
     ┃制作(15)：1临时LRD+2钛板+25mL生化流体+1自动注射器+1电路板(>=90%)+1电线捆+1(可切割)+1(可捶打)</color>
     <color=orange>提示：默认含75mL血清。清空后重量降至0.10u，建议将血清单独存放以减轻负重。</color>
@@ -160,22 +160,24 @@ main:
   autopumpdsc: |-
     <color=#72d572>┃使用效果：
     ┃穿戴且有电时:若血压<85，则血压+44
+    ┃机制：激活期间玩家不会因失血、心脏停搏等导致的低血压而昏迷。
+    ┃不能唤醒已昏迷者，不能维持意识和大脑健康。
+    ┃极端温度、饥饿等直接损伤头部肌肉或大脑的威胁不受保护。</color>
     <color=#91a7ff>┃穿戴时每秒消耗0.08%电量，每次抬升血压消耗0.2%电量
-    ┃心脏停搏时中电池满电最少可用7分20秒</color></color>
+    ┃心脏停搏时中电池满电最少可用7分20秒</color>
     <color=#ffee58>┃获取：医疗箱/生命舱箱子/空投舱/交易</color>
-    ┃机制：激活期间玩家不会因失血、心脏停搏等导致的低血压而昏迷。不能唤醒已昏迷者，不能维持意识和大脑健康。极端温度、饥饿等直接损伤头部肌肉或大脑的威胁不受保护。
     <color=orange>冷知识：新版本激活时血容低仍可致死，因此尽量保证血容量不要太低。</color>
   aeddsc: |-
-    <color=#72d572>┃对上半身使用：</color>
-    ┃<color=#ff4444>皮肤 -5</color>
-    ┃疼痛 +20
+    <color=#72d572>┃对上半身使用：
+    ┃皮肤 -5
+    ┃疼痛 +20</color>
     <color=#ffee58>┃获取：生命舱/生命舱箱子/空投舱/医疗箱/交易</color>
     <color=orange>电击有20%几率修复心脏骤停，
     可多次尝试。低功率即可，以省电。</color>
   manualdefibrillatordsc: |-
-    <color=#72d572>┃对上半身使用：</color>
-    ┃<color=#ff4444>皮肤 -5</color>
-    ┃疼痛 +20
+    <color=#72d572>┃对上半身使用：
+    ┃皮肤 -5
+    ┃疼痛 +20</color>
     <color=#91a7ff>┃待机耗电 -0.13%/s
     ┃电击消耗(每焦耳)：
     ┃小/中电池0.05%/0.03%
@@ -201,10 +203,9 @@ main:
     <color=#ffee58>┃获取：破坏沙玫瑰掉落1-2个/交易</color>
     <color=orange>建议：以荚形态储存更耐久但不发光。</color>
   roselightdsc: |-
-    <color=#72d572>┃外敷：
-    ┃揭示感染<25%的隐藏感染</color>
+    <color=#72d572>┃外敷：揭示感染<25%的隐藏感染
+    手持或丢弃时发出远距离亮光</color>
     <color=#ffa726>┃消耗100%耐久</color>
-    ┃效果：<color=#91a7ff>手持或丢弃时发出远距离亮光</color>
     <color=#ffee58>┃获取：使用沙玫瑰荚获得
     ┃用途：制作抗菌糊剂。</color>
   splintdsc: |-
@@ -334,7 +335,7 @@ main:
   scrapmetaldsc: |-
     <color=#ffee58>┃获取：陷阱/废料块掉落
     ┃用途：
-    <color=#ffa726>┃手持放置方块(消耗25%耐久)</color>
+    ┃手持放置方块(消耗25%耐久)
     ┃废料吞噬者(累计150%耐久开门)
     ┃废料块(6智，>=90%+10mL生化流体)
     ┃脆弱的刀(4智，>=90%需切割)</color>
@@ -345,44 +346,44 @@ main:
     <color=#ffee58>┃用途：
     ┃神经增强剂/手电筒/液晶屏/微型激光钻/地形扫描仪/自动注射器/自动泵/骨骼焊接器/L.R.D./钻头维修包/冰敷包</color>
   bloodcrystalsharddsc: |-
-    ┃被动效果(放身上非容器)：
-    ┃<color=#91a7ff>血容量<99%时 +0.001L/s</color>
+    <color=#72d572>┃被动效果(放身上非容器)：
+    ┃血容量<99%时 +0.001L/s</color>
     <color=#ffa726>┃(携带时)腐败：-5.01%/分钟</color>
     <color=#ffee58>┃获取：破坏血晶</color>
   soothingcrystalsharddsc: |-
-    ┃被动效果(放身上非容器)：
-    ┃<color=#91a7ff>心情 +0.01/s</color>
+    <color=#72d572>┃被动效果(放身上非容器)：
+    ┃心情 +0.01/s</color>
     <color=#ffa726>┃(携带时)腐败：-5.01%/分钟</color>
     <color=#ffee58>┃获取：破坏宁神晶
     ┃制作(10)：抗抑郁药=20mL生化流体+200mL水(需宁神晶碎片)</color>
   reliefcrystalsharddsc: |-
-    ┃被动效果(放身上非容器)：
-    ┃<color=#91a7ff>全身疼痛 -5/s</color>
+    <color=#72d572>┃被动效果(放身上非容器)：
+    ┃全身疼痛 -5/s</color>
     <color=#ffa726>┃(携带时)腐败：-5.01%/分钟</color>
     <color=#ffee58>┃获取：破坏镇痛晶</color>
   turbulentcrystalsharddsc: |-
-    ┃被动效果(放身上非容器)：
-    ┃<color=#91a7ff>跳跃高度大幅提升(多个叠加效果倍增)</color>
+    <color=#72d572>┃被动效果(放身上非容器)：
+    ┃跳跃高度大幅提升(多个叠加效果倍增)</color>
     <color=#ffee58>┃获取：破坏漩涡晶/交易
     ┃制作：
     ┃重力袋(可逆向拆解刷新耐久)</color>
     <color=orange>！：携带3个以上跳跃高度危险！┃跳跃高度增加44%</color>
   oxygencrystalsharddsc: |-
-    ┃被动效果(放身上非容器)：
-    ┃<color=#91a7ff>体力 +1%/s</color>
+    <color=#72d572>┃被动效果(放身上非容器)：
+    ┃体力 +1%/s</color>
     <color=#ffa726>┃(携带时)腐败：-5.01%/分钟</color>
     <color=#ffee58>┃获取：破坏氧晶
     ┃制作(12)：高级潜水装备=1氧晶+2钛板+2电路板+2塑料块+10mL生化流体+1自动注射器+1电线捆</color>
   emissivecrystalsharddsc: |-
-    ┃效果：
-    ┃<color=#91a7ff>手持/丢弃时发光</color>
+    <color=#72d572>┃被动效果：
+    ┃手持/丢弃时发光</color>
     <color=#ffa726>┃(携带时)腐败：-5.01%/分钟</color>
     <color=#ffee58>┃获取：破坏荧光晶
     ┃制作(10)：提灯=2帆布+1木块+1荧光晶碎片</color>
     <color=orange>提示：做成提灯耐久延长66%+。</color>
   digestioncrystalsharddsc: |-
-    ┃被动效果(放身上非容器)：
-    ┃<color=#91a7ff>患病 -0.18/s</color>
+    <color=#72d572>┃被动效果(放身上非容器)：
+    ┃患病 -0.18/s</color>
     <color=#ffa726>┃(携带时)腐败：-5.01%/分钟</color>
     <color=#ffee58>┃获取：破坏消化晶</color>
   geofruitdsc: |-
@@ -396,11 +397,11 @@ main:
     <color=#ffee58>┃获取：破坏星叶杨/交易</color>
     <color=#ffa726>砾石层常见，腐败快，不宜久存。</color>
   stonefruitcloseddsc: |-
-    ┃使用：需未毁容且体力>30
-    ┃消耗30体力+5精力
     <color=#72d572>┃食用效果：
-    ┃头部疼痛+10</color>
-    ┃变为石板栗(石果)
+    ┃消耗30体力+5精力
+    ┃食用效果：
+    ┃头部疼痛+10
+    ┃变为石板栗(石果)</color>
     <color=#ffa726>┃腐败：-0.55%/分钟</color>
     <color=#ffee58>┃获取：破坏石生花</color>
   stonefruitopendsc: |-
@@ -658,16 +659,16 @@ main:
     ┃制作(10)：1灯泡+1废料管+1柔性玻璃+1塑料块+1电线捆+1电路板(>=90%)+1钉子+1(可捶打)</color>
     <color=#91a7ff>！：放入容器仍会耗电。</color>
   emergencylightdsc: |-
+    <color=#91a7ff>┃效果：发出微弱定向光束</color>
     <color=#ffa726>┃耐久消耗：10%/分钟(使用中)</color>
-    ┃效果：<color=#91a7ff>发出微弱定向光束</color>
     <color=#ffee58>┃获取：开局自带/空投舱/生命舱箱子/交易</color>
     <color=#91a7ff>！：电池不可更换，总寿命10分钟。</color>
   lanterndsc: |-
+    <color=#91a7ff>┃效果：明亮光源
+    ┃寿命约2小时，非电池光源中续航最长。</color>
     <color=#ffa726>┃耐久消耗：0.83%/分钟</color>
-    ┃效果：<color=#91a7ff>明亮光源，寿命约2小时</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(10)：1荧光晶碎片+1柔性玻璃+2木板+1钉子+1(可捶打)</color>
-    <color=#91a7ff>非电池光源中续航最长。</color>
     <color=orange>可以放在皮带上这样也可以发光不占位置</color>
   lightbulbdsc: |-
     <color=#91a7ff>┃电池：小型
@@ -900,13 +901,13 @@ main:
     增脑剂可先用一次再制成此药，后续出血用地狱菜叶/LRD处理</color>
   watchdsc: |-
     <color=#91a7ff>┃电池：小型
-    ┃持续消耗0.33/分钟</color>
+    ┃持续消耗0.33/分钟
     ┃功能：
-    ┃<color=#91a7ff>每20s报房颤；每30s报失血时间；每1分40s报感染/骨折/脱臼；每10分报体重变化(+3.25心情)</color>
+    ┃每20s报房颤；每30s报失血时间；每1分40s报感染/骨折/脱臼；每10分报体重变化(+3.25心情)</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   mp3playerdsc: |-
-    <color=#91a7ff>┃电池：小型</color>
-    ┃效果：<color=#91a7ff>切换/播放音乐，提升心情</color>
+    <color=#91a7ff>┃电池：小型
+    ┃效果：切换/播放音乐，提升心情</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
     <color=orange>可播放自定义歌曲(放入文件夹)。极轻(0.10u)。</color>
     <color=#91a7ff>可拆电池。</color>
@@ -994,7 +995,7 @@ main:
     ┃损耗系数：0.45</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   autozoomgogglesdsc: |-
-    ┃效果：<color=#91a7ff>视野距离增加</color>
+    <color=#91a7ff>┃效果：视野距离增加</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   blindfolddsc: |-
     <color=#91a7ff>┃护甲：0.1
@@ -1056,8 +1057,8 @@ main:
     <color=#ffee58>┃获取：吃完爆米花获得</color>
     <color=#ffa726>快速腐败，约21分钟寿命。</color>
   spacedraindsc: |-
-    ┃效果：抽干周围9格液体
-    ┃冷却：30秒
+    <color=#91a7ff>┃效果：抽干周围9格液体
+    ┃冷却：30秒</color>
     <color=#ffee58>┃获取：交易</color>
   hoodiedsc: |-
     <color=#91a7ff>┃护甲：0.25
@@ -1066,8 +1067,8 @@ main:
     <color=#ffa726>┃(穿戴时)腐败：0%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   metabolismchipdsc: |-
-    ┃效果：<color=#91a7ff>肢体再生速度+50%</color>
-    ┃副作用：饥饿消耗+50%
+    <color=#91a7ff>┃效果：肢体再生速度+50%
+    ┃副作用：饥饿消耗+50%</color>
     <color=#ffee58>┃获取：交易(稀有)</color>
   xalorisspongedsc: |-
     <color=#72d572>┃食用效果：
@@ -1086,8 +1087,8 @@ main:
     <color=#ffee58>┃获取：破坏热能蕨/交易</color>
     <color=orange>野外可得的消毒物品。</color>
   jetpackdsc: |-
-    ┃燃料：<color=orange>100</color>
-    ┃使用消耗<color=orange>0.75/s(飞行中)</color>
+    <color=#91a7ff>┃燃料：100
+    ┃使用消耗0.75/s(飞行中)</color>
     <color=#ffee58>┃获取：交易</color>
     <color=orange>身体潮湿时，概率不受控制熄火</color>
   dynamitedsc: |-
@@ -1097,7 +1098,7 @@ main:
     ┃制作(10)：2易燃粉末+1细绳+1废料板+1(可捶打)</color>
     <color=orange>爆炸范围大，伤害高，注意保持距离。</color>
   climbingclawsdsc: |-
-    ┃效果：<color=#91a7ff>可在墙壁上攀爬和跳跃</color>
+    <color=#91a7ff>┃效果：可在墙壁上攀爬和跳跃</color>
     <color=#ffee58>┃获取：交易</color>
     <color=orange>早期探索利器，方便进入高处区域。</color>
   plasmacutterdsc: |-
@@ -1111,11 +1112,11 @@ main:
     <color=#91a7ff>提示：满电约3000次，金属方块总伤害30万。</color>
     <color=orange>突破钢制结构的首选工具。</color>
   grapplinghookdsc: |-
-    ┃效果：<color=#91a7ff>发射钩爪，牵引至目标点</color>
+    <color=#91a7ff>┃效果：发射钩爪，牵引至目标点</color>
     <color=#ffee58>┃获取：交易</color>
   ceftriaxonedsc: |-
     <color=#ffee58>┃获取：医疗箱/空投舱/交易</color>
-    ┃该注射器可在心情<-75时使用
+    <color=orange>该注射器可在心情<-75时使用。</color>
   woundgluedsc: |-
     <color=#72d572>┃外敷：
     ┃皮肤 +10
@@ -1167,8 +1168,8 @@ main:
     ┃制作(12)：3废料板+1废料管+1液晶显示屏+1钉子+1电线捆+1电路板(>=90%)+1(可捶打)</color>
     <color=orange>探宝探矿利器，可发现隐藏金属物。</color>
   geigercounterdsc: |-
-    <color=#91a7ff>┃电池：小型</color>
-    ┃效果：<color=#91a7ff>显示环境辐射水平</color>
+    <color=#91a7ff>┃电池：小型
+    ┃效果：显示环境辐射水平</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(11)：2废料板+1废料块(>=90%)+1液晶显示屏+1电线捆+1电路板(>=90%)+10mL生化流体+1(可捶打)</color>
   handcrankdsc: |-
@@ -1177,15 +1178,15 @@ main:
     <color=#ffee58>┃获取：交易
     ┃制作(14)：1电路板(>=90%)+2钛板+1加工铜块+2电线捆+1废料管+1塑料块+20mL生化流体+1(可捶打)</color>
   sleepingbagdsc: |-
-    ┃效果：<color=#91a7ff>提升睡眠质量一级(上限优质)</color>
+    <color=#91a7ff>┃效果：提升睡眠质量一级(上限优质)</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   liquidcentrifugedsc: |-
     ┃效果：分离容器中混合液体(损失约1/3)
     ┃冷却：60秒
     <color=#ffee58>┃获取：交易</color>
   epdadsc: |-
-    <color=#91a7ff>┃电池：中型</color>
-    ┃效果：<color=#91a7ff>阅读监管者笔记，提升智力经验</color>
+    <color=#91a7ff>┃电池：中型
+    ┃效果：阅读监管者笔记，提升智力经验</color>
     <color=#ffee58>┃获取：生命舱箱子/交易</color>
   bloodcoagulantdsc: <color=#ffee58>┃获取：医疗箱/空投舱/交易</color>
   combatpendsc: <color=#ffee58>┃获取：医疗箱/空投舱/交易</color>
@@ -1212,10 +1213,9 @@ main:
   icepackdsc: |-
     <color=#72d572>┃外敷：
     ┃施加“寒冷”效果 2分30秒
-    ┃体温 -1°C</color>
+    ┃体温 -1°C
+    ┃会随时间自动恢复到满耐久，永不损坏。</color>
     <color=#ffa726>┃消耗 50% 耐久</color>
-    ┃特点：
-    ┃耐久低于50%时无法使用，但会随时间自动恢复到满耐久，永不损坏。
     <color=#ffee58>┃获取：医疗箱/空投舱/交易(目前无法制作，因寒霜果尚未实装)
     ┃制作(14)：2寒霜果(>=50%)+200mL(液体)+2帆布+1细绳+1电路板(>=90%)
     特殊用途：可降低体温以通过炮塔的热感应；在炎热地区挖矿或战斗时极其实用。</color>
@@ -1245,7 +1245,7 @@ main:
     ┃损耗系数：0.75</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   plushiedsc: |-
-    ┃效果：<color=#91a7ff>心情低于-60时自动摧毁玩偶并恢复5心情</color>
+    <color=#91a7ff>┃效果：心情低于-60时自动摧毁玩偶并恢复5心情</color>
     <color=#ffee58>┃获取：交易/空投舱</color>
     <color=orange>不同类型叫声不同(蜥蜴玩偶会“Weh”)。</color>
   tornshirtdsc: |-
@@ -1257,8 +1257,8 @@ main:
     <color=orange>可撕碎为绷带。</color>
   rangefinderdsc: |-
     <color=#91a7ff>┃电池：小型
-    ┃每次消耗0.50%</color>
-    ┃效果：<color=#91a7ff>显示光标方向最近固体距离</color>
+    ┃效果：显示光标方向最近固体距离
+    <color=#ffa726>每次消耗0.50%</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     用途：测量深渊深度。</color>
   mindwipedsc: |-
@@ -1276,8 +1276,8 @@ main:
     ┃制作(12)：1氧晶碎片+2废料板+2废料管+1柔性玻璃+2塑料块+10mL生化流体+1电线捆+1(可捶打)+1(可切割)</color>
     <color=orange>！：占用背部槽位，无法同时背包。适合水域丰富层数。</color>
   filterstrawdsc: |-
-    ┃效果：
-    ┃主手持有时，饮用地表/容器中的地下水/污水/树汁无患病；荧光藻患病减半；无法饮用原油
+    <color=#91a7ff>┃效果：
+    ┃主手持有时，饮用地表/容器中的地下水/污水/树汁无患病；荧光藻患病减半；无法饮用原油</color>
     <color=#ffa726>┃腐败：-0.60%/分钟</color>
     <color=#ffee58>┃获取：物资箱/交易 (稀有)</color>
   wrenchdsc: |-
@@ -1331,8 +1331,8 @@ main:
   sneakersdsc: |-
     <color=#91a7ff>┃护甲：1.0
     ┃保温：7%
-    ┃损耗系数：0.60</color>
-    ┃效果：<color=#91a7ff>踩玻璃碎片每次-6%耐久(约16-17次)</color>
+    ┃损耗系数：0.60
+    ┃效果：踩玻璃碎片每次-6%耐久(约16-17次)</color>
     <color=#ffa726>┃(穿戴时)腐败：0.33%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
     <color=orange>可撕碎为绷带。</color>
@@ -1493,8 +1493,8 @@ main:
     ┃制作(12)：2废料板+1钉子+1塑料块+1(可捶打)
     ┃用途：制作手枪弹匣(基座+塑料，锤) | 步枪弹匣(基座+废料板，锤) | 临时步枪等</color>
   makeshiftrifledsc: |-
-    ┃伤害：<color=#91a7ff>85 ~ 115</color>
-    ┃弹药：9mm小弹匣 | 栓动(每发拉栓)
+    <color=#91a7ff>┃伤害：85 ~ 115
+    ┃弹药：9mm小弹匣 | 栓动(每发拉栓)</color>
     <color=#ffee58>┃获取：制作
     ┃制作(12)：1弹匣基座+1钉子+2废料板+2废料管+1细绳+1(可切割)+1(可捶打)</color>
     <color=orange>伤害比手枪高11%，但需手动拉栓，DPS低。适合对付300-400血敌人。
@@ -1589,7 +1589,7 @@ main:
     最多能保存液体5分钟
     等待wiki更新资料
   nondescriptcandsc: |-
-    ┃效果：<color=orange>完全随机！</color>
+    <color=#91a7ff>┃效果：完全随机！</color>
     <color=#72d572>┃食用效果：
     ┃饥饿/口渴：0~20随机
     ┃体重：-0.34~1kg随机
@@ -1681,16 +1681,15 @@ main:
     ┃使用次数：<color=#91a7ff>约100次</color>
     <color=#ffee58>┃用途：篝火(需3燃料)</color>
   presentdsc: |-
-    ┃使用效果：
-    <color=#ffa726>┃消耗100%耐久，获得随机毛绒玩偶+节日帽。</color>
-    <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
+    <color=#91a7ff>┃使用效果：
+    ┃消耗100%耐久，获得随机毛绒玩偶+节日帽。</color>
+    ┃获取：物资箱/空投舱/交易</color>
     <color=orange>唯一稳定获取玩偶和节日帽的途径。</color>
   woodsandalsdsc: |-
     <color=#ffa726>┃(穿戴时)腐败：0%/分钟</color>
     <color=#ffee58>┃获取：制作
     ┃制作(8)：2木板+2绳子+1细绳</color>
   minibarreldsc: |-
-    ┃容量 10,000mL(10L) | 每次饮用100ml
     <color=#ffee58>┃获取：各层随机生成(不可制作/交易)</color>
     <color=orange>随机最高8种液体，可分离：用离心机分离损失1/3。
     桶+液体交易上限50价值，过重时摔落伤害大大增加，版本v1.8.0
@@ -3748,7 +3747,6 @@ other:
     <color=#72d572>┃饮用(每100mL)：饥饿 +2.5┃口渴 +9.5┃心情 +0.2┃体重 +0.07kg┃体温 -0.2</color>
     <color=#ffee58>┃制作(4)：250mL混合果汁+热源=200mL精制果汁</color>
   watchweight: |-
-
     ┃<color=#FCFCFC>权重偏移 -80~100 | 显示 偏移×0.34+50
     ┃影响负重/隔热/血压/移动</color>
   pushupsdsc: 体感上俯卧撑是力量0.3/s，

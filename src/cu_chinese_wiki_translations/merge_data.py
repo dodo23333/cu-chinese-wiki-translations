@@ -46,7 +46,7 @@ def append_string(config: Merger, path: list, base: str, nxt: str) -> str:
         return base
 
     key = str(path[-1]) if path else ""
-    return f"{base}\n\n{nxt}" if key.endswith("dsc") else f"{base}{nxt}"
+    return f"{base}\n{nxt}" if key.endswith("dsc") else f"{base}{nxt}"
 
 
 translation_merger = Merger(
