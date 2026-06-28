@@ -27,9 +27,9 @@ main:
   rippeddressingdsc: |-
     ┃每一圈(共8圈)：
     ┃<color=#88ff88>皮肤 +1</color>
-    ┃骨折 <color=#88ff88>-0.63%</color>
-    ┃脱臼 <color=#88ff88>-0.63%</color>
-    ┃出血 <color=#88ff88>-0.034L/分钟(1.8秒内生效)</color>
+    ┃<color=#88ff88>骨折 -0.63%</color>
+    ┃<color=#88ff88>脱臼 -0.63%</color>
+    ┃<color=#88ff88>出血 -0.034L/分钟(1.8秒内生效)</color>
     ┃疼痛 -5
     ┃消耗 12.5% 耐久
     ┃获取：<color=#aaaaaa>医疗箱/集装箱/空投舱/生命舱箱子/交易</color>
@@ -41,9 +41,9 @@ main:
     ┃潮湿 -50% | 消耗 5% 耐久
     ┃每一圈(共8圈)：
     ┃<color=#88ff88>皮肤 +1</color>
-    ┃骨折 <color=#88ff88>-0.63%</color>
-    ┃脱臼 <color=#88ff88>-0.63%</color>
-    ┃出血 <color=#88ff88>-0.019L/分钟(1秒内生效)</color>
+    ┃<color=#88ff88>骨折 -0.63%</color>
+    ┃<color=#88ff88>脱臼 -0.63%</color>
+    ┃<color=#88ff88>出血 -0.019L/分钟(1秒内生效)</color>
     ┃疼痛 -3.13
     ┃消耗 12.5% 耐久
     ┃获取：<color=#aaaaaa>医疗箱/空投舱/生命舱箱子/交易</color>
@@ -51,7 +51,7 @@ main:
   analgesicgauzedsc: |-
     ┃每一圈(共15圈)：
     ┃<color=#88ff88>皮肤 +1.33</color>
-    ┃出血 <color=#88ff88>-0.05L/分钟(2.67秒内生效)</color>
+    ┃<color=#88ff88>出血 -0.05L/分钟(2.67秒内生效)</color>
     ┃疼痛 -20
     ┃阿片类水平 +1.87
     ┃消耗 6.67% 耐久
@@ -61,7 +61,7 @@ main:
     ┃每一圈(共15圈)：
     ┃<color=#88ff88>皮肤 +8.33</color>
     ┃<color=#88ff88>消毒 53秒</color>
-    ┃出血 <color=#88ff88>-0.073L/分钟(3.9秒内生效)</color>
+    ┃<color=#88ff88>出血 -0.073L/分钟(3.9秒内生效)</color>
     ┃疼痛 -5.33
     ┃消耗 6.67% 耐久
     ┃获取：<color=#aaaaaa>医疗箱/物资箱/空投舱/生命舱箱子/交易</color>
@@ -69,10 +69,10 @@ main:
   sterilizedbandagedsc: |-
     ┃每一圈(共12圈)：
     ┃<color=#88ff88>皮肤 +2.5</color>
-    ┃骨折 <color=#88ff88>-1.67%</color>
-    ┃脱臼 <color=#88ff88>-1.67%</color>
+    ┃<color=#88ff88>骨折 -1.67%</color>
+    ┃<color=#88ff88>脱臼 -1.67%</color>
     ┃<color=#88ff88>消毒 75秒</color>
-    ┃出血 <color=#88ff88>-0.056L/分钟(3秒内生效)</color>
+    ┃<color=#88ff88>出血 -0.056L/分钟(3秒内生效)</color>
     ┃疼痛 -5
     ┃消耗 8.33% 耐久
     ┃获取：<color=#aaaaaa>医疗箱/物资箱/空投舱/生命舱箱子/交易</color>
@@ -81,9 +81,9 @@ main:
   plasticbandagedsc: |-
     ┃每一圈(共12圈)：
     ┃<color=#88ff88>皮肤 +5</color>
-    ┃骨折 <color=#88ff88>-2.5%</color>
-    ┃脱臼 <color=#88ff88>-2.5%</color>
-    ┃出血 <color=#88ff88>-0.09L/分钟(在4.8秒内生效)</color>
+    ┃<color=#88ff88>骨折 -2.5%</color>
+    ┃<color=#88ff88>脱臼 -2.5%</color>
+    ┃<color=#88ff88>出血 -0.09L/分钟(在4.8秒内生效)</color>
     ┃疼痛 -8.33
     ┃消耗 8.33% 耐久
     ┃获取：<color=#aaaaaa>医疗箱/空投舱/生命舱箱子/交易</color>
@@ -92,7 +92,7 @@ main:
   adhesivebandagedsc: |-
     ┃外敷：
     ┃<color=#88ff88>皮肤 +3</color>
-    ┃出血 <color=#88ff88>-0.09L/分钟(4.8秒内生效)</color>
+    ┃<color=#88ff88>出血 -0.09L/分钟(4.8秒内生效)</color>
     ┃疼痛 -10%
     ┃消耗 16% 耐久
     ┃获取：<color=#aaaaaa>医疗箱/物资箱/空投舱/生命舱箱子</color>
@@ -100,7 +100,7 @@ main:
   musharmdsc: |-
     ┃每一圈(共2.5圈)：
     ┃<color=#88ff88>皮肤 +3.2</color>
-    ┃出血 <color=#88ff88>-0.06L/分钟(3.2秒内生效)</color>
+    ┃<color=#88ff88>出血 -0.06L/分钟(3.2秒内生效)</color>
     ┃消耗 40% 耐久
     ┃腐败：<color=#ffaa00>-5%/分钟</color>
     ┃获取：<color=#aaaaaa>破坏水泡菇</color>
@@ -117,9 +117,9 @@ main:
   makeshiftlrddsc: |-
     ┃外敷：
     ┃<color=#88ff88>肌肉 +50(相邻肢体+40)</color>
-    ┃感染 <color=#88ff88>-10(相邻肢体-5)</color>
+    ┃<color=#88ff88>感染 -10(相邻肢体-5)</color>
     ┃<color=#88ff88>消毒 6分40秒(相邻肢体5分钟)</color>
-    ┃内出血(仅胸部) <color=#88ff88>-25%</color>
+    ┃<color=#88ff88>内出血(仅胸部) -25%</color>
     ┃消耗 50% 耐久
     ┃额外效果：<color=#88ff88>提供1分钟精力充沛，60肾上腺素</color> | 毒素 -12
     ┃获取：<color=#aaaaaa>医疗箱/制作(10智力?)</color>
@@ -128,11 +128,11 @@ main:
   lrddsc: |-
     ┃外敷：
     ┃<color=#88ff88>肌肉 +50(相邻肢体+40)</color>
-    ┃感染 <color=#88ff88>-10(相邻肢体-5)</color>
+    ┃<color=#88ff88>感染 -10(相邻肢体-5)</color>
     ┃<color=#88ff88>消毒 10分钟(相邻肢体5分钟)</color>
-    ┃出血 <color=#88ff88>-30%(相邻肢体-25%)</color>
+    ┃<color=#88ff88>出血 -30%(相邻肢体-25%)</color>
     ┃阿片类水平 35
-    ┃内出血(仅胸部) <color=#88ff88>-55%</color>
+    ┃<color=#88ff88>内出血(仅胸部) -55%</color>
     ┃消耗 50% 耐久
     ┃额外效果：<color=#88ff88>提供1分钟精力充沛，90肾上腺素</color> | 毒素 -12
     ┃获取：<color=#aaaaaa>医疗箱/制作(15智力?)</color>
@@ -209,7 +209,7 @@ main:
     ┃用途：<color=#aaaaaa>制作抗菌糊剂。</color>
   splintdsc: |-
     ┃佩戴效果：┃<color=#88ff88>脱臼愈合速度 +100%</color>
-    ┃骨折愈合速度 <color=#88ff88>+150%</color>
+    ┃<color=#88ff88>骨折愈合速度 +150%</color>
     ┃耐久消耗：┃仅当佩戴在肢体上时，每分钟消耗1.50%耐久。
     ┃获取/制作：
     ┃制作(8)：3木板+2废料管+1钉子+1(可捶打)=1夹板(80%)
@@ -402,7 +402,7 @@ main:
     ┃获取：<color=#aaaaaa>破坏石生花</color>
   stonefruitopendsc: |-
     ┃饥饿 +8
-    ┃口渴 <color=#ffaa00>-5</color>
+    ┃<color=#ffaa00>口渴 -5</color>
     ┃体重 +0.1kg
     ┃消耗 100% 耐久
     ┃腐败：<color=#ffaa00>-0.71%/分钟</color>
@@ -484,7 +484,7 @@ main:
     <color=#ffaa00>特点：腐败较慢，适合作为长期口粮(需另备饮水)。</color>
   cerealdsc: |-
     ┃饥饿 +6
-    ┃口渴 <color=#ffaa00>-2.5</color>
+    ┃<color=#ffaa00>口渴 -2.5</color>
     ┃体重 +0.15kg
     ┃消耗 20% 耐久
     ┃腐败：<color=#ffaa00>-0.33%/分钟</color>
@@ -496,7 +496,7 @@ main:
     ┃口渴 +7.5
     ┃心情 +1.5
     ┃体重 +0.14kg
-    ┃体温 <color=#88ccff>-0.25°C</color>
+    ┃<color=#88ccff>体温 -0.25°C</color>
     ┃消耗 20% 耐久
     ┃获取：<color=#aaaaaa>食物箱/空投舱/交易</color>
     ┃制作(2)：1麦片+500mL牛奶=3麦片碗
@@ -544,7 +544,7 @@ main:
     ┃饥饿 +7
     ┃心情 +2.5
     ┃体重 +0.27kg
-    ┃患病 <color=#ffaa00>+20</color>
+    ┃<color=#ffaa00>患病 +20</color>
     ┃消耗 34% 耐久
     ┃腐败：<color=#ffaa00>-0.22%/分钟</color>
     ┃获取：
@@ -651,7 +651,7 @@ main:
     <color=#ffaa00>非电池光源中续航最长。可以放在皮带上这样也可以发光不占位置</color>
   lightbulbdsc: |-
     ┃电池：<color=#88ff88>小型</color>
-    ┃持续消耗 <color=#ffaa00>5/分钟</color>
+    ┃<color=#ffaa00>持续消耗 5/分钟</color>
     ┃获取：<color=#aaaaaa>生命舱顶灯拆取/物资箱/交易</color>
     ┃制作(11)：2柔性玻璃+1废料块+1钉子+2电线捆
     <color=#ffaa00>！：放入头部槽约2秒后爆炸(75疼痛/30皮肤伤/5肌肉伤/出血/破片)。不自动拾取。</color>
@@ -700,7 +700,7 @@ main:
     ┃<color=#88ff88>方块 25.1</color> ┃ <color=#88ff88>敌人 15</color>
     ┃<color=#88ff88>体力 0</color> ┃ <color=#88ff88>冷却 0.16秒</color>
     ┃电池：<color=#88ccff>中型</color>
-    ┃每次消耗 <color=#ffaa00>0.14电量</color>
+    ┃<color=#ffaa00>每次消耗 0.14电量</color>
     ┃获取：<color=#aaaaaa>生命舱箱子/交易</color>
     ┃制作(16)：3钛板+2柔性玻璃+2电线捆+1电路板(>=90%)+1手电筒+1塑料块+1钉子+1(可切割)+1(可捶打)
     <color=#ffaa00>提示：仅挖掘/攻击消耗耐久。满电约700次，总方块伤害17570。</color>
@@ -708,7 +708,7 @@ main:
     ┃<color=#88ff88>方块 60</color> ┃ <color=#88ff88>敌人 50</color>
     ┃<color=#88ff88>体力 0</color> ┃ <color=#88ff88>冷却 0.16秒</color>
     ┃电池：<color=#88ccff>大型</color>
-    ┃每次消耗 <color=#ffaa00>0.24电量</color>
+    ┃<color=#ffaa00>每次消耗 0.24电量</color>
     ┃获取：<color=#aaaaaa>交易</color>
     <color=#ffaa00>提示：仅挖掘/攻击消耗耐久。满电约1260次，总方块伤害75600。</color>
   pickaxedsc: |-
@@ -790,7 +790,7 @@ main:
     <color=#ffaa00>金属版的下位替代，但仍优于徒手。</color>
   experimentfleshdsc: |-
     ┃饥饿 +12.5 
-    ┃体重 +0.14kg | 患病 <color=#ffaa00>+16</color> | 心情 <color=#ffaa00>-6</color>
+    ┃体重 +0.14kg | <color=#ffaa00>患病 +16</color> | <color=#ffaa00>心情 -6</color>
     ┃腐败：<color=#ffaa00>-3.33%/分钟</color>
     ┃获取：
     ┃<color=#aaaaaa>尸体/交易/生命舱/棘背兽长老</color>
@@ -811,7 +811,7 @@ main:
     ┃饥饿 +15/次
     ┃体重 +1.02kg/次
     ┃副作用：
-    ┃患病 <color=#ffaa00>+32</color>
+    ┃<color=#ffaa00>患病 +32</color>
     ┃心情 -18
     ┃腐败：<color=#ffaa00>-5%/分钟</color>
     ┃获取：<color=#aaaaaa>随机生成/结构内</color>
@@ -866,7 +866,7 @@ main:
     ┃口渴 +4
     ┃心情 -0.8
     ┃患病 +7
-    ┃体重 <color=#88ff88>-0.85kg</color>
+    ┃<color=#88ff88>体重 -0.85kg</color>
     ┃阿片当量 +10
     ┃腐败：<color=#ffaa00>-6.67%/分钟</color>
     ┃获取：<color=#aaaaaa>破坏水泡菇</color>
@@ -923,7 +923,7 @@ main:
     <color=#ffaa00>无实用属性，纯装饰品。</color>
   headlampdsc: |-
     ┃电池：<color=#88ff88>小型</color>
-    ┃持续消耗 <color=#ffaa00>1.25/分钟</color>
+    ┃<color=#ffaa00>持续消耗 1.25/分钟</color>
     ┃获取：<color=#aaaaaa>物资箱/空投舱/交易</color>
     ┃制作(8)：1手电筒+1绳子+1(钉子)+1(可捶打)
   dustmaskdsc: |-
@@ -1053,7 +1053,7 @@ main:
     ┃<color=#88ff88>方块 10(对金属x10即100)</color> ┃ <color=#88ff88>敌人 10</color>
     ┃<color=#88ff88>体力 0</color> ┃ <color=#88ff88>冷却 0.1秒</color>
     ┃电池：<color=#88ccff>大型</color>
-    ┃每次消耗 <color=#ffaa00>0.1电量</color>
+    ┃<color=#ffaa00>每次消耗 0.1电量</color>
     ┃医疗用途：皮肤-12，出血-80%，疼痛+45(灼烧止血)
     ┃获取：<color=#aaaaaa>物资箱/生命舱箱子/空投舱/交易</color>
     <color=#ffaa00>提示：满电约3000次，金属方块总伤害30万。突破钢制结构的首选工具。</color>
@@ -1067,8 +1067,8 @@ main:
   woundgluedsc: |-
     ┃外敷：
     ┃<color=#88ff88>皮肤 +10</color>
-    ┃出血 <color=#88ff88>-0.30L/分钟</color>
-    ┃疼痛 <color=#ffaa00>+8</color>
+    ┃<color=#88ff88>出血 -0.30L/分钟</color>
+    ┃<color=#ffaa00>疼痛 +8</color>
     ┃消耗 25% 耐久
     ┃获取：<color=#aaaaaa>医疗箱/空投舱/交易</color>
   boneweldingtooldsc: |-
@@ -1145,7 +1145,7 @@ main:
     <color=#ffaa00>智力要求：12</color>
     ┃对胸部使用：
     ┃<color=#88ff88>血胸 -35</color>
-    ┃出血 <color=#ffaa00>+0.04L/分钟</color>
+    ┃<color=#ffaa00>出血 +0.04L/分钟</color>
     ┃消耗 100% 耐久
     ┃特点：
     ┃使用后耐久耗尽，但会随时间自动充能恢复，可重复使用。
@@ -1164,7 +1164,7 @@ main:
   icepackdsc: |-
     ┃外敷：
     ┃<color=#88ff88>施加“寒冷”效果 2分30秒</color>
-    ┃体温 <color=#88ccff>-1°C</color>
+    ┃<color=#88ccff>体温 -1°C</color>
     ┃消耗 50% 耐久
     ┃特点：
     ┃耐久低于50%时无法使用，但会随时间自动恢复到满耐久，永不损坏。
@@ -1249,8 +1249,8 @@ main:
     ┃每一圈(共10圈)：
     ┃外敷：
     ┃<color=#88ff88>皮肤 +10</color>
-    ┃肌肉 <color=#88ff88>+14(14秒内生效)</color>
-    ┃脱臼 <color=#88ff88>-8%</color>
+    ┃<color=#88ff88>肌肉 +14(14秒内生效)</color>
+    ┃<color=#88ff88>脱臼 -8%</color>
     ┃疼痛 -8
     ┃消耗 10% 耐久
     ┃获取：<color=#aaaaaa>医疗箱/空投舱/交易</color>
@@ -1259,8 +1259,8 @@ main:
   medicalsuturedsc: |-
     ┃外敷：
     ┃<color=#88ff88>皮肤 +25</color>
-    ┃出血 <color=#88ff88>-0.81L/分钟</color>
-    ┃疼痛 <color=#ffaa00>+10</color>
+    ┃<color=#88ff88>出血 -0.81L/分钟</color>
+    ┃<color=#ffaa00>疼痛 +10</color>
     ┃消耗 51% 耐久
     ┃获取：<color=#aaaaaa>医疗箱/物资箱/交易 (不可制作)</color>
     <color=#ffaa00>特点：极轻(0.10u)，可放入材料袋。止血效果立竿见影，适合处理致命大出血。</color>
@@ -1300,7 +1300,7 @@ main:
     ┃口渴 +3.5
     ┃心情 +0.5
     ┃体重 +0.02kg
-    ┃体温 <color=#88ccff>-2.5°C</color>
+    ┃<color=#88ccff>体温 -2.5°C</color>
     ┃消耗 50% 耐久
     ┃腐败：<color=#ffaa00>-20%/分钟</color>
     ┃获取：<color=#aaaaaa>交易(开发中物品)</color>
@@ -1310,7 +1310,7 @@ main:
     ┃患病 -11
     ┃内出血 -20%
     ┃听力损伤 -8
-    ┃体温 <color=#ffaa00>+2°C</color>
+    ┃<color=#ffaa00>体温 +2°C</color>
     ┃消耗 50% 耐久
     ┃腐败：<color=#ffaa00>-0.33%/分钟</color>
     ┃获取：<color=#aaaaaa>破坏摔炮花/交易</color>
@@ -1321,7 +1321,7 @@ main:
     ┃肾上腺素 +100
     ┃外敷：
     ┃<color=#88ff88>疼痛*10%</color>
-    ┃出血 <color=#88ff88>-0.12L/分钟(6.4秒内生效)</color>
+    ┃<color=#88ff88>出血 -0.12L/分钟(6.4秒内生效)</color>
     ┃肾上腺素 +50
     ┃腐败：<color=#ffaa00>-5%/分钟</color>
     ┃获取：<color=#aaaaaa>破坏摔炮花/交易</color>
