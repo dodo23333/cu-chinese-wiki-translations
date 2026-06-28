@@ -9,6 +9,13 @@ Q群：521023836
 
 如果只是单纯想反馈问题的话更建议直接开issue或者pr
 
+## 关于颜色
+调色板为Google UI
+- 工具属性: `#91a7ff`
+- 食物医疗: `#72d572`
+- 配方用途: `#ffee58`
+- 腐败耐久: `#ffa726`
+
 ## 安装
 这个项目使用[uv](https://docs.astral.sh/uv/getting-started/installation/),请确定你安装了它
 
