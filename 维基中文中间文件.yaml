@@ -2518,19 +2518,19 @@ moodles:
   withdrawal1dsc: |-
     <color=#ffaa00>阿片类接收 < -5%</color>
     <color=#888888>┃情绪缓慢下降 | 呕吐积累。</color>
-    <color=#3CCBE7>┃治疗: 口服 <color=#3CCC78>纳曲酮</color> 或注射 <color=#3CCC78>纳洛酮</color></color>
+    <color=#3CCBE7>┃治疗: 口服 <color=#3CCC78>纳曲酮</color>
   withdrawal2dsc: |-
     <color=#ffaa00>阿片类接收 < -15%</color>
     <color=#888888>┃患病开始增加 | 轻微晕影。</color>
-    <color=#3CCBE7>┃治疗: 口服 <color=#3CCC78>纳曲酮</color> 或注射 <color=#3CCC78>纳洛酮</color></color>
+    <color=#3CCBE7>┃治疗: 口服 <color=#3CCC78>纳曲酮</color>
   withdrawal3dsc: |-
     <color=#ffaa00>阿片类接收 < -25%</color>
     <color=#888888>┃效果加剧。</color>
-    <color=#3CCBE7>┃治疗: 口服 <color=#3CCC78>纳曲酮</color> 或注射 <color=#3CCC78>纳洛酮</color></color>
+    <color=#3CCBE7>┃治疗: 口服 <color=#3CCC78>纳曲酮</color>
   withdrawal4dsc: |-
     <color=#ff4444>阿片类接收 < -34%</color>
     <color=#888888>┃脑组织受损 | 强制推进纤颤。</color>
-    <color=#3CCBE7>┃治疗: 立即口服 <color=#3CCC78>纳曲酮</color> 或注射 <color=#3CCC78>纳洛酮</color></color>
+    <color=#3CCBE7>┃治疗: 立即口服 <color=#3CCC78>纳曲酮</color>
   stimulateddsc: <color=#88ff88>兴奋剂效果 > 0秒</color>
   drugoverdosedsc: |-
     <color=#ff4444>抗抑郁药/安眠药过量</color>
