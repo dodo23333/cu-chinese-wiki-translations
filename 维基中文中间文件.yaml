@@ -1,15 +1,16 @@
 name: <color=yellow>维基中文</color>
-version: v1.8.0
+version: v1.8.1
 extend_description: |-
   <color=orange>包含内华达刃脊锁补丁的多人联机汉化</color> 
   并由<color=yellow>维基中文制作组</color>在此基础上扩展的功能性维基翻译补丁
 
-  <color=green>当前版本1.8.0(2026-6-27)</color>
   <color=blue>再次感谢简中版及内华达刃脊制作组</color>
-
   <color=purple>所有数据信息均来自制作组解包数据，保证准确率高</color>
-  <color=red>Github上的该项目以及贡献者(更详细的信息)：</color>
+
+  <color=orange>更详细的贡献者信息及发布页：</color>
   <color=yellow>https://github.com/StreamWind114514/Casualties-Unknown-Simplified-Chinese-Wiki</color>
+  <color=orange>翻译项目(贡献或者反馈问题(issue&PR)进这里)：</color>
+  <color=yellow>https://github.com/dodo23333/cu-chinese-wiki-translations</color>
   <color=orange>往后的更新及改动内容请前往Github查看</color>
 main:
   bandagedsc: |-
