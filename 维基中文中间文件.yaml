@@ -2335,674 +2335,644 @@ moodles:
   clawdamage1: (<60%)
   clawdamage2: (<25%)
   braindamage4dsc: |-
-    <color=#ff4444>脑组织完整性 < 30%</color>
-    <color=#888888>┃状态：完全丧失意识。</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>增脑剂</color> | <color=#3CCC78>神经增强剂</color> | 等待(恢复1/6分钟)</color>
+    脑组织完整性 < 30%
+    ┃状态：完全丧失意识。
+    ┃治疗: 服用 增脑剂 | 神经增强剂 | 等待(每6分钟恢复1)
   braindamage3dsc: |-
-    <color=#ff4444>脑组织完整性 < 60%</color>
-    <color=#888888>┃极端视觉扭曲 | 低于50%时失语。</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>增脑剂</color> | <color=#3CCC78>神经增强剂</color> | 等待(恢复1/6分钟)</color>
+    脑组织完整性 < 60%
+    ┃极端视觉扭曲 | 低于50%时失语。
+    ┃治疗: 服用 增脑剂 | 神经增强剂 | 等待(每6分钟恢复1)
   braindamage2dsc: |-
-    <color=#ff4444>脑组织完整性 < 80%</color>
-    <color=#888888>┃中高度视觉扭曲 | 言语困难。</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>增脑剂</color> | <color=#3CCC78>神经增强剂</color> | 等待(恢复1/6分钟)</color>
+    脑组织完整性 < 80%
+    ┃中高度视觉扭曲 | 言语困难。
+    ┃治疗: 服用 增脑剂 | 神经增强剂 | 等待(每6分钟恢复1)
   braindamage1dsc: |-
-    <color=#888888>脑组织完整性 < 95%</color>
-    <color=#888888>┃轻度视觉扭曲 | 偶尔失控。</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>增脑剂</color> | <color=#3CCC78>神经增强剂</color> | 等待(恢复1/6分钟)</color>
+    脑组织完整性 < 95%
+    ┃轻度视觉扭曲 | 偶尔失控。
+    ┃治疗: 服用 增脑剂 | 神经增强剂 | 等待(每6分钟恢复1)
   strokedsc: |-
-    <color=#ff4444>中风 > 70%</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>促凝剂</color> | 请快速降低血压</color>
+    中风 > 70%
+    ┃治疗: 注射 促凝剂 | 请快速降低血压
   cantbreathedsc: |-
-    <color=#ff4444>呼吸频率 < 2.5次/分钟</color>
-    <color=#888888>┃氧含量无法恢复，持续下降。</color>
-    <color=#3CCBE7>┃治疗: 若是阿片类药物过量所致，
-    ┃请口服 <color=#3CCC78>纳曲酮</color> | 注射 <color=#3CCC78>纳洛酮</color></color>
+    呼吸频率 < 2.5次/分钟
+    ┃氧含量无法恢复，持续下降。
+    ┃治疗: 若是阿片类药物过量所致，
+    ┃请口服 纳曲酮 | 注射 纳洛酮
   thoraxdestroyeddsc: |-
-    <color=#ff4444>胸腔肌肉健康 < 4%</color>
-    <color=#888888>┃触发呼吸停止。</color>
-    <color=#E74C3C>┃无法治愈</color>
+    胸腔肌肉健康 < 4%
+    ┃触发呼吸停止。
+    ┃无法治愈
   pulmonaryembolismdsc: |-
-    <color=#ff4444>┃血液粘稠度>90时 1.67%/s触发
-    ┃胸腔肌肉 -0.6/s | <50时 停止</color>
-    <color=#72d572>┃注射生理盐水可治疗肺栓塞</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>生理盐水</color> 或 <color=#3CCC78>链激酶</color></color>
+    ┃血液粘稠度>90时 1.67%/s触发
+    ┃胸腔肌肉 -0.6/s | <50时 停止
+    ┃注射生理盐水可治疗肺栓塞
+    ┃治疗: 注射 生理盐水 或 链激酶
   oxygen1dsc: |-
-    <color=#888888>血氧饱和度 < 90%</color>
-    <color=#888888>┃意识开始下降(<84%)。</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>氧脉素</color> | 提高呼吸率</color>
+    血氧饱和度 < 90%
+    ┃意识开始下降(<84%)。
+    ┃治疗: 注射 氧脉素 | 提高呼吸率
   oxygen2dsc: |-
-    <color=orange>血氧饱和度 < 75%</color>
-    <color=#888888>┃意识 < 90% | 心动过速。</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>氧脉素</color> | 提高呼吸率</color>
+    血氧饱和度 < 75%
+    ┃意识 < 90% | 心动过速。
+    ┃治疗: 注射 氧脉素 | 提高呼吸率
   oxygen3dsc: |-
-    <color=orange>血氧饱和度 < 60%</color>
-    <color=#888888>┃意识 < 72% | 可能心律不齐。</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>氧脉素</color> | 提高呼吸率</color>
+    血氧饱和度 < 60%
+    ┃意识 < 72% | 可能心律不齐。
+    ┃治疗: 注射 氧脉素 | 提高呼吸率
   oxygen4dsc: |-
-    <color=#ff4444>血氧饱和度 < 45%</color>
-    <color=#888888>┃意识 < 54% | 致命危险。</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>氧脉素</color> | 提高呼吸率</color>
+    血氧饱和度 < 45%
+    ┃意识 < 54% | 致命危险。
+    ┃治疗: 注射 氧脉素 | 提高呼吸率
   fibrillation1dsc: |-
-    <color=orange>心脏纤颤 > 15%</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>手动除颤器</color> | <color=#3CCC78>AED</color> 进行除颤</color>
+    心脏纤颤 > 15%
+    ┃治疗: 使用 手动除颤器 | AED 进行除颤
   fibrillation2dsc: |-
-    <color=orange>心脏纤颤 > 50% 或 心率 > 240</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>手动除颤器</color> | <color=#3CCC78>AED</color> 进行除颤</color>
+    心脏纤颤 > 50% 或 心率 > 240
+    ┃治疗: 使用 手动除颤器 | AED 进行除颤
   fibrillation3dsc: |-
-    <color=#ff4444>心脏纤颤 > 75%</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>手动除颤器</color> | <color=#3CCC78>AED</color> 进行除颤</color>
+    心脏纤颤 > 75%
+    ┃治疗: 使用 手动除颤器 | AED 进行除颤
   palpitationsdsc: |-
-    <color=orange>┃心脏纤颤 > 50% 或 心率 > 240</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>手动除颤器</color> | <color=#3CCC78>AED</color> 除颤 | 注射 <color=#3CCC78>胺碘酮</color></color>
+    ┃心脏纤颤 > 50% 或 心率 > 240
+    ┃治疗: 使用 手动除颤器 | AED 除颤 | 注射 胺碘酮
   cardiacarrestdsc: |-
     ┃氧含量 <= 5% 触发
-    <color=#3CCBE7>┃治疗: 除颤(20%概率起搏)
-    <color=#72d572>┃注射 肾上腺素(每秒尝试5%概率起搏，60秒内约95%概率成功)</color>
+    ┃治疗: 除颤(20%概率起搏)
+    ┃注射 肾上腺素(每秒尝试5%概率起搏，60秒内约95%概率成功)
   hypoventilation1dsc: |-
-    <color=#888888>呼吸频率 < 22.5次/分钟</color>
-    <color=#3CCBE7>┃治疗: 若是阿片类药物过量所致，
-    ┃请口服 <color=#3CCC78>纳曲酮</color> | 注射 <color=#3CCC78>纳洛酮</color></color>
+    呼吸频率 < 22.5次/分钟
+    ┃治疗: 若是阿片类药物过量所致，
+    ┃请口服 纳曲酮 | 注射 纳洛酮
   hypoventilation2dsc: |-
-    <color=orange>呼吸频率 < 12.5次/分钟</color>
-    <color=#3CCBE7>┃治疗: 若是阿片类药物过量所致，口服 <color=#3CCC78>纳曲酮</color> | 注射 <color=#3CCC78>纳洛酮</color></color>
+    呼吸频率 < 12.5次/分钟
+    ┃治疗: 若是阿片类药物过量所致，口服 纳曲酮 | 注射 纳洛酮
   hypotension1dsc: |-
-    <color=#888888>血压 < 110/73</color>
-    <color=#888888>┃不严重可不管。</color>
+    血压 < 110/73
+    ┃不严重可不管。
   hypotension2dsc: |-
-    <color=orange>血压 < 96/63</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>血管加压素</color></color>
+    血压 < 96/63
+    ┃治疗: 注射 血管加压素
   hypotension3dsc: |-
-    <color=orange>血压 < 83/55</color>
-    <color=#ff4444>┃<70/46 致命</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>血管加压素</color></color>
+    血压 < 83/55
+    ┃<70/46 致命
+    ┃治疗: 注射 血管加压素
   hypotension4dsc: |-
-    <color=#ff4444>血压 < 60/40</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>血管加压素</color></color>
+    血压 < 60/40
+    ┃治疗: 注射 血管加压素
   hypertension1dsc: |-
-    <color=#888888>血压 > 130/86</color>
-    <color=#888888>┃不严重可不管。</color>
+    血压 > 130/86
+    ┃不严重可不管。
   hypertension2dsc: |-
-    <color=orange>血压 > 145/96</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>硝普钠</color></color>
+    血压 > 145/96
+    ┃治疗: 注射 硝普钠
   hypertension3dsc: |-
-    <color=orange>血压 > 162/107</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>硝普钠</color></color>
+    血压 > 162/107
+    ┃治疗: 注射 硝普钠
   hypertension4dsc: |-
-    <color=#ff4444>血压 > 180/119</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>硝普钠</color>
-    ┃并注射 <color=#3CCC78>促凝剂</color></color>
+    血压 > 180/119
+    ┃治疗: 注射 硝普钠
+    ┃并注射 促凝剂
   venom1dsc: |-
-    <color=#888888>血毒 > 2%</color>
-    <color=#888888>┃不严重可不管。</color>
+    血毒 > 2%
+    ┃不严重可不管。
   venom2dsc: |-
-    <color=orange>血毒 > 25%</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>抗毒血清</color></color>
+    血毒 > 25%
+    ┃治疗: 注射 抗毒血清
   venom3dsc: |-
-    <color=orange>血毒 > 55%</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>抗毒血清</color></color>
+    血毒 > 55%
+    ┃治疗: 注射 抗毒血清
   venom4dsc: |-
+    血毒 > 80%
     你的伤口无法再自然愈合。
     阴影爬行者咬伤会杀死你(3次)┃2次会让你失去1.7L的血。
-    <color=#ff4444>血毒 > 80%</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>抗毒血清</color></color>
+    ┃治疗: 注射 抗毒血清
   pain1dsc: |-
-    <color=#888888>总疼痛值 > 10%</color>
-    <color=#888888>┃情绪 -1 起，极慢降低。
+    总疼痛值 > 10%
+    ┃情绪 -1 起，极慢降低。
     ┃基础疼痛=皮肤健康*0.15 + 感染值*0.1
     ┃当前疼痛>基础疼痛：-1/s
-    ┃当前疼痛<基础疼痛：+0.6s/s</color>
-    <color=#888888>┃可不管。</color>
+    ┃当前疼痛<基础疼痛：+0.6s/s
   pain2dsc: |-
-    <color=orange>总疼痛值 > 30%</color>
-    <color=#888888>┃中度晕影，行动略降，情绪-3起
+    总疼痛值 > 30%
+    ┃中度晕影，行动略降，情绪-3起
     ┃>31 无法睡眠
     ┃>50 创伤增加，意识开始下降
     ┃基础疼痛=皮肤健康*0.15 + 感染值*0.1
     ┃当前疼痛>基础疼痛：-1/s
-    ┃当前疼痛<基础疼痛：+0.6s/s</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>阿片类药物</color> 或注射 <color=#3CCC78>肾上腺素</color></color>
+    ┃当前疼痛<基础疼痛：+0.6s/s
   pain3dsc: |-
-    <color=orange>总疼痛值 > 55%</color>
-    <color=#888888>┃重度晕影，情绪-5.5起，创伤+0.19/s
+    总疼痛值 > 55%
+    ┃重度晕影，情绪-5.5起，创伤+0.19/s
     ┃意识 < 95% | >75 开始休克
     ┃基础疼痛=皮肤健康*0.15 + 感染值*0.1
     ┃当前疼痛>基础疼痛：-1/s
-    ┃当前疼痛<基础疼痛：+0.6s/s</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>阿片类药物</color> 或注射 <color=#3CCC78>肾上腺素</color></color>
+    ┃当前疼痛<基础疼痛：+0.6s/s
   pain4dsc: |-
-    <color=#ff4444>总疼痛值 > 80%</color>
-    <color=#888888>┃强晕影，情绪-8起，创伤+0.27/s
+    总疼痛值 > 80%
+    ┃强晕影，情绪-8起，创伤+0.27/s
     ┃意识 < 70% | >=100 强制瘫倒
     ┃基础疼痛=皮肤健康*0.15 + 感染值*0.1
     ┃当前疼痛>基础疼痛：-1/s
-    ┃当前疼痛<基础疼痛：+0.6s/s</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>阿片类药物</color> 或注射 <color=#3CCC78>肾上腺素</color></color>
+    ┃当前疼痛<基础疼痛：+0.6s/s
   shockdsc: |-
-    <color=orange>疼痛休克 > 30%</color>
-    <color=#888888>┃>=66% 立即失去意识。</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>阿片类药物</color> 镇痛</color>
+    疼痛休克 > 30%
+    ┃>=66% 立即失去意识。
+    ┃治疗: 服用 阿片类药物 镇痛
   overdose1dsc: |-
-    <color=#888888>阿片类接收 > 5%</color>
-    <color=#91a7ff>┃疼痛 -0.30/s/点 | 情绪 +1/点</color>
-    <color=#888888>┃意识 -0.70/点</color>
-    <color=#888888>┃轻微时可不管。</color>
+    阿片类接收 > 5%
+    ┃疼痛 -0.30/s/点 | 情绪 +1/点
+    ┃意识 -0.70/点
   overdose2dsc: |-
-    <color=orange>阿片类接收 > 20%</color>
-    <color=#888888>┃轻微晕影 | >30 精力缓慢下降
-    ┃>35 脑组织缓慢受损</color>
-    <color=#3CCBE7>┃治疗: 口服 <color=#3CCC78>纳曲酮</color> 或注射 <color=#3CCC78>纳洛酮</color></color>
+    阿片类接收 > 20%
+    ┃轻微晕影 | >30 精力缓慢下降
+    ┃>35 脑组织缓慢受损
+    ┃治疗: 口服 纳曲酮 或注射 纳洛酮
   overdose3dsc: |-
-    <color=orange>阿片类接收 > 50%</color>
-    <color=#888888>┃脑损伤和精力流失加剧。</color>
-    <color=#3CCBE7>┃治疗: 口服 <color=#3CCC78>纳曲酮</color> 或注射 <color=#3CCC78>纳洛酮</color></color>
+    阿片类接收 > 50%
+    ┃脑损伤和精力流失加剧。
+    ┃治疗: 口服 纳曲酮 或注射 纳洛酮
   overdose4dsc: |-
-    <color=#ff4444>阿片类接收 > 80%</color>
-    <color=#888888>┃触发呼吸停止，直至低于80%。</color>
-    <color=#3CCBE7>┃治疗: 口服 <color=#3CCC78>纳曲酮</color> 或注射 <color=#3CCC78>纳洛酮</color></color>
+    阿片类接收 > 80%
+    ┃触发呼吸停止，直至低于80%。
+    ┃治疗: 口服 纳曲酮 或注射 纳洛酮
   withdrawal1dsc: |-
-    <color=orange>阿片类接收 < -5%</color>
-    <color=#888888>┃情绪缓慢下降 | 呕吐积累。</color>
-    <color=#3CCBE7>┃治疗: 口服 <color=#3CCC78>纳曲酮</color></color>
+    阿片类接收 < -5%
+    ┃情绪缓慢下降 | 呕吐积累。
+    ┃治疗: 口服 纳曲酮
   withdrawal2dsc: |-
-    <color=orange>阿片类接收 < -15%</color>
-    <color=#888888>┃患病开始增加 | 轻微晕影。</color>
-    <color=#3CCBE7>┃治疗: 口服 <color=#3CCC78>纳曲酮</color></color>
+    阿片类接收 < -15%
+    ┃患病开始增加 | 轻微晕影。
+    ┃治疗: 口服 纳曲酮
   withdrawal3dsc: |-
-    <color=orange>阿片类接收 < -25%</color>
-    <color=#888888>┃效果加剧。</color>
-    <color=#3CCBE7>┃治疗: 口服 <color=#3CCC78>纳曲酮</color></color>
+    阿片类接收 < -25%
+    ┃效果加剧。
+    ┃治疗: 口服 纳曲酮
   withdrawal4dsc: |-
-    <color=#ff4444>阿片类接收 < -34%</color>
-    <color=#888888>┃脑组织受损 | 强制推进纤颤。</color>
-    <color=#3CCBE7>┃治疗: 立即口服 <color=#3CCC78>纳曲酮</color></color>
-  stimulateddsc: <color=#91a7ff>兴奋剂效果 > 0秒</color>
+    阿片类接收 < -34%
+    ┃脑组织受损 | 强制推进纤颤。
+    ┃治疗: 立即口服 纳曲酮
+  stimulateddsc: 兴奋剂效果 > 0秒
   drugoverdosedsc: |-
-    <color=#ff4444>抗抑郁药/安眠药过量</color>
-    <color=#888888>┃抗抑郁药：积累足够后呼吸停止
-    ┃安眠药：昏迷时呼吸停止。</color>
-    <color=#3CCBE7>┃治疗: 等待效果消退 | 对症治疗</color>
+    抗抑郁药/安眠药过量
+    ┃抗抑郁药：积累足够后呼吸停止
+    ┃安眠药：昏迷时呼吸停止。
   bleeding1dsc: |-
-    <color=#888888>总失血速度 > 0 L/分钟</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>绷带</color> | <color=#3CCC78>伤口粘合剂</color> 止血</color>
+    总失血速度 > 0 L/分钟
   bleeding2dsc: |-
-    <color=orange>总失血速度 > 0.09 L/分钟</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>绷带</color> | <color=#3CCC78>伤口粘合剂</color> 止血</color>
+    总失血速度 > 0.09 L/分钟
   bleeding3dsc: |-
-    <color=orange>总失血速度 > 0.23 L/分钟</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>绷带</color> | <color=#3CCC78>伤口粘合剂</color> 止血</color>
+    总失血速度 > 0.23 L/分钟
   bleeding4dsc: |-
-    <color=#ff4444>总失血速度 > 0.45 L/分钟</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>绷带</color> | <color=#3CCC78>伤口粘合剂</color> 止血</color>
+    总失血速度 > 0.45 L/分钟
   internalBleeddsc: |-
     ┃额外：5s内你被判定呕吐2次就会发生内出血
     ┃内出血 > 0.04 L/分钟
-    <color=#888888>┃最高0.21L/每分钟
-    ┃每点内出血增加血胸2.64/分钟</color>
-    <color=#ff4444>┃>0.43 L/分钟 致命
-    </color>
+    ┃最高0.21L/每分钟
+    ┃每点内出血增加血胸2.64/分钟
+    ┃>0.43 L/分钟 致命    
     ┃饥饿会加剧内出血
-    <color=#3CCBE7>┃治疗: 先处理内出血
-    ┃然后进行 <color=#3CCC78>胸腔引流</color></color>
+    ┃治疗: 先处理内出血
+    ┃然后进行 胸腔引流
   lowbloodvolume1dsc: |-
     轻微失血。体虚乏力，毛发下的皮肤苍白。
     ┃血容量 4.50 ~ 5.00 L
-    <color=#888888>┃每低于5.00L 0.10L 情绪 -0.80。</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>生理盐水</color> | <color=#3CCC78>林格氏液</color> | <color=#3CCC78>血液</color></color>
+    ┃每低于5.00L 0.10L 情绪 -0.80。
   lowbloodvolume2dsc: |-
     失血导致虚弱迷糊。感觉非常不适。建议治疗。
     ┃血容量 4.00 ~ 4.50 L
-    <color=#888888>┃最大氧含量开始下降。</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>生理盐水</color> | <color=#3CCC78>林格氏液</color> | <color=#3CCC78>血液</color></color>
+    ┃最大氧含量开始下降。
   lowbloodvolume3dsc: |-
     严重失血，几近昏迷。视线模糊...急需治疗。
     ┃血容量 3.50 ~ 4.00 L
-    <color=#888888>┃最大氧含量 -12% 以上。</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>生理盐水</color> | <color=#3CCC78>林格氏液</color> | <color=#3CCC78>血液</color></color>
+    ┃最大氧含量 -12% 以上。
   lowbloodvolume4dsc: |-
     危及生命的失血，即将昏厥。心脏随时可能停跳。死亡将至。
     ┃血容量 < 3.50 L
-    <color=#888888>┃最大氧含量 -41% 以上。</color>
-    <color=#3CCBE7>┃治疗: 立即注射 <color=#3CCC78>生理盐水</color> | <color=#3CCC78>林格氏液</color> | <color=#3CCC78>血液</color></color>
+    ┃最大氧含量 -41% 以上。
   highbloodvolume1dsc: |-
     ┃血容量 > 5.00 L
-    <color=#3CCBE7>┃治疗: 停止输液 | 等待自然调节</color>
+    ┃治疗: 停止输液 | 等待自然调节
   highbloodvolume2dsc: |-
     ┃血容量 > 5.25 L
-    <color=#3CCBE7>┃治疗: 停止输液 | 注射 <color=#3CCC78>链激酶</color> 降血稠</color>
+    ┃治疗: 停止输液 | 注射 链激酶 降血稠
   highbloodvolume3dsc: |-
     ┃血容量 > 5.50 L
-    <color=#3CCBE7>┃治疗: 停止输液 | 注射 <color=#3CCC78>链激酶</color> 降血稠</color>
+    ┃治疗: 停止输液 | 注射 链激酶 降血稠
   highbloodvolume4dsc: |-
     ┃血容量 >= 5.63 L
-    <color=#888888>┃触发呼吸停止。</color>
-    <color=#3CCBE7>┃治疗: 停止输液 | 注射 <color=#3CCC78>链激酶</color> 降血稠</color>
+    ┃触发呼吸停止。
+    ┃治疗: 停止输液 | 注射 链激酶 降血稠
   exertion1dsc: |-
-    <color=#888888>体力 < 70%</color>
-    <color=#888888>┃最大氧含量开始下降。</color>
-    <color=#888888>┃继续练可提高韧性。</color>
-    <color=#3CCBE7>┃治疗: 休息恢复体力</color>
+    体力 < 70%
+    ┃最大氧含量开始下降。
+    ┃继续练可提高韧性。
+    ┃治疗: 休息恢复体力
   exertion2dsc: |-
-    <color=orange>体力 < 50%</color>
-    <color=#888888>┃耗体行动：-1%氧/-1%体
-    ┃最大氧含量 <=95%</color>
-    <color=#3CCBE7>┃治疗: 休息恢复体力</color>
+    体力 < 50%
+    ┃耗体行动：-1%氧/-1%体
+    ┃最大氧含量 <=95%
+    ┃治疗: 休息恢复体力
   exertion3dsc: |-
-    <color=orange>体力 < 35%</color>
-    <color=#888888>┃耗体行动：-2%氧/-1%体
-    ┃最大氧含量 <=85%</color>
-    <color=#3CCBE7>┃治疗: 立即休息！</color>
+    体力 < 35%
+    ┃耗体行动：-2%氧/-1%体
+    ┃最大氧含量 <=85%
+    ┃治疗: 立即休息！
   exertion4dsc: |-
-    <color=#ff4444>体力 < 15%</color>
-    <color=#888888>┃耗体行动：-3%氧/-1%体
-    ┃最大氧含量 <=62%</color>
-    <color=orange>┃你最好是在急着逃跑！</color>
-    <color=#3CCBE7>┃治疗: 立即休息！</color>
+    体力 < 15%
+    ┃耗体行动：-3%氧/-1%体
+    ┃最大氧含量 <=62%
+    ┃你最好是在急着逃跑！
+    ┃治疗: 立即休息！
   brokenbonedsc: |-
-    <color=orange>任意骨骼骨折</color>
-    <color=#888888>┃愈合时间：2325秒(39分钟)
+    任意骨骼骨折
+    ┃愈合时间：2325秒(39分钟)
     ┃夹板加速至2.5倍(16分钟)
-    ┃骨骼焊接器除以4</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>夹板</color>
-    ┃<color=#3CCC78>塑料绷带</color> | <color=#3CCC78>骨骼焊接器</color></color>
+    ┃骨骼焊接器除以4
+    ┃治疗: 使用 夹板
+    ┃塑料绷带 | 骨骼焊接器
   dislocationdsc: |-
-    <color=orange>任意关节脱位</color>
-    <color=#888888>┃徒手复位：每次+15~24疼痛，5%骨折
-    ┃扳手复位：每次+5~10疼痛</color>
-    <color=#3CCBE7>┃治疗: 先吃止痛药再正骨 或使用 <color=#3CCC78>夹板</color> | <color=#3CCC78>塑料绷带</color></color>
+    任意关节脱位
+    ┃徒手复位：每次+15~24疼痛，5%骨折
+    ┃扳手复位：每次+5~10疼痛
+    ┃治疗: 先吃止痛药再正骨 或使用 夹板 | 塑料绷带
   brokenneckdsc: |-
-    <color=#ff4444>头部骨折(80%几率)</color>
-    <color=#888888>┃攻击伤害-40% | 攻击/跳跃+3疼痛</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>塑料绷带</color>
-    ┃<color=#3CCC78>骨骼焊接器</color></color>
+    头部骨折(80%几率)
+    ┃攻击伤害-40% | 攻击/跳跃+3疼痛
+    ┃治疗: 使用 塑料绷带
+    ┃骨骼焊接器
   brokenribsdsc: |-
-    <color=orange>胸腔骨折</color>
-    <color=#888888>┃挥击伤害-40% | 攻击+3疼痛</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>塑料绷带</color>
-    ┃<color=#3CCC78>骨骼焊接器</color></color>
+    胸腔骨折
+    ┃挥击伤害-40% | 攻击+3疼痛
+    ┃治疗: 使用 塑料绷带
+    ┃骨骼焊接器
   dislocatedjawdsc: |-
-    <color=orange>头部脱位</color>
-    <color=#888888>┃语言障碍 | 进食+25疼痛</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>塑料绷带</color>
-    ┃<color=#3CCC78>骨骼焊接器</color></color>
+    头部脱位
+    ┃语言障碍 | 进食+25疼痛
+    ┃治疗: 使用 塑料绷带
+    ┃骨骼焊接器
   dislocatedspinedsc: |-
-    <color=orange>胸腔脱位</color>
-    <color=#888888>┃挥击伤害-40% | 攻击/跳跃+4疼痛</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>塑料绷带</color>
-    ┃<color=#3CCC78>骨骼焊接器</color></color>
+    胸腔脱位
+    ┃挥击伤害-40% | 攻击/跳跃+4疼痛
+    ┃治疗: 使用 塑料绷带
+    ┃骨骼焊接器
   infected1dsc: |-
-    <color=orange>任意肢体感染>=25%</color>
-    <color=#888888>┃基础进展速度：7.20%/分钟(100%免疫时)</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>消毒剂</color>
-    ┃<color=#3CCC78>抗生素</color> | <color=#3CCC78>抗菌糊剂</color> | <color=#3CCC78>酒精</color></color>
+    任意肢体感染>=25%
+    ┃基础进展速度：7.20%/分钟(100%免疫时)
+    ┃治疗: 使用 消毒剂
+    ┃抗生素 | 抗菌糊剂 | 酒精
   infected2dsc: |-
-    <color=orange>最高感染 > 40%</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>消毒剂</color>
-    ┃<color=#3CCC78>抗生素</color> | <color=#3CCC78>抗菌糊剂</color> | <color=#3CCC78>酒精</color></color>
+    任意肢体感染 > 40%
+    ┃治疗: 使用 消毒剂
+    ┃抗生素 | 抗菌糊剂 | 酒精
   infected3dsc: |-
-    <color=orange>最高感染 > 60%</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>消毒剂</color>
-    ┃<color=#3CCC78>抗生素</color> | <color=#3CCC78>抗菌糊剂</color> | <color=#3CCC78>酒精</color></color>
+    任意肢体感染 > 60%
+    ┃治疗: 使用 消毒剂
+    ┃抗生素 | 抗菌糊剂 | 酒精
   infected4dsc: |-
-    <color=#ff4444>最高感染 > 80%</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>消毒剂</color>
-    ┃<color=#3CCC78>抗生素</color> | <color=#3CCC78>抗菌糊剂</color> | <color=#3CCC78>酒精</color></color>
+    任意肢体感染 > 80%
+    ┃治疗: 使用 消毒剂
+    ┃抗生素 | 抗菌糊剂 | 酒精
   sepsis1dsc: |-
-    <color=orange>感染性休克 > 10%</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>消毒剂</color> | <color=#3CCC78>抗血清</color>
-    ┃<color=#3CCC78>抗生素</color> | <color=#3CCC78>抗菌糊剂</color> | <color=#3CCC78>酒精</color></color>
+    感染性休克 > 10%
+    ┃治疗: 使用 消毒剂 | 抗血清
+    ┃抗生素 | 抗菌糊剂 | 酒精
   sepsis2dsc: |-
-    <color=orange>感染性休克 > 50%</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>消毒剂</color> | <color=#3CCC78>抗血清</color>
-    ┃<color=#3CCC78>抗生素</color> | <color=#3CCC78>抗菌糊剂</color> | <color=#3CCC78>酒精</color></color>
+    感染性休克 > 50%
+    ┃治疗: 使用 消毒剂 | 抗血清
+    ┃抗生素 | 抗菌糊剂 | 酒精
   sepsis3dsc: |-
-    <color=#ff4444>感染性休克 > 80%</color>
-    <color=#3CCBE7>┃治疗: 立即使用 <color=#3CCC78>消毒剂</color> | <color=#3CCC78>抗血清</color>
-    ┃<color=#3CCC78>抗生素</color> | <color=#3CCC78>抗菌糊剂</color> | <color=#3CCC78>酒精</color></color>
+    感染性休克 > 80%
+    ┃治疗: 立即使用 消毒剂 | 抗血清
+    ┃抗生素 | 抗菌糊剂 | 酒精
   concussiondsc: |-
-    <color=orange>头部肌肉健康 < 14.40%</color>
-    <color=#888888>┃意识上限30% | 头部恢复速度10倍</color>
-    <color=#3CCBE7>┃治疗: 等待头部自然恢复</color>
+    头部肌肉健康 < 14.40%
+    ┃意识上限30% | 头部恢复速度10倍
+    ┃治疗: 等待头部自然恢复
   unconsciousdsc: |-
-    <color=#ff4444>意识 < 20% (非睡眠/脑震荡)</color>
-    <color=#3CCBE7>┃治疗: 治疗根本原因(低血氧/低血压/疼痛等)</color>
+    意识 < 20% (非睡眠/脑震荡)
+    ┃治疗: 治疗根本原因(低血氧/低血压/疼痛等)
   incapacitateddsc: |-
-    <color=orange>意识 < 30%</color>
-    <color=#888888>┃无法行动 | 精力随时间恢复</color>
-    <color=#3CCBE7>┃治疗: 治疗根本原因</color>
+    意识 < 30%
+    ┃无法行动 | 精力随时间恢复
+    ┃治疗: 治疗根本原因
   asleepdsc: |-
-    <color=#91a7ff>意识 < 20%，睡眠中</color>
-    <color=#888888>┃精力恢复 | 肌肉/皮肤加速愈合</color>
+    意识 < 20%，睡眠中
+    ┃精力恢复 | 肌肉/皮肤加速愈合
   confused1dsc: |-
-    <color=#888888>意识 < 90%</color>
-    <color=#888888>┃轻微模糊 | 移速/攻速略降</color>
-    <color=#3CCBE7>┃治疗: 治疗根本原因(低血氧/低血压/疼痛等)</color>
+    意识 < 90%
+    ┃轻微模糊 | 移速/攻速略降
+    ┃治疗: 治疗根本原因(低血氧/低血压/疼痛等)
   confused2dsc: |-
-    <color=orange>意识 < 72%</color>
-    <color=#888888>┃中度模糊 | 移速/攻速中降</color>
-    <color=#3CCBE7>┃治疗: 治疗根本原因(低血氧/低血压/疼痛等)</color>
+    意识 < 72%
+    ┃中度模糊 | 移速/攻速中降
+    ┃治疗: 治疗根本原因(低血氧/低血压/疼痛等)
   confused3dsc: |-
-    <color=orange>意识 < 55%</color>
-    <color=#888888>┃重度模糊变暗 | 移速/攻速大降</color>
-    <color=#3CCBE7>┃治疗: 治疗根本原因(低血氧/低血压/疼痛等)</color>
+    意识 < 55%
+    ┃重度模糊变暗 | 移速/攻速大降
+    ┃治疗: 治疗根本原因(低血氧/低血压/疼痛等)
   tired1dsc: |-
-    <color=#888888>精力 <= 35%</color>
-    <color=#888888>┃体力恢复略慢。</color>
-    <color=#888888>┃建议找个地方睡觉。</color>
-    <color=#3CCBE7>┃治疗: 找个地方睡觉</color>
+    精力 <= 35%
+    ┃体力恢复略慢。
+    ┃建议找个地方睡觉。
+    ┃治疗: 找个地方睡觉
   tired2dsc: |-
-    <color=orange>精力 <= 25%</color>
-    <color=#888888>┃体力恢复变慢 | 意识渐降</color>
-    <color=#3CCBE7>┃治疗: 找个柔软地面睡觉 或使用 <color=#3CCC78>睡袋</color></color>
+    精力 <= 25%
+    ┃体力恢复变慢 | 意识渐降
+    ┃治疗: 找个柔软地面睡觉 或使用 睡袋
   tired3dsc: |-
-    <color=orange>精力 <= 15%</color>
-    <color=#888888>┃体力恢复大降 | 意识稳定下降</color>
-    <color=#3CCBE7>┃治疗: 找个柔软地面睡觉 或使用 <color=#3CCC78>睡袋</color></color>
+    精力 <= 15%
+    ┃体力恢复大降 | 意识稳定下降
+    ┃治疗: 找个柔软地面睡觉 或使用 睡袋
   tired4dsc: |-
-    <color=#ff4444>精力 <= 7%</color>
-    <color=#888888>┃体力恢复极降 | 意识快速下降
-    ┃0% 立即入睡</color>
-    <color=#3CCBE7>┃治疗: 找个柔软地面睡觉 或使用 <color=#3CCC78>睡袋</color></color>
+    精力 <= 7%
+    ┃体力恢复极降 | 意识快速下降
+    ┃0% 立即入睡
+    ┃治疗: 找个柔软地面睡觉 或使用 睡袋
   hunger1dsc: |-
-    ┃饥饿 < 75.00
-    <color=#888888>┃体重流失略快 | 体温/免疫略降</color>
-    <color=#3CCBE7>┃治疗: 进食</color>
+    饥饿 < 75.00
+    ┃体重流失略快 | 体温/免疫略降
   hunger2dsc: |-
-    ┃饥饿 < 50.00
-    <color=#888888>┃体重流失加快 | 体温/免疫降低
+    饥饿 < 50.00
+    ┃体重流失加快 | 体温/免疫降低
     ┃情绪开始下降(<40每0.56饥饿额外抵消-0.1)
-    ┃负重 -1.50u</color>
-    <color=#3CCBE7>┃治疗: 进食</color>
+    ┃负重 -1.50u
   hunger3dsc: |-
-    ┃饥饿 < 35.00
-    <color=#888888>┃体重流失大增 | 体温/免疫大降
-    ┃情绪 -0.02/s，-0.90起</color>
-    <color=#3CCBE7>┃治疗: 进食</color>
+    饥饿 < 35.00
+    ┃体重流失大增 | 体温/免疫大降
+    ┃情绪 -0.02/s，-0.90起
   hunger4dsc: |-
-    ┃饥饿 <= 15.00
-    <color=#888888>┃体重流失极剧 | 体温/免疫极低
-    ┃情绪 -0.03/s，-4.5起</color>
-    <color=#ff4444>┃<=0 全肢肌肉开始衰退</color>
-    <color=#888888>┃不高兴时要求降低
-    ┃情绪-100时降至1.5 | 饥饿<=0为临界</color>
-    <color=#3CCBE7>┃治疗: 立即进食！</color>
+    饥饿 <= 15.00
+    ┃体重流失极剧 | 体温/免疫极低
+    ┃情绪 -0.03/s，-4.5起
+    ┃<=0 全肢肌肉开始衰退
+    ┃不高兴时要求降低
+    ┃情绪-100时降至1.5 | 饥饿<=0为临界
   hunger5dsc: |-
-    ┃饥饿 > 100.00
-    <color=#888888>┃负重 +1.5u | 情绪缓升
-    ┃体重流失减缓</color>
+    饥饿 > 100.00
+    ┃负重 +1.5u | 情绪缓升
+    ┃体重流失减缓
   hunger6dsc: |-
-    ┃饥饿 > 120.00
-    <color=#888888>┃体重流失大减 | 行动明显下降
+    饥饿 > 120.00
+    ┃体重流失大减 | 行动明显下降
     ┃>128 进食20%触发呕吐 
-    ┃>125的值 *1.2 加到患病里</color>
+    ┃>125的值 *1.2 加到患病里
   thirst1dsc: |-
-    ┃口渴 <= 75.00
-    <color=#3CCBE7>┃治疗: 饮水</color>
+    口渴 <= 75.00
+    ┃治疗: 饮水
   thirst2dsc: |-
-    ┃口渴 <= 55.00
-    <color=#888888>┃情绪开始缓降 | <40 负重 -1u</color>
-    <color=#3CCBE7>┃治疗: 饮水</color>
+    口渴 <= 55.00
+    ┃情绪开始缓降 | <40 负重 -1u
+    ┃治疗: 饮水
   thirst3dsc: |-
-    ┃口渴 <= 35.00
-    <color=#888888>┃胸腔疼痛增加(<=30.00)</color>
-    <color=#3CCBE7>┃治疗: 饮水</color>
+    口渴 <= 35.00
+    ┃胸腔疼痛增加(<=30.00)
+    ┃治疗: 饮水
   thirst4dsc: |-
-    ┃口渴 <= 20.00
-    <color=#888888>┃<=10 播放"Is this the end..?"</color>
-    <color=#ff4444>┃<=0 血管收缩 | 心率上升</color>
-    <color=#3CCBE7>┃治疗: 立即饮水！</color>
+    口渴 <= 20.00
+    ┃<=10 播放"Is this the end..?"
+    ┃<=0 血管收缩 | 心率上升
+    ┃治疗: 立即饮水！
   overhydrated1dsc: |-
-    ┃口渴 > 100.00
-    <color=#888888>┃口渴速度 x2.00 | 血压升高</color>
-    <color=#3CCBE7>┃治疗: 停止饮水 | 等待自然排出</color>
+    口渴 > 100.00
+    ┃口渴速度 x2.00 | 血压升高
+    ┃治疗: 停止饮水 | 等待自然排出
   overhydrated2dsc: |-
-    ┃口渴 > 125.00
-    <color=#888888>┃行动略降 | 口渴速度 x2.00</color>
-    <color=#3CCBE7>┃治疗: 停止饮水 | 等待自然排出</color>
+    口渴 > 125.00
+    ┃行动略降 | 口渴速度 x2.00
+    ┃治疗: 停止饮水 | 等待自然排出
   overhydrated3dsc: |-
-    ┃口渴 > 175.00
-    <color=#888888>┃头部疼痛增至50.00
+    口渴 > 175.00
+    ┃头部疼痛增至50.00
     ┃脑组织-0.05/s
-    ┃口渴速度 x2.50 | 1.67%/s强制纤颤</color>
-    <color=#3CCBE7>┃治疗: 立即停止饮水！| 等待自然排出</color>
+    ┃口渴速度 x2.50 | 1.67%/s强制纤颤
+    ┃治疗: 立即停止饮水！| 等待自然排出
   sick1dsc: |-
-    ┃患病 > 10.00
-    <color=#888888>┃屏幕效果触发
-    ┃负重-0.25~0.75u</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>抗生素</color> | 注射 <color=#3CCC78>抗血清</color> | 若是戒断服用<color=#3CCC78>纳曲酮</color></color>
+    患病 > 10.00
+    ┃屏幕效果触发
+    ┃负重-0.25~0.75u
+    ┃治疗: 服用 抗生素 | 注射 抗血清 | 若是戒断服用纳曲酮
   sick2dsc: |-
-    ┃患病 > 30.00
-    <color=#888888>┃低概率呕吐 | 负重-0.75~1.25u</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>抗生素</color> | 注射 <color=#3CCC78>抗血清</color> | 若是戒断服用<color=#3CCC78>纳曲酮</color></color>
+    患病 > 30.00
+    ┃低概率呕吐 | 负重-0.75~1.25u
+    ┃治疗: 服用 抗生素 | 注射 抗血清 | 若是戒断服用纳曲酮
   sick3dsc: |-
-    ┃患病 > 50.00
-    <color=#888888>┃高概率呕吐 | 意识-1~25
-    ┃负重-1.25~1.85u</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>抗生素</color> | 注射 <color=#3CCC78>抗血清</color> | 若是戒断服用<color=#3CCC78>纳曲酮</color></color>
+    患病 > 50.00
+    ┃高概率呕吐 | 意识-1~25
+    ┃负重-1.25~1.85u
+    ┃治疗: 服用 抗生素 | 注射 抗血清 | 若是戒断服用纳曲酮
   sick4dsc: |-
-    ┃患病 > 75.00
-    <color=#888888>┃几乎必吐 | 意识-25~50
-    ┃负重-1.85~2.50u</color>
-    <color=#ff4444>┃>95 致命</color>
-    <color=#3CCBE7>┃治疗: 立即服用 <color=#3CCC78>抗生素</color> | 注射 <color=#3CCC78>抗血清</color> | 若是戒断服用<color=#3CCC78>纳曲酮</color></color>
+    患病 > 75.00
+    ┃几乎必吐 | 意识-25~50
+    ┃负重-1.85~2.50u
+    ┃>95 致命
+    ┃治疗: 立即服用 抗生素 | 注射 抗血清 | 若是戒断服用纳曲酮
   hot1dsc: |-
-    ┃体温 38.00°C ~ 39.00°C
-    <color=#91a7ff>┃免疫 +5%</color> <color=#888888>┃口渴 +20%
-    ┃心率 +10%</color>
-    <color=#888888>┃>38.60°C 热变形效应</color>
+    体温 38.00°C ~ 39.00°C
+    ┃免疫 +5% ┃口渴 +20%
+    ┃心率 +10%
+    ┃>38.60°C 热变形效应
   hot2dsc: |-
-    ┃体温 39.00°C ~ 40.25°C
-    <color=#91a7ff>┃免疫 +15%</color> <color=#888888>┃口渴 +50%
-    ┃心率 +20%</color>
-    <color=#3CCBE7>┃治疗: 停止高强度运动
-    ┃使用<color=#3CCC78>冰敷包</color> | 喝水</color>
+    体温 39.00°C ~ 40.25°C
+    ┃免疫 +15% ┃口渴 +50%
+    ┃心率 +20%
+    ┃治疗: 停止高强度运动
+    ┃使用冰敷包 | 喝水
   hot3dsc: |-
-    ┃体温 40.25°C ~ 41.50°C
-    <color=#91a7ff>┃免疫 +30%</color> <color=#888888>┃口渴 +100%</color>
-    <color=#888888>┃>40.50°C 睡眠中53%精力唤醒
+    体温 40.25°C ~ 41.50°C
+    ┃免疫 +30% ┃口渴 +100%
+    ┃>40.50°C 睡眠中53%精力唤醒
     ┃>40.70°C 每0.10°C意识-2%
-    ┃>41.00°C 血容量-0.23L/分钟</color>
-    <color=#3CCBE7>┃治疗: 停止高强度运动
-    ┃使用<color=#3CCC78>冰敷包</color> | 喝水</color>
+    ┃>41.00°C 血容量-0.23L/分钟
+    ┃治疗: 停止高强度运动
+    ┃使用冰敷包 | 喝水
   hot4dsc: |-
-    ┃体温 > 41.50°C
-    <color=#91a7ff>┃免疫 +50%</color> <color=#888888>┃口渴 +200%</color>
-    <color=#ff4444>┃>42.00°C 脑组织 -0.50%/s</color>
-    <color=#3CCBE7>┃治疗: 停止高强度运动
-    ┃使用<color=#3CCC78>冰敷包</color> | 喝水</color>
+    体温 > 41.50°C
+    ┃免疫 +50% ┃口渴 +200%
+    ┃>42.00°C 脑组织 -0.50%/s
+    ┃治疗: 停止高强度运动
+    ┃使用冰敷包 | 喝水
   cold1dsc: |-
-    ┃体温 34.00°C ~ 35.50°C
-    <color=orange>┃免疫 -5%</color>
-    <color=#3CCBE7>┃治疗: 进行运动 | 吃东西</color>
+    体温 34.00°C ~ 35.50°C
+    ┃免疫 -5%
+    ┃治疗: 进行运动 | 吃东西
   cold2dsc: |-
-    ┃体温 32.50°C ~ 34.00°C
-    <color=orange>┃免疫 -15%</color> <color=#888888>┃出现霜冻视觉效果</color>
-    <color=#888888>┃<33.50°C 情绪 -0.02/s
-    ┃<33.00°C 每-0.10°C意识-0.50%</color>
-    <color=#3CCBE7>┃治疗: 进行运动 | 吃东西</color>
+    体温 32.50°C ~ 34.00°C
+    ┃免疫 -15% ┃出现霜冻视觉效果
+    ┃<33.50°C 情绪 -0.02/s
+    ┃<33.00°C 每-0.10°C意识-0.50%
+    ┃治疗: 进行运动 | 吃东西
   cold3dsc: |-
-    ┃体温 28.00°C ~ 32.50°C
-    <color=orange>┃免疫 -60%</color> <color=#888888>┃动作迟缓</color>
-    <color=#888888>┃<32.00°C 全肢疼痛-6/s
+    体温 28.00°C ~ 32.50°C
+    ┃免疫 -60% ┃动作迟缓
+    ┃<32.00°C 全肢疼痛-6/s
     ┃每+0.01°C消耗饥饿0.04
-    ┃<30.00°C 无法睡眠</color>
-    <color=#3CCBE7>┃治疗: 进行运动 | 吃东西</color>
+    ┃<30.00°C 无法睡眠
+    ┃治疗: 进行运动 | 吃东西
   cold4dsc: |-
-    ┃体温 < 28.00°C
-    <color=orange>┃免疫 -90%</color> <color=#888888>┃动作极慢
-    ┃意识持续下降</color>
-    <color=#ff4444>┃意识<30% 触发呼吸停止</color>
-    <color=#3CCBE7>┃治疗: 进行运动 | 吃东西</color>
+    体温 < 28.00°C
+    ┃免疫 -90% ┃动作极慢
+    ┃意识持续下降
+    ┃意识<30% 触发呼吸停止
+    ┃治疗: 进行运动 | 吃东西
   wet1dsc: |-
-    <color=#888888>潮湿 > 5%
+    潮湿 > 5%
     ┃接触液体+15/s(最高100) | 自然干燥-0.35/s(>75时)或-0.2/s
-    ┃小狗抖动-25/次 | 每点潮湿温度-0.001°C</color>
-    <color=#3CCBE7>┃治疗: 靠近热源干燥 | 旧布擦干(减半) | 狗抖(减25)</color>
+    ┃小狗抖动-25/次 | 每点潮湿温度-0.001°C
+    ┃治疗: 靠近热源干燥 | 旧布擦干(减半) | 狗抖(减25)
   wet2dsc: |-
-    <color=orange>潮湿 > 20%┃会影响部分物品
+    潮湿 > 20%┃会影响部分物品
     ┃接触液体+15/s(最高100) | 自然干燥-0.35/s(>75时)或-0.2/s
-    ┃小狗抖动-25/次 | 每点潮湿温度-0.001°C</color>
-    <color=#3CCBE7>┃治疗: 靠近热源干燥 | 旧布擦干(减半) | 狗抖(减25)</color>
+    ┃小狗抖动-25/次 | 每点潮湿温度-0.001°C
+    ┃治疗: 靠近热源干燥 | 旧布擦干(减半) | 狗抖(减25)
   wet3dsc: |-
-    <color=orange>潮湿 > 45%┃会影响部分物品
+    潮湿 > 45%┃会影响部分物品
     ┃接触液体+15/s(最高100) | 自然干燥-0.35/s(>75时)或-0.2/s
-    ┃小狗抖动-25/次 | 每点潮湿温度-0.001°C</color>
-    <color=#3CCBE7>┃治疗: 靠近热源干燥 | 旧布擦干(减半) | 狗抖(减25)</color>
+    ┃小狗抖动-25/次 | 每点潮湿温度-0.001°C
+    ┃治疗: 靠近热源干燥 | 旧布擦干(减半) | 狗抖(减25)
   wet4dsc: |-
-    <color=#ff4444>潮湿 > 70%┃会影响部分物品
+    潮湿 > 70%┃会影响部分物品
     ┃接触液体+15/s(最高100) | 自然干燥-0.35/s(>75时)或-0.2/s
-    ┃小狗抖动-25/次 | 每点潮湿温度-0.001°C</color>
-    <color=#3CCBE7>┃治疗: 靠近热源干燥 | 旧布擦干(减半) | 狗抖(减25)</color>
+    ┃小狗抖动-25/次 | 每点潮湿温度-0.001°C
+    ┃治疗: 靠近热源干燥 | 旧布擦干(减半) | 狗抖(减25)
   underweight1dsc: |-
-    ┃体重 < 44.90kg
-    <color=#888888>┃保温 -15% | 负重开始下降</color>
+    体重 < 44.90kg
+    ┃保温 -15% | 负重开始下降
   underweight2dsc: |-
-    ┃体重 < 39.80kg
-    <color=#888888>┃保温 -30% | 负重 -1.50u</color>
-    <color=#3CCBE7>┃治疗: 吃 <color=#3CCC78>高热量食品</color></color>
+    体重 < 39.80kg
+    ┃保温 -30% | 负重 -1.50u
+    ┃治疗: 吃 高热量食品
   underweight3dsc: |-
-    ┃体重 < 36.40kg
-    <color=#888888>┃保温 -40% | 负重 -2.5u
-    ┃精力流失加快</color>
-    <color=#3CCBE7>┃治疗: 吃 <color=#3CCC78>高热量食品</color></color>
+    体重 < 36.40kg
+    ┃保温 -40% | 负重 -2.5u
+    ┃精力流失加快
+    ┃治疗: 吃 高热量食品
   underweight4dsc: |-
-    ┃体重 < 33.00kg
-    <color=#888888>┃保温 -50% | 负重 -3.5u</color>
-    <color=#ff4444>┃<29.60kg 触发呼吸停止</color>
-    <color=#3CCBE7>┃治疗: 吃 <color=#3CCC78>高热量食品</color></color>
+    体重 < 33.00kg
+    ┃保温 -50% | 负重 -3.5u
+    ┃<29.60kg 触发呼吸停止
+    ┃治疗: 吃 高热量食品
   overweight1dsc: |-
-    ┃体重 > 55.00kg
-    <color=#888888>┃保温 +15% | 行动略降</color>
+    体重 > 55.00kg
+    ┃保温 +15% | 行动略降
   overweight2dsc: |-
-    ┃体重 > 60.20kg
-    <color=#888888>┃保温 +30% | 行动略降</color>
-    <color=#3CCBE7>┃治疗: 多运动 | 避免高热量食物</color>
+    体重 > 60.20kg
+    ┃保温 +30% | 行动略降
+    ┃治疗: 多运动 | 避免高热量食物
   overweight3dsc: |-
-    ┃体重 > 63.60kg
-    <color=#888888>┃保温 +40% | 行动下降</color>
-    <color=#3CCBE7>┃治疗: 多运动 | 避免高热量食物</color>
+    体重 > 63.60kg
+    ┃保温 +40% | 行动下降
+    ┃治疗: 多运动 | 避免高热量食物
   overweight4dsc: |-
-    ┃体重 > 67.00kg
-    <color=#888888>┃保温 +50% | 行动大降</color>
-    <color=#ff4444>┃>70.40kg 触发呼吸停止</color>
-    <color=#3CCBE7>┃治疗: 多运动 | 避免高热量食物</color>
+    体重 > 67.00kg
+    ┃保温 +50% | 行动大降
+    ┃>70.40kg 触发呼吸停止
+    ┃治疗: 多运动 | 避免高热量食物
   depression1dsc: |-
-    <color=#888888>情绪 < -10</color>
-    <color=#888888>┃小概率拒绝行动 | >-20加速降低</color>
-    <color=#888888>┃建议：吃东西或找点乐子
+    情绪 < -10
+    ┃小概率拒绝行动 | >-20加速降低
+    ┃建议：吃东西或找点乐子
     ┃背水一战概率：
     ┃心情-10 10~20% | 心情-20 概率5%
   depression2dsc: |-
-    <color=orange>情绪 < -30</color>
-    <color=#888888>┃背水一战0% | 拒绝行动15%</color>
-    <color=#888888>┃建议：吃点东西或找点乐子</color>
+    情绪 < -30
+    ┃背水一战0% | 拒绝行动15%
+    ┃建议：吃点东西或找点乐子
   depression3dsc: |-
-    <color=orange>情绪 < -50.00</color>
-    <color=#888888>┃情绪停止恢复 | >-60概率自残</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>抗抑郁药</color> 或注射 <color=#3CCC78>阿片类药物</color>(勿过量)</color>
+    情绪 < -50.00
+    ┃情绪停止恢复 | <-60概率自残
+    ┃治疗: 服用 抗抑郁药 或注射 阿片类药物(勿过量)
   depression4dsc: |-
-    <color=#ff4444>情绪 < -75.00</color>
-    <color=#888888>┃无法用非阿片类药品
-    ┃<-90概率自杀/挖眼</color>
-    <color=#AAAAAA>┃<b>移动</b>可减少自残</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>抗抑郁药</color> 或注射 <color=#3CCC78>阿片类药物</color>(勿过量)</color>
+    情绪 < -75.00
+    ┃无法用非阿片类药品
+    ┃<-90概率自杀/挖眼
+    ┃<b>移动</b>可减少自残
+    ┃治疗: 服用 抗抑郁药 或注射 阿片类药物(勿过量)
   trauma1dsc: |-
-    <color=#888888>创伤 > 10% (推测)</color>
-    <color=#3CCBE7>┃治疗: 随时间自然愈合 | 服用 <color=#3CCC78>抗抑郁药</color> 缓解情绪</color>
+    创伤 > 10% (推测)
+    ┃治疗: 随时间自然愈合 | 服用 抗抑郁药 缓解情绪
   trauma2dsc: |-
-    <color=orange>创伤 > 25%</color>
-    <color=#3CCBE7>┃治疗: 随时间自然愈合 | 服用 <color=#3CCC78>抗抑郁药</color> 缓解情绪</color>
+    创伤 > 25%
+    ┃治疗: 随时间自然愈合 | 服用 抗抑郁药 缓解情绪
   trauma3dsc: |-
-    <color=orange>创伤 > 45%</color>
-    <color=#3CCBE7>┃治疗: 随时间自然愈合 | 服用 <color=#3CCC78>抗抑郁药</color> 缓解情绪</color>
+    创伤 > 45%
+    ┃治疗: 随时间自然愈合 | 服用 抗抑郁药 缓解情绪
   trauma4dsc: |-
     幸福感严重下降。
-    <color=#ff4444>创伤 > 80%</color>
-    <color=#3CCBE7>┃治疗: 随时间自然愈合 | 服用 <color=#3CCC78>抗抑郁药</color> 缓解情绪</color>
+    创伤 > 80%
+    ┃治疗: 随时间自然愈合 | 服用 抗抑郁药 缓解情绪
   happy1dsc: |-
-    <color=#91a7ff>情绪 > 10.00</color>
-    <color=#888888>┃背水一战略微提升
-    ┃心情10 概率50% | 心情20 概率58%</color>
+    情绪 > 10.00
+    ┃背水一战略微提升
+    ┃心情10 概率50% | 心情20 概率58%
   happy2dsc: |-
-    <color=#91a7ff>情绪 > 30.00</color>
-    <color=#888888>┃背水一战概率大增
-    ┃心情30 概率67% | 心情50 概率83%</color>
+    情绪 > 30.00
+    ┃背水一战概率大增
+    ┃心情30 概率67% | 心情50 概率83%
   happy3dsc: |-
-    <color=#91a7ff>情绪 > 50.00</color>
-    <color=#888888>┃背水一战显著提升
-    ┃心情60 概率92% | 心情70 概率100%</color>
+    情绪 > 50.00
+    ┃背水一战显著提升
+    ┃心情60 概率92% | 心情70 概率100%
   happy4dsc: |-
-    <color=#91a7ff>情绪 > 80.00</color>
-    <color=#888888>┃背水一战100%触发</color>
+    情绪 > 80.00
+    ┃背水一战100%触发
   impairedspeechdsc: |-
-    <color=#888888>┃口中含物品 | 下颌脱位 | 毁容</color>
-    <color=#3CCBE7>┃治疗: 吐出物品 | 治疗下颌脱位</color>
+    ┃口中含物品 | 下颌脱位 | 毁容
+    ┃治疗: 吐出物品 | 治疗下颌脱位
   deaf2dsc: |-
     ┃听力损伤 > 15%
-    <color=#3CCBE7>┃治疗: 让耳朵休息 | 等待自然恢复</color>
+    ┃治疗: 让耳朵休息 | 等待自然恢复
   deaf3dsc: |-
     ┃听力损伤 > 40%
-    <color=#3CCBE7>┃治疗: 让耳朵休息 | 等待自然恢复</color>
+    ┃治疗: 让耳朵休息 | 等待自然恢复
   deaf4dsc: |-
     ┃听力损伤 > 70%
-    <color=#3CCBE7>┃治疗: 让耳朵休息 | 等待自然恢复</color>
+    ┃治疗: 让耳朵休息 | 等待自然恢复
   encumbered1dsc: |-
-    <color=#888888>超重 > 0%</color>
-    <color=#3CCBE7>┃治疗: 丢弃物品减负</color>
+    超重 > 0%
+    ┃治疗: 丢弃物品减负
   encumbered2dsc: |-
-    <color=orange>超重 > 30%</color>
-    <color=#888888>┃负重大于15%且未长时间静止
-    ┃力量/韧性就加经验</color>
-    <color=#3CCBE7>┃治疗: 丢弃物品减负</color>
+    超重 > 30%
+    ┃负重大于15%且未长时间静止
+    ┃力量/韧性就加经验
+    ┃治疗: 丢弃物品减负
   encumbered3dsc: |-
-    <color=orange>超重 > 55%</color>
-    <color=#888888>┃负重大于15%且未长时间静止
-    ┃力量/韧性就加经验</color>
-    <color=#3CCBE7>┃治疗: 丢弃物品减负</color>
+    超重 > 55%
+    ┃负重大于15%且未长时间静止
+    ┃力量/韧性就加经验
+    ┃治疗: 丢弃物品减负
   encumbered4dsc: |-
-    <color=#ff4444>超重 > 85%</color>
-    <color=#888888>┃负重大于15%且未长时间静止
-    ┃力量/韧性就加经验 | 100%每秒瘫倒</color>
-    <color=#3CCBE7>┃治疗: 丢弃物品减负</color>
-  irradiated1dsc: |-
-    <color=#888888>吸收辐射 > 3.00 Gy</color>
-    <color=#3CCBE7>┃治疗: 远离辐射源 或服用 <color=#3CCC78>抗辐射剂</color></color>
-  irradiated2dsc: |-
-    <color=orange>吸收辐射 > 9.00 Gy</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>抗辐射剂</color>
-    ┃并远离辐射源</color>
-  irradiated3dsc: |-
-    <color=orange>吸收辐射 > 15.00 Gy</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>抗辐射剂</color>
-    ┃并远离辐射源！</color>
-  irradiated4dsc: |-
-    <color=#ff4444>吸收辐射 > 24.00 Gy</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>抗辐射剂</color>
-    ┃并远离辐射源！</color>
-  energizeddsc: <color=#91a7ff>精力流失 x0.55</color>
+    超重 > 85%
+    ┃负重大于15%且未长时间静止
+    ┃力量/韧性就加经验 | 100%每秒瘫倒
+    ┃治疗: 丢弃物品减负
+  irradiated1dsc: 辐射 > 3.00 Gy
+  irradiated2dsc: 辐射 > 9.00 Gy
+  irradiated3dsc: 辐射 > 15.00 Gy
+  irradiated4dsc: 辐射 > 24.00 Gy
+  energizeddsc: 精力流失 x0.55
   hemothoraxdsc: |-
-    <color=orange>血胸 > 40%</color>
-    <color=#888888>┃最大氧含量 -12</color>
-    <color=#ff4444>┃>70% 最大氧含量 -21</color>
+    血胸 > 40%
+    ┃最大氧含量 -12
+    ┃>70% 最大氧含量 -21
     ┃内出血>=0.04L/分钟 血胸 +2.6/分钟
     ┃反之自然下降
     ┃减呼吸 -0.125/点 | 最大氧含量 -0.3/点
-    ┃使用胸腔引流器 血胸-35</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>胸腔引流器</color></color>
+    ┃使用胸腔引流器 血胸-35
+    ┃治疗: 使用 胸腔引流器
   hollowdsc: |-
     精神被彻底抹除。
-    <color=#888888>┃使用了精神抹除剂 或 触发神经再生不适
+    ┃使用了精神抹除剂 或 触发神经再生不适
     ┃这是永久的buff，会给摄像机加上黑白滤镜
-    ┃心情持续偏向0 | 失语 | 与商人初始好感-60%</color>
-    <color=#E74C3C>┃无法治愈</color>
+    ┃心情持续偏向0 | 失语 | 与商人初始好感-60%
+    ┃无法治愈
   badsleepdsc: |-
-    <color=orange>┃一般睡眠(1分钟)或糟糕睡眠(2分30秒)醒来</color>
-    <color=#3CCBE7>┃治疗: 使用 <color=#3CCC78>睡袋</color> | 寻找柔软地面</color>
+    ┃一般睡眠(1分钟)或糟糕睡眠(2分30秒)醒来
+    ┃治疗: 使用 睡袋 | 寻找柔软地面
   laststanddsc: |-
-    <color=#91a7ff>背水一战激活</color>
-    <color=#888888>┃每局仅触发一次(无自定义下)┃仅当脑健康<15%时触发检测</color>
+    背水一战激活
+    ┃每局仅触发一次(无自定义下)┃仅当脑健康<15%时触发检测
     触发后立即生效效果：
-    <color=#91a7ff>┃脑健康设为75%~90%随机值
+    ┃脑健康设为75%~90%随机值
     ┃饱食向100移动50% | 口渴向100移动50%
     ┃体重向50kg移动15% | 患病-30%
     ┃血容量+至3.75L | 心率设为120
@@ -3016,75 +2986,75 @@ moodles:
     ┃体温设为37° | 辐射病-80% | 内出血-95%
     ┃爪健康提升至80 | 阿片类物质清除，耐受重置
     ┃清除安眠药、抗抑郁药、漂白剂、汞效果
-    ┃每个肢体：肌肉健康向满值+30% | 感染-95%</color>
+    ┃每个肢体：肌肉健康向满值+30% | 感染-95%
      触发后持续5分钟效果：
     ┃肾上腺素+5/s | 肾上腺素不会随时间衰减
   dirty1dsc: |-
-    <color=#888888>脏污 > 50%</color>
-    <color=#888888>┃初见幸存者好感惩罚 | 拥抱必失败
+    脏污 > 50%
+    ┃初见幸存者好感惩罚 | 拥抱必失败
     ┃肮脏值>75吃东西有10%概率+8患病
     ┃自然积累+0.04%/分钟 | 肢体影响+1.35%
-    ┃>50%减商人好感</color>
-    <color=#3CCBE7>┃治疗: 淋浴 | 游泳 | 使用 <color=#3CCC78>皂液</color></color>
+    ┃>50%减商人好感
+    ┃治疗: 淋浴 | 游泳 | 使用 皂液
   dirty2dsc: |-
-    <color=orange>脏污 > 80%</color>
-    <color=#888888>┃免疫逐渐下降
+    脏污 > 80%
+    ┃免疫逐渐下降
     ┃肮脏值≥75吃东西有10%概率+8患病
     ┃自然积累+0.04%/分钟 | 肢体影响+1.35%
-    ┃>50%减商人好感 | >80%减免疫力</color>
-    <color=#3CCBE7>┃治疗: 淋浴 | 游泳 | 使用 <color=#3CCC78>皂液</color></color>
+    ┃>50%减商人好感 | >80%减免疫力
+    ┃治疗: 淋浴 | 游泳 | 使用 皂液
   adrenalinedsc: |-
     ┃肾上腺素 > 20%
-    <color=#888888>┃疼痛值临时减半(肾上腺素/2.00)</color>
+    ┃疼痛值临时减半(肾上腺素/2.00)
   tachycardiadsc: |-
-    <color=orange>心率 > 110.00</color>
-    <color=#3CCBE7>┃治疗: 治疗根本原因 | 注射 <color=#3CCC78>胺碘酮</color></color>
+    心率 > 110.00
+    ┃治疗: 治疗根本原因 | 注射 胺碘酮
   bradycardiadsc: |-
-    <color=orange>心率 < 60.00</color>
-    <color=#3CCBE7>┃治疗: 注射 <color=#3CCC78>肾上腺素</color> | 治疗根本原因</color>
+    心率 < 60.00
+    ┃治疗: 注射 肾上腺素 | 治疗根本原因
   rnrsdsc: |-
-    <color=orange>┃服用增脑剂(1分/mL) 或 神经增强剂(20分)后</color>
-    <color=#888888>┃此期间再次服用增脑剂 或神经增强剂会造成精神抹除</color>
+    ┃服用增脑剂(1分/mL) 或 神经增强剂(20分)后
+    ┃此期间再次服用增脑剂 或神经增强剂会造成精神抹除
   rippedjawdsc: |-
-    <color=#ff4444>下颌缺失</color>
-    <color=#888888>┃永久语言障碍 | 进食剧痛</color>
-    <color=#E74C3C>┃无法治愈</color>
+    下颌缺失
+    ┃永久语言障碍 | 进食剧痛
+    ┃无法治愈
   rippedeyedsc: |-
-    <color=#ff4444>单眼缺失</color>
-    <color=#888888>┃视野限制为面向方向</color>
-    <color=#E74C3C>┃无法治愈</color>
+    单眼缺失
+    ┃视野限制为面向方向
+    ┃无法治愈
   rippedeyesdsc: |-
-    <color=#ff4444>双眼缺失</color>
-    <color=#888888>┃视野限制为小圆范围，类似眼罩</color>
-    <color=#E74C3C>┃无法治愈</color>
+    双眼缺失
+    ┃视野限制为小圆范围，类似眼罩
+    ┃无法治愈
   lowimmunitydsc: |-
-    <color=orange>免疫 < 55%</color>
-    <color=#888888>┃感染进展加快</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>抗生素</color> 或注射 <color=#3CCC78>抗血清</color></color>
+    免疫 < 55%
+    ┃感染进展加快
+    ┃治疗: 服用 抗生素 或注射 抗血清
   highimmunitydsc: |-
-    <color=#91a7ff>免疫 > 150%</color>
-    <color=#888888>┃>195.80% 感染不再进展</color>
+    免疫 > 150%
+    ┃>195.80% 感染不再进展
   amputationdsc: |-
-    <color=#ff4444>任意肢体缺失</color>
-    <color=#E74C3C>┃无法治愈</color>
+    任意肢体缺失
+    ┃无法治愈
   clawdamage1dsc: |-
-    <color=orange>爪子健康 < 60%</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>角蛋白增强剂</color></color>
+    爪子健康 < 60%
+    ┃治疗: 服用 角蛋白增强剂
   clawdamage2dsc: |-
-    <color=#ff4444>爪子健康 < 25%</color>
-    <color=#3CCBE7>┃治疗: 服用 <color=#3CCC78>角蛋白增强剂</color></color>
-  keratinboosterdsc: <color=#91a7ff>角蛋白增强剂效果中</color>
+    爪子健康 < 25%
+    ┃治疗: 服用 角蛋白增强剂
+  keratinboosterdsc: 角蛋白增强剂效果中
   impendingdoomdsc: |-
-    <color=orange>┃棘背兽长老距离45~101.25格
-    ┃恐惧值锁定到50，心情值上限为+-75</color>
+    ┃棘背兽长老距离45~101.25格
+    ┃恐惧值锁定到50，心情值上限为+-75
   horrifieddsc: |-
-    <color=#ff4444>┃棘背兽长老距离<45格且阶段1(>=3750血)
-    ┃恐惧值提升到100 | 心情值上限为+-50</color>
+    ┃棘背兽长老距离<45格且阶段1(>=3750血)
+    ┃恐惧值提升到100 | 心情值上限为+-50
   focuseddsc: |-
     </i>
-    <color=orange>┃棘背兽长老距离<45格且非阶段1(<3750血)
+    ┃棘背兽长老距离<45格且非阶段1(<3750血)
     ┃恐惧值替换为专注值
-    ┃距离大于45格时以20/1s的速度减少</color>
+    ┃距离大于45格时以20/1s的速度减少
 other:
   # 多人模式翻译
   krokosha_coop_loaderror_possible_nonascii_path: 请确保您的游戏路径仅英文：
