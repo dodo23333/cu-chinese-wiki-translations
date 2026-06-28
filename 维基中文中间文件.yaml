@@ -305,13 +305,12 @@ main:
   brokenbagdsc: |-
     ┃(装有物品时)腐败：<color=#ffaa00>1.35%/分钟</color>
     ┃获取：<color=#aaaaaa>尸体旁</color>
-    <color=#ffaa00>！：不可穿戴，只能手持。可修复为筒状行李袋但容量会降低。</color>
+    <color=#ffaa00>！：不可穿戴。可修复为筒状行李袋但容量会降低。</color>
   boxdsc: |-
     ┃(装有物品时)腐败：<color=#ffaa00>1.80%/分钟</color>
     ┃获取：<color=#aaaaaa>物资箱/生命舱箱子/空投舱</color>
     <color=#ffaa00>对比：与植物纤维袋容量相近，但更轻且寿命翻倍。</color>
   toolboxdsc: |-
-    <color=#ffaa00>只能手持</color>
     ┃(装有物品时)腐败：<color=#ffaa00>0.24%/分钟</color>
     ┃获取：<color=#aaaaaa>生命舱箱子/空投舱</color>
     <color=#ffaa00>自身重4.00u。满箱重6.50u。容量巨大但小心误丢。</color>
@@ -320,7 +319,6 @@ main:
     ┃获取：<color=#aaaaaa>物资箱/生命舱箱子/空投舱/交易</color>
     <color=#ffaa00>限制：仅能存放医疗类物品。液体药袋无论内容物均可放入。满箱仅重1.80u。</color>
   scaffoldingpackdsc: |-
-    ┃主手使用
     ┃使用：<color=#88ff88>放置实心脚手架方块(每1%耐久=1块)</color>
     ┃耐久消耗：<color=#ffaa00>1%/次</color>
     ┃获取：<color=#aaaaaa>物资箱/空投舱/交易</color>
@@ -527,7 +525,6 @@ main:
     ┃获取：<color=#aaaaaa>食物箱/空投舱/交易</color>
     <color=#ffaa00>特点：极轻(0.10u)可放材料袋。增重效果显著，用于维持健康体重。</color>
   fleshchunkdsc: |-
-    <color=#ffaa00>只能手持</color>
     ┃饥饿 +14 | 心情 -0.1 | 体重 +0.41kg
     ┃消耗 20% 耐久
     ┃腐败：<color=#ffaa00>-0.83%/分钟</color>
@@ -565,11 +562,9 @@ main:
     <color=#ffaa00>！：对实验体有毒，大幅增加患病。建议稀释后饮用。容量大(1L)适合长途储水。</color>
   ketchupdsc: ┃获取：<color=#aaaaaa>食物箱/空投舱/生命舱箱子/交易/尸体</color>
   waterjugdsc: |-
-    <color=#ffaa00>只能手持</color>
     ┃获取：<color=#aaaaaa>医疗箱/食物箱/空投舱/生命舱箱子</color>
     <color=#ffaa00>特点：共10次使用，储水量是水瓶的6倍。重量(2.50u)与两瓶水相当，节省空间。</color>
   bleachdsc: |-
-    <color=#ffaa00>只能手持</color>
     <color=#ffaa00>！：饮用一次并不立即致命，但会导致严重患病和呕吐。</color>
   energydrinkdsc: ┃获取：<color=#aaaaaa>医疗箱/空投舱/生命舱箱子/交易</color>
   coffeedsc: |-
@@ -637,7 +632,6 @@ main:
     ┃获取：<color=#aaaaaa>破坏发光草/交易</color>
     ┃用途：<color=#aaaaaa>临时头灯/地形扫描仪/抗菌糊剂等多种配方。</color>
   flashlightdsc: |-
-    ┃主手使用
     ┃电池：<color=#88ff88>中型</color>
     ┃模式：
     ┃关(0/m) / 亮(1.50/m) / 暗(0.75/m) / 频闪(0.75/m)
@@ -645,20 +639,17 @@ main:
     ┃制作(10)：1灯泡+1废料管+1柔性玻璃+1塑料块+1电线捆+1电路板(>=90%)+1钉子+1(可捶打)
     <color=#ffaa00>！：放入容器仍会耗电。</color>
   emergencylightdsc: |-
-    ┃主手使用
     ┃耐久消耗：<color=#ffaa00>10%/分钟(使用中)</color>
     ┃效果：<color=#88ff88>发出微弱定向光束</color>
     ┃获取：<color=#aaaaaa>开局自带/空投舱/生命舱箱子/交易</color>
     <color=#ffaa00>！：电池不可更换，总寿命10分钟。</color>
   lanterndsc: |-
-    ┃主手使用
     ┃耐久消耗：<color=#ffaa00>0.83%/分钟</color>
     ┃效果：<color=#88ff88>明亮光源，寿命约2小时</color>
     ┃获取：<color=#aaaaaa>物资箱/空投舱/交易</color>
     ┃制作(10)：1荧光晶碎片+1柔性玻璃+2木板+1钉子+1(可捶打)
     <color=#ffaa00>非电池光源中续航最长。可以放在皮带上这样也可以发光不占位置</color>
   lightbulbdsc: |-
-    ┃主手使用
     ┃电池：<color=#88ff88>小型</color>
     ┃持续消耗 <color=#ffaa00>5/分钟</color>
     ┃获取：<color=#aaaaaa>生命舱顶灯拆取/物资箱/交易</color>
@@ -715,7 +706,6 @@ main:
     ┃制作(16)：3钛板+2柔性玻璃+2电线捆+1电路板(>=90%)+1手电筒+1塑料块+1钉子+1(可切割)+1(可捶打)
     <color=#ffaa00>提示：仅挖掘/攻击消耗耐久。满电约700次，总方块伤害17570。</color>
   heavydrilldsc: |-
-    <color=#ffaa00>只能手持</color>
     ┃<color=#88ff88>方块 60 ┃ 敌人 50</color>
     ┃体力 0 ┃ 冷却 0.16秒
     ┃电池：<color=#88ccff>大型</color>
@@ -724,14 +714,12 @@ main:
     ┃获取：<color=#aaaaaa>交易</color>
     <color=#ffaa00>提示：仅挖掘/攻击消耗耐久。满电约1260次，总方块伤害75600。</color>
   pickaxedsc: |-
-    <color=#ffaa00>只能手持</color>
     ┃<color=#88ff88>方块 110 ┃ 敌人 60</color>
     ┃体力 1.75 ┃ 冷却 0.55秒
     ┃获取：<color=#aaaaaa>物资箱/交易/合成</color>
     ┃制作(12)：1临时挖掘工具+2废料管+1废料板+1钉子+10mL生化流体+1(可捶打)
     <color=#ffaa00>提示：满耐久约550次，总方块伤害60500。</color>
   titaniumpickaxedsc: |-
-    <color=#ffaa00>只能手持</color>
     ┃<color=#88ff88>方块 140 ┃ 敌人 70</color>
     ┃体力 1.7 ┃ 冷却 0.48秒
     ┃获取：<color=#aaaaaa>物资箱/交易</color>
@@ -754,13 +742,11 @@ main:
     <color=#ffaa00>极高的性价比。伤害极高，几乎媲美手枪。</color>
     <color=#aaaaaa>约可使用3300次</color>
   sledgehammerdsc: |-
-    <color=#ffaa00>只能手持</color>
     ┃<color=#88ff88>方块 90 ┃ 敌人 60</color>
     ┃体力 1.75 ┃ 冷却 0.66秒
     ┃锤击性质：<color=#88ff88>1000</color>
     ┃获取：<color=#aaaaaa>物资箱/交易 (不可制作)</color>
   woodpickaxedsc: |-
-    <color=#ffaa00>只能手持</color>
     ┃<color=#88ff88>方块 105 ┃ 敌人 55</color>
     ┃体力 1.5 ┃ 冷却 0.49秒
     ┃获取：<color=#aaaaaa>交易 (不可制作)</color>
@@ -827,7 +813,6 @@ main:
     ┃获取：<color=#aaaaaa>棘背兽/沙漠追猎者/巨型蜱虫/动物尸体/交易</color>
     ┃用途：<color=#aaaaaa>炼脂肪/做肥皂/汤/汉堡/干肉饼(无副作用)</color>
   internalorgansdsc: |-
-    <color=#ffaa00>只能手持</color>
     ┃食用(共3次)：
     ┃饥饿 +15/次
     ┃体重 +1.02kg/次
@@ -853,7 +838,6 @@ main:
     ┃获取：<color=#aaaaaa>破坏仙人掌/交易</color>
     <color=#ffaa00>可解渴，但会增加头部疼痛。</color>
   neuralboosterdsc: |-
-    <color=#ffaa00>只能手持┃智力要求：18</color>
     ┃首次使用：
     ┃<color=#ff4444>脑健康 +10</color> | 消除中风
     ┃<color=#88ff88>心情 +20 | 精力充沛 10分钟</color>
@@ -1075,7 +1059,6 @@ main:
     ┃获取：<color=#aaaaaa>交易</color>
     <color=#ffaa00>早期探索利器，方便进入高处区域。</color>
   plasmacutterdsc: |-
-    <color=#ffaa00>只能手持</color>
     ┃<color=#88ff88>方块 10(对金属x10即100) ┃ 敌人 10</color>
     ┃体力 0 ┃ 冷却 0.1秒
     ┃电池：<color=#88ccff>大型</color>
@@ -1133,7 +1116,6 @@ main:
     ┃获取：<color=#aaaaaa>制作</color>
     ┃制作(6)：1大型虫尸+1硬化虫尸+1绳子
   terrainscannerdsc: |-
-    ┃主手使用
     ┃电池：<color=#88ff88>中型</color>
     ┃每次消耗<color=#ffaa00>1.50%</color>
     ┃效果：<color=#88ff88>显示周围地形及金属物体</color>
@@ -1141,7 +1123,6 @@ main:
     ┃制作(12)：3废料板+1废料管+1液晶显示屏+1钉子+1电线捆+1电路板(>=90%)+1(可捶打)
     <color=#ffaa00>探宝探矿利器，可发现隐藏金属物。</color>
   geigercounterdsc: |-
-    ┃主手使用
     ┃电池：<color=#88ff88>小型</color>
     ┃效果：<color=#88ff88>显示环境辐射水平</color>
     ┃获取：<color=#aaaaaa>物资箱/空投舱/交易</color>
@@ -1186,7 +1167,6 @@ main:
     ┃制作(9)：1废料板+1(可捶打)+1(可切割)=1镊子(10%)
     <color=#ffaa00>极其实用，可完美处理弹片伤，耐久消耗极低(可用100次)。</color>
   lockpickingkitdsc: |-
-    ┃主手使用
     ┃获取：<color=#aaaaaa>生命舱箱子/物资箱/空投舱/交易</color>
     ┃制作(10)：1废料板+1废料管+1塑料块+0.2(可捶打)+0.2(可切割)=1开锁工具包(10%)
     <color=#ffaa00>极轻(0.15u)，建议放材料袋常备。</color>
@@ -1238,7 +1218,6 @@ main:
     ┃获取：<color=#aaaaaa>物资箱/空投舱/交易</color>
     <color=#ffaa00>可撕碎为绷带。</color>
   rangefinderdsc: |-
-    ┃主手使用
     ┃电池：<color=#88ff88>小型</color>
     ┃每次消耗<color=#ffaa00>0.50%</color>
     ┃效果：<color=#88ff88>显示光标方向最近固体距离</color>
@@ -1260,7 +1239,6 @@ main:
     ┃制作(12)：1氧晶碎片+2废料板+2废料管+1柔性玻璃+2塑料块+10mL生化流体+1电线捆+1(可捶打)+1(可切割)
     <color=#ffaa00>！：占用背部槽位，无法同时背包。适合水域丰富层数。</color>
   filterstrawdsc: |-
-    ┃主手使用
     ┃效果：
     ┃主手持有时，饮用地表/容器中的地下水/污水/树汁无患病；荧光藻患病减半；无法饮用原油
     ┃腐败：<color=#ffaa00>-0.60%/分钟</color>
@@ -1683,7 +1661,7 @@ main:
     ┃获取：<color=#aaaaaa>制作</color>
     ┃制作(8)：2木板+2绳子+1细绳
   minibarreldsc: |-
-    <color=#ffaa00>只能手持</color>┃容量 10,000mL(10L) | 每次饮用100ml
+    ┃容量 10,000mL(10L) | 每次饮用100ml
     ┃获取：<color=#aaaaaa>各层随机生成(不可制作/交易)</color>
     <color=#ffaa00>随机最高8种液体，可分离：用离心机分离损失1/3。
     桶+液体交易上限50价值，过重时摔落伤害大大增加，版本v1.8.0
