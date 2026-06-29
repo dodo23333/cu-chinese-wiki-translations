@@ -107,13 +107,16 @@ main:
     ┃用途：制作植物绳。</color>
     <color=orange>砾石层常见，适合现场急救。</color>
   paincreamdsc: |-
+    <color=#91a7ff>容重比：0.50u/100ml</color>
     <color=#ffee58>┃获取：医疗箱/交易
     ┃制作(9)：1易燃粉末+50mL水+25mL血液+50阿片类性质+25mL生化流体=100mL镇痛膏</color>
     <color=orange>特点：两个镇痛膏瓶在很多情况下优于一瓶消毒剂。</color>
   morphinedsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
     <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易
     ┃制作(9)：75mL鸦片+10mL生化流体+15阿片类性质=50mL吗啡</color>
   makeshiftlrddsc: |-
+    <color=#91a7ff>容重比：1.50u/100ml</color>
     <color=#72d572>┃外敷：
     ┃肌肉 +50(相邻肢体+40)
     ┃感染 -10(相邻肢体-5)
@@ -125,6 +128,7 @@ main:
     ┃制作(10)：2废料板+1电线捆+1塑料块+1废料管+1钉子+1(可捶打)</color>
     <color=orange>提示：默认含50mL血清。是正式版L.R.D.的下位替代，制作简单。</color>
   lrddsc: |-
+    <color=#91a7ff>容重比：0.80u/100ml</color>
     <color=#72d572>┃外敷：
     ┃肌肉 +50(相邻肢体+40)
     ┃感染 -10(相邻肢体-5)
@@ -138,21 +142,40 @@ main:
     ┃制作(15)：1临时LRD+2钛板+25mL生化流体+1自动注射器+1电路板(>=90%)+1电线捆+1(可切割)+1(可捶打)</color>
     <color=orange>提示：默认含75mL血清。清空后重量降至0.10u，建议将血清单独存放以减轻负重。</color>
   opiumdsc: |-
+    <color=#91a7ff>容重比：0.25u/100ml</color>
     <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易
     ┃制作(7)：2麻木浆果+10mL生化流体+50mL水=50mL鸦片</color>
   heroindsc: |-
+    <color=#91a7ff>容重比：0.20u/100ml</color>
     <color=#ffee58>┃获取：医疗箱/生命舱箱子/空投舱/交易/尸体</color>
-  naloxonedsc: <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
-  naltrexonedsc: <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
+  naloxonedsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
+    <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
+  naltrexonedsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
+    <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
+  sodiumnitroprussidedsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
+    一个装有100mL硝普钠的小瓶子。仅在注射使用时有药效，你需要一个注射器，并填充此药物以使用。
+  vasopressindsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
+    一个装有100mL血管加压素的小瓶子。仅在注射使用时有药效，你需要一个注射器，并填充此药物以使用。
+  amiodaronedsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
+    一个装有100mL胺碘酮的小瓶子。仅在注射使用时有药效，你需要一个注射器，并填充此药物以使用。
   fentanyldsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
     <color=#ffee58>┃获取：医疗箱/生命舱箱子/空投舱/交易/尸体
     ┃制作(11)：50mL吗啡+25mL生化流体+25阿片类性质+1易燃粉末=10mL芬太尼</color>
     <color=orange>过量警告：实际过量阈值为19.04%(即18%为最大安全剂量)。
     注射精度有限，极易过量，建议进一步稀释后使用。交易价值极高。</color>
   painkillersdsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
     <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体
     ┃制作(10)：1镇痛晶碎片+1塑料块+20mL生化流体+50mL水=200mL止痛药</color>
-  braingrowdsc: <color=#ffee58>┃获取：医疗箱/物资箱/交易/尸体</color>
+  braingrowdsc: |-
+    <color=#91a7ff>容重比：0.50u/100ml</color>
+    <color=#ffee58>┃获取：医疗箱/物资箱/交易/尸体</color>
   autopumpdsc: |-
     <color=#72d572>┃使用效果：
     ┃穿戴且有电时:若血压<85，则血压+44
@@ -184,13 +207,21 @@ main:
     电击有20%几率修复心脏骤停。
     智力影响估算范围，>=23智力最准。</color>
   antidepressantsdsc: |-
-    <color=#ffee58>┃获取：医疗箱/物资箱/空投舱/生命舱箱子/交易/尸体
-    ┃制作(10)：1宁神晶碎片+20mL生化流体+1易燃粉末=200mL抗抑郁药</color>
+    <color=#91a7ff>容重比：0.36u/100ml</color>
+    <color=#ffee58>┃获取：医疗箱/物资箱/空投舱/生命舱箱子/交易/尸体</color>
     ┃该药瓶可在心情<-75时使用
-  antibioticsdsc: <color=#ffee58>┃获取：医疗箱/物资箱/空投舱/生命舱箱子/交易/尸体</color>
-  antiserumdsc: <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
-  antiraddsc: <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
-  sleepingpillsdsc: <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
+  antibioticsdsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
+    <color=#ffee58>┃获取：医疗箱/物资箱/空投舱/生命舱箱子/交易/尸体</color>
+  antiserumdsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
+    <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
+  antiraddsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
+    <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
+  sleepingpillsdsc: |-
+    <color=#91a7ff>容重比：1.60u/100ml</color>
+    <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
   rosepoddsc: |-
     <color=#ffa726>┃使用消耗100%耐久，变为玫瑰光
     ┃永不腐败</color>
@@ -212,6 +243,7 @@ main:
     <color=orange>佩戴后重量不计入负重。可多备几个低耐久夹板佩戴在身上作为“免费”储物。</color>
     <color=orange>限制：可用于手臂、腿部和腹部，但不能用于胸腔和头部。</color>
   bloodbagdsc: |-
+    <color=#91a7ff>容重比：0.17u/100ml</color>
     <color=#ffee58>┃制作(12)：1塑料块+2柔性玻璃+1电线捆+1自动注射器+20mL生化流体</color>
     <color=orange>！：耐久耗尽变为空血袋。</color>
   bloodsacdsc: |-
@@ -237,10 +269,15 @@ main:
     ┃制作：抗毒血清的原料</color>
     <color=orange>用于制作抗毒血清以解大量毒。</color>
   salinedsc: |-
+    <color=#91a7ff>容重比：0.15u/100ml</color>
     <color=#ffee58>┃制作(9)：150mL水+10mL生化流体+15血液=175mL生理盐水
     ┃制作(11)：2塑料块+2柔性玻璃+1废料管+20mL生化流体=1静脉输液袋</color>
-  ringersolutiondsc: <color=orange>！：注射可能导致血容量过高(高血容量症)，严重时引发呼吸停止。</color>
-  bloodbaghumandsc: <color=#ffee58>┃获取：医疗箱/交易</color>
+  ringersolutiondsc: |-
+    <color=#91a7ff>容重比：0.16u/100ml</color>
+    <color=orange>！：注射可能导致血容量过高(高血容量症)，严重时引发呼吸停止。</color>
+  bloodbaghumandsc: |-
+    <color=#91a7ff>容重比：0.17u/100ml</color>
+    <color=#ffee58>┃获取：医疗箱/交易</color>
   trashbagdsc: |-
     <color=#ffa726>┃(装有物品时)腐败：1.66%/分钟</color>
     <color=#ffee58>┃获取：物资箱/生命舱箱子/空投舱</color>
@@ -281,6 +318,7 @@ main:
     <color=#ffee58>┃获取：空投舱/交易/制作</color>
     <color=orange>容量适中，负重减免极高。</color>
   liquidpouchdsc: |-
+    <color=#91a7ff>容重比：0.16u/100ml</color>
     <color=#91a7ff>┃容量：1000u (仅液体)</color>
     <color=#ffee58>┃获取：物资箱/生命舱箱子/空投舱</color>
     <color=orange>特点：无限寿命(因只存液体)，可替代腹部护甲或腰包大量储水。</color>
@@ -321,11 +359,16 @@ main:
     ┃制作(14)：2厚钛板+1绳子+1塑料块
     用途：跨越沟壑或向上攀爬。</color>
   disinfectantdsc: |-
+    <color=#91a7ff>容重比：0.25u/100ml</color>
     <color=#ffee58>┃获取：医疗箱/交易
     ┃制作(9)：25mL生化流体+50mL皂液+25mL血液+50mL水=100mL消毒剂
     用途：可清空后装入其他液体；是制作L.R.D.血清和消毒绷带的材料。</color>
-  spraybottledsc: <color=#ffee58>┃制作(7)：1水壶+1塑料块+1(可切割)</color>
-  syringedsc: <color=#ffee58>┃制作(8)：1水壶+1塑料块+1废料管+10mL生化流体</color>
+  spraybottledsc: |-
+    <color=#91a7ff>容重比：0.25u/100ml</color>
+    <color=#ffee58>┃制作(7)：1水壶+1塑料块+1(可切割)</color>
+  syringedsc: |-
+    <color=#91a7ff>容重比：0.25u/100ml</color>
+    <color=#ffee58>┃制作(8)：1水壶+1塑料块+1废料管+10mL生化流体</color>
   scrapmetaldsc: |-
     <color=#ffee58>┃获取：陷阱/废料块掉落
     ┃用途：
@@ -499,6 +542,7 @@ main:
     ┃制作(2)：与500mL牛奶合成3碗麦片碗(需热源)</color>
     <color=orange>！：干吃会降低口渴值。</color>
   bowlofcerealdsc: |-
+    <color=#91a7ff>容重比：0.20u/100ml</color>
     <color=#72d572>┃食用效果：
     ┃饥饿 +6
     ┃口渴 +7.5
@@ -564,40 +608,61 @@ main:
     ┃食物箱/空投舱/交易/尸体旁</color>
     <color=orange>！：实验体无法代谢可可碱，会大幅增加患病，因而降低心情获得量(仅+0.5/次)。</color>
   waterbottledsc: |-
+    <color=#91a7ff>容重比：0.25u/100ml</color>
     <color=#ffee58>┃获取：医疗箱/食物箱/空投舱/生命舱箱子/地面刷新</color>
     <color=#ffa726>提示：由于不腐败物品的额外使用Bug，实际可使用6次(共+54口渴)。最佳解渴物品之一。</color>
   milkdsc: |-
+    <color=#91a7ff>容重比：0.15u/100ml</color>
     <color=#ffee58>┃获取：食物箱/空投舱/生命舱箱子/交易/尸体
     ┃制作(0)：470mL液体+30奶粉=500mL牛奶</color>
     <color=orange>特点：容量大(1L)，适合储存液体。</color>
   chocolatemilkdsc: |-
+    <color=#91a7ff>容重比：0.16u/100ml</color>
     <color=#ffee58>┃获取：食物箱/交易/尸体</color>
     <color=orange>！：对实验体有毒，大幅增加患病。建议稀释后饮用。容量大(1L)适合长途储水。</color>
-  ketchupdsc: <color=#ffee58>┃获取：食物箱/空投舱/生命舱箱子/交易/尸体</color>
+  ketchupdsc: |-
+    <color=#91a7ff>容重比：0.33u/100ml</color>
+    <color=#ffee58>┃获取：食物箱/空投舱/生命舱箱子/交易/尸体</color>
   waterjugdsc: |-
+    <color=#91a7ff>容重比：0.17u/100ml</color>
     <color=#ffee58>┃获取：医疗箱/食物箱/空投舱/生命舱箱子</color>
     <color=orange>特点：共10次使用，储水量是水瓶的6倍。重量(2.50u)与两瓶水相当，节省空间。</color>
   bleachdsc: |-
+    <color=#91a7ff>容重比：0.20u/100ml</color>
     <color=orange>！：饮用一次并不立即致命，但会导致严重患病和呕吐。</color>
-  energydrinkdsc: <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易</color>
+  energydrinkdsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
+    <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易</color>
   coffeedsc: |-
+    <color=#91a7ff>容重比：0.20u/100ml</color>
     <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/食物箱/交易/尸体</color>
     <color=orange>！：高患病风险，但提神效果持久。杯子轻，可用于装生化流体。</color>
   soupdsc: |-
+    <color=#91a7ff>容重比：0.33u/100ml</color>
     <color=#ffee58>┃获取：食物箱/生命舱箱子/空投舱/交易/尸体
     ┃制作(9)：1热源+200mL水+25脂肪+1肉类(>=20%)+0.5(可切割)=300mL汤</color>
     <color=orange>特点：容量大(1L)，较重(2.30u)。</color>
   sodabottledsc: |-
+    <color=#91a7ff>容重比：0.23u/100ml</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
     <color=orange>特点：容量大(1L)，较重(2.30u)。</color>
   applejuicedsc: |-
+    <color=#91a7ff>容重比：0.21u/100ml</color>
     <color=#ffee58>┃获取：食物箱/空投舱/生命舱箱子/交易/尸体</color>
     <color=orange>共8次使用，轻微降体温。</color>
-  lemonadedsc: <color=#ffee58>┃获取：生命舱箱子/食物箱/空投舱/交易</color>
-  iceteadsc: <color=#ffee58>┃获取：空投舱/生命舱箱子/物资箱/医疗箱/尸体/迷你桶(液体)</color>
+  lemonadedsc: |-
+    <color=#91a7ff>容重比：0.22u/100ml</color>
+    <color=#ffee58>┃获取：生命舱箱子/食物箱/空投舱/交易</color>
+  iceteadsc: |-
+    <color=#91a7ff>容重比：0.25u/100ml</color>
+    <color=#ffee58>┃获取：空投舱/生命舱箱子/物资箱/医疗箱/尸体/迷你桶(液体)</color>
   sodacandsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
     <color=orange>特点：汽水瓶的小瓶版，较轻(0.75u)。</color>
+  alcoholdsc: |-
+    <color=#91a7ff>容重比：0.25u/100ml</color>
+    瓶装酒精，一个0.4L的玻璃瓶。
   exposedcoredsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +12
@@ -651,7 +716,7 @@ main:
     ┃关(0/分钟) / 亮(1.50/分钟) / 暗(0.75/分钟) / 频闪(0.75/分钟)</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(10)：1灯泡+1废料管+1柔性玻璃+1塑料块+1电线捆+1电路板(>=90%)+1钉子+1(可捶打)</color>
-    <color=#91a7ff>！：放入容器仍会耗电。</color>
+    <color=orange>！：放入容器仍会耗电。</color>
   emergencylightdsc: |-
     <color=#91a7ff>┃效果：发出微弱定向光束</color>
     <color=#ffa726>┃耐久消耗：10%/分钟(使用中)</color>
@@ -1109,9 +1174,11 @@ main:
     <color=#91a7ff>┃效果：发射钩爪，牵引至目标点</color>
     <color=#ffee58>┃获取：交易</color>
   ceftriaxonedsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
     <color=#ffee58>┃获取：医疗箱/空投舱/交易</color>
     <color=orange>该注射器可在心情<-75时使用。</color>
   woundgluedsc: |-
+    <color=#91a7ff>容重比：0.38u/100ml</color>
     <color=#72d572>┃外敷：
     ┃皮肤 +10
     ┃出血 -0.30L/分钟
@@ -1175,6 +1242,7 @@ main:
     <color=#91a7ff>┃效果：提升睡眠质量一级(上限优质)</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   liquidcentrifugedsc: |-
+    <color=#91a7ff>容重比：0.00u/100ml</color>
     <color=#91a7ff>┃效果：分离容器中混合液体(损失约1/3)
     ┃冷却：60秒</color>
     <color=#ffee58>┃获取：交易</color>
@@ -1182,9 +1250,15 @@ main:
     <color=#91a7ff>┃电池：中型
     ┃效果：阅读监管者笔记，提升智力经验</color>
     <color=#ffee58>┃获取：生命舱箱子/交易</color>
-  bloodcoagulantdsc: <color=#ffee58>┃获取：医疗箱/空投舱/交易</color>
-  combatpendsc: <color=#ffee58>┃获取：医疗箱/空投舱/交易</color>
-  streptokinasedsc: <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
+  bloodcoagulantdsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
+    <color=#ffee58>┃获取：医疗箱/空投舱/交易</color>
+  combatpendsc: |-
+    <color=#91a7ff>容重比：0.15u/100ml</color>
+    <color=#ffee58>┃获取：医疗箱/空投舱/交易</color>
+  streptokinasedsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
+    <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
   chestdraindsc: |-
     <color=#72d572>┃对胸部使用：
     ┃血胸 -35
@@ -1254,6 +1328,7 @@ main:
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     用途：测量深渊深度。</color>
   mindwipedsc: |-
+    <color=#91a7ff>容重比：0.50u/100ml</color>
     <color=#72d572>┃使用条件：
     ┃心情<=-50 或 脑健康<=90 或 中风>=5
     (v6.0+，原装瓶限定；转移液体可绕过限制)</color>
@@ -1577,6 +1652,7 @@ main:
     通常升级为临时挖掘工具，
     但需要高切割性质配方时此刀更耐用。</color>
   craftingbottledsc: |-
+    <color=#91a7ff>容重比：0.10u/100ml</color>
     可以直接饮用其中的液体。
     最多能保存液体5分钟
     等待wiki更新资料
@@ -1590,6 +1666,7 @@ main:
     ┃含1~4种随机液体各25~175mL</color>
     <color=orange>！：可能药物过量(3.42%)！</color>
   canteendsc: |-
+    <color=#91a7ff>容重比：0.00u/100ml</color>
     <color=#72d572>┃饮用：100ml | 消耗33.3%</color>
     <color=#ffee58>┃获取：制作
     ┃制作(6)：2塑料块+1绳子+10mL生化流体</color>
@@ -1603,6 +1680,7 @@ main:
     ┃用途：
     ┃自动泵/血袋/L.R.D./临时L.R.D.</color>
   keratinboosterdsc: |-
+    <color=#91a7ff>容重比：0.30u/100ml</color>
     <color=#72d572>┃饮用50mL：
     ┃增强再生 20分钟</color>
     <color=#ffa726>┃消耗 50% 耐久</color>
@@ -1682,6 +1760,7 @@ main:
     <color=#ffee58>┃获取：制作
     ┃制作(8)：2木板+2绳子+1细绳</color>
   minibarreldsc: |-
+    <color=#91a7ff>容重比：0.00u/100ml</color>
     <color=#ffee58>┃获取：各层随机生成(不可制作/交易)</color>
     <color=orange>随机最高8种液体，可分离：用离心机分离损失1/3。
     桶+液体交易上限50价值，过重时摔落伤害大大增加，版本v1.8.0
@@ -1924,7 +2003,7 @@ buildings:
   LifePodLightdsc: |-
     <color=#91a7ff>可进行拆卸，会获得包含小型电池的灯泡。
     将可拆卸工具移至该灯泡的物品栏上方即可拆卸。</color>
-    <orange>注意一定不要把灯泡放在嘴部！！</color>
+    <color=orange>注意一定不要把灯泡放在嘴部！！</color>
   medcratedsc: |-
     <color=#f36c60>最大血量：1000</color>
     <color=#ffee58>破坏/开锁掉落：
@@ -2098,7 +2177,7 @@ buildings:
     ┃肌肉伤害 1.25/护甲┃皮肤伤害 0.6/护甲┃流血 0.05/护甲
     ┃速度差>25 脱臼0.5┃速度差>45 骨折0.5┃头部降低意识</color>
     <color=#ffee58>┃破坏掉落：
-    金属废料 (0-100%)
+    金属废料 (0-100%)</color>
     <color=orange>钟乳石的强化版，造成更严重的伤害。
     会发出微光，比普通钟乳石更容易发现。</color>
   gunminedsc: |-
