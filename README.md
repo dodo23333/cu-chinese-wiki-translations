@@ -15,6 +15,7 @@ Q群：521023836
 - 食物医疗: `#72d572`
 - 配方用途: `#ffee58`
 - 腐败耐久: `#ffa726`
+- 生物血量: `#f36c60`
 
 ## 安装
 这个项目使用[uv](https://docs.astral.sh/uv/getting-started/installation/),请确定你安装了它
@@ -27,6 +28,11 @@ git clone https://github.com/dodo23333/cu-chinese-wiki-translations.git
 安装项目依赖：
 ```sh
 uv sync
+```
+
+初始化submodule：
+```sh
+git submodule update --init
 ```
 
 完成！

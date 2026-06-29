@@ -69,7 +69,7 @@ jobs:
           path: 维基中文_基于软盘翻译${{ steps.translation-version.outputs.version }}.json
           if-no-files-found: error
 
-      # 文件用中文名有bug,会报错，暂时先手动发布
+      # 同时上传两个中文名文件会报错，暂时先传一个
       - name: 自动发布Release
         if: github.ref_type == 'tag'
         uses: softprops/action-gh-release@v3
