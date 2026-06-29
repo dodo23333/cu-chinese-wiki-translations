@@ -15,7 +15,7 @@ Q群：521023836
 - 食物医疗: `#72d572`
 - 配方用途: `#ffee58`
 - 腐败耐久: `#ffa726`
-- 生物血量: `#f36c60`
+- 生物血量: `#e84e40`
 
 ## 安装
 这个项目使用[uv](https://docs.astral.sh/uv/getting-started/installation/),请确定你安装了它
