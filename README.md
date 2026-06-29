@@ -16,6 +16,7 @@ Q群：521023836
 - 配方用途: `#ffee58`
 - 腐败耐久: `#ffa726`
 - 生物血量: `#e84e40`
+- 注释心得: `orange`
 
 ## 安装
 这个项目使用[uv](https://docs.astral.sh/uv/getting-started/installation/),请确定你安装了它
