@@ -713,7 +713,7 @@ main:
     <color=#91a7ff>┃效果：发出微弱定向光束</color>
     <color=#ffa726>┃耐久消耗：10%/分钟(使用中)</color>
     <color=#ffee58>┃获取：开局自带/空投舱/生命舱箱子/交易</color>
-    <color=#91a7ff>！：电池不可更换，总寿命10分钟。</color>
+    <color=orange>电池不可更换，总寿命10分钟</color>
   lanterndsc: |-
     <color=#91a7ff>┃效果：明亮光源
     ┃寿命约2小时，非电池光源中续航最长。</color>
