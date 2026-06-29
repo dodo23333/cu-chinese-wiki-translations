@@ -1804,7 +1804,7 @@
         "hpimmunitydsc": "身体抵抗感染的能力",
         "hptemperature": "核心体温",
         "hptemperaturedsc": "最低体温低于28度或最高温体温超过42度则会致命。",
-        "hpsickness": "患病程度\n\n简中:反胃程度",
+        "hpsickness": "患病程度\n简中:反胃程度",
         "hphappiness": "情绪状态",
         "hphunger": "饥饿值",
         "hpthirst": "口渴值",
