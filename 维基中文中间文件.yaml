@@ -297,14 +297,13 @@ main:
     <color=#ffa726>┃(装有物品时)腐败：-1%/分钟</color>
     <color=#91a7ff>┃电池：中型</color>
     <color=#ffee58>┃获取：交易/生命舱箱/物资箱/空投舱</color>
-    <color=#ff4444>爆炸：半径12格 ┃ 耳鸣30格
-    肢体：
-    肌肉伤害0-60 ┃ 波及胸部50%内出血0~0.21L/分钟
-    20%皮肤健康0-75 ┃ 15%流血0.06~0.45L/分钟
-    40%概率5破片 ┃ 13.5%脱臼 ┃ 6%骨折。
-    头部：15%毁容 ┃ 15%单眼失明 ┃ 70%概率0~30脑损伤</color>
-    <color=orange>机制：
-    用工具取出电池永久安全(无负重减免)，勿放废电池。
+    <color=#ff4444>┃爆炸：半径12格 ┃ 耳鸣30格
+    ┃肢体：
+    ┃肌肉伤害0-60 ┃ 波及胸部50%内出血0~0.21L/分钟
+    ┃20%皮肤健康0-75 ┃ 15%流血0.06~0.45L/分钟
+    ┃40%概率5破片 ┃ 13.5%脱臼 ┃ 6%骨折。
+    ┃头部：15%毁容 ┃ 15%单眼失明 ┃ 70%概率0~30脑损伤</color>
+    <color=orange>用工具取出电池永久安全(无负重减免)，勿放废电池。
     睡觉前取出延长寿命；小灯泡电池可合成中型电池供电
     避免手持或叼着以防掉陷阱引爆。</color>
   legpouchdsc: |-
@@ -713,7 +712,7 @@ main:
     <color=#91a7ff>┃效果：发出微弱定向光束</color>
     <color=#ffa726>┃耐久消耗：10%/分钟(使用中)</color>
     <color=#ffee58>┃获取：开局自带/空投舱/生命舱箱子/交易</color>
-    <color=#91a7ff>！：电池不可更换，总寿命10分钟。</color>
+    <color=orange>电池不可更换，总寿命10分钟</color>
   lanterndsc: |-
     <color=#91a7ff>┃效果：明亮光源
     ┃寿命约2小时，非电池光源中续航最长。</color>
@@ -821,8 +820,8 @@ main:
     ┃体力 0.7 ┃ 冷却 0.32秒</color>
     <color=#ffee58>┃获取：制作/交易
     ┃制作(16)：1砍刀+2钛板+1塑料块+20mL生化流体+1(可捶打)</color>
-    <color=orange>极高的性价比。伤害极高，几乎媲美手枪。</color>
-    <color=#aaaaaa>约可使用3300次</color>
+    <color=orange>极高的性价比。伤害极高，几乎媲美手枪。
+    约可使用3300次</color>
   sledgehammerdsc: |-
     <color=#91a7ff>┃工具属性：
     ┃方块 90 ┃ 敌人 60
@@ -1759,48 +1758,40 @@ main:
     长按投掷出去可进行反推力作用，重量越大后坐力越大(小心会受伤)。</color>
 buildings:
   animalcorpsedsc: |-
-    <color=#f36c60>最大血量：250</color>
-    <color=#ffee58>破坏掉落：
-    动物肉块x2 (100%)</color>
+    <color=#f36c60>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：动物肉块x2 (100%)</color>
     <color=orange>注意：与实验体尸体不同，观看动物尸体不会降低心情。</color>
   fungalibungalidsc: |-
-    <color=#f36c60>最大血量：80</color>
-    <color=#ffee58>破坏掉落：
-    颗粒菇组织块 (100%)、颗粒菇菌盖 (50%)</color>
+    <color=#f36c60>┃最大血量：80</color>
+    <color=#ffee58>┃破坏掉落：颗粒菇组织块 (100%)、颗粒菇菌盖 (50%)</color>
     <color=orange>直接破坏可获取大量食物，但颗粒菇组织块效果随机，慎食。</color>
   mushroomplatformdsc: |-
     本地生物的遗体。
-    <color=#f36c60>最大血量：400</color>
-    <color=#ffee58>破坏掉落：
-    颗粒菇组织块x2 (100%)</color>
+    <color=#f36c60>┃最大血量：400</color>
+    <color=#ffee58>┃破坏掉落：颗粒菇组织块x2 (100%)</color>
     <color=orange>可用于跨越边缘或破坏获取食物。</color>
   bouncecapdsc: |-
-    <color=#f36c60>最大血量：500</color>
-    <color=#ffee58>破坏掉落：
-    颗粒菇组织块x2 (100%)</color>
+    <color=#f36c60>┃最大血量：500</color>
+    <color=#ffee58>┃破坏掉落：颗粒菇组织块x2 (100%)</color>
     <color=orange>可用于弹回高处，注意落地安全。
     不导致瘫倒，比跳跃板更安全。</color>
   climbingropeextendeddsc: 按住“W”向上键开始攀爬。
   glowshroomdsc: |-
-    <color=#f36c60>最大血量：75</color>
-    <color=#ffee58>破坏掉落：
-    颗粒菇组织块x1 (耐久90%~40%)</color>
+    <color=#f36c60>┃最大血量：75</color>
+    <color=#ffee58>┃破坏掉落：颗粒菇组织块x1 (耐久90%~40%)</color>
     <color=orange>可收获食物，但放射性较强，建议保持距离。</color>
   mushroomtreedsc: |-
-    <color=#f36c60>最大血量：800</color>
-    <color=#ffee58>破坏掉落：
-    颗粒菇组织块x10 (70%)</color>
+    <color=#f36c60>┃最大血量：800</color>
+    <color=#ffee58>┃破坏掉落：颗粒菇组织块x10 (70%)</color>
     <color=orange>可破坏获取大量颗粒菇组织块作为食物来源。</color>
   drillpoddsc: |-
-    <color=#f36c60>最大血量：10000</color>
-    <color=#ffee58>破坏掉落：
-    金属废料x6 (100%)、电路板x2 (100%)</color>
+    <color=#f36c60>┃最大血量：10000</color>
+    <color=#ffee58>┃破坏掉落：金属废料x6 (100%)、电路板x2 (100%)</color>
     <color=orange>用钻机舱维修工具包修复后可乘坐向下跳2层(例如从第1层穿越到第3层)。
     破坏可获大量金属废料。</color>
   frigiantdsc: |-
-    <color=#f36c60>最大血量：120</color>
-    <color=#ffee58>破坏掉落：
-    寒霜果x2 (100%)</color>
+    <color=#f36c60>┃最大血量：120</color>
+    <color=#ffee58>┃破坏掉落：寒霜果x2 (100%)</color>
     <color=orange>掉落2个寒霜果，食用可快速降温，适合体温过高时使用。</color>
   snowstriderdsc: |-
     <color=#f36c60>最大血量 500 | 攻速 2秒 | 视野 40格
@@ -1809,30 +1800,29 @@ buildings:
     <color=#ffee58>掉落：雪地漫游毛皮 (100%) | 动物肉1-2 (90%) | 血囊0-2 (80%)</color>
     <color=orange>会挖掘地形，速度较慢可靠跳跃闪避。</color>
   spaceheaterdsc: |-
-    <color=#f36c60>最大血量：400</color>
-    <color=#ffee58>破坏掉落：
-    废金属x2 (50%~100%)</color>
+    <color=#f36c60>┃最大血量：400</color>
+    <color=#ffee58>┃破坏掉落：废金属x2 (50%~100%)</color>
     <color=orange>可用于烹饪生肉。靠近取暖，但过久会受辐射。</color>
   xalorisdsc: |-
     <color=orange>来源层：冰封裂谷层
     该植物尚未正式加入游戏。</color>
   lifepodheaterdsc: 未在wiki上找到相关信息
   barbedwirefencedsc: |-
-    <color=#f36c60>最大血量：600</color>
+    <color=#f36c60>┃最大血量：600</color>
     <color=#91a7ff>碰触尖刺瘫倒
     ┃每肢体：皮肤10-25伤 ┃ 出血0.015~0.045L/分钟
     ┃疼痛20-60 ┃ 护甲耐久-20%</color>
-    <color=#ffee58>破坏掉落：金属废料80~100%</color>
+    <color=#ffee58>┃破坏掉落：金属废料80~100%</color>
     <color=orange>可被摧毁或用促凝剂快速止血。垂直摔在上面会导致大面积伤口。剧痛可致休克，止痛药或大量舒缓膏是唯一可靠对策。
     皮肤、流血、疼痛受护甲减免，造成0.2的耐久损耗，会造成瘫痪效果。</color>
   beartrapdsc: |-
-    <color=#f36c60>最大血量：500</color>
+    <color=#f36c60>┃最大血量：500</color>
     <color=#91a7ff>触发后夹住肢体无法动弹：
     ┃皮肤70-100伤 ┃ 肌肉50-100伤 ┃ 50%骨折
     ┃出血0.21~0.27L/分钟 ┃ 护甲-90%
     ┃意识归零 ┃ 脑伤0-40 ┃ 40%失明
     玩家站起后自动松开，触发后失效。</color>
-    <color=#ffee58>破坏掉落：金属废料(100%)</color>
+    <color=#ffee58>┃破坏掉落：金属废料(100%)</color>
     <color=orange>本身不可破坏，但可摧毁或挖掉下方地块移除。留意上方小红灯。
     皮肤、流血、疼痛受护甲减免，造成0.9的耐久损耗，造成20创伤性休克，造成瘫痪并冻结肢体位置，直到站立</color>
   bioterminaldsc: <color=orange>需手持“红血袋”右键终端，注入100ml血液解锁加固门（每袋750ml可用7次）。使用后终端与门永久开启。</color>
@@ -1841,33 +1831,31 @@ buildings:
     提供全身轻度消毒和清洗肮脏
   lifepodpumpdsc: 防止地下水、荧光藻、原油等液体进入维生舱。
   BloodCrystaldsc: |-
-    <color=#f36c60>最大血量：250</color>
-    <color=#ffee58>破坏掉落：血晶碎片 (100%)</color>
+    <color=#f36c60>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：血晶碎片 (100%)</color>
     <color=orange>带在身上（非容器）可缓慢增加血容量</color>
   cactusdsc: |-
-    <color=#f36c60>最大血量：100</color>
-    <color=#ffee58>破坏掉落：
-    仙人掌肉x1-2 (60%)、仙人掌肉 (35%)</color>
+    <color=#f36c60>┃最大血量：100</color>
+    <color=#ffee58>┃破坏掉落：仙人掌肉x1-2 (60%)、仙人掌肉 (35%)</color>
     <color=orange>在沙漠中是个重要的食物来源
     碰触会瘫倒并造成：皮肤10伤┃出血0.03L/分钟┃疼痛30
     仙人掌自身也受30伤害</color>
   coildsc: |-
-    <color=#f36c60>最大血量：500</color>
+    <color=#f36c60>┃最大血量：500</color>
     <color=#91a7ff>触摸后电击：全肢肌肉0~40伤、皮肤0~25伤、疼痛100
     击退、体温+5°C、意识归零、呼吸停止1~10秒、50肾上腺素、重置纤颤。无视护甲。冷却约30秒。</color>
-    <color=#ffee58>破坏掉落：金属废料1~2(50%)、金属废料(25%)、电路板(35%)</color>
+    <color=#ffee58>┃破坏掉落：金属废料1~2(50%)、金属废料(25%)、电路板(35%)</color>
     <color=orange>枪或炸药可安全摧毁。大部分挖掘工具不导电(代码是这么写的，除爪套外)
     可靠近击打(勿触碰)或从下方挖掉地块避开</color>
   containercratedsc: |-
-    <color=#f36c60>最大血量：5000</color>
-    <color=#ffee58>破坏/开锁掉落：
+    <color=#f36c60>┃最大血量：5000</color>
+    <color=#ffee58>┃破坏/开锁掉落：
     随机1件(工具16.7%/容器33.3%/医疗16.7%/杂项33.3%)</color>
     <color=orange>需要开锁工具，极耐打(5000血)，建议直接开锁。</color>
   corpsedsc: |-
     其他实验体的遗体。
-    <color=#f36c60>最大血量：250</color>
-    <color=#ffee58>破坏掉落：
-    黄色肉块x3 (50%)</color>
+    <color=#f36c60>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：黄色肉块x3 (50%)</color>
     <color=orange>距离尸体距离<=7触发检测
     首次观看：心情-3.5、患病+6。每次观看效果递减至前次的90%，最多累计心情-35、患病+60。
     观看9具后完全麻木不再掉心情。但破坏尸体 -5心情。
@@ -1875,7 +1863,7 @@ buildings:
     地震和枪械破坏不算</color>
   glassshardsdsc: |-
     破坏玻璃方块后40%概率生成
-    <color=#f36c60>最大血量：30</color>
+    <color=#f36c60>┃最大血量：30</color>
     <color=#91a7ff>踩上造成：5破片┃皮肤20-40伤┃肌肉20伤
     ┃出血0.075-0.3L/分钟┃80%疼痛┃70%肾上腺素</color>
     <color=orange>穿足部装备可避免伤害</color>
@@ -1924,55 +1912,51 @@ buildings:
     <color=#ffee58>掉落：动物肉 (100%)
     血囊0-2 (80%) | 硬化虫尸 (100%)</color>
   DigestionCrystaldsc: |-
-    <color=#f36c60>最大血量：250</color>
-    <color=#ffee58>破坏掉落：
-    消化晶碎片 (100%)</color>
+    <color=#f36c60>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：消化晶碎片 (100%)</color>
     <color=orange>带在身上（非容器）可缓慢减少患病</color>
   dropcapsuledsc: |-
-    <color=#f36c60>最大血量：2500</color>
-    <color=#ffee58>破坏/开锁掉落：
+    <color=#f36c60>┃最大血量：2500</color>
+    <color=#ffee58>┃破坏/开锁掉落：
     随机2件(医疗21.4%/食物14.3%/饮水14.3%/杂项14.3%/容器14.3%/药品14.3%/工具7.1%)</color>
     <color=orange>提供光源和热量，可用于御寒。
     在他附近时，会听见他会发出一种轰鸣声以方便定位他。
     输入密码2296会触发彩蛋爆炸，但需要正则。</color>
   chipcapsuledsc: |-
     开发中的建筑，目前无法互动。
-    <color=#f36c60>最大血量：150</color>
-    <color=#ffee58>破坏掉落：
-    随机1件(50%工具/50%芯片1)</color>
+    <color=#f36c60>┃最大血量：150</color>
+    <color=#ffee58>┃破坏掉落：随机1件(50%工具/50%芯片1)</color>
     <color=orange>该建筑尚未正式加入游戏。</color>
   lifepodbuttonshowerdsc: |-
     可以观察中间的面板颜色来判断是否使用过
     提供全身轻度消毒和清洗肮脏
   EmissiveCrystaldsc: |-
-    <color=#f36c60>最大血量：250</color>
-    <color=#ffee58>破坏掉落：
-    荧光晶碎片 (100%)</color>
+    <color=#f36c60>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：荧光晶碎片 (100%)</color>
     <color=orange>带在身上（非容器）可发光
     掉落的碎片是极佳的早期光源。
     提示：做成提灯耐久延长66%+。</color>
   foodboxdsc: |-
-    <color=#f36c60>最大血量：600</color>
+    <color=#f36c60>┃最大血量：600</color>
     <color=#ffee58>可直接打开：
     随机1件(食物66.7%/饮水33.3%)</color>
     <color=orange>无需开锁，直接点击即可打开。
     在水中开箱可能导致食物潮湿或污染。</color>
   geotreedsc: |-
-    <color=#f36c60>最大血量：80</color>
-    <color=#ffee58>破坏掉落：
-    星叶果x1-2 (50%)、星叶果 (25%)、植物纤维x1-2 (30%)</color>
+    <color=#f36c60>┃最大血量：80</color>
+    <color=#ffee58>┃破坏掉落：地生果x1-2 (50%)、地生果 (25%)、植物纤维x1-2 (30%)</color>
   glowplantdsc: |-
-    <color=#f36c60>最大血量：40</color>
-    <color=#ffee58>破坏掉落：
+    <color=#f36c60>┃最大血量：40</color>
+    <color=#ffee58>┃破坏掉落：
     发光草果实x1-2 (95%)、植物纤维x1-2 (25%)</color>
   jumppaddsc: |-
-    <color=#f36c60>最大血量：600</color>
+    <color=#f36c60>┃最大血量：600</color>
     <color=#91a7ff>将物体弹飞到空中，弹力与物体重量成反比。
     冷却约15秒。本身不致命但可能将你抛向更危险的陷阱。</color>
-    <color=#ffee58>破坏掉落：
+    <color=#ffee58>┃破坏掉落：
     金属废料x1-2 (50%)、金属废料 (25%)、电路板 (50%)</color>
   landminedsc: |-
-    <color=#f36c60>最大血量：100</color>
+    <color=#f36c60>┃最大血量：100</color>
     <color=#91a7ff>踩中后0.8秒延迟爆炸(一踩即延迟炸)。
     爆炸：范围12格(耳鸣30格)
     伤害0-1000 ┃ 255次地面打击
@@ -1981,45 +1965,45 @@ buildings:
     ┃50%要害内出血0~0.432L/分钟 ┃ 40%弹片 ┃ 3.5%脱臼 ┃ 6%骨折
     头部：34%毁容/失明┃0-30脑损伤
     从内到外除基岩1~0.85概率替换为空气┃对物品造成0-1000伤害</color>
-    <color=#ffee58>破坏掉落：金属废料(0~20%)</color>
+    <color=#ffee58>┃破坏掉落：金属废料(0~20%)</color>
     <color=orange>可投掷物品或射击引爆。留意灌木丛小心埋藏地雷。</color>
   leadbushdsc: |-
-    <color=#f36c60>最大血量：120</color>
-    <color=#ffee58>破坏掉落：
+    <color=#f36c60>┃最大血量：120</color>
+    <color=#ffee58>┃破坏掉落：
     胶质肉块x1-2 (50%)、胶质肉块 (20%)</color>
   lifepodchestdsc: |-
-    <color=#f36c60>最大血量：2000</color>
-    <color=#ffee58>破坏/开锁掉落：
+    <color=#f36c60>┃最大血量：2000</color>
+    <color=#ffee58>┃破坏/开锁掉落：
     设计图 (100%)、随机2件(医疗21.4%/食物14.3%/饮水14.3%/杂项14.3%/容器14.3%/药品14.3%/废品7.1%)</color>
     <color=orange>必掉一张设计图！不受物理影响，可在上面睡觉(普通质量)。</color>
   LifePodLightdsc: |-
-    <color=#91a7ff>可进行拆卸，会获得包含小型电池的灯泡。
-    将可拆卸工具移至该灯泡的物品栏上方即可拆卸。</color>
+    <color=#91a7ff>┃可进行拆卸，会获得包含小型电池的灯泡。
+    ┃将可拆卸工具移至该灯泡的物品栏上方即可拆卸。</color>
     <color=orange>注意一定不要把灯泡放在嘴部！！</color>
   medcratedsc: |-
-    <color=#f36c60>最大血量：1000</color>
-    <color=#ffee58>破坏/开锁掉落：
+    <color=#f36c60>┃最大血量：1000</color>
+    <color=#ffee58>┃破坏/开锁掉落：
     红色血袋 (5%)、随机1件(医疗62.5%/药品25%/饮水12.5%)</color>
     <color=orange>受物理影响。</color>
   rechargingstationdsc: |-
     一个充电站有两个充电口，可同时供两个电池充电。
     充电完成后，鼠标对准上面的电池，像正常拾取物品一样拖动到物品栏即可收回。
   hydreeddsc: |-
-    <color=#f36c60>最大血量：250</color>
-    <color=#ffee58>破坏掉落：
+    <color=#f36c60>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：
     水泡果x2-4 (50%)、菌柄x1-3 (50%)、麻木浆果 (100%)、瞌睡尾 (50%)</color>
     <color=orange>食物价值低但药用价值高：菌柄可作绷带、麻木浆果可制鸦片、瞌睡尾可改善心情。</color>
   OxygenCrystaldsc: |-
-    <color=#f36c60>最大血量：250</color>
-    <color=#ffee58>破坏掉落：
+    <color=#f36c60>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：
     氧晶碎片 (100%)</color>
     <color=orange>带在身上（非容器）可缓慢恢复体力</color>
   reinforceddoordsc: |-
     通常他附近会有“生物终端”设备，用来解锁该门。
     直接破坏不是个明确的选择。
   ReliefCrystaldsc: |-
-    <color=#f36c60>最大血量：250</color>
-    <color=#ffee58>破坏掉落：
+    <color=#f36c60>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：
     镇痛晶碎片 (100%)</color>
     <color=orange>带在身上（非容器）可缓慢减少疼痛</color>
   crystalminidsc: 等待wiki更新
@@ -2029,45 +2013,44 @@ buildings:
   crystalmassivedsc: 等待wiki更新
   crystalenemydsc: 等待wiki更新
   sandrosedsc: |-
-    <color=#f36c60>最大血量：80</color>
-    <color=#ffee58>破坏掉落：
+    <color=#f36c60>┃最大血量：80</color>
+    <color=#ffee58>┃破坏掉落：
     沙玫瑰荚x1-2 (50%)、沙玫瑰荚 (10%)、植物纤维x1-2 (20%)</color>
     <color=orange>“沙玫瑰荚”在沙漠中是重要的发光源，使用可发出闪亮的光芒。</color>
   scrapeaterdsc: |-
-    <color=#f36c60>最大血量：1000</color>
-    <color=#ffee58>破坏掉落：废金属x2 (100%)</color>
+    <color=#f36c60>┃最大血量：1000</color>
+    <color=#ffee58>┃破坏掉落：废金属x2 (100%)</color>
     <color=orange>投入累计150%废料可开启相邻加固门。
     超量投入会浪费；若门已缺失则无效。
     触发后无法再互动或破坏，废料不可回收。</color>
   SoothingCrystaldsc: |-
-    <color=#f36c60>最大血量：250</color>
-    <color=#ffee58>破坏掉落：宁神晶碎片 (100%)</color>
-    <color=#888888>被动效果(放身上非容器)：</color>
+    <color=#f36c60>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：宁神晶碎片 (100%)</color>
     <color=orange>带在身上（非容器）可缓慢增加心情</color>
   spikestabberdsc: |-
-    <color=#f36c60>最大血量：800</color>
+    <color=#f36c60>┃最大血量：800</color>
     <color=#91a7ff>触发：物体经过中心长钉范围激活。
     每肢体50%概率被击中：皮肤50-80伤┃肌肉30-50伤┃出血0~0.6L/分钟┃疼痛70-100┃30%骨折┃肾上激素+100
     躯干命中附加内出血0.29~0.54L/分钟┃该肢体护甲状态-100%
     头部额外：意识归零┃50%脑伤5~70/毁容┃失明(脑伤和失明2选1)┃物品被击中状态归零。</color>
-    <color=#ffee58>破坏掉落：金属废料1~3(50%)、电路板(35%)</color>
+    <color=#ffee58>┃破坏掉落：金属废料1~3(50%)、电路板(35%)</color>
     <color=orange>投掷物品可安全激活。激活后永久失效。</color>
   spikestabberdscused: |-
     即使从高处砸在它上面也不会有事。
     不会进行二次充能，它已完全废弃。
   stoneplantdsc: |-
-    <color=#f36c60>最大血量：200</color>
-    <color=#ffee58>破坏掉落：
+    <color=#f36c60>┃最大血量：200</color>
+    <color=#ffee58>┃破坏掉落：
     闭合石果x1-2 (80%)、闭合石果 (50%)、闭合石果 (30%)
     非常消耗体力的食物。</color>
   TurbulentCrystaldsc: |-
-    <color=#f36c60>最大血量：250</color>
-    <color=#ffee58>破坏掉落：漩涡晶碎片 (100%)</color>
+    <color=#f36c60>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：漩涡晶碎片 (100%)</color>
     <color=orange>带在身上（非容器）可大幅提升跳跃高度
     ！：携带3个以上跳跃高度危险！</color>
   turretdsc: |-
-    <color=#f36c60>最大血量：500</color>
-    <color=#ffee58>破坏掉落：金属废料x3(100%)、电路板(100%)</color>
+    <color=#f36c60>┃最大血量：500</color>
+    <color=#ffee58>┃破坏掉落：金属废料x3(100%)、电路板(100%)</color>
     <color=#91a7ff>┃体温>=32°C并进入平行射程触发┃0.5秒后射击：
     ┃皮肤70-100伤┃肌肉70-100伤┃出血0.45~0.6L/分钟┃疼痛80-100┃弹片┃30%骨折
     ┃躯干附带内出血0.31~0.38L/分钟┃护甲-100%┃击退┃听力损失
@@ -2078,49 +2061,49 @@ buildings:
     <color=orange>仅沿顶部水平线探测射击，可跳躲或蹲伏滑藤避开。体温<32°C不触发。头/胸部中弹极致命，失血量过大则自动泵无效。
     可使用等离子切割器快速切割，就能无伤破坏。</color>
   stalagmitedsc: |-
-    <color=#f36c60>最大血量：500</color>
+    <color=#f36c60>┃最大血量：500</color>
     <color=orange>与钟乳石不同，石笋是安全的地面装饰物，不会造成伤害。</color>
     即使你从高处掉在它上面，跟掉在普通地板没什么两样。
   icestalagmitedsc: |-
-    <color=#f36c60>最大血量：500</color>
+    <color=#f36c60>┃最大血量：500</color>
     <color=orange>与冰锥不同，冰笋是安全的地面装饰物，不会造成伤害。</color>
     即使你从高处掉在它上面，跟掉在普通地板没什么两样。
   stalactitedsc: |-
-    <color=#f36c60>最大血量：200</color>
+    <color=#f36c60>┃最大血量：200</color>
     <color=orange>玩家经过时可能掉落，造成皮肤/肌肉伤和单肢出血，伤害随速度增加。
     可提前打掉或引诱掉落来排除。
     注意头部！被砸会遭受重创，但不致死。</color>
   icestalactitedsc: |-
-    <color=#f36c60>最大血量：200</color>
+    <color=#f36c60>┃最大血量：200</color>
     <color=orange>玩家经过时可能掉落，造成皮肤/肌肉伤和单肢出血，伤害随速度增加。
     可提前打掉或引诱掉落来排除。
     注意头部！被砸会遭受重创，但不致死。</color>
   stalactitedscdropped: |-
     <color=orange>经过时仍有可能会滑倒，务必小心</color>
   drybushdsc: |-
-    <color=#f36c60>最大血量：100</color>
-    <color=#ffee58>破坏掉落：
+    <color=#f36c60>┃最大血量：100</color>
+    <color=#ffee58>┃破坏掉落：
     干燥纤维x1-2 (90%)、干燥纤维 (60%)、干燥纤维 (40%)</color>
     <color=orange>内部大幅减速，可利用来缓冲高空坠落。
     其大体积可遮盖地雷等陷阱，进入前需检查。</color>
   brownshroomdsc: |-
-    <color=#f36c60>最大血量：50</color>
-    <color=#ffee58>破坏掉落：
+    <color=#f36c60>┃最大血量：50</color>
+    <color=#ffee58>┃破坏掉落：
     棕色菌盖 (80-100%)</color>
   spentfueldsc: |-
-    <color=#f36c60>最大血量：20000</color>
+    <color=#f36c60>┃最大血量：20000</color>
     <color=orange>接近时受到辐射，紧贴时高达+1.8 Gy/s。
     HP极高无法被摧毁，需绕行或快速通过。</color>
   radbarreldsc: |-
-    <color=#f36c60>最大血量：2000</color>
-    <color=#ffee58>破坏掉落：
+    <color=#f36c60>┃最大血量：2000</color>
+    <color=#ffee58>┃破坏掉落：
     废金属x1-2 (50%)、废金属x1-2 (25%)</color>
     <color=orange>靠近积累辐射，紧贴约+1.25Gy/s。
     比衰变燃料弱，可被推动或炸药摧毁。
     快速通过或绕行可减少辐射危害。</color>
   soundcannondsc: |-
-    <color=#f36c60>最大血量：1500</color>
-    <color=#ffee58>破坏掉落：金属废料1~2(80%)、金属废料(40%)、电路板(50%)</color>
+    <color=#f36c60>┃最大血量：1500</color>
+    <color=#ffee58>┃破坏掉落：金属废料1~2(80%)、金属废料(40%)、电路板(50%)</color>
     <color=#91a7ff>触发条件：可见玩家，距离 < 50，5秒充能后发射：
     ┃头部疼痛设为80/其他40┃听力-60%┃全肢肌肉20-30伤┃内出血0.17~0.26L/分钟
     ┃意识-69%┃脑伤5┃心情-2┃呼吸归零┃击退瘫倒
@@ -2139,24 +2122,24 @@ buildings:
     杀死致心情-10、创伤+30、生病+30。
     挡住重要物品可对话要求其移动</color>
   bananaplantdsc: |-
-    <color=#f36c60>最大血量：150</color>
-    <color=#ffee58>破坏掉落：
+    <color=#f36c60>┃最大血量：150</color>
+    <color=#ffee58>┃破坏掉落：
     植物纤维x1-2 (20%)</color>
     <color=orange>踩上会滑倒并强制瘫倒，水平速度x1.4(脚部x1.9)。
     受速度影响，缓慢走过去不会有问题，速度快时可致死。</color>
   geyserdsc: |-
-    <color=#f36c60>最大血量：250</color>
+    <color=#f36c60>┃最大血量：250</color>
     <color=orange>接触触发喷涌，射出地下水或荧光藻，冲走附近物体。
     冷却10秒后可重新触发。可投掷物品触发后安全通过。
     小心被冲击导致动弹不得，和瘫痪一样，随着水流坠落底层。</color>
   oilpipedsc: |-
-    <color=#f36c60>最大血量：500</color>
+    <color=#f36c60>┃最大血量：500</color>
     <color=orange>被动产生原油淹没区域。离开后停止产油。
     可用炸药摧毁。原油可用于缓慢下降减少坠落伤害，但可能瘫倒受伤。
     原油会导致身体肮脏、行动迟缓，因此尽快离开。</color>
   popdsc: |-
-    <color=#f36c60>最大血量：150</color>
-    <color=#ffee58>破坏掉落：
+    <color=#f36c60>┃最大血量：150</color>
+    <color=#ffee58>┃破坏掉落：
     盖格果x1-2 (50%)、盖格果 (25%)、摔炮果苞叶x1-3 (50%)、摔炮果苞叶 (25%)、地狱菜叶x0-2 (50%)、干燥纤维 (100%)</color>
     <color=orange>废土层宝贵资源：果实可充饥解渴、地狱菜叶减内出血、摔炮果苞叶可作临时绷带镇痛。</color>
   mushroomdropperdsc: 未在wiki上找到相关信息
@@ -2164,7 +2147,7 @@ buildings:
   mushroomropedsc: 未在wiki上找到相关信息
   sidestabberdsc: 未在wiki上找到相关信息
   skullcrusherdsc: |-
-    <color=#f36c60>最大血量：800</color>
+    <color=#f36c60>┃最大血量：800</color>
     <color=#91a7ff>┃当玩家从底下经过掉落：
     ┃肌肉伤害 1.25/护甲┃皮肤伤害 0.6/护甲┃流血 0.05/护甲
     ┃速度差>25 脱臼0.5┃速度差>45 骨折0.5┃头部降低意识</color>
@@ -2173,12 +2156,12 @@ buildings:
     <color=orange>钟乳石的强化版，造成更严重的伤害。
     会发出微光，比普通钟乳石更容易发现。</color>
   gunminedsc: |-
-    <color=#f36c60>最大血量：400</color>
-    <color=#888888>机制：</color><color=#aaaaaa>被经过时向上发射子弹(开发中，未实装)</color>
+    <color=#f36c60>┃最大血量：400</color>
+    <color=#91a7ff>┃被经过时向上发射子弹(开发中，未实装)</color>
     <color=orange>花絮：名称暗示曾有实验室人员因此受伤。</color>
   sawbladedsc: |-
-    <color=#f36c60>最大血量：400</color>
-    <color=#91a7ff>接触触发：
+    <color=#f36c60>┃最大血量：400</color>
+    <color=#91a7ff>┃接触触发：
     ┃大量皮肤/肌肉伤害 | 重度出血
     ┃多次碰触易骨折 | 击飞并瘫倒
     ┃一秒内摧毁物品
@@ -2191,17 +2174,16 @@ buildings:
     ┃皮肤-80 | 肌肉-30 | 流血+0.3~0.375
     ┃疼痛+80 | 穿戴物耐久-100%(×护甲削减比例)
     ┃锯片自身：耐久-10 | 耐久*=0.5</color>
-    <color=#ffee58>破坏掉落：废金属x2 (100%)</color>
+    <color=#ffee58>┃破坏掉落：废金属x2 (100%)</color>
     <color=orange>来源层：真菌池层(开发中未实装)
     固定陷阱，持续发出噪音。远离即可。</color>
   LoreNotedsc: 未在wiki上找到相关信息
   ceilingryedsc: |-
-    <color=#f36c60>最大血量：100</color>
-    <color=#ffee58>破坏掉落：
-    黑麦粒x1-3 (100%)</color>
+    <color=#f36c60>┃最大血量：100</color>
+    <color=#ffee58>┃破坏掉落：黑麦粒x1-3 (100%)</color>
     <color=orange>来源层：砾石层</color>
   grabberplantdsc: |-
-    <color=#f36c60>最大血量：1500</color>
+    <color=#f36c60>┃最大血量：1500</color>
     <color=#91a7ff>接触触发：抓取并猛烈拖拽，导致严重内外出血、骨折、脱臼，力度大可致死</color>
     <color=orange>固定植物，仅靠触角随机探测环境，被触角碰到才会触发攻击。</color>
   grabbershroomdsc: 未在wiki上找到相关信息
