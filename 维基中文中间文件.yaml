@@ -154,15 +154,9 @@ main:
   naltrexonedsc: |-
     <color=#91a7ff>┃容重比：0.30u/100ml</color>
     <color=#ffee58>┃获取：医疗箱/空投舱/生命舱箱子/交易/尸体</color>
-  sodiumnitroprussidedsc: |-
-    <color=#91a7ff>┃容重比：0.30u/100ml</color>
-    一个装有100mL硝普钠的小瓶子。仅在注射使用时有药效，你需要一个注射器，并填充此药物以使用。
-  vasopressindsc: |-
-    <color=#91a7ff>┃容重比：0.30u/100ml</color>
-    一个装有100mL血管加压素的小瓶子。仅在注射使用时有药效，你需要一个注射器，并填充此药物以使用。
-  amiodaronedsc: |-
-    <color=#91a7ff>┃容重比：0.30u/100ml</color>
-    一个装有100mL胺碘酮的小瓶子。仅在注射使用时有药效，你需要一个注射器，并填充此药物以使用。
+  sodiumnitroprussidedsc: <color=#91a7ff>┃容重比：0.30u/100ml</color>
+  vasopressindsc: <color=#91a7ff>┃容重比：0.30u/100ml</color>
+  amiodaronedsc: <color=#91a7ff>┃容重比：0.30u/100ml</color>
   fentanyldsc: |-
     <color=#91a7ff>┃容重比：0.30u/100ml</color>
     <color=#ffee58>┃获取：医疗箱/生命舱箱子/空投舱/交易/尸体
@@ -660,9 +654,7 @@ main:
     <color=#91a7ff>┃容重比：0.30u/100ml</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
     <color=orange>特点：汽水瓶的小瓶版，较轻(0.75u)。</color>
-  alcoholdsc: |-
-    <color=#91a7ff>┃容重比：0.25u/100ml</color>
-    瓶装酒精，一个0.4L的玻璃瓶。
+  alcoholdsc: <color=#91a7ff>┃容重比：0.25u/100ml</color>
   exposedcoredsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +12
