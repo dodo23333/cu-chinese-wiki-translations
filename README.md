@@ -1,4 +1,4 @@
-# 维基中文翻译项目
+# 未知伤亡维基中文翻译项目
 ![GitHub License](https://img.shields.io/github/license/dodo23333/cu-chinese-wiki-translations)
 ![GitHub Release](https://img.shields.io/github/v/release/dodo23333/cu-chinese-wiki-translations)
 ![Version](https://img.shields.io/badge/dynamic/yaml?label=beta-version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdodo23333%2Fcu-chinese-wiki-translations%2Fmain%2F%25E7%25BB%25B4%25E5%259F%25BA%25E4%25B8%25AD%25E6%2596%2587%25E4%25B8%25AD%25E9%2597%25B4%25E6%2596%2587%25E4%25BB%25B6.yaml&query=%24.version&color=orange)
@@ -8,6 +8,10 @@
 Q群：521023836
 
 如果只是单纯想反馈问题的话更建议直接开issue或者pr
+
+## 贡献指南
+请参考[Contributing.md](CONTRIBUTING.md)
+
 
 ## 关于颜色
 调色板为Google UI
