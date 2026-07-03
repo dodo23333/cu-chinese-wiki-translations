@@ -287,7 +287,6 @@ main:
     <color=orange>早期不错容器，寿命约47分钟</color>
   gravbagdsc: |-
     <color=#ffa726>┃(装有物品时)腐败：-1%/分钟</color>
-    <color=#91a7ff>┃电池：中型</color>
     <color=#ffee58>┃获取：交易/维生舱箱子/物资箱/空投舱</color>
     <color=#ff4444>┃爆炸：半径12格 ┃ 耳鸣30格
     ┃肢体：
@@ -671,8 +670,7 @@ main:
     <color=#ffa726>┃腐败：-0.99%/分钟</color>
     <color=#ffee58>┃获取：破坏发光草/交易</color>
   flashlightdsc: |-
-    <color=#91a7ff>┃电池：中型
-    ┃模式：
+    <color=#91a7ff>┃模式：
     ┃关(0/分钟) / 亮(1.50/分钟) / 暗(0.75/分钟) / 频闪(0.75/分钟)</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(10)：1灯泡+1废料管+1柔性玻璃+1塑料块+1电线捆+1电路板(>=90%)+1钉子+1(可捶打)</color>
@@ -690,8 +688,6 @@ main:
     ┃制作(10)：1荧光晶碎片+1柔性玻璃+2木板+1钉子+1(可捶打)</color>
     <color=orange>可以放在皮带上这样也可以发光不占位置</color>
   lightbulbdsc: |-
-    <color=#91a7ff>┃电池：小型
-    ┃持续消耗 5/分钟</color>
     <color=#ffee58>┃获取：维生舱顶灯拆取/物资箱/交易
     ┃制作(11)：2柔性玻璃+1废料块+1钉子+2电线捆</color>
     <color=orange>！：放入头部槽约2秒后爆炸(75疼痛/30皮肤伤/5肌肉伤/出血/破片)。不自动拾取</color>
@@ -747,8 +743,6 @@ main:
     <color=#91a7ff>┃工具属性：
     ┃方块 25.1 ┃ 敌人 15
     ┃体力 0 ┃ 冷却 0.16秒</color>
-    <color=#91a7ff>┃电池：中型
-    ┃每次消耗 0.14电量</color>
     <color=#ffee58>┃获取：维生舱箱子/交易
     ┃制作(16)：3钛板+2柔性玻璃+2电线捆+1电路板(>=90%)+1手电筒+1塑料块+1钉子+1(可切割)+1(可捶打)</color>
     <color=orange>提示：仅挖掘/攻击消耗耐久
@@ -757,8 +751,6 @@ main:
     <color=#91a7ff>┃工具属性：
     ┃方块 60 ┃ 敌人 50
     ┃体力 0 ┃ 冷却 0.16秒</color>
-    <color=#91a7ff>┃电池：大型
-    ┃每次消耗 0.24电量</color>
     <color=#ffee58>┃获取：交易</color>
     <color=orange>提示：仅挖掘/攻击消耗耐久
     满电约1260次，总方块伤害75600，本游戏最强挖掘工具之一</color>
@@ -914,14 +906,11 @@ main:
     <color=orange>20分钟内勿再用同类药，否则脑清空。
     增脑剂可先用一次再制成此药，后续出血用紫辛药/LRD处理</color>
   watchdsc: |-
-    <color=#91a7ff>┃电池：小型
-    ┃持续消耗0.33/分钟
-    ┃功能：
+    <color=#91a7ff>┃功能：
     ┃每20s报房颤；每30s报失血时间；每1分40s报感染/骨折/脱臼；每10分报体重变化(+3.25心情)</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   mp3playerdsc: |-
-    <color=#91a7ff>┃电池：小型
-    ┃效果：切换/播放音乐，提升心情</color>
+    <color=#91a7ff>┃效果：切换/播放音乐，提升心情</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
     <color=orange>可播放自定义歌曲(放入文件夹)。极轻(0.10u)</color>
     <color=#91a7ff>可拆电池</color>
@@ -988,8 +977,6 @@ main:
     <color=#ffee58>┃获取：开启礼物/交易</color>
     <color=orange>无实用属性，纯装饰品</color>
   headlampdsc: |-
-    <color=#91a7ff>┃电池：小型
-    ┃持续消耗 1.25/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(8)：1手电筒+1绳子+1(钉子)+1(可捶打)</color>
   dustmaskdsc: |-
@@ -1119,8 +1106,6 @@ main:
     <color=#91a7ff>┃工具属性：
     ┃方块 10(对金属x10即100) ┃ 敌人 10
     ┃体力 0 ┃ 冷却 0.1秒</color>
-    <color=#91a7ff>┃电池：大型
-    ┃每次消耗 0.1电量</color>
     <color=#72d572>医疗用途：皮肤-12，出血-80%，疼痛+45(灼烧止血)</color>
     <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱/交易</color>
     <color=orange>提示：满电约3000次，金属方块总伤害30万。
@@ -1171,15 +1156,12 @@ main:
     <color=#ffee58>┃获取：制作
     ┃制作(6)：1大型虫尸+1硬化虫尸+1绳子</color>
   terrainscannerdsc: |-
-    <color=#91a7ff>┃电池：中型
-    ┃每次消耗1.50%
-    ┃效果：显示周围地形及金属物体</color>
+    <color=#91a7ff>┃效果：显示周围地形及金属物体</color>
     <color=#ffee58>┃获取：交易
     ┃制作(12)：3废料板+1废料管+1液晶显示屏+1钉子+1电线捆+1电路板(>=90%)+1(可捶打)</color>
     <color=orange>探宝探矿利器，可发现隐藏金属物</color>
   geigercounterdsc: |-
-    <color=#91a7ff>┃电池：小型
-    ┃效果：显示环境辐射水平</color>
+    <color=#91a7ff>┃效果：显示环境辐射水平</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(11)：2废料板+1废料块(>=90%)+1液晶显示屏+1电线捆+1电路板(>=90%)+10mL生化流体+1(可捶打)</color>
   handcrankdsc: |-
@@ -1196,8 +1178,7 @@ main:
     ┃冷却：60秒</color>
     <color=#ffee58>┃获取：交易</color>
   epdadsc: |-
-    <color=#91a7ff>┃电池：中型
-    ┃效果：阅读监管者笔记，提升智力经验</color>
+    <color=#91a7ff>┃效果：阅读监管者笔记，提升智力经验</color>
     <color=#ffee58>┃获取：维生舱箱子/交易</color>
   bloodcoagulantdsc: |-
     <color=#91a7ff>┃容重比：0.30u/100mL</color>
@@ -1271,9 +1252,7 @@ main:
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
     <color=orange>可撕碎为绷带</color>
   rangefinderdsc: |-
-    <color=#91a7ff>┃电池：小型
-    ┃效果：显示光标方向最近固体距离</color>
-    <color=#ffa726>每次消耗0.50%</color>
+    <color=#91a7ff>┃效果：显示光标方向最近固体距离</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     用途：测量深渊深度</color>
   mindwipedsc: |-
