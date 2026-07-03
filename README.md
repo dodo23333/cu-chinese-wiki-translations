@@ -7,7 +7,7 @@
 
 Q群：521023836
 
-如果只是单纯想反馈问题的话更建议直接开issue或者pr
+如果只是单纯想反馈问题的话更建议直接开issue或者pr，要是不会可以进群反馈
 
 ## 贡献指南
 请参考[Contributing.md](CONTRIBUTING.md)
@@ -43,6 +43,11 @@ git submodule update --init
 完成！
 
 ## 开始使用
+此项目通过`merge_data.py`合并基准翻译与附加翻译，例如：
+- `vendor/zh-CN.json` + `维基中文中间文件.yaml` = `维基中文_基于官方翻译.json`
+- `基准汉化_软盘.json` + `维基中文中间文件.yaml` = `维基中文_基于软盘翻译.json`
+
+运行以下命令即可：
 ```sh
 uv run merge-trans [-h] [-v "基准翻译.json"] [-r "附加翻译.yaml"] [-o "最后产物.json"]
 ```
