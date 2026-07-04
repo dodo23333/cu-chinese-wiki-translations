@@ -471,9 +471,9 @@ main:
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
     <color=orange>特点：用尽后变为空炸鸡桶(可作3.00u容器)</color>
   bucketofnochickendsc: |-
-    <color=#ffa726>┃(装有物品时)腐败：4.80%/分钟</color>
+    <color=#ffa726>┃(装有物品且移动时)腐败：5%/分钟</color>
     <color=#ffee58>┃获取：吃完炸鸡桶获得</color>
-    <color=#ffa726>！：耐久消耗极快(约21分钟寿命)</color>
+    <color=#ffa726>！：耐久消耗极快(约20分钟寿命)</color>
   steakdsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +15
@@ -1385,9 +1385,7 @@ main:
     <color=orange>特点：高速落地会发出巨响，用于探测落差</color>
   antisepticmushdsc: |-
     <color=#72d572>┃外敷：
-    ┃消毒 8分20秒
-    ┃皮肤 -1
-    ┃肌肉 -2(相邻肢体-1)
+    ┃消毒 10分钟(相邻肢体8分20秒)
     ┃疼痛 +10</color>
     <color=#ffa726>┃消耗 100% 耐久</color>
     <color=#ffee58>┃制作(8)：1炮果皮+1玫瑰灯</color>
