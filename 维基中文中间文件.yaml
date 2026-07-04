@@ -102,7 +102,7 @@ main:
     ┃皮肤 +3.2
     ┃出血 -0.06L/分钟(3.2秒内生效)</color>
     <color=#ffa726>┃消耗 40% 耐久</color>
-    <color=#ffa726>┃腐败：-5%/分钟</color>
+    <color=#ffa726>┃腐败：5%/分钟</color>
     <color=#ffee58>┃获取：破坏水芦</color>
     <color=orange>砾石层常见，适合现场急救</color>
   paincreamdsc: |-
@@ -254,7 +254,7 @@ main:
     ┃患病 +15
     ┃毒素 +30</color>
     <color=#ffa726>┃消耗 100% 耐久</color>
-    <color=#ffa726>┃腐败：-1.67%/分钟</color>
+    <color=#ffa726>┃腐败：1.67%/分钟</color>
     <color=#ffee58>┃获取：暗影爬行者(50%概率掉落)
     ┃制作：抗毒血清的原料</color>
     <color=orange>用于制作抗毒血清以解大量毒</color>
@@ -268,25 +268,25 @@ main:
     <color=#91a7ff>┃容重比：0.17u/100mL</color>
     <color=#ffee58>┃获取：医疗箱/交易</color>
   trashbagdsc: |-
-    <color=#ffa726>┃(装有物品时)腐败：1.66%/分钟</color>
+    <color=#ffa726>┃腐败：1.66%/分钟</color>
     <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱</color>
     <color=orange>早期优质容器，寿命约1小时</color>
   flammablepowderdsc: |-
     <color=#ffee58>┃制作(8)：1石板栗+1(可捶打)+5mL生化流体</color>
   foliagebagdsc: |-
-    <color=#ffa726>┃(装有物品时)腐败：3.60%/分钟</color>
+    <color=#ffa726>┃腐败：4%/分钟</color>
     <color=#ffee58>┃制作(5)：2帆布+1绳子</color>
     <color=orange>寿命极短(约28分钟)</color>
   slingbagdsc: |-
-    <color=#ffa726>┃(穿戴且装有物品时)腐败：1.66%/分钟</color>
+    <color=#ffa726>┃腐败：2%/分钟</color>
     <color=#ffee58>┃制作(7)：1植物纤维袋+2绳子+1细绳</color>
     <color=orange>植物纤维袋的升级版，可穿戴，寿命约1小时</color>
   plasticbagdsc: |-
-    <color=#ffa726>┃(装有物品时)腐败：2.10%/分钟</color>
+    <color=#ffa726>┃腐败：2.22%/分钟</color>
     <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱</color>
     <color=orange>早期不错容器，寿命约47分钟</color>
   gravbagdsc: |-
-    <color=#ffa726>┃(装有物品时)腐败：-1%/分钟</color>
+    <color=#ffa726>┃腐败：1%/分钟</color>
     <color=#ffee58>┃获取：交易/维生舱箱子/物资箱/空投舱</color>
     <color=#ff4444>┃爆炸：半径12格 ┃ 耳鸣30格
     ┃肢体：
@@ -298,7 +298,7 @@ main:
     睡觉前取出延长寿命；小灯泡电池可合成中型电池供电
     避免手持或叼着以防掉陷阱引爆</color>
   legpouchdsc: |-
-    <color=#ffa726>┃(穿戴且装有物品时)腐败：0.48%/分钟</color>
+    <color=#ffa726>┃腐败：0.56%/分钟</color>
     <color=#ffee58>┃获取：空投舱/交易/制作</color>
     <color=orange>容量适中，负重减免极高</color>
   liquidpouchdsc: |-
@@ -313,27 +313,27 @@ main:
     <color=orange>大幅减轻内容物重量。
     可存放金属废料(非堆叠)、木屑、镊子及电池</color>
   pursedsc: |-
-    <color=#ffa726>┃(装有物品时)腐败：0.66%/分钟</color>
+    <color=#ffa726>┃腐败：0.83%/分钟</color>
     <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱</color>
     <color=orange>早期不错容器，寿命约2.5小时</color>
   pouchdsc: |-
-    <color=#ffa726>┃(装有物品时)腐败：0.75%/分钟</color>
+    <color=#ffa726>┃腐败：1.11%/分钟</color>
     <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱</color>
     <color=orange>容量虽小但极耐用(约2.2小时)，负重减免出色</color>
   brokenbagdsc: |-
-    <color=#ffa726>┃(装有物品时)腐败：1.35%/分钟</color>
+    <color=#ffa726>┃腐败：1.67%/分钟</color>
     <color=#ffee58>┃获取：尸体旁</color>
     <color=orange>不可穿戴。可修复为筒状行李袋但容量会降低</color>
   boxdsc: |-
-    <color=#ffa726>┃(装有物品时)腐败：1.80%/分钟</color>
+    <color=#ffa726>┃腐败：3.33%/分钟</color>
     <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱</color>
     <color=orange>对比：与植物纤维袋容量相近，但更轻且寿命翻倍</color>
   toolboxdsc: |-
-    <color=#ffa726>┃(装有物品时)腐败：0.24%/分钟</color>
+    <color=#ffa726>┃腐败：0.21%/分钟</color>
     <color=#ffee58>┃获取：维生舱箱子/空投舱</color>
     <color=orange>自身重4.00u。满箱重6.50u。容量巨大但小心误丢</color>
   medkitdsc: |-
-    <color=#ffa726>┃(装有物品时)腐败：0.40%/分钟</color>
+    <color=#ffa726>┃腐败：0.40%/分钟</color>
     <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱/交易</color>
     <color=orange>限制：仅能存放医疗类物品。液体药袋无论内容物均可放入。满箱仅重1.80u</color>
   scaffoldingpackdsc: |-
@@ -363,39 +363,39 @@ main:
   bloodcrystalsharddsc: |-
     <color=#72d572>┃被动效果(放身上非容器)：
     ┃血容量<99%时 +0.002L/s</color>
-    <color=#ffa726>┃(携带时)腐败：-5%/分钟</color>
+    <color=#ffa726>┃腐败：5%/分钟</color>
     <color=#ffee58>┃获取：破坏血晶</color>
   soothingcrystalsharddsc: |-
     <color=#72d572>┃被动效果(放身上非容器)：
     ┃心情 +0.04/s</color>
-    <color=#ffa726>┃(携带时)腐败：-5%/分钟</color>
+    <color=#ffa726>┃腐败：5%/分钟</color>
     <color=#ffee58>┃获取：破坏宁神晶</color>
   reliefcrystalsharddsc: |-
     <color=#72d572>┃被动效果(放身上非容器)：
     ┃全身疼痛 -20/s</color>
-    <color=#ffa726>┃(携带时)腐败：-5%/分钟</color>
+    <color=#ffa726>┃腐败：5%/分钟</color>
     <color=#ffee58>┃获取：破坏镇痛晶</color>
   turbulentcrystalsharddsc: |-
     <color=#72d572>┃被动效果(放身上非容器)：
     ┃跳跃高度大幅提升(多个叠加效果倍增)</color>
-    <color=#ffa726>┃(携带时)腐败：-5%/分钟</color>
+    <color=#ffa726>┃腐败：5%/分钟</color>
     <color=#ffee58>┃获取：破坏漩涡晶/交易
     <color=orange>携带3个以上跳跃高度危险！┃跳跃高度增加44%</color>
   oxygencrystalsharddsc: |-
     <color=#72d572>┃被动效果(放身上非容器)：
     ┃体力 +2%/s</color>
-    <color=#ffa726>┃(携带时)腐败：-5%/分钟</color>
+    <color=#ffa726>┃腐败：5%/分钟</color>
     <color=#ffee58>┃获取：破坏氧晶</color>
   emissivecrystalsharddsc: |-
     <color=#72d572>┃被动效果：
     ┃手持/丢弃时发光</color>
-    <color=#ffa726>┃(携带时)腐败：-3.33%/分钟</color>
+    <color=#ffa726>┃腐败：3.33%/分钟</color>
     <color=#ffee58>┃获取：破坏荧光晶</color>
     <color=orange>提示：做成提灯耐久延长66%+</color>
   digestioncrystalsharddsc: |-
     <color=#72d572>┃被动效果(放身上非容器)：
     ┃患病 -0.5/s</color>
-    <color=#ffa726>┃(携带时)腐败：-5%/分钟</color>
+    <color=#ffa726>┃腐败：5%/分钟</color>
     <color=#ffee58>┃获取：破坏消化晶</color>
   geofruitdsc: |-
     <color=#72d572>┃食用效果：
@@ -404,7 +404,7 @@ main:
     ┃心情 +0.5
     ┃体重 +0.03kg</color>
     <color=#ffa726>┃消耗 50% 耐久</color>
-    <color=#ffa726>┃腐败：-8.33%/分钟</color>
+    <color=#ffa726>┃腐败：8.33%/分钟</color>
     <color=#ffee58>┃获取：破坏星叶杨/交易</color>
     <color=#ffa726>砾石层常见，腐败快，不宜久存</color>
   stonefruitcloseddsc: |-
@@ -412,7 +412,7 @@ main:
     ┃消耗30体力+5精力
     ┃头部疼痛+10
     ┃变为石板栗(石果)</color>
-    <color=#ffa726>┃腐败：-0.55%/分钟</color>
+    <color=#ffa726>┃腐败：0.55%/分钟</color>
     <color=#ffee58>┃获取：破坏石生花</color>
   stonefruitopendsc: |-
     <color=#72d572>┃食用效果：
@@ -420,7 +420,7 @@ main:
     ┃口渴 -5
     ┃体重 +0.1kg</color>
     <color=#ffa726>┃消耗 100% 耐久</color>
-    <color=#ffa726>┃腐败：-0.71%/分钟</color>
+    <color=#ffa726>┃腐败：0.71%/分钟</color>
     <color=#ffee58>┃获取：使用闭合石果获得</color>
   bananadsc: |-
     <color=#72d572>┃食用效果：
@@ -431,7 +431,7 @@ main:
     ┃副作用：
     ┃辐射 +0.3 Gy</color>
     <color=#ffa726>┃消耗 50% 耐久
-    ┃腐败：-0.83%/分钟</color>
+    ┃腐败：0.83%/分钟</color>
     <color=#ffee58>┃获取：食物箱/交易/尸体/空投舱</color>
   burgerdsc: |-
     <color=#72d572>┃食用效果：
@@ -439,7 +439,7 @@ main:
     ┃心情 +1.5
     ┃体重 +0.41kg</color>
     <color=#ffa726>┃消耗 33.33% 耐久</color>
-    <color=#ffa726>┃腐败：-0.83%/分钟</color>
+    <color=#ffa726>┃腐败：0.83%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易
     ┃制作(6)：1(热源)+1肉类(>=20%)+1面包(>=20%)+25mL调味料</color>
   pancakedsc: |-
@@ -448,7 +448,7 @@ main:
     ┃患病 +1.5
     ┃心情 +1.25</color>
     <color=#ffa726>┃消耗 25% 耐久</color>
-    <color=#ffa726>┃腐败：-0.83%/分钟</color>
+    <color=#ffa726>┃腐败：0.83%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易
     ┃制作(5)：1(热源)+1(面粉)+100mL(液体)+100mL树汁</color>
   pizzaslicedsc: |-
@@ -457,7 +457,7 @@ main:
     ┃心情 +1.5
     ┃体重 +0.41kg</color>
     <color=#ffa726>┃消耗 33.4% 耐久</color>
-    <color=#ffa726>┃腐败：-1%/分钟</color>
+    <color=#ffa726>┃腐败：1%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
     <color=#ffa726>特点：共3次使用，受潮后腐败较快</color>
   bucketofchickendsc: |-
@@ -470,7 +470,7 @@ main:
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
     <color=orange>特点：用尽后变为空炸鸡桶(可作3.00u容器)</color>
   bucketofnochickendsc: |-
-    <color=#ffa726>┃(装有物品且移动时)腐败：5%/分钟</color>
+    <color=#ffa726>┃腐败：5%/分钟</color>
     <color=#ffee58>┃获取：吃完炸鸡桶获得</color>
     <color=#ffa726>耐久消耗极快(约20分钟寿命)</color>
   steakdsc: |-
@@ -479,7 +479,7 @@ main:
     ┃心情 +2
     ┃体重 +0.54kg</color>
     <color=#ffa726>┃消耗 33.4% 耐久</color>
-    <color=#ffa726>┃腐败：-0.56%/分钟</color>
+    <color=#ffa726>┃腐败：0.56%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易/尸体</color>
     <color=orange>游戏中最优质食物之一，共3次使用。教程中提供的食物即为此</color>
   cookiesdsc: |-
@@ -489,7 +489,7 @@ main:
     ┃体重 +0.24kg
     ┃患病 +3</color>
     <color=#ffa726>┃消耗 10% 耐久</color>
-    <color=#ffa726>┃腐败：-0.42%/分钟</color>
+    <color=#ffa726>┃腐败：0.42%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
     <color=#ffa726>特点：缓慢腐败，可多次少量食用应急</color>
   chipsdsc: |-
@@ -499,7 +499,7 @@ main:
     ┃体重 +0.31kg
     ┃患病 +3</color>
     <color=#ffa726>┃消耗 10% 耐久</color>
-    <color=#ffa726>┃腐败：-0.33%/分钟</color>
+    <color=#ffa726>┃腐败：0.33%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
     <color=#ffa726>特点：腐败较慢，适合作为长期口粮(需另备饮水)</color>
   cerealdsc: |-
@@ -508,7 +508,7 @@ main:
     ┃口渴 -2.5
     ┃体重 +0.15kg</color>
     <color=#ffa726>┃消耗 20% 耐久</color>
-    <color=#ffa726>┃腐败：-0.33%/分钟</color>
+    <color=#ffa726>┃腐败：0.33%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易
     ┃制作(2)：与500mL牛奶合成3碗麦片碗(需热源)</color>
     <color=orange>干吃会降低口渴值</color>
@@ -528,7 +528,7 @@ main:
     <color=#91a7ff>┃护甲：0.75
     ┃保温：4%
     ┃损耗系数：1.15</color>
-    <color=#ffa726>┃(穿戴时)腐败：0.60%/分钟</color>
+    <color=#ffa726>┃腐败：0.56%/分钟</color>
     <color=#ffee58>┃获取：交易
     ┃制作(8)：1大型虫尸+1绳子+1细绳+10mL生化流体</color>
   dogfooddsc: |-
@@ -536,7 +536,7 @@ main:
     ┃饥饿 +6
     ┃体重 +0.14kg</color>
     <color=#ffa726>┃消耗 20% 耐久</color>
-    <color=#ffa726>┃腐败：-0.5%/分钟</color>
+    <color=#ffa726>┃腐败：0.5%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
     <color=#ffa726>特点：腐败慢，可多次使用，优秀应急口粮</color>
   hardcandydsc: |-
@@ -546,14 +546,14 @@ main:
     ┃体重 +0.24kg
     ┃患病 +3</color>
     <color=#ffa726>┃消耗 20% 耐久</color>
-    <color=#ffa726>┃腐败：-0.20%/分钟</color>
+    <color=#ffa726>┃腐败：0.20%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
     <color=orange>特点：极轻(0.10u)可放材料袋。增重效果显著，用于维持健康体重</color>
   fleshchunkdsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +14 | 心情 -0.1 | 体重 +0.41kg</color>
     <color=#ffa726>┃消耗 20% 耐久</color>
-    <color=#ffa726>┃腐败：-0.83%/分钟</color>
+    <color=#ffa726>┃腐败：0.83%/分钟</color>
     <color=#ffee58>┃获取：
     ┃空投舱/维生舱箱子/食物箱/交易/棘背兽长老掉落</color>
     <color=orange>特点：共5次使用，不增加患病。游戏中最优质食物之一</color>
@@ -564,7 +564,7 @@ main:
     ┃体重 +0.27kg
     ┃患病 +5</color>
     <color=#ffa726>┃消耗 100% 耐久</color>
-    <color=#ffa726>┃腐败：-0.22%/分钟</color>
+    <color=#ffa726>┃腐败：0.22%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
     <color=orange>特点：单次使用即消耗全部</color>
   chocolatebardsc: |-
@@ -574,7 +574,7 @@ main:
     ┃体重 +0.27kg
     ┃患病 +20</color>
     <color=#ffa726>┃消耗 34% 耐久</color>
-    <color=#ffa726>┃腐败：-0.22%/分钟</color>
+    <color=#ffa726>┃腐败：0.22%/分钟</color>
     <color=#ffee58>┃获取：
     ┃食物箱/空投舱/交易/尸体旁</color>
     <color=orange>实验体无法代谢可可碱，会大幅增加患病，因而降低心情获得量(仅+0.5/次)</color>
@@ -633,14 +633,14 @@ main:
     ┃咖啡因 +90
     ┃兴奋剂倍率 +0.35
     ┃心情 +1</color>
-    <color=#ffa726>┃腐败：-25%/分钟┃腐坏后变为两个灵能晶（显现体）</color>
+    <color=#ffa726>┃腐败：25%/分钟┃腐坏后变为两个灵能晶（显现体）</color>
     <color=orange>建议：尽早食用，以免核心分裂为灵能晶</color>
   foliagedsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +5
     ┃心情 -2
     ┃66%几率患病值+10~30</color>
-    <color=#ffa726>┃腐败：-6.67%/分钟</color>
+    <color=#ffa726>┃腐败：6.67%/分钟</color>
     <color=#ffee58>┃制作(12)：2颗粒菇组织块+1mL生化流体</color>
   foliagemealdsc: |-
     <color=#72d572>┃食用效果：
@@ -648,7 +648,7 @@ main:
     ┃口渴 +2
     ┃患病 +3</color>
     <color=#ffa726>┃消耗 50% 耐久</color>
-    <color=#ffa726>┃腐败：-10%/分钟</color>
+    <color=#ffa726>┃腐败：10%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易/蓝图
     ┃制作(7)：1(热源)+3(纤维)+1(农产品)</color>
     <color=orange>廉价维持实验体饥饿，减缓其减重并缓回心情</color>
@@ -658,7 +658,7 @@ main:
     ┃心情 -1
     ┃33%几率患病值+5~20</color>
     <color=#ffa726>┃消耗 100% 耐久</color>
-    <color=#ffa726>┃腐败：-0.83%/分钟</color>
+    <color=#ffa726>┃腐败：0.83%/分钟</color>
     <color=#ffee58>┃获取：破坏枯灌木掉落3-4个</color>
   glowplantfruitdsc: |-
     <color=#72d572>┃外敷：
@@ -666,7 +666,7 @@ main:
     ┃皮肤 -1
     ┃肌肉 -4(相邻-3)</color>
     <color=#ffa726>┃消耗 100% 耐久</color>
-    <color=#ffa726>┃腐败：-0.99%/分钟</color>
+    <color=#ffa726>┃腐败：3.33%/分钟</color>
     <color=#ffee58>┃获取：破坏发光草/交易</color>
   flashlightdsc: |-
     <color=#91a7ff>┃模式：
@@ -682,7 +682,7 @@ main:
   lanterndsc: |-
     <color=#91a7ff>┃效果：明亮光源
     ┃寿命约2小时，非电池光源中续航最长</color>
-    <color=#ffa726>┃耐久消耗：0.83%/分钟</color>
+    <color=#ffa726>┃耐久消耗：0.56%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(10)：1荧光晶碎片+1柔性玻璃+2木板+1钉子+1(可捶打)</color>
     <color=orange>可以放在皮带上这样也可以发光不占位置</color>
@@ -717,7 +717,7 @@ main:
     ┃制作(7)：1脆弱的刀+1绳子+2木棍+10mL生化流体</color>
     <color=orange>100%耐久可使用400次，总地块伤害可达32900</color>
   makeshiftheadlampdsc: |-
-    <color=#ffa726>┃耐久消耗：2.70%/分钟</color>
+    <color=#ffa726>┃耐久消耗：3.33%/分钟</color>
     <color=#ffee58>┃制作(4)：1硬化虫尸+1发光果+1绳子</color>
     <color=orange>解放双手但寿命短</color>
   shoveldsc: |-
@@ -895,7 +895,7 @@ main:
     <color=#72d572>┃食用效果：
     ┃饥饿 +12.5
     ┃体重 +0.14kg | 患病 +16 | 心情 -6</color>
-    <color=#ffa726>┃腐败：-3.33%/分钟</color>
+    <color=#ffa726>┃腐败：3.33%/分钟</color>
     <color=#ffee58>┃获取：尸体/交易/维生舱/棘背兽长老</color>
     <color=orange>建议：避免直接食用，用作烹饪材料</color>
   ropedsc: |-
@@ -913,7 +913,7 @@ main:
     ┃副作用：
     ┃患病 +32
     ┃心情 -18</color>
-    <color=#ffa726>┃腐败：-5%/分钟</color>
+    <color=#ffa726>┃腐败：5%/分钟</color>
     <color=#ffee58>┃获取：随机生成/结构内</color>
     <color=orange>整份吃完必吐。强烈建议只作汉堡材料</color>
   blobfleshdsc: |-
@@ -921,7 +921,7 @@ main:
     ┃饥饿 +6
     ┃体重 +0.20kg
     ┃患病 +5 | 心情 -1.5</color>
-    <color=#ffa726>┃腐败：-2.10%/分钟</color>
+    <color=#ffa726>┃腐败：3.33%/分钟</color>
     <color=#ffee58>┃获取：交易/胶质怪掉落(开发中)</color>
   cactusfleshdsc: |-
     <color=#72d572>┃食用效果：
@@ -930,7 +930,7 @@ main:
     ┃心情 +1
     ┃体重 +0.2kg
     ┃头部疼痛 +10</color>
-    <color=#ffa726>┃腐败：-2.5%/分钟</color>
+    <color=#ffa726>┃腐败：2.5%/分钟</color>
     <color=#ffee58>┃获取：破坏仙人掌/交易</color>
     <color=orange>可解渴，但会增加头部疼痛</color>
   neuralboosterdsc: |-
@@ -967,7 +967,7 @@ main:
     ┃患病 +7
     ┃体重 -0.85kg
     ┃阿片当量 +10</color>
-    <color=#ffa726>┃腐败：-6.67%/分钟</color>
+    <color=#ffa726>┃腐败：6.67%/分钟</color>
     <color=#ffee58>┃获取：破坏水芦
     ┃制作(7)：
     ┃2水芦莓+10mL生化流体+50mL液体=鸦片(50mL)</color>
@@ -975,7 +975,7 @@ main:
     <color=#72d572>┃精力 -100%
     ┃昏迷2.5分钟(无视睡眠限制)
     ┃醒来心情+12</color>
-    <color=#ffa726>┃腐败：-6.67%/分钟</color>
+    <color=#ffa726>┃腐败：6.67%/分钟</color>
     <color=#ffee58>┃获取：破坏水芦/交易</color>
     <color=orange>昏迷时无视外界危险，可能溺水或失温致死</color>
   aquappledsc: |-
@@ -983,21 +983,21 @@ main:
     ┃口渴 +7
     ┃心情 -1</color>
     <color=#ffa726>┃消耗 100% 耐久</color>
-    <color=#ffa726>┃腐败：-10%/分钟</color>
+    <color=#ffa726>┃腐败：10%/分钟</color>
     <color=#ffee58>┃获取：破坏水芦</color>
     <color=#ffa726>腐败极快，不可榨汁</color>
   droppingsdsc: <color=#ffee58>┃制作(7)：1热源+1屎+10mL生化流体=3木炭</color>
   smallpackdsc: |-
-    <color=#ffa726>┃(穿戴且装有物品时)腐败：0.60%/分钟</color>
+    <color=#ffa726>┃腐败：0.48%/分钟</color>
     <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱</color>
     <color=orange>耐用且容量较大，性价比较高</color>
   duffelbagdsc: |-
-    <color=#ffa726>┃(穿戴且装有物品时)腐败：1.50%/分钟</color>
+    <color=#ffa726>┃腐败：0.74%/分钟</color>
     <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱/修理破损书包
     ┃制作(11)：1破损书包+1绳子+2细绳+1木板+1(可切割)</color>
     <color=orange>容量适中的耐用背包</color>
   bigpackdsc: |-
-    <color=#ffa726>┃(穿戴且装有物品时)腐败：0.60%/分钟</color>
+    <color=#ffa726>┃腐败：1.11%/分钟</color>
     <color=#ffee58>┃获取：交易/制作
     ┃制作(13)：2绳子+1木板+5帆布+3细绳+1(可切割)</color>
     <color=orange>容量大且极度耐用(约2.8小时)。推荐后期使用</color>
@@ -1018,7 +1018,7 @@ main:
   holidayhatdsc: |-
     <color=#91a7ff>┃护甲：0.1
     ┃保温：20%</color>
-    <color=#ffa726>┃(穿戴时)腐败：0%/分钟</color>
+    <color=#ffa726>┃腐败：0.56%/分钟</color>
     <color=#ffee58>┃获取：开启礼物/交易</color>
     <color=orange>无实用属性，纯装饰品</color>
   headlampdsc: |-
@@ -1031,7 +1031,7 @@ main:
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   scarfdsc: |-
     <color=#91a7ff>┃保温：15%</color>
-    <color=#ffa726>┃(穿戴时)腐败：0%/分钟</color>
+    <color=#ffa726>┃腐败：0.28%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(10)：5帆布+3细绳</color>
     <color=orange>早期优秀保暖装备，保温性能极佳</color>
@@ -1056,22 +1056,22 @@ main:
   latexglovesdsc: |-
     <color=#91a7ff>┃保温：8%
     ┃损耗系数：0.50</color>
-    <color=#ffa726>┃(穿戴时)腐败：0%/分钟</color>
+    <color=#ffa726>┃腐败：0.33%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   tacticalglovesdsc: |-
     <color=#91a7ff>┃护甲：1.0
     ┃保温：15%
     ┃损耗系数：0.15</color>
-    <color=#ffa726>┃(穿戴时)腐败：(需要600分钟才能损坏)</color>
+    <color=#ffa726>┃腐败：(需要600分钟才能损坏)</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(15)：1钛板+2废料板+1塑料块+1细绳+20mL生化流体+1(可切割)</color>
   fannypackdsc: |-
-    <color=#ffa726>┃(穿戴且装有物品时)腐败：0.42%/分钟</color>
+    <color=#ffa726>┃腐败：0.67%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作：10腰包=2帆布+1细绳</color>
     <color=orange>轻便耐用，早期腹部装备首选</color>
   bandolierdsc: |-
-    <color=#ffa726>┃(穿戴且装有物品时)腐败：0.42%/分钟</color>
+    <color=#ffa726>┃腐败：0.33%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作：10子弹带=2帆布+1细绳</color>
     <color=orange>专用于存放弹药，可减轻负重</color>
@@ -1082,14 +1082,14 @@ main:
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作：12腹部装甲=1废料板+2木板+1钉子+10mL生化流体(需锤击)</color>
   beltdsc: |-
-    <color=#ffa726>┃(穿戴且装有物品时)腐败：0.60%/分钟</color>
+    <color=#ffa726>┃腐败：0.07%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(10)：2绳子+2细绳+1木板+1(可切割)=1皮带(50%)</color>
     <color=orange>工具腰带，可挂载物品</color>
   traumarigdsc: |-
     <color=#91a7ff>┃护甲：0.8
     ┃损耗系数：0.10</color>
-    <color=#ffa726>┃(穿戴且装有物品时)腐败：0.42%/分钟</color>
+    <color=#ffa726>┃腐败：0.07%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(15)：1皮带+2钛板+3细绳+3塑料块+30mL生化流体+1(可切割)</color>
     <color=orange>兼具储物和躯干防护功能</color>
@@ -1099,7 +1099,7 @@ main:
     <color=#ffa726>┃消耗 21% 耐久 | 用完变为空爆米花桶</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
   nopopcorndsc: |-
-    <color=#ffa726>┃(装有物品时)腐败：4.80%/分钟</color>
+    <color=#ffa726>┃腐败：5%/分钟</color>
     <color=#ffee58>┃获取：吃完爆米花获得</color>
     <color=#ffa726>快速腐败，约21分钟寿命</color>
   spacedraindsc: |-
@@ -1110,7 +1110,7 @@ main:
     <color=#91a7ff>┃护甲：0.25
     ┃保温：60%
     ┃损耗系数：0.25</color>
-    <color=#ffa726>┃(穿戴时)腐败：0%/分钟</color>
+    <color=#ffa726>┃腐败：0.21%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   metabolismchipdsc: |-
     <color=#91a7ff>┃效果：肢体再生速度+50%
@@ -1129,7 +1129,7 @@ main:
     ┃疼痛+5
     ┃患病 +30</color>
     <color=#ffa726>┃消耗 100% 耐久</color>
-    <color=#ffa726>┃腐败：-6.67%/分钟</color>
+    <color=#ffa726>┃腐败：6.67%/分钟</color>
     <color=#ffee58>┃获取：破坏热能蕨/交易</color>
     <color=orange>野外可得的消毒物品</color>
   jetpackdsc: |-
@@ -1186,7 +1186,7 @@ main:
     ┃体重 +0.17kg
     ┃患病 +2</color>
     <color=#ffa726>┃消耗 50% 耐久</color>
-    <color=#ffa726>┃腐败：-0.41%/分钟</color>
+    <color=#ffa726>┃腐败：0.42%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
     <color=orange>特点：轻便(0.50u)，共2次使用</color>
   carcassdsc: |-
@@ -1267,7 +1267,7 @@ main:
     <color=#91a7ff>┃护甲：0.25
     ┃保温：10%
     ┃损耗系数：0.40</color>
-    <color=#ffa726>┃(穿戴时)腐败：0.28%/分钟</color>
+    <color=#ffa726>┃腐败：0.28%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
   carapacedsc: |-
     <color=#91a7ff>┃护甲：1.0
@@ -1279,7 +1279,7 @@ main:
     <color=#91a7ff>┃护甲：0.25
     ┃保温：7%
     ┃损耗系数：0.35</color>
-    <color=#ffa726>┃(穿戴时)腐败：0.28%/分钟</color>
+    <color=#ffa726>┃腐败：0.33%/分钟</color>
     <color=#ffee58>┃制作(6)：2绷带(>=90%)</color>
     <color=orange>可撕碎为绷带。早期易得防护</color>
   kneepadsdsc: |-
@@ -1295,7 +1295,7 @@ main:
     <color=#91a7ff>┃护甲：0.25
     ┃保温：10%
     ┃损耗系数：0.40</color>
-    <color=#ffa726>┃(穿戴时)腐败：0.55%/分钟</color>
+    <color=#ffa726>┃腐败：0.56%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
     <color=orange>可撕碎为绷带</color>
   rangefinderdsc: |-
@@ -1312,14 +1312,14 @@ main:
     ┃效果：
     ┃液体中呼吸/回耐 +50%移速
     ┃出水 -3潮湿/s</color>
-    <color=#ffa726>┃(穿戴时)腐败：0.55%/分钟</color>
+    <color=#ffa726>┃腐败：0.56%/分钟</color>
     <color=#ffee58>┃获取：交易/物资箱
     ┃制作(12)：1氧晶碎片+2废料板+2废料管+1柔性玻璃+2塑料块+10mL生化流体+1电线捆+1(可捶打)+1(可切割)</color>
     <color=orange>占用背部槽位，无法同时背包。适合水域丰富的地层。</color>
   filterstrawdsc: |-
     <color=#91a7ff>┃效果：
     ┃主手持有时，饮用地表/容器中的地下水/污水/树汁无患病；荧光藻患病减半；无法饮用原油</color>
-    <color=#ffa726>┃腐败：-0.60%/分钟</color>
+    <color=#ffa726>┃腐败：0.42%/分钟</color>
     <color=#ffee58>┃获取：物资箱/交易 (稀有)</color>
   wrenchdsc: |-
     <color=#91a7ff>┃工具属性：
@@ -1369,7 +1369,7 @@ main:
   browncapdsc: |-
     <color=#72d572>┃食用效果：随机效果(见下表)</color>
     <color=#ffa726>┃消耗100%耐久</color>
-    <color=#ffa726>┃腐败：-2.5%/分钟</color>
+    <color=#ffa726>┃腐败：2.5%/分钟</color>
     <color=#ffee58>┃获取：破坏棕蘑菇/交易</color>
     <color=orange>效果表：<20:饥饿+10；20-35:心情+2.5；35-55:心情-2.5 +患病+所有肢体感染-20% +免疫提升8分20秒； 55-65:饥饿+7 呕吐；65-75:饥饿+7 +35阿片当量；75-99.6:饥饿+7 心情-1 +50精力；>99.6:中风(不扣心情) 饥饿+7。 额外随机:10%意识归零/5%辐射+4.5Gy/5%精力归零/6%呼吸停止5秒/10%口渴+20/10%口渴-20/8%体温+4.5°C</color>
   sneakersdsc: |-
@@ -1377,14 +1377,14 @@ main:
     ┃保温：7%
     ┃损耗系数：0.60
     ┃效果：踩玻璃碎片每次-6%耐久(约16-17次)</color>
-    <color=#ffa726>┃(穿戴时)腐败：0.33%/分钟</color>
+    <color=#ffa726>┃腐败：0.33%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
     <color=orange>可撕碎为绷带</color>
   tacticalbootsdsc: |-
     <color=#91a7ff>┃护甲：2.0
     ┃保温：30%
     ┃损耗系数：0.10</color>
-    <color=#ffa726>┃(穿戴时)腐败：0%/分钟</color>
+    <color=#ffa726>┃腐败：0.25%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(16)：2钛板+2塑料块+2细绳+30mL生化流体+1(可切割)</color>
   frigiantfruitdsc: |-
@@ -1395,7 +1395,7 @@ main:
     ┃体重 +0.02kg
     ┃体温 -2.5°C</color>
     <color=#ffa726>┃消耗 50% 耐久</color>
-    <color=#ffa726>┃腐败：-20%/分钟</color>
+    <color=#ffa726>┃腐败：20%/分钟</color>
     <color=#ffee58>┃获取：交易(开发中物品)</color>
     <color=orange>快速降温，适合治疗体温过高</color>
     <color=#ffa726>腐败极快，不宜长距离携带</color>
@@ -1407,7 +1407,7 @@ main:
     ┃咖啡因 +30s
     ┃体温 +2°C</color>
     <color=#ffa726>┃消耗 50% 耐久</color>
-    <color=#ffa726>┃腐败：-0.33%/分钟</color>
+    <color=#ffa726>┃腐败：0.33%/分钟</color>
     <color=#ffee58>┃获取：破坏炮果草/交易</color>
     <color=orange>极轻(0.10u)，注意控制体温</color>
   bulbskindsc: |-
@@ -1419,7 +1419,7 @@ main:
     ┃疼痛*10%
     ┃出血 -0.12L/分钟(6.4秒内生效)
     ┃肾上腺素 +50</color>
-    <color=#ffa726>┃腐败：-5%/分钟</color>
+    <color=#ffa726>┃腐败：5%/分钟</color>
     <color=#ffee58>┃获取：破坏炮果草/交易</color>
   popfruitdsc: |-
     <color=#72d572>┃食用效果：
@@ -1444,13 +1444,13 @@ main:
     <color=#91a7ff>┃护甲：0.4
     ┃保温：40%
     ┃损耗系数：0.35</color>
-    <color=#ffa726>┃(穿戴时)腐败：-1.66%/分钟</color>
+    <color=#ffa726>┃腐败：1.67%/分钟</color>
     <color=#ffee58>┃获取：雪地漫游者掉落(开发中)</color>
   funguschunkdsc: |-
     <color=#72d572>┃食用效果：饥饿 +10，并触发随机效果：
     ┃可能包括：意识减半、体温±4.5°C、患病±20、辐射±3Gy、耐力±40、脑健康±2、血液±0.25L，甚至有呕血、瘫倒等。具体概率各异</color>
     <color=#ffa726>┃消耗 100% 耐久</color>
-    <color=#ffa726>┃腐败：-3.33%/分钟</color>
+    <color=#ffa726>┃腐败：3.33%/分钟</color>
     <color=#ffee58>┃获取：真菌巴加利掉落(开发中)</color>
   clottingmushdsc: |-
     <color=#72d572>┃外敷：
@@ -1467,7 +1467,7 @@ main:
     ┃患病 +10
     ┃心情 -1</color>
     <color=#ffa726>┃消耗 100% 耐久</color>
-    <color=#ffa726>┃腐败：-0.83%/分钟</color>
+    <color=#ffa726>┃腐败：0.83%/分钟</color>
     <color=#ffee58>┃获取：交易</color>
   smallbatterydsc: |-
     <color=#91a7ff>┃最大电量：50</color>
@@ -1641,7 +1641,7 @@ main:
   charcoaldsc: |-
     <color=#ffee58>┃制作(7)：1(热源)+1屎+10mL生化流体=3木炭</color>
   ryebulbdsc: |-
-    <color=#ffa726>┃腐败：-3.33%/分钟</color>
+    <color=#ffa726>┃腐败：3.33%/分钟</color>
     <color=#ffee58>┃获取：破坏天花板黑麦</color>
   ryeflourdsc: |-
     <color=#ffee58>┃制作(6)：1悬垂麦苞+0.5(可捶打)</color>
@@ -1651,7 +1651,7 @@ main:
     ┃口渴 +2
     ┃体重 +0.17kg</color>
     <color=#ffa726>┃消耗 34% 耐久</color>
-    <color=#ffa726>┃腐败：-0.33%/分钟</color>
+    <color=#ffa726>┃腐败：0.33%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易/蓝图
     ┃制作(7)：1(热源)+1(面粉)+150mL(液体)</color>
     <color=orange>保质期长，口味中性。
@@ -1662,14 +1662,14 @@ main:
     ┃心情 +0.8
     ┃体重 +0.43kg</color>
     <color=#ffa726>┃消耗 10% 耐久</color>
-    <color=#ffa726>┃腐败：-0.83%/分钟</color>
+    <color=#ffa726>┃腐败：0.83%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
   pemmicandsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +12
     ┃体重 +0.46kg</color>
     <color=#ffa726>┃消耗 25% 耐久</color>
-    <color=#ffa726>┃腐败：-0.17%/分钟</color>
+    <color=#ffa726>┃腐败：0.17%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易/蓝图
     ┃制作(6)：1热源+1肉类(>=20%)+1农产品(>=50%)+75mL脂肪</color>
     <color=orange>极长保质期，高热量，充饥增重佳品</color>
@@ -1685,7 +1685,7 @@ main:
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
     <color=orange>唯一稳定获取玩偶和节日帽的途径</color>
   woodsandalsdsc: |-
-    <color=#ffa726>┃(穿戴时)腐败：0%/分钟</color>
+    <color=#ffa726>┃腐败：1.67%/分钟</color>
     <color=#ffee58>┃获取：制作
     ┃制作(8)：2木板+2绳子+1细绳</color>
   minibarreldsc: |-
