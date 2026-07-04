@@ -1,17 +1,17 @@
 name: <color=yellow>维基中文</color>
 version: v1.8.3
 extend_description: |-
-  <color=orange>包含内华达刃脊锁补丁的多人联机汉化</color> 
+  <color=orange>包含内华达刃脊锁补丁的多人联机汉化</color>
   并由<color=yellow>维基中文制作组</color>在此基础上扩展的功能性维基翻译补丁
 
   <color=blue>再次感谢简中版及内华达刃脊制作组</color>
   <color=purple>所有数据信息均来自制作组解包数据，保证准确率高</color>
 
-  <color=orange>更详细的贡献者信息及发布页：</color>
-  <color=yellow>https://github.com/StreamWind114514/Casualties-Unknown-Simplified-Chinese-Wiki</color>
   <color=orange>翻译项目(贡献或者反馈问题(issue&PR)进这里)：</color>
   <color=yellow>https://github.com/dodo23333/cu-chinese-wiki-translations</color>
-  <color=orange>往后的更新及改动内容请前往Github查看</color>
+  <color=orange>贡献者名单：</color>
+  <color=yellow>https://github.com/StreamWind114514/Casualties-Unknown-Simplified-Chinese-Wiki</color>
+  <color=orange>更新及改动内容请前往Github查看</color>
 main:
   bandagedsc: |-
     <color=#72d572>┃每一圈(共12圈)：
@@ -56,7 +56,7 @@ main:
     ┃阿片类水平 +1.87</color>
     <color=#ffa726>┃消耗 6.67% 耐久</color>
     <color=#ffee58>┃获取：医疗箱 (不可制作)</color>
-    <color=orange>！：含有微量阿片类药物，与其他阿片类物品同时使用需注意过量风险</color>
+    <color=orange>含有微量阿片类药物，与其他阿片类物品同时使用需注意过量风险</color>
   alginatedsc: |-
     <color=#72d572>┃每一圈(共15圈)：
     ┃皮肤 +8.33
@@ -235,7 +235,7 @@ main:
   bloodbagdsc: |-
     <color=#91a7ff>┃容重比：0.17u/100mL</color>
     <color=#ffee58>┃制作(12)：1塑料块+2柔性玻璃+1电线捆+1自动注射器+20mL生化流体</color>
-    <color=orange>！：耐久耗尽变为空血袋</color>
+    <color=orange>耐久耗尽变为空血袋</color>
   bloodsacdsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +7
@@ -263,7 +263,7 @@ main:
     ┃制作(11)：2塑料块+2柔性玻璃+1废料管+20mL生化流体=1静脉输液袋</color>
   ringersolutiondsc: |-
     <color=#91a7ff>┃容重比：0.16u/100mL</color>
-    <color=orange>！：注射可能导致血容量过高(高血容量症)，严重时引发呼吸停止</color>
+    <color=orange>注射可能导致血容量过高(高血容量症)，严重时引发呼吸停止</color>
   bloodbaghumandsc: |-
     <color=#91a7ff>┃容重比：0.17u/100mL</color>
     <color=#ffee58>┃获取：医疗箱/交易</color>
@@ -323,7 +323,7 @@ main:
   brokenbagdsc: |-
     <color=#ffa726>┃(装有物品时)腐败：1.35%/分钟</color>
     <color=#ffee58>┃获取：尸体旁</color>
-    <color=orange>！：不可穿戴。可修复为筒状行李袋但容量会降低</color>
+    <color=orange>不可穿戴。可修复为筒状行李袋但容量会降低</color>
   boxdsc: |-
     <color=#ffa726>┃(装有物品时)腐败：1.80%/分钟</color>
     <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱</color>
@@ -380,7 +380,7 @@ main:
     ┃跳跃高度大幅提升(多个叠加效果倍增)</color>
     <color=#ffa726>┃(携带时)腐败：-5%/分钟</color>
     <color=#ffee58>┃获取：破坏漩涡晶/交易
-    <color=orange>！：携带3个以上跳跃高度危险！┃跳跃高度增加44%</color>
+    <color=orange>携带3个以上跳跃高度危险！┃跳跃高度增加44%</color>
   oxygencrystalsharddsc: |-
     <color=#72d572>┃被动效果(放身上非容器)：
     ┃体力 +2%/s</color>
@@ -473,7 +473,7 @@ main:
   bucketofnochickendsc: |-
     <color=#ffa726>┃(装有物品且移动时)腐败：5%/分钟</color>
     <color=#ffee58>┃获取：吃完炸鸡桶获得</color>
-    <color=#ffa726>！：耐久消耗极快(约20分钟寿命)</color>
+    <color=#ffa726>耐久消耗极快(约20分钟寿命)</color>
   steakdsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +15
@@ -512,7 +512,7 @@ main:
     <color=#ffa726>┃腐败：-0.33%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易
     ┃制作(2)：与500mL牛奶合成3碗麦片碗(需热源)</color>
-    <color=orange>！：干吃会降低口渴值</color>
+    <color=orange>干吃会降低口渴值</color>
   bowlofcerealdsc: |-
     <color=#91a7ff>┃容重比：0.20u/100mL</color>
     <color=#72d572>┃食用效果：
@@ -578,7 +578,7 @@ main:
     <color=#ffa726>┃腐败：-0.22%/分钟</color>
     <color=#ffee58>┃获取：
     ┃食物箱/空投舱/交易/尸体旁</color>
-    <color=orange>！：实验体无法代谢可可碱，会大幅增加患病，因而降低心情获得量(仅+0.5/次)</color>
+    <color=orange>实验体无法代谢可可碱，会大幅增加患病，因而降低心情获得量(仅+0.5/次)</color>
   waterbottledsc: |-
     <color=#91a7ff>┃容重比：0.25u/100mL</color>
     <color=#ffee58>┃获取：医疗箱/食物箱/空投舱/维生舱箱子/地面刷新</color>
@@ -674,7 +674,7 @@ main:
     ┃关(0/分钟) / 亮(1.50/分钟) / 暗(0.75/分钟) / 频闪(0.75/分钟)</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易
     ┃制作(10)：1灯泡+1废料管+1柔性玻璃+1塑料块+1电线捆+1电路板(>=90%)+1钉子+1(可捶打)</color>
-    <color=orange>！：放入容器仍会耗电</color>
+    <color=orange>放入容器仍会耗电</color>
   emergencylightdsc: |-
     <color=#91a7ff>┃效果：发出微弱定向光束</color>
     <color=#ffa726>┃耐久消耗：10%/分钟(使用中)</color>
@@ -690,7 +690,7 @@ main:
   lightbulbdsc: |-
     <color=#ffee58>┃获取：维生舱顶灯拆取/物资箱/交易
     ┃制作(11)：2柔性玻璃+1废料块+1钉子+2电线捆</color>
-    <color=orange>！：放入头部槽约2秒后爆炸(75疼痛/30皮肤伤/5肌肉伤/出血/破片)。不自动拾取</color>
+    <color=orange>放入头部槽约2秒后爆炸(75疼痛/30皮肤伤/5肌肉伤/出血/破片)。不自动拾取</color>
   nutrientbardsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +12.5
@@ -870,7 +870,7 @@ main:
     ┃心情 -18</color>
     <color=#ffa726>┃腐败：-5%/分钟</color>
     <color=#ffee58>┃获取：随机生成/结构内</color>
-    <color=orange>！：整份吃完必吐。强烈建议只作汉堡材料</color>
+    <color=orange>整份吃完必吐。强烈建议只作汉堡材料</color>
   blobfleshdsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +6
@@ -932,7 +932,7 @@ main:
     ┃醒来心情+12</color>
     <color=#ffa726>┃腐败：-6.67%/分钟</color>
     <color=#ffee58>┃获取：破坏水芦/交易</color>
-    <color=orange>！：昏迷时无视外界危险，可能溺水或失温致死</color>
+    <color=orange>昏迷时无视外界危险，可能溺水或失温致死</color>
   aquappledsc: |-
     <color=#72d572>┃食用效果：
     ┃口渴 +7
@@ -940,7 +940,7 @@ main:
     <color=#ffa726>┃消耗 100% 耐久</color>
     <color=#ffa726>┃腐败：-10%/分钟</color>
     <color=#ffee58>┃获取：破坏水芦</color>
-    <color=#ffa726>！：腐败极快，不可榨汁</color>
+    <color=#ffa726>腐败极快，不可榨汁</color>
   droppingsdsc: <color=#ffee58>┃制作(7)：1热源+1屎+10mL生化流体=3木炭</color>
   smallpackdsc: |-
     <color=#ffa726>┃(穿戴且装有物品时)腐败：0.60%/分钟</color>
@@ -1104,7 +1104,7 @@ main:
     <color=orange>早期探索利器，方便进入高处区域</color>
   plasmacutterdsc: |-
     <color=#91a7ff>┃工具属性：
-    ┃方块 10(对金属x10即100) ┃ 敌人 10
+    ┃方块 10(对金属100) ┃ 敌人 10
     ┃体力 0 ┃ 冷却 0.1秒</color>
     <color=#72d572>医疗用途：皮肤-12，出血-80%，疼痛+45(灼烧止血)</color>
     <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱/交易</color>
@@ -1269,7 +1269,7 @@ main:
     <color=#ffa726>┃(穿戴时)腐败：0.55%/分钟</color>
     <color=#ffee58>┃获取：交易/物资箱
     ┃制作(12)：1氧晶碎片+2废料板+2废料管+1柔性玻璃+2塑料块+10mL生化流体+1电线捆+1(可捶打)+1(可切割)</color>
-    <color=orange>！：占用背部槽位，无法同时背包。适合水域丰富的地层。</color>
+    <color=orange>占用背部槽位，无法同时背包。适合水域丰富的地层。</color>
   filterstrawdsc: |-
     <color=#91a7ff>┃效果：
     ┃主手持有时，饮用地表/容器中的地下水/污水/树汁无患病；荧光藻患病减半；无法饮用原油</color>
@@ -1359,7 +1359,7 @@ main:
     <color=#ffa726>┃消耗 50% 耐久</color>
     <color=#ffa726>┃腐败：-0.33%/分钟</color>
     <color=#ffee58>┃获取：破坏炮果草/交易</color>
-    <color=orange>！：极轻(0.10u)，注意控制体温</color>
+    <color=orange>极轻(0.10u)，注意控制体温</color>
   bulbskindsc: |-
     <color=#72d572>┃食用效果：
     ┃口渴 +4.5
@@ -1389,7 +1389,7 @@ main:
     ┃疼痛 +10</color>
     <color=#ffa726>┃消耗 100% 耐久</color>
     <color=#ffee58>┃制作(8)：1炮果皮+1玫瑰灯</color>
-    <color=orange>！：保质期短(3.33%/分钟)，单次使用即消耗全部</color>
+    <color=orange>保质期短(3.33%/分钟)，单次使用即消耗全部</color>
   striderpeltdsc: |-
     <color=#91a7ff>┃护甲：0.4
     ┃保温：40%
@@ -1554,7 +1554,7 @@ main:
     ┃心情/患病：-3~3.5 / -2~2随机
     ┃液体：
     ┃含1~4种随机液体各25~175mL</color>
-    <color=orange>！：可能药物过量(3.42%)！</color>
+    <color=orange>可能药物过量(3.42%)！</color>
   canteendsc: |-
     <color=#91a7ff>┃容重比：0.00u/100mL</color>
     <color=#72d572>┃饮用：100mL | 消耗33.3%</color>
@@ -1940,7 +1940,7 @@ buildings:
     <color=#e84e40>┃最大血量：250</color>
     <color=#ffee58>┃破坏掉落：漩涡晶碎片 (100%)</color>
     <color=orange>带在身上（非容器）可大幅提升跳跃高度
-    ！：携带3个以上跳跃高度危险！</color>
+    携带3个以上跳跃高度危险！</color>
   turretdsc: |-
     <color=#e84e40>┃最大血量：500</color>
     <color=#ffee58>┃破坏掉落：金属废料x3(100%)、电路板(100%)</color>
@@ -2372,7 +2372,7 @@ moodles:
     内出血 > 0.04 L/分钟
     ┃最高0.21L/分钟
     ┃每点内出血增加血胸2.64/分钟
-    ┃>0.43 L/分钟 致命    
+    ┃>0.43 L/分钟 致命
     ┃饥饿会加剧内出血
     ┃5s内你被判定呕吐2次也会发生内出血
   lowbloodvolume1dsc: |-
@@ -2512,7 +2512,7 @@ moodles:
   hunger6dsc: |-
     饥饿 > 120.00
     ┃体重流失大减 | 行动明显下降
-    ┃>128 进食20%触发呕吐 
+    ┃>128 进食20%触发呕吐
     ┃>125的值 *1.2 加到患病里
   thirst1dsc: |-
     口渴 <= 75.00
@@ -2807,16 +2807,16 @@ other:
   krokosha_coop_serverdeny_syringeinject: 服务端：拒绝了使用注射器
   krokosha_coop_serverdeny_bandage1: 服务端：拒绝了使用绷带（再试一次）
   krokosha_coop_serverdeny_bandage2: 服务端：无法验证绷带使用操作
-  krokosha_coop_plr_started_drillpod: '{0}启动了钻探舱'
+  krokosha_coop_plr_started_drillpod: "{0}启动了钻探舱"
   krokosha_coop_all_started_drillpod: 钻探舱被激活
-  krokosha_coop_plr_hover_dead: ' (死掉了)'
-  krokosha_coop_plr_hover_sleeping: ' (在睡觉)'
-  krokosha_coop_plr_hover_unconscious: ' (昏迷了)'
+  krokosha_coop_plr_hover_dead: " (死掉了)"
+  krokosha_coop_plr_hover_sleeping: " (在睡觉)"
+  krokosha_coop_plr_hover_unconscious: " (昏迷了)"
   krokosha_coop_plr_chattag_dead: 死
   krokosha_coop_plr_chattag_far: 远
   krokosha_coop_plr_too_far: 玩家过远
   krokosha_coop_plr_moving: 玩家在动
-  krokosha_coop_plr_set_timescale: '{0} 将时间缩放设置为 {1}'
+  krokosha_coop_plr_set_timescale: "{0} 将时间缩放设置为 {1}"
   krokosha_coop_interact_obstructed: 没有直接视野
   krokosha_coop_deny_refuse: 他拒绝
   krokosha_coop_deny_heal_dead: 他现在没救了
@@ -2848,7 +2848,7 @@ other:
   krokosha_coop_plrint_piggyback_no: 他们陷入了更大的问题
   krokosha_coop_piggyback_stop: 停止骑乘
   krokosha_coop_carry_stop: 停止携带
-  krokosha_coop_plr_not_sleeping: '没在睡觉 '
+  krokosha_coop_plr_not_sleeping: "没在睡觉 "
   krokosha_coop_plr_sleeping_count: 正在睡觉的玩家数：
   krokosha_coop_plrint_push: 推他
   krokosha_coop_plrint_push_tooltip: 在悬崖旁边这么干会很好玩:)
@@ -2863,7 +2863,7 @@ other:
   krokosha_coop_layerfinish_not_enough_plrs: 所有人都必须到达终点！
   krokosha_coop_layerfinish_wait_for_friends: 你完成了这层，等你的朋友吧
   krokosha_coop_layerfinish_wait_for_host: 你完成了这层，等待主机吧（不许问等待主什么>:(）
-  krokosha_coop_plr_finished_layer: '{0}完成了该层……'
+  krokosha_coop_plr_finished_layer: "{0}完成了该层……"
   krokosha_coop_everyone_is_dead: 所有人都死了
   krokosha_coop_everyone_is_dead_host: 死光了，回到主菜单重新开始吧
   krokosha_coop_obj_not_net_registered: |-
@@ -2903,7 +2903,7 @@ other:
   krokosha_coop_spectate_exit: 停止观战
   krokosha_coop_spectate_alive: 仅观战存活玩家
   krokosha_coop_netpanel_title: 多人游戏
-  krokosha_coop_netmode: '模式： '
+  krokosha_coop_netmode: "模式： "
   krokosha_coop_netmode_client: 客户端
   krokosha_coop_netmode_host: 主机
   krokosha_coop_netmode_server: 服务器
@@ -2923,8 +2923,8 @@ other:
   krokosha_coop_mmtb_about: 关于
   krokosha_coop_mmtb_serverbrowser: 服务器浏览器
   krokosha_coop_mmta_og_download: 官方模组下载页面：
-  krokosha_coop_mmta_discord: 'Casualties: Together 模组 Discord：'
-  krokosha_coop_mmta_credits: 'Credits:'
+  krokosha_coop_mmta_discord: "Casualties: Together 模组 Discord："
+  krokosha_coop_mmta_credits: "Credits:"
   krokosha_coop_mmta_link_copied: 已复制链接！
   krokosha_coop_mmta_link_open: 打开链接
   krokosha_coop_mmta_link_copy: 复制链接
@@ -2951,7 +2951,7 @@ other:
   krokosha_coop_mmct_plrs: 玩家
   krokosha_coop_mmct_rules: 规则
   krokosha_coop_mmct_search: 搜索：
-  krokosha_coop_mmct_presetname: '预设名字:'
+  krokosha_coop_mmct_presetname: "预设名字:"
   krokosha_coop_mmct_presetsave: 保存
   krokosha_coop_mmct_presetremove: 删除
   krokosha_coop_mmct_presetselect: 已选择的预设：
@@ -2988,12 +2988,12 @@ other:
     此游戏实例将没有玩家角色
   krokosha_coop_mmct_sconfig_dedicated_disabled: 已连接
   krokosha_coop_back: 返回
-  krokosha_coop_ww_peerid: '同伴ID: '
+  krokosha_coop_ww_peerid: "同伴ID: "
   krokosha_coop_ww_deceased: 已死亡
   krokosha_coop_ww_cpr: 心肺复苏
   krokosha_coop_ww_cprdesc: 帮助你的伙伴重启循环系统
   krokosha_coop_ww_cprdesc_no: 他们很好
-  krokosha_coop_cpr_minigame_guide: ''
+  krokosha_coop_cpr_minigame_guide: ""
   krokosha_coop_cpr_minigame_guide_stupid: 把手放到屏幕中间然后使劲点击,直到体力耗尽或者心跳恢复
   krokosha_coop_cpr_minigame_slow: 按太慢了！
   krokosha_coop_cpr_minigame_good: 正确频率！
@@ -3288,13 +3288,13 @@ other:
     ┃注射(每100mL)：阿片类水平 +90
     ┃无耐受过量阈值：口服200mL 注射88.8mL
     ┃制作(9)：75(鸦片)+10mL生化流体+15mL(液体)=50mL吗啡
-    
+
   opiumdsc: |-
     ┃饮用(每100mL)：阿片类水平 +20
     ┃注射(每100mL)：阿片类水平 +40
     ┃无耐受过量阈值：口服400mL 注射200mL
     ┃制作(7)：2水芦莓+10mL生化流体+50mL(液体)=50mL鸦片
-    
+
   heroindsc: |-
     ┃饮用(每100mL)：阿片类水平 +60 ┃ 患病 +25
     ┃注射(每100mL)：阿片类水平 +130 ┃ 患病 +50
@@ -3316,7 +3316,7 @@ other:
     ┃制作(9)：易燃粉末+50mL(液体)+25mL(血液)+50mL(阿片)+25mL生化流体=100mL镇痛膏
   woundgluedsc: |-
     ┃饮用(每100mL)：患病 +10 ┃ 概率呕吐(饮用mL数x1.25)%
-    ┃外敷(每100mL)：皮肤 +50(100s内) ┃ 肌肉 +25 ┃ 感染 -25 
+    ┃外敷(每100mL)：皮肤 +50(100s内) ┃ 肌肉 +25 ┃ 感染 -25
     ┃消毒 5分钟 ┃ 出血减缓量 +150 ┃ 单次满20mL疼痛 x0.9
     ┃患病 +12.5 ┃ 血液粘稠度 +15
   keratinboosterdsc: |-
@@ -3336,7 +3336,7 @@ other:
   lowgradestimulantdsc: |-
     ┃饮用(每100mL)：兴奋 +250秒 ┃ 心情 -1.5
     ┃注射(每100mL)：兴奋 +325秒
-    ┃兴奋期间每秒：体力 +1.5 ┃ 意识 +1 ┃ 肾上腺素 +20 
+    ┃兴奋期间每秒：体力 +1.5 ┃ 意识 +1 ┃ 肾上腺素 +20
     ┃体温 +0.03°C ┃ 患病 +0.18 ┃ 能量 +0.025
     ┃过量(＞160秒)每秒额外：脑健康 -0.08 ┃ 体温 +0.04°C ┃ 头/胸疼痛 +4(最高60)
   naltrexonedsc: |-
@@ -3514,13 +3514,11 @@ other:
     ┃韧性经验0.25/s ┃ 力量经验0.25/s
     ┃体力消耗-1.05/s
   hpbrainhealth: |-
-
     <color=#FCFCFC>┃自然恢复 +0.18/分钟
     ┃<95 开始随机事件(幻觉/镜像/呕吐/丢物品/颤抖)
     ┃<82.5 口齿不清 | <50 失语 | <30 昏迷
     ┃<15 再凭心情概率触发背水一战</color>
   hpconsciousness: |-
-
     ┃<color=#FCFCFC>自然恢复 +3/s
     ┃受大脑健康/血压/温度/疼痛/辐射/精力
     等多种因素上限限制</color>
@@ -3557,24 +3555,20 @@ other:
     ┃>41.5°C 脑组织-0.5/s
     ┃<28°C 触发呼吸停止
   hpsickness: |-
-
     <color=#FCFCFC>┃减免疫(-0.8/点) | 负重(-0.025u/点)
     ┃心情(-0.1/点) | 精力消耗(最多3倍)
     ┃>50 减意识(最多-50) | >85 腹部感染</color>
   hphappiness: |-
-
     ┃<color=#FCFCFC>范围大小 -100~100
     ┃<-30 背水一战0%概率触发
     ┃<-70 概率自残
     ┃<-75 无法使用非阿片类药物
     ┃<-90 概率挖眼/自杀</color>
   hphunger: |-
-
     ┃<color=#FCFCFC>自然消耗 -2.6/分钟
     ┃>100 加负重+1.5u | <40 减负重-1.5u
     ┃<=0 全肢肌肉衰退</color>
   hpthirst: |-
-
     ┃<color=#FCFCFC>自然消耗 -3.5/分钟
     ┃>100 消耗翻倍(-7/分钟) | <40 减负重-1u
     ┃<=0 血管收缩/心率上升</color>
@@ -3619,588 +3613,587 @@ other:
     ┃>3Gy 失血 | 24Gy 以上严重
     ┃>9Gy 随机感染/内出血/脑损伤</color>
   hpinfection: |-
-
     <color=#FCFCFC>┃感染增生 +7.2/分钟 | 消毒抵消 -12.24/分钟
     ┃>75 肌肉开始衰减 | >90 扩散相邻肢体
     ┃免疫>195.8 不再增生</color>
 pauseQuotes:
-- |-
-  已暂停。
+  - |-
+    已暂停。
 
-  <size=60%><color=#84D6FF>如果你不想被地雷炸伤就扑倒在其他地方
+    <size=60%><color=#84D6FF>如果你不想被地雷炸伤就扑倒在其他地方
 
-  地雷检测范围比他自己高一点
+    地雷检测范围比他自己高一点
 
-  比他矮的东西那就炸不到了</color></size>
-- |-
-  我等着。
+    比他矮的东西那就炸不到了</color></size>
+  - |-
+    我等着。
 
-  <size=60%><color=#84D6FF>750mL的生理盐水
+    <size=60%><color=#84D6FF>750mL的生理盐水
 
-  可解决不算太严重的肺栓塞</color></size>
-- |-
-  哦是吗？
+    可解决不算太严重的肺栓塞</color></size>
+  - |-
+    哦是吗？
 
-  <size=60%><color=#84D6FF>高血压可放血急救</color></size>
-- |-
-  时间已停止。
+    <size=60%><color=#84D6FF>高血压可放血急救</color></size>
+  - |-
+    时间已停止。
 
-  <size=60%><color=#84D6FF>如果你不想当蛞蝓猫的话，
+    <size=60%><color=#84D6FF>如果你不想当蛞蝓猫的话，
 
-  自动跳跃在“设置—操作”里</color></size>
-- |-
-  这就要休息？
+    自动跳跃在“设置—操作”里</color></size>
+  - |-
+    这就要休息？
 
-  <size=60%><color=#84D6FF>吗啡注射器可以用来给液体抬价+9</color></size>
-- |-
-  累了吗？
+    <size=60%><color=#84D6FF>吗啡注射器可以用来给液体抬价+9</color></size>
+  - |-
+    累了吗？
 
-  <size=60%><color=#84D6FF>伤口黏合剂因代码问题
+    <size=60%><color=#84D6FF>伤口黏合剂因代码问题
 
-  稀释后按几毫升使用可以起到镇痛作用</color></size>
-- |-
-  令人失望。
+    稀释后按几毫升使用可以起到镇痛作用</color></size>
+  - |-
+    令人失望。
 
-  <size=60%><color=#84D6FF>受伤后时刻注意小狗说的话
+    <size=60%><color=#84D6FF>受伤后时刻注意小狗说的话
 
-  他能比你更早注意到感染预兆</color></size>
-- |-
-  等你呢
+    他能比你更早注意到感染预兆</color></size>
+  - |-
+    等你呢
 
-  <size=60%><color=#84D6FF>截肢头部不会致死
+    <size=60%><color=#84D6FF>截肢头部不会致死
 
-  游戏本身没有头无即死判定</color></size>
-- |-
-  喂！
+    游戏本身没有头无即死判定</color></size>
+  - |-
+    喂！
 
-  <size=60%><color=#91a7ff>你可以将小电池装进本不属于它的电器，
+    <size=60%><color=#91a7ff>你可以将小电池装进本不属于它的电器，
 
-  原价卖给商人</color></size>
-- |-
-  “你离开的时候，帮我拿杯苏打水”
+    原价卖给商人</color></size>
+  - |-
+    “你离开的时候，帮我拿杯苏打水”
 
-  <size=60%><color=#84D6FF>物品可从附近地面或容器中
+    <size=60%><color=#84D6FF>物品可从附近地面或容器中
 
-  直接拖到医疗面板使用</color></size>
-- |-
-  懦弱。
+    直接拖到医疗面板使用</color></size>
+  - |-
+    懦弱。
 
-  <size=60%><color=#84D6FF>跳起的瞬间攻击脚下方块可以跳更高点</color></size>
-- |-
-  因此，时间已经停滞...
+    <size=60%><color=#84D6FF>跳起的瞬间攻击脚下方块可以跳更高点</color></size>
+  - |-
+    因此，时间已经停滞...
 
-  <size=60%><color=#84D6FF>布娃娃时不会触发玻璃碎片</color></size>
-- |-
-  时钟停止了走动
+    <size=60%><color=#84D6FF>布娃娃时不会触发玻璃碎片</color></size>
+  - |-
+    时钟停止了走动
 
-  <size=60%><color=#84D6FF>荧光藻会快速感染地下水</color></size>
-- |-
-  只需吸气，呼气。
+    <size=60%><color=#84D6FF>荧光藻会快速感染地下水</color></size>
+  - |-
+    只需吸气，呼气。
 
-  <size=60%><color=#84D6FF>1mL增脑剂即可治疗中风</color></size>
-- |-
-  没那么糟啊...
+    <size=60%><color=#84D6FF>1mL增脑剂即可治疗中风</color></size>
+  - |-
+    没那么糟啊...
 
-  <size=60%><color=#84D6FF>骨折可以将绷带使用一半后
+    <size=60%><color=#84D6FF>骨折可以将绷带使用一半后
 
-  再制作为塑料绷带使用</color></size>
-- |-
-  我们暂停一下。
+    再制作为塑料绷带使用</color></size>
+  - |-
+    我们暂停一下。
 
-  <size=60%><color=#84D6FF>生理盐水比直接输血更加有效</color></size>
-- |-
-  压力太大了？
+    <size=60%><color=#84D6FF>生理盐水比直接输血更加有效</color></size>
+  - |-
+    压力太大了？
 
-  <size=60%><color=#84D6FF>读取PDA可以增加智力经验</color></size>
-- |-
-  哇，你还活着？
+    <size=60%><color=#84D6FF>读取PDA可以增加智力经验</color></size>
+  - |-
+    哇，你还活着？
 
-  <size=60%><color=#84D6FF>如果可以尽量不要做头灯，
+    <size=60%><color=#84D6FF>如果可以尽量不要做头灯，
 
-  头灯的灵活性远差于手电筒，
+    头灯的灵活性远差于手电筒，
 
-  而且会占用宝贵的头盔位</color></size>
-- |-
-  嘿，回去工作！
+    而且会占用宝贵的头盔位</color></size>
+  - |-
+    嘿，回去工作！
 
-  <size=60%><color=#84D6FF>从高处坠落时
+    <size=60%><color=#84D6FF>从高处坠落时
 
-  将重物向下丢或许可以救自己一命
+    将重物向下丢或许可以救自己一命
 
-  （风险自负）</color></size>
-- |-
-  喘口气吧。
+    （风险自负）</color></size>
+  - |-
+    喘口气吧。
 
-  <size=60%><color=#84D6FF>不要给Exp多次喂食迷你桶中的抗生素
+    <size=60%><color=#84D6FF>不要给Exp多次喂食迷你桶中的抗生素
 
-  会掉心情</color></size>
-- |-
-  午餐时间到？
+    会掉心情</color></size>
+  - |-
+    午餐时间到？
 
-  <size=60%><color=#84D6FF>伤口粘合剂的疼痛是按百分比乘计算的</color></size>
-- |-
-  拿点零食吃吧。
+    <size=60%><color=#84D6FF>伤口粘合剂的疼痛是按百分比乘计算的</color></size>
+  - |-
+    拿点零食吃吧。
 
-  <size=60%><color=#84D6FF>多余的食物可以做成营养棒进行存储</color></size>
-- |-
-  噢，拜托！
+    <size=60%><color=#84D6FF>多余的食物可以做成营养棒进行存储</color></size>
+  - |-
+    噢，拜托！
 
-  <size=60%><color=#84D6FF>木棍、金属管、钛棒，都可以作为锤子使用</color></size>
-- |-
-  难以直视。
+    <size=60%><color=#84D6FF>木棍、金属管、钛棒，都可以作为锤子使用</color></size>
+  - |-
+    难以直视。
 
-  <size=60%><color=#84D6FF>记得在首次遇见幸存者前把嘴里的东西取下
+    <size=60%><color=#84D6FF>记得在首次遇见幸存者前把嘴里的东西取下
 
-  否则会减少幸存者初始好感度</color></size>
-- |-
-  本可以更好。
+    否则会减少幸存者初始好感度</color></size>
+  - |-
+    本可以更好。
 
-  <size=60%><color=#84D6FF>LRD与医用绷带虽然在描述里没有
+    <size=60%><color=#84D6FF>LRD与医用绷带虽然在描述里没有
 
-  但均有阿片成分，谨防过量</color></size>
-- |-
-  求生快乐！
+    但均有阿片成分，谨防过量</color></size>
+  - |-
+    求生快乐！
 
-  <size=60%><color=#84D6FF>肥皂液装在其他容器里
+    <size=60%><color=#84D6FF>肥皂液装在其他容器里
 
-  也可以在医疗面板进行清洁
+    也可以在医疗面板进行清洁
 
-  并且比喷雾瓶清洁效率更高</color></size>
-- |-
-  懒虫。
+    并且比喷雾瓶清洁效率更高</color></size>
+  - |-
+    懒虫。
 
-  <size=60%><color=#84D6FF>静脉输液袋
+    <size=60%><color=#84D6FF>静脉输液袋
 
-  是游戏内可制作的最优性价比的液体容器</color></size>
-- |-
-  所以，今天过得咋样？
+    是游戏内可制作的最优性价比的液体容器</color></size>
+  - |-
+    所以，今天过得咋样？
 
-  <size=60%><color=#84D6FF>陷阱是最好的金属废料来源
+    <size=60%><color=#84D6FF>陷阱是最好的金属废料来源
 
-  也是电路板的主要来源</color></size>
-- |-
-  你好！
+    也是电路板的主要来源</color></size>
+  - |-
+    你好！
 
-  <size=60%><color=#84D6FF>长老转阶段具有一定延迟
+    <size=60%><color=#84D6FF>长老转阶段具有一定延迟
 
-  如果只想打跑长老，记得及时收手</color></size>
-- |-
-  花了你好长时间啊。
+    如果只想打跑长老，记得及时收手</color></size>
+  - |-
+    花了你好长时间啊。
 
-  <size=60%><color=#84D6FF>按x可以启用布娃娃形态</color></size>
-- |-
-  多么能干的表现啊...
+    <size=60%><color=#84D6FF>按x可以启用布娃娃形态</color></size>
+  - |-
+    多么能干的表现啊...
 
-  <size=60%><color=#84D6FF>背手开枪是没有后坐力的</color></size>
-- |-
-  吓哭了？
+    <size=60%><color=#84D6FF>背手开枪是没有后坐力的</color></size>
+  - |-
+    吓哭了？
 
-  <size=60%><color=#84D6FF>设置—游戏 可调为总是展开详细描述
+    <size=60%><color=#84D6FF>设置—游戏 可调为总是展开详细描述
 
-  更方便查看信息</color></size>
-- |-
-  放弃了？
+    更方便查看信息</color></size>
+  - |-
+    放弃了？
 
-  <size=60%><color=#84D6FF>肉干是非常好的增重食品
+    <size=60%><color=#84D6FF>肉干是非常好的增重食品
 
-  而叶片餐与营养棒则是不错的减肥食品</color></size>
-- |-
-  沉默有价。
+    而叶片餐与营养棒则是不错的减肥食品</color></size>
+  - |-
+    沉默有价。
 
-  <size=60%><color=#84D6FF>自动炮塔只会在检测到32℃以上的物体时开枪</color></size>
-- |-
-  至少给我个提示吧。
+    <size=60%><color=#84D6FF>自动炮塔只会在检测到32℃以上的物体时开枪</color></size>
+  - |-
+    至少给我个提示吧。
 
-  <size=60%><color=#84D6FF>没红血开启门禁？
+    <size=60%><color=#84D6FF>没红血开启门禁？
 
-  你或许还可以试试炸药开门</color></size>
-- |-
-  我们又见面了。
+    你或许还可以试试炸药开门</color></size>
+  - |-
+    我们又见面了。
 
-  <size=60%><color=#84D6FF>汉堡和肉干也能用于熬汤，在制作时
+    <size=60%><color=#84D6FF>汉堡和肉干也能用于熬汤，在制作时
 
-  务必将其收藏
+    务必将其收藏
 
-  (除非你确实需要这么干)</color></size>
-- |-
-  需要帮助？抱歉。
+    (除非你确实需要这么干)</color></size>
+  - |-
+    需要帮助？抱歉。
 
-  <size=60%><color=#84D6FF>捕兽夹不能投掷物品触发</color></size>
-- |-
-  过度自信是一个缓慢而阴险的杀手
+    <size=60%><color=#84D6FF>捕兽夹不能投掷物品触发</color></size>
+  - |-
+    过度自信是一个缓慢而阴险的杀手
 
-  <size=60%><color=#84D6FF>Ctrl可以查看你附近的物品
+    <size=60%><color=#84D6FF>Ctrl可以查看你附近的物品
 
-  确认有没有遗漏贵重物品</color></size>
-- |-
-  如此悲惨...
+    确认有没有遗漏贵重物品</color></size>
+  - |-
+    如此悲惨...
 
-  <size=60%><color=#84D6FF>枪械拉栓会使枪中子弹或弹壳掉落，
+    <size=60%><color=#84D6FF>枪械拉栓会使枪中子弹或弹壳掉落，
 
-  你可以捡起来重新使用</color></size>
-- |-
-  你知道，我们没有世界上所有的时间。
+    你可以捡起来重新使用</color></size>
+  - |-
+    你知道，我们没有世界上所有的时间。
 
-  <size=60%><color=#84D6FF>Shift 可以将一个容器内满足条件的物品
+    <size=60%><color=#84D6FF>Shift 可以将一个容器内满足条件的物品
 
-  快速转移到另一个容器</color></size>
-- |-
-  这有什么意义？我说真的。
+    快速转移到另一个容器</color></size>
+  - |-
+    这有什么意义？我说真的。
 
-  <size=60%><color=#84D6FF>请勿将灯泡含在嘴里，会导致咬碎</color></size>
-- |-
-  你知道这无法拯救你。
+    <size=60%><color=#84D6FF>请勿将灯泡含在嘴里，会导致咬碎</color></size>
+  - |-
+    你知道这无法拯救你。
 
-  <size=60%><color=#84D6FF>安眠尾可以让你在任何时间入睡
+    <size=60%><color=#84D6FF>安眠尾可以让你在任何时间入睡
 
-  但不要在液体旁使用，否则
+    但不要在液体旁使用，否则
 
-  掉入水中将造成严重后果！</color></size>
-- |-
-  我始终看着你。
+    掉入水中将造成严重后果！</color></size>
+  - |-
+    我始终看着你。
 
-  <size=60%><color=#84D6FF>多做些新物品可智力增长
+    <size=60%><color=#84D6FF>多做些新物品可智力增长
 
-  也可以保持不错的心情！</color></size>
-- |-
-  还没完工呢，快回去。
+    也可以保持不错的心情！</color></size>
+  - |-
+    还没完工呢，快回去。
 
-  <size=60%><color=#84D6FF>迷你罐是蜱虫陷阱的最佳掩体
+    <size=60%><color=#84D6FF>迷你罐是蜱虫陷阱的最佳掩体
 
-  12u重量足以小蜱虫一头撞死在迷你罐上面</color></size>
-- |-
-  本以为你能维持更长时间。
+    12u重量足以小蜱虫一头撞死在迷你罐上面</color></size>
+  - |-
+    本以为你能维持更长时间。
 
-  <size=60%><color=#84D6FF>大部分陷阱都能对物品造成真实伤害</color></size>
-- |-
-  因此，它停止了...
+    <size=60%><color=#84D6FF>大部分陷阱都能对物品造成真实伤害</color></size>
+  - |-
+    因此，它停止了...
 
-  <size=60%><color=#84D6FF>自动泵能在绝境中为你争取一线生机</color></size>
-- |-
-  这无法改变你的命运。
+    <size=60%><color=#84D6FF>自动泵能在绝境中为你争取一线生机</color></size>
+  - |-
+    这无法改变你的命运。
 
-  <size=60%><color=#91a7ff>电器/液体容器耐久与电量/液体量挂钩，
+    <size=60%><color=#91a7ff>电器/液体容器耐久与电量/液体量挂钩，
 
-  受到伤害时会消耗其中电量/液体量
+    受到伤害时会消耗其中电量/液体量
 
-  本体无限耐久</color></size>
-- |-
-  我说你完了，你就是完了。
+    本体无限耐久</color></size>
+  - |-
+    我说你完了，你就是完了。
 
-  <size=60%><color=#91a7ff>手摇充电器：
+    <size=60%><color=#91a7ff>手摇充电器：
 
-  中型电池3/4圈1%电、大型电池2圈半1%电</color></size>
-- |-
-  我讨厌被打扰。
+    中型电池3/4圈1%电、大型电池2圈半1%电</color></size>
+  - |-
+    我讨厌被打扰。
 
-  <size=60%><color=#91a7ff>手摇充电器在时间加速的时候充电更快
+    <size=60%><color=#91a7ff>手摇充电器在时间加速的时候充电更快
 
-  当然，体力消耗和恢复也更快</color></size>
-- |-
-  现在呢？你下一步干什么？
+    当然，体力消耗和恢复也更快</color></size>
+  - |-
+    现在呢？你下一步干什么？
 
-  <size=60%><color=#84D6FF>平凡的灌木丛可能潜藏致命的威胁</color></size>
-- |-
-  你真无趣。
+    <size=60%><color=#84D6FF>平凡的灌木丛可能潜藏致命的威胁</color></size>
+  - |-
+    你真无趣。
 
-  <size=60%><color=#84D6FF>长老最少给你剩一条腿，
+    <size=60%><color=#84D6FF>长老最少给你剩一条腿，
 
-  但敌对的沙丘能把你啃成人棍</color></size>
-- |-
-  有什么点子吗？
+    但敌对的沙丘能把你啃成人棍</color></size>
+  - |-
+    有什么点子吗？
 
-  <size=60%><color=#84D6FF>有肮脏buff时即使好感够了，
+    <size=60%><color=#84D6FF>有肮脏buff时即使好感够了，
 
-  幸存者也会拒绝拥抱并扣好感</color></size>
-- |-
-  已暂停。为什么？
+    幸存者也会拒绝拥抱并扣好感</color></size>
+  - |-
+    已暂停。为什么？
 
-  <size=60%><color=#84D6FF>地雷并不是只有踩上去才会触发，碰到就爆</color></size>
-- |-
-  合理的使用时间。
+    <size=60%><color=#84D6FF>地雷并不是只有踩上去才会触发，碰到就爆</color></size>
+  - |-
+    合理的使用时间。
 
-  <size=60%><color=#84D6FF>拔出破片的显示优先级比治疗脱臼高，
+    <size=60%><color=#84D6FF>拔出破片的显示优先级比治疗脱臼高，
 
-  因此需要先拔出破片才能治疗脱臼</color></size>
-- |-
-  我可以等一整天。
+    因此需要先拔出破片才能治疗脱臼</color></size>
+  - |-
+    我可以等一整天。
 
-  <size=60%><color=#84D6FF>拔出破片可以增加心情，
+    <size=60%><color=#84D6FF>拔出破片可以增加心情，
 
-  被地雷炸了恢复完整后可以增加大量心情</color></size>
-- |-
-  我还在这呢
+    被地雷炸了恢复完整后可以增加大量心情</color></size>
+  - |-
+    我还在这呢
 
-  <size=60%><color=#84D6FF>如果炮塔在屏幕外触发的话
+    <size=60%><color=#84D6FF>如果炮塔在屏幕外触发的话
 
-  有小概率不发出声音</color></size>
-- |-
-  世界被暂停了。好安静。
+    有小概率不发出声音</color></size>
+  - |-
+    世界被暂停了。好安静。
 
-  <size=60%><color=#84D6FF>负载能力会受：
+    <size=60%><color=#84D6FF>负载能力会受：
 
-  饥饿 口渴 体重 力量 韧性 患病程度、
+    饥饿 口渴 体重 力量 韧性 患病程度、
 
-  影响</color></size>
-- |-
-  无法暂停，逗你的！
+    影响</color></size>
+  - |-
+    无法暂停，逗你的！
 
-  <size=60%><color=#84D6FF>腿部肌肉健康会影响摔落伤害</color></size>
-- |-
-  没礼貌，但我接受。已暂停。
+    <size=60%><color=#84D6FF>腿部肌肉健康会影响摔落伤害</color></size>
+  - |-
+    没礼貌，但我接受。已暂停。
 
-  <size=60%><color=#84D6FF>带有防护功能的装备型容器
+    <size=60%><color=#84D6FF>带有防护功能的装备型容器
 
-  在受伤时会降低耐久
+    在受伤时会降低耐久
 
-  也就是，你可能会在打架时爆一地装备</color></size>
-- |-
-  让别人等着不礼貌哦。
+    也就是，你可能会在打架时爆一地装备</color></size>
+  - |-
+    让别人等着不礼貌哦。
 
-  <size=60%><color=#84D6FF>意识清醒度不仅会影响缠绷带的速度
+    <size=60%><color=#84D6FF>意识清醒度不仅会影响缠绷带的速度
 
-  还会影响跳跃高度移动速度</color></size>
-- |-
-  记得蹬蹬腿。
+    还会影响跳跃高度移动速度</color></size>
+  - |-
+    记得蹬蹬腿。
 
-  <size=60%><color=#84D6FF>呕吐和吐血会让你的口部栏的物品掉落</color></size>
-- |-
-  这不是竞赛，但是务必快点。
+    <size=60%><color=#84D6FF>呕吐和吐血会让你的口部栏的物品掉落</color></size>
+  - |-
+    这不是竞赛，但是务必快点。
 
-  <size=60%><color=#84D6FF>如果在拔出破片时判定失败
+    <size=60%><color=#84D6FF>如果在拔出破片时判定失败
 
-  会扣除一定皮肤健康度</color></size>
-- |-
-  你玩的真菜，我很自豪。
+    会扣除一定皮肤健康度</color></size>
+  - |-
+    你玩的真菜，我很自豪。
 
-  <size=60%><color=#84D6FF>阿片类药物影响效果是反映
+    <size=60%><color=#84D6FF>阿片类药物影响效果是反映
 
-  你目前体内未代谢的阿片含量</color></size>
-- |-
-  你真该看看你刚才的表情！
+    你目前体内未代谢的阿片含量</color></size>
+  - |-
+    你真该看看你刚才的表情！
 
-  <size=60%><color=#84D6FF>临时瓶子其实能保存五分钟</color></size>
-- |-
-  有很大进步空间，只是说说。
+    <size=60%><color=#84D6FF>临时瓶子其实能保存五分钟</color></size>
+  - |-
+    有很大进步空间，只是说说。
 
-  <size=60%><color=#84D6FF>绝大部分液体容器都不值钱同时
+    <size=60%><color=#84D6FF>绝大部分液体容器都不值钱同时
 
-  也几乎是0重量(迷你桶除外)</color></size>
-- |-
-  继续吧，你还能干什么？
+    也几乎是0重量(迷你桶除外)</color></size>
+  - |-
+    继续吧，你还能干什么？
 
-  <size=60%><color=#84D6FF>破旧书包比重力袋更能装</color></size>
-- |-
-  或许还会退出。按钮在那里。
+    <size=60%><color=#84D6FF>破旧书包比重力袋更能装</color></size>
+  - |-
+    或许还会退出。按钮在那里。
 
-  <size=60%><color=#84D6FF>两次LRD一次凝血剂三次冰袋一瓶纳洛酮
+    <size=60%><color=#84D6FF>两次LRD一次凝血剂三次冰袋一瓶纳洛酮
 
-  可以快速救回二次磕神经强化剂的Exp</color></size>
-- |-
-  把它做完，然后回来。
+    可以快速救回二次磕神经强化剂的Exp</color></size>
+  - |-
+    把它做完，然后回来。
 
-  <size=60%><color=#84D6FF>部分液体容器在物品栏中
+    <size=60%><color=#84D6FF>部分液体容器在物品栏中
 
-  会导致进入其他液体，请放入背包内</color></size>
-- |-
-  我不喜欢你的这个习惯。
+    会导致进入其他液体，请放入背包内</color></size>
+  - |-
+    我不喜欢你的这个习惯。
 
-  <size=60%><color=#84D6FF>物资箱等都有实际碰撞体积和重量
+    <size=60%><color=#84D6FF>物资箱等都有实际碰撞体积和重量
 
-  被砸中会晕倒</color></size>
-- |-
-  你会让我头疼的。或者，如果我能感觉到疼痛，你会的。
+    被砸中会晕倒</color></size>
+  - |-
+    你会让我头疼的。或者，如果我能感觉到疼痛，你会的。
 
-  <size=60%><color=#84D6FF>合成篝火时要留意环境，小心被水浇灭</color></size>
-- |-
-  你是故意这样做的吗？继续吧。
+    <size=60%><color=#84D6FF>合成篝火时要留意环境，小心被水浇灭</color></size>
+  - |-
+    你是故意这样做的吗？继续吧。
 
-  <size=60%><color=#84D6FF>鼠标指针可以探路，在缺少光源时尤为实用
+    <size=60%><color=#84D6FF>鼠标指针可以探路，在缺少光源时尤为实用
 
-  此外也能探出藏在草堆里的陷阱</color></size>
-- |-
-  要走捷径吗？
+    此外也能探出藏在草堆里的陷阱</color></size>
+  - |-
+    要走捷径吗？
 
-  <size=60%><color=#84D6FF>不要在沙藤一降到底
+    <size=60%><color=#84D6FF>不要在沙藤一降到底
 
-  也不要在沙藤上慢悠悠地滑
+    也不要在沙藤上慢悠悠地滑
 
-  可能被炮塔爆头</color></size>
-- |-
-  我有我需要的所有时间。你也不能这么说。
+    可能被炮塔爆头</color></size>
+  - |-
+    我有我需要的所有时间。你也不能这么说。
 
-  <size=60%><color=#91a7ff>睡觉前记得摘下电池(节约用电)</color></size>
-- |-
-  一个巨大的错觉。巨大的失败和浪费。但对我来说不是。
+    <size=60%><color=#91a7ff>睡觉前记得摘下电池(节约用电)</color></size>
+  - |-
+    一个巨大的错觉。巨大的失败和浪费。但对我来说不是。
 
-  <size=60%><color=#84D6FF>在使用枪械自杀时
+    <size=60%><color=#84D6FF>在使用枪械自杀时
 
-  即使没有子弹也会凭空多出一颗</color></size>
-- |-
-  真有趣。请继续。
+    即使没有子弹也会凭空多出一颗</color></size>
+  - |-
+    真有趣。请继续。
 
-  <size=60%><color=#91a7ff>骨骼焊接器是一次性用品，
+    <size=60%><color=#91a7ff>骨骼焊接器是一次性用品，
 
-  尽管使用后会保留，但并不能充电或修复</color></size>
-- |-
-  有趣的情绪表现。
+    尽管使用后会保留，但并不能充电或修复</color></size>
+  - |-
+    有趣的情绪表现。
 
-  <size=60%><color=#84D6FF>好感度大于130才能在
+    <size=60%><color=#84D6FF>好感度大于130才能在
 
-  不被攻击的情况下威胁商人</color></size>
-- |-
-  我就是我所拥有的一切。你是吗？
+    不被攻击的情况下威胁商人</color></size>
+  - |-
+    我就是我所拥有的一切。你是吗？
 
-  <size=60%><color=#84D6FF>临时储存容器可以直接卖给商人
+    <size=60%><color=#84D6FF>临时储存容器可以直接卖给商人
 
-  所以可以用离心机装载迷你桶内混合液体
+    所以可以用离心机装载迷你桶内混合液体
 
-  在商人那边使用后卖出液体，可以省瓶子</color></size>
-- |-
-  你对任何表面控制的错觉都很有趣。继续。
+    在商人那边使用后卖出液体，可以省瓶子</color></size>
+  - |-
+    你对任何表面控制的错觉都很有趣。继续。
 
-  <size=60%><color=#84D6FF>游戏开局有写“正在生成隐藏的陷阱”，
+    <size=60%><color=#84D6FF>游戏开局有写“正在生成隐藏的陷阱”，
 
-  遇到一些特别大的背景物体
+    遇到一些特别大的背景物体
 
-  （如灌木丛与藤蔓）可以拿鼠标探查一圈
+    （如灌木丛与藤蔓）可以拿鼠标探查一圈
 
-  再下地</color></size>
-- |-
-  要开始认真了吗？
+    再下地</color></size>
+  - |-
+    要开始认真了吗？
 
-  <size=60%><color=#91a7ff>自动泵可以佩戴在身上并拆卸电池
+    <size=60%><color=#91a7ff>自动泵可以佩戴在身上并拆卸电池
 
-  可以节约你的背包空间</color></size>
-- |-
-  被困于永恒。
+    可以节约你的背包空间</color></size>
+  - |-
+    被困于永恒。
 
-  <size=60%><color=#84D6FF>肮脏和超负重可以增加你的力量和韧性经验
+    <size=60%><color=#84D6FF>肮脏和超负重可以增加你的力量和韧性经验
 
-  不要轻易嫌弃哦</color></size>
-- |-
-  他不知道你暂停了
+    不要轻易嫌弃哦</color></size>
+  - |-
+    他不知道你暂停了
 
-  <size=60%><color=#84D6FF>丢越重的东西，带来的反推力越大。
+    <size=60%><color=#84D6FF>丢越重的东西，带来的反推力越大。
 
-  对地面丢迷你罐可以让exp飞起来，
+    对地面丢迷你罐可以让exp飞起来，
 
-  借助这点可以让我们跳到更远的地方</color></size>
-- |-
-  你仍然可以挽救它。我见过更糟糕的。
+    借助这点可以让我们跳到更远的地方</color></size>
+  - |-
+    你仍然可以挽救它。我见过更糟糕的。
 
-  <size=60%><color=#84D6FF>高血压时留意你的肢体力量和视野
+    <size=60%><color=#84D6FF>高血压时留意你的肢体力量和视野
 
-  若身后变灰且一侧肢体力量下降
+    若身后变灰且一侧肢体力量下降
 
-  就是中风的前兆，需要使用促凝剂治疗</color></size>
-- |-
-  你好？这东西开着吗？
+    就是中风的前兆，需要使用促凝剂治疗</color></size>
+  - |-
+    你好？这东西开着吗？
 
-  <size=60%><color=#84D6FF>皮肤健康度越高，感染概率越低
+    <size=60%><color=#84D6FF>皮肤健康度越高，感染概率越低
 
-  皮肤健康度感染速度是单独计算的</color></size>
-- |-
-  我希望你好好反思一下你刚刚做了什么。
+    皮肤健康度感染速度是单独计算的</color></size>
+  - |-
+    我希望你好好反思一下你刚刚做了什么。
 
-  <size=60%><color=#84D6FF>喷气背包在摔落时和布娃娃状态下也可使用
+    <size=60%><color=#84D6FF>喷气背包在摔落时和布娃娃状态下也可使用
 
-  但请小心不要沾水使得喷气背包失效！</color></size>
-- |-
-  你真的觉得那玩意值得被一直带到最深处吗？我可以造一大堆。
+    但请小心不要沾水使得喷气背包失效！</color></size>
+  - |-
+    你真的觉得那玩意值得被一直带到最深处吗？我可以造一大堆。
 
-  <size=60%><color=#84D6FF>当你身上很脏时
+    <size=60%><color=#84D6FF>当你身上很脏时
 
-  商人大概率会拒绝你拥抱的请求</color></size>
-- |-
-  你为了看我会说什么，才反复暂停游戏吗？
+    商人大概率会拒绝你拥抱的请求</color></size>
+  - |-
+    你为了看我会说什么，才反复暂停游戏吗？
 
-  <size=60%><color=#84D6FF>破坏有商人的空投舱中的照明灯
+    <size=60%><color=#84D6FF>破坏有商人的空投舱中的照明灯
 
-  会降低商人的好感度</color></size>
-- |-
-  真可惜，你才引起我的注意。
+    会降低商人的好感度</color></size>
+  - |-
+    真可惜，你才引起我的注意。
 
-  <size=60%><color=#84D6FF>拥抱沙丘没有用，不能增加好感</color></size>
-- |-
-  情况在你的可控范围吗？
+    <size=60%><color=#84D6FF>拥抱沙丘没有用，不能增加好感</color></size>
+  - |-
+    情况在你的可控范围吗？
 
-  <size=60%><color=#84D6FF>只要你与声波炮之间隔着一堵墙，
+    <size=60%><color=#84D6FF>只要你与声波炮之间隔着一堵墙，
 
-  那么你完全不会受到伤害</color></size>
-- |-
-  你们都让我失望，但是又逗我开心。你又有什么不同？
+    那么你完全不会受到伤害</color></size>
+  - |-
+    你们都让我失望，但是又逗我开心。你又有什么不同？
 
-  <size=53%><color=#84D6FF>纯的芬太尼过量程度是2mL，游戏里遇到的
+    <size=53%><color=#84D6FF>纯的芬太尼过量程度是2mL，游戏里遇到的
 
-  芬太尼是稀释过了，过量程度是20mL</color></size>
-- |-
-  我知道结局如何，但请继续。
+    芬太尼是稀释过了，过量程度是20mL</color></size>
+  - |-
+    我知道结局如何，但请继续。
 
-  <size=60%><color=#84D6FF>长老只有嘴部有攻击判定，
+    <size=60%><color=#84D6FF>长老只有嘴部有攻击判定，
 
-  可以踩在它的其他地方</color></size>
-- |-
-  群星在看着你。
+    可以踩在它的其他地方</color></size>
+  - |-
+    群星在看着你。
 
-  <size=60%><color=#84D6FF>水壶、分离器的重量是固定的，
+    <size=60%><color=#84D6FF>水壶、分离器的重量是固定的，
 
-  不会因为装液体而增加重量</color></size>
-- |-
-  不只“人类”在观察你。
+    不会因为装液体而增加重量</color></size>
+  - |-
+    不只“人类”在观察你。
 
-  <size=60%><color=#84D6FF>你可以将子弹装入弹匣，再把弹匣装入枪
+    <size=60%><color=#84D6FF>你可以将子弹装入弹匣，再把弹匣装入枪
 
-  这样能凭空减少一些重量</color></size>
-- |-
-  永不知进退，永不解其意，永无恒常性。若你能够明察。
+    这样能凭空减少一些重量</color></size>
+  - |-
+    永不知进退，永不解其意，永无恒常性。若你能够明察。
 
-  <size=60%><color=#84D6FF>枪可以穿透敌人，所以在触手植物蜷缩时伤害更高</color></size>
-- |-
-  在你身后。
+    <size=60%><color=#84D6FF>枪可以穿透敌人，所以在触手植物蜷缩时伤害更高</color></size>
+  - |-
+    在你身后。
 
-  <size=60%><color=#84D6FF>如果枪卡壳了，拉两次枪栓可以解除</color></size>
-- |-
-  这个地方比你能想象的更有趣。
+    <size=60%><color=#84D6FF>如果枪卡壳了，拉两次枪栓可以解除</color></size>
+  - |-
+    这个地方比你能想象的更有趣。
 
-  <size=60%><color=#84D6FF>喝任何液体都会减少少量血液粘稠度，
+    <size=60%><color=#84D6FF>喝任何液体都会减少少量血液粘稠度，
 
-  导致所有在出血的肢体的出血量上升</color></size>
-- |-
-  对自己智力如此自信。可爱。
+    导致所有在出血的肢体的出血量上升</color></size>
+  - |-
+    对自己智力如此自信。可爱。
 
-  <size=60%><color=#84D6FF>安眠药和阿片不要一起使用，你一定会后悔</color></size>
-- |-
-  你的主管不会告诉你一切。
+    <size=60%><color=#84D6FF>安眠药和阿片不要一起使用，你一定会后悔</color></size>
+  - |-
+    你的主管不会告诉你一切。
 
-  <size=60%><color=#84D6FF>中风症状不可逆，即使症状轻微+及时降压
+    <size=60%><color=#84D6FF>中风症状不可逆，即使症状轻微+及时降压
 
-  有症状就会开始掉脑子</color></size>
-- |-
-  数据上讲，你已是一具行尸走肉了。
+    有症状就会开始掉脑子</color></size>
+  - |-
+    数据上讲，你已是一具行尸走肉了。
 
-  <size=60%><color=#84D6FF>镇痛的物品或多或少都具有阿片的性质，注意你的成瘾！</color></size>
-- |-
-  我相信奇迹。
+    <size=60%><color=#84D6FF>镇痛的物品或多或少都具有阿片的性质，注意你的成瘾！</color></size>
+  - |-
+    我相信奇迹。
 
-  <size=60%><color=#84D6FF>exp在评价过尸体再观看同一具尸体将不再降低心情</color></size>
-- |-
-  推迟无法避免的结局？
+    <size=60%><color=#84D6FF>exp在评价过尸体再观看同一具尸体将不再降低心情</color></size>
+  - |-
+    推迟无法避免的结局？
 
-  <size=60%><color=#91a7ff>重力袋放小电池不是个明智的选择，耗电非常快容易炸</color></size>
-- |-
-  这里恐怕是终点站了。
+    <size=60%><color=#91a7ff>重力袋放小电池不是个明智的选择，耗电非常快容易炸</color></size>
+  - |-
+    这里恐怕是终点站了。
 
-  <size=60%><color=#84D6FF>尸体旁边大概率会刷新随机物品和道具</color></size>
-- |-
-  你太有韧性了，不利于你自己。
+    <size=60%><color=#84D6FF>尸体旁边大概率会刷新随机物品和道具</color></size>
+  - |-
+    你太有韧性了，不利于你自己。
 
-  <size=60%><color=#84D6FF>智力越高 NPC的初始好感度越高</color></size>
-- |-
-  喂，好戏才刚刚开场呢！
+    <size=60%><color=#84D6FF>智力越高 NPC的初始好感度越高</color></size>
+  - |-
+    喂，好戏才刚刚开场呢！
 
-  <size=60%><color=#84D6FF>韧性对心情方面也有点影响</color></size>
-- |-
-  别太得意了。
+    <size=60%><color=#84D6FF>韧性对心情方面也有点影响</color></size>
+  - |-
+    别太得意了。
 
-  <size=60%><color=#84D6FF>exp要100好感才能接受拥抱，milky要115</color></size>
+    <size=60%><color=#84D6FF>exp要100好感才能接受拥抱，milky要115</color></size>
