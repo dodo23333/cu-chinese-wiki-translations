@@ -1,0 +1,5 @@
+name: 维基中文
+version: v1.8.3
+extend_description: 补充简介
+main:
+  bandagedsc: 可治疗伤势

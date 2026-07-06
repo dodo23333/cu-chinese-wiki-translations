@@ -2,6 +2,7 @@
 ![GitHub License](https://img.shields.io/github/license/dodo23333/cu-chinese-wiki-translations)
 ![GitHub Release](https://img.shields.io/github/v/release/dodo23333/cu-chinese-wiki-translations)
 ![Version](https://img.shields.io/badge/dynamic/yaml?label=beta-version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdodo23333%2Fcu-chinese-wiki-translations%2Fmain%2F%25E7%25BB%25B4%25E5%259F%25BA%25E4%25B8%25AD%25E6%2596%2587%25E4%25B8%25AD%25E9%2597%25B4%25E6%2596%2587%25E4%25BB%25B6.yaml&query=%24.version&color=orange)
+![Coverage badge](https://raw.githubusercontent.com/dodo23333/cu-chinese-wiki-translations/python-coverage-comment-action-data/badge.svg)
 
 此项目旨在分离**基准翻译**（例如官方汉化与软盘汉化）与维基中文制作组的**附加翻译**,并且通过github妥善进行项目管理
 

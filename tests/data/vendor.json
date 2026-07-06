@@ -1,0 +1,8 @@
+{
+  "name": "简体中文",
+  "description": "官方简介",
+  "main": {
+    "bandage": "绷带",
+    "bandagedsc": "带有敷料的绷带"
+  }
+}

@@ -7,7 +7,9 @@ from pathlib import Path
 from typing import TYPE_CHECKING
 
 import yaml
-from deepmerge import Merger
+from deepmerge.merger import Merger
+
+from cu_chinese_wiki_translations.validate_data import validate_file
 
 if TYPE_CHECKING:
     from collections.abc import MutableMapping
@@ -15,21 +17,13 @@ if TYPE_CHECKING:
 VENDOR_JSON = Path("vendor/zh-CN.json")
 RAW_YAML = Path("维基中文中间文件.yaml")
 OUTPUT_JSON = Path("维基中文_基于官方翻译.json")
-
-
-def _convert_none_to_empty_str(data):
-    """递归将dict/list中的None值转换为空字符串"""
-    if isinstance(data, dict):
-        return {k: _convert_none_to_empty_str(v) for k, v in data.items()}
-    if isinstance(data, list):
-        return [_convert_none_to_empty_str(item) for item in data]
-    return "" if data is None else data
+METADATA_KEYS = {"name", "version", "extend_description"}
 
 
 def load_yaml(path: Path) -> dict:
     """加载yaml文件"""
     with path.open("r", encoding="utf-8") as f:
-        return _convert_none_to_empty_str(yaml.safe_load(f))
+        return yaml.safe_load(f)
 
 
 def load_json(path: Path) -> dict:
@@ -56,14 +50,16 @@ translation_merger = Merger(
         (str, append_string),
     ],
     ["override"],
-    ["override"],
+    ["use_existing"],
 )
 
 
 def merge_data(raw: dict, vendor: dict) -> MutableMapping:
     """合并两个dict"""
     merged = deepcopy(vendor)
-    translation_merger.merge(merged, raw)
+    raw_patch = {key: value for key, value in raw.items() if key not in METADATA_KEYS}
+
+    translation_merger.merge(merged, raw_patch)
     merged["name"] = raw["name"] + raw["version"]
     merged["description"] = merged["description"] + "\n" + raw["extend_description"]
     return merged
@@ -104,6 +100,9 @@ def main() -> None:
     """合并翻译"""
     args = parse_args()
 
+    validate_file(args.raw)
+    validate_file(args.vendor)
+
     raw_data = load_yaml(args.raw)
     vendor_data = load_json(args.vendor)
 
@@ -113,5 +112,5 @@ def main() -> None:
         json.dump(merged_data, f, ensure_ascii=False, indent=4)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     main()
