@@ -22,6 +22,9 @@ jobs:
         with:
           submodules: true
 
+      - name: 拉取最新官方翻译
+        run: git submodule update --init --recursive --remote
+
       - name: 安装uv
         uses: astral-sh/setup-uv@v8.2.0
         with:
@@ -41,9 +44,6 @@ jobs:
         uses: py-cov-action/python-coverage-comment-action@v4.1
         with:
           GITHUB_TOKEN: ${{ github.token }}
-
-      - name: 拉取最新官方翻译
-        run: git submodule update --init --recursive --remote
 
       - name: 合并官方翻译
         run: uv run merge-trans
