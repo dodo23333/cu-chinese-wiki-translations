@@ -28,3 +28,7 @@ dev = [
 [tool.ruff.lint]
 select = ["ALL"]
 ignore = ["TRY400","D400","D415","RUF001","S101"]  # RUF001:全角字符；
+
+[tool.coverage.run]
+relative_files = true
+source = ["src/cu_chinese_wiki_translations"]
