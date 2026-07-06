@@ -1,0 +1,11 @@
+name: <color=yellow>维基中文</color>
+version: v1.8.3
+main:
+  bandagedsc: |-
+<color=#72d572>┃每一圈(共12圈)：
+┃皮肤 +2.5
+┃骨折 -1.67%
+┃脱臼 -1.67%
+┃出血 -0.056L/分钟(3秒内生效)
+┃疼痛 -5</color>
+<color=#ffa726>
