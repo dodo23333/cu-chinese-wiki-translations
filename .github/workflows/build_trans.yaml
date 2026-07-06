@@ -32,23 +32,29 @@ jobs:
       - name: 安装环境
         run: uv sync --locked --all-extras --dev
 
-      - name: 读取翻译版本号
-        id: translation-version
-        run: |
-          version="$(uv run python -c 'import yaml; print(yaml.safe_load(open("维基中文中间文件.yaml", encoding="utf-8"))["version"])')"
-          echo "version=${version}" >> "$GITHUB_OUTPUT"
+      - name: 运行测试和覆盖率
+        run: uv run pytest --cov=cu_chinese_wiki_translations --cov-report=term-missing --cov-report=xml
 
-      - name: 验证数据格式正确
-        run: uv run validate-data
+      - name: 上传覆盖率到Codecov
+        uses: codecov/codecov-action@v7
+        with:
+          files: coverage.xml
+          fail_ci_if_error: true
 
-      - name: 拉取最新官方翻译 
+      - name: 拉取最新官方翻译
         run: git submodule update --init --recursive --remote
 
       - name: 合并官方翻译
         run: uv run merge-trans
 
       - name: 合并软盘翻译
-        run: uv run merge-trans -v 基准汉化_软盘.json -o 维基中文_基于软盘翻译.json 
+        run: uv run merge-trans -v 基准汉化_软盘.json -o 维基中文_基于软盘翻译.json
+
+      - name: 读取翻译版本号
+        id: translation-version
+        run: |
+          version="$(uv run python -c 'import yaml; print(yaml.safe_load(open("维基中文中间文件.yaml", encoding="utf-8"))["version"])')"
+          echo "version=${version}" >> "$GITHUB_OUTPUT"
 
       - name: 附加版本号到产物文件名
         run: |
