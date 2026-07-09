@@ -230,7 +230,8 @@ main:
     <color=#ffa726>┃耐久消耗：仅当穿戴时，消耗1.50%耐久/分钟</color>
     <color=#ffee58>┃获取/制作：
     ┃制作(8)：3木板+2废料管+1钉子+1(可捶打)=1夹板(80%)</color>
-    <color=orange>佩戴后重量不计入负重。可多备几个低耐久夹板佩戴在身上作为“免费”储物</color>
+    <color=orange>佩戴后夹板的重量不计入负重</color>
+    <color=orange>在肢体上应用时，对应肢体的肢体力量将降为0</color>
     <color=orange>限制：可用于手臂、腿部和腹部，但不能用于胸腔和头部</color>
   bloodbagdsc: |-
     <color=#91a7ff>┃容重比：0.17u/100mL</color>
