@@ -315,23 +315,23 @@ main:
     可存放金属废料(非堆叠)、木屑、镊子及电池</color>
   pursedsc: |-
     <color=#ffa726>┃腐败：0.83%/分钟</color>
-    <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱</color>
+    <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱/交易</color>
     <color=orange>早期不错容器，寿命约2.5小时</color>
   pouchdsc: |-
     <color=#ffa726>┃腐败：1.11%/分钟</color>
-    <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱</color>
+    <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱/交易</color>
     <color=orange>容量虽小但极耐用(约2.2小时)，负重减免出色</color>
   brokenbagdsc: |-
     <color=#ffa726>┃腐败：1.67%/分钟</color>
-    <color=#ffee58>┃获取：尸体旁</color>
+    <color=#ffee58>┃获取：物资箱/空投舱/维生舱箱子/交易/尸体</color>
     <color=orange>不可穿戴。可修复为筒状行李袋但容量会降低</color>
   boxdsc: |-
     <color=#ffa726>┃腐败：3.33%/分钟</color>
-    <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱</color>
+    <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱/交易</color>
     <color=orange>对比：与植物纤维袋容量相近，但更轻且寿命翻倍</color>
   toolboxdsc: |-
     <color=#ffa726>┃腐败：0.21%/分钟</color>
-    <color=#ffee58>┃获取：维生舱箱子/空投舱</color>
+    <color=#ffee58>┃获取：维生舱箱子/空投舱/交易</color>
     <color=orange>自身重4.00u。满箱重6.50u。容量巨大但小心误丢</color>
   medkitdsc: |-
     <color=#ffa726>┃腐败：0.40%/分钟</color>

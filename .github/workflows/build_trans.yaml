@@ -38,12 +38,14 @@ jobs:
 
       - name: 运行测试和覆盖率
         run: uv run pytest --cov=cu_chinese_wiki_translations --cov-report=term-missing
-
+      
       - name: 生成覆盖率评论
         if: github.event_name == 'pull_request' || github.ref == 'refs/heads/main'
         uses: py-cov-action/python-coverage-comment-action@v4.1
         with:
           GITHUB_TOKEN: ${{ github.token }}
+        env:
+          GIT_CONFIG_PARAMETERS: "'core.quotePath=false'"
 
       - name: 合并官方翻译
         run: uv run merge-trans
