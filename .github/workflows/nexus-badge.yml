@@ -1,0 +1,19 @@
+name: Update Nexus Badges
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: FitzDegenhub/nexus-mod-badges@v1
+        with:
+          nexus_api_key: ${{ secrets.NEXUS_API_KEY }}
+          game: scavprototype
+          mod_id: 64
+          gist_id: ef17a6816a5bbc1928c4c1a329683a4a
+          gist_token: ${{ secrets.GIST_TOKEN }}
