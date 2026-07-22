@@ -45,7 +45,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ github.token }}
         env:
-          GIT_CONFIG_PARAMETERS: "'core.quotePath=false'"
+          GIT_CONFIG_PARAMETERS: "core.quotePath=false"
 
       - name: 合并官方翻译
         run: uv run merge-trans
