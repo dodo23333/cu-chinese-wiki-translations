@@ -1775,7 +1775,8 @@ buildings:
   BloodCrystaldsc: |-
     <color=#e84e40>┃最大血量：250</color>
     <color=#ffee58>┃破坏掉落：血晶碎片 (100%)</color>
-    <color=orange>带在身上（非容器）可缓慢增加血容量</color>
+    <color=orange>带在身上（非容器）且血容量<4.975L时
+    血容量 +0.002L/s 可用20分钟</color>
   cactusdsc: |-
     <color=#e84e40>┃最大血量：100</color>
     <color=#ffee58>┃破坏掉落：仙人掌肉x1-2 (60%)、仙人掌肉 (35%)</color>
@@ -1856,7 +1857,7 @@ buildings:
   DigestionCrystaldsc: |-
     <color=#e84e40>┃最大血量：250</color>
     <color=#ffee58>┃破坏掉落：消化晶碎片 (100%)</color>
-    <color=orange>带在身上（非容器）可缓慢减少患病</color>
+    <color=orange>带在身上（非容器）患病 -0.5/s 可用20分钟</color>
   dropcapsuledsc: |-
     <color=#e84e40>┃最大血量：2500</color>
     <color=#ffee58>┃破坏/开锁掉落：
@@ -1876,7 +1877,7 @@ buildings:
     <color=#e84e40>┃最大血量：250</color>
     <color=#ffee58>┃破坏掉落：荧光晶碎片 (100%)</color>
     <color=orange>带在身上（非容器）可发光
-    掉落的碎片是极佳的早期光源。
+    掉落的碎片是极佳的早期光源。可用30分钟
     提示：做成提灯耐久延长66%+</color>
   foodboxdsc: |-
     <color=#e84e40>┃最大血量：600</color>
@@ -1941,7 +1942,7 @@ buildings:
     <color=#e84e40>┃最大血量：250</color>
     <color=#ffee58>┃破坏掉落：
     ┃氧晶碎片 (100%)</color>
-    <color=orange>带在身上（非容器）可缓慢恢复体力</color>
+    <color=orange>带在身上（非容器）体力 +2%/s 可用20分钟</color>
   reinforceddoordsc: |-
     通常他附近会有“生物终端”设备，用来解锁该门。
     直接破坏不是个明确的选择。
@@ -1949,7 +1950,7 @@ buildings:
     <color=#e84e40>┃最大血量：250</color>
     <color=#ffee58>┃破坏掉落：
     ┃镇痛晶碎片 (100%)</color>
-    <color=orange>带在身上（非容器）可缓慢减少疼痛</color>
+    <color=orange>带在身上（非容器）全身疼痛 -20/s 可用20分钟</color>
   sandrosedsc: |-
     <color=#e84e40>┃最大血量：80</color>
     <color=#ffee58>┃破坏掉落：
@@ -1965,7 +1966,7 @@ buildings:
   SoothingCrystaldsc: |-
     <color=#e84e40>┃最大血量：250</color>
     <color=#ffee58>┃破坏掉落：宁神晶碎片 (100%)</color>
-    <color=orange>带在身上（非容器）可缓慢增加心情</color>
+    <color=orange>带在身上（非容器）心情 +0.04/s 可用20分钟</color>
   spikestabberdsc: |-
     <color=#e84e40>┃最大血量：800</color>
     <color=#91a7ff>┃触发：物体经过中心长钉范围激活
@@ -1985,8 +1986,8 @@ buildings:
   TurbulentCrystaldsc: |-
     <color=#e84e40>┃最大血量：250</color>
     <color=#ffee58>┃破坏掉落：漩涡晶碎片 (100%)</color>
-    <color=orange>带在身上（非容器）可大幅提升跳跃高度
-    携带3个以上跳跃高度危险！</color>
+    <color=orange>带在身上（非容器）跳跃高度 *= 144% 可用20分钟
+    持有多个效果乘法叠加，携带3个以上跳跃高度危险！</color>
   turretdsc: |-
     <color=#e84e40>┃最大血量：500</color>
     <color=#ffee58>┃破坏掉落：金属废料x3(100%)、电路板(100%)</color>
