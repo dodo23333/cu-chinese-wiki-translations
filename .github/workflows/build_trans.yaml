@@ -38,7 +38,7 @@ jobs:
 
       - name: 运行测试和覆盖率
         run: uv run pytest --cov=cu_chinese_wiki_translations --cov-report=term-missing
-      
+
       - name: 生成覆盖率评论
         if: github.event_name == 'pull_request' || github.ref == 'refs/heads/main'
         uses: py-cov-action/python-coverage-comment-action@v4.1
@@ -48,10 +48,10 @@ jobs:
           GIT_CONFIG_PARAMETERS: "'core.quotePath=false'"
 
       - name: 合并官方翻译
-        run: uv run merge-trans
+        run: uv run merge-trans -o wiki-translations-official.json
 
       - name: 合并软盘翻译
-        run: uv run merge-trans -v 基准汉化_软盘.json -o 维基中文_基于软盘翻译.json
+        run: uv run merge-trans -v 基准汉化_软盘.json -o wiki-translations-floppy.json
 
       - name: 读取翻译版本号
         id: translation-version
@@ -61,29 +61,29 @@ jobs:
 
       - name: 附加版本号到产物文件名
         run: |
-          mv 维基中文_基于官方翻译.json "维基中文_基于官方翻译${{ steps.translation-version.outputs.version }}.json"
-          mv 维基中文_基于软盘翻译.json "维基中文_基于软盘翻译${{ steps.translation-version.outputs.version }}.json"
+          mv wiki-translations-official.json "wiki-translations-official-${{ steps.translation-version.outputs.version }}.json"
+          mv wiki-translations-floppy.json "wiki-translations-floppy-${{ steps.translation-version.outputs.version }}.json"
 
       - name: 上传维基中文_基于官方翻译
         uses: actions/upload-artifact@v7.0.1
         with:
-          name: 维基中文_基于官方翻译${{ steps.translation-version.outputs.version }}
-          path: 维基中文_基于官方翻译${{ steps.translation-version.outputs.version }}.json
+          name: wiki-translations-official-${{ steps.translation-version.outputs.version }}
+          path: wiki-translations-official-${{ steps.translation-version.outputs.version }}.json
           if-no-files-found: error
 
       - name: 上传维基中文_基于软盘翻译
         uses: actions/upload-artifact@v7.0.1
         with:
-          name: 维基中文_基于软盘翻译${{ steps.translation-version.outputs.version }}
-          path: 维基中文_基于软盘翻译${{ steps.translation-version.outputs.version }}.json
+          name: wiki-translations-floppy-${{ steps.translation-version.outputs.version }}
+          path: wiki-translations-floppy-${{ steps.translation-version.outputs.version }}.json
           if-no-files-found: error
 
-      # 同时上传两个中文名文件会报错，暂时先传一个
       - name: 自动发布Release
         if: github.ref_type == 'tag'
         uses: softprops/action-gh-release@v3
         with:
           preserve_order: true
           files: |
-            维基中文_基于官方翻译${{ steps.translation-version.outputs.version }}.json
+            wiki-translations-official-${{ steps.translation-version.outputs.version }}.json
+            wiki-translations-floppy-${{ steps.translation-version.outputs.version }}.json
           generate_release_notes: true
