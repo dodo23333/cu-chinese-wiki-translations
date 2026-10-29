@@ -11,3 +11,7 @@ wheels/
 
 # coverge files
 .coverage
+
+# Local working files and generated translations
+.local/
+wiki-translations-*.json
