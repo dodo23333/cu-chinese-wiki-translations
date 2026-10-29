@@ -45,9 +45,6 @@ jobs:
       - name: 合并官方翻译
         run: uv run merge-trans -o wiki-translations-official.json
 
-      - name: 合并软盘翻译
-        run: uv run merge-trans -v 基准汉化_软盘.json -o wiki-translations-floppy.json
-
       - name: 读取翻译版本号
         id: translation-version
         run: |
@@ -57,20 +54,12 @@ jobs:
       - name: 附加版本号到产物文件名
         run: |
           mv wiki-translations-official.json "wiki-translations-official-${{ steps.translation-version.outputs.version }}.json"
-          mv wiki-translations-floppy.json "wiki-translations-floppy-${{ steps.translation-version.outputs.version }}.json"
 
       - name: 上传维基中文_基于官方翻译
         uses: actions/upload-artifact@v7.0.1
         with:
           name: wiki-translations-official-${{ steps.translation-version.outputs.version }}
           path: wiki-translations-official-${{ steps.translation-version.outputs.version }}.json
-          if-no-files-found: error
-
-      - name: 上传维基中文_基于软盘翻译
-        uses: actions/upload-artifact@v7.0.1
-        with:
-          name: wiki-translations-floppy-${{ steps.translation-version.outputs.version }}
-          path: wiki-translations-floppy-${{ steps.translation-version.outputs.version }}.json
           if-no-files-found: error
 
       - name: 自动发布Release
@@ -80,5 +69,4 @@ jobs:
           preserve_order: true
           files: |
             wiki-translations-official-${{ steps.translation-version.outputs.version }}.json
-            wiki-translations-floppy-${{ steps.translation-version.outputs.version }}.json
           generate_release_notes: true
