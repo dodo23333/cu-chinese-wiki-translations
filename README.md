@@ -7,7 +7,9 @@
 ![Nexus Downloads](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/dodo23333/ef17a6816a5bbc1928c4c1a329683a4a/raw/scavprototype-64-downloads.json)
 ![Coverage badge](https://raw.githubusercontent.com/dodo23333/cu-chinese-wiki-translations/python-coverage-comment-action-data/badge.svg)
 
-此项目旨在分离**基准翻译**（例如官方汉化与软盘汉化）与维基中文制作组的**附加翻译**,并且通过github妥善进行项目管理
+本项目将上游中文翻译与维基中文制作组的补注分开维护，再合并为游戏可读取的语言文件。补注包含数值、功能说明和游戏心得。
+
+当前正在按上游的新结构整理补注，尚未发布新的补丁版本。后续不再维护旧版游戏及旧基准兼容，也不再内置多人联机汉化。感谢内华达刃脊长期以来提供的多人联机汉化；联机汉化请使用相应模组。
 
 Q群：521023836
 
@@ -44,28 +46,43 @@ git clone https://github.com/dodo23333/cu-chinese-wiki-translations.git
 uv sync
 ```
 
-初始化submodule：
+拉取上游翻译：
 
 ```sh
-git submodule update --init
+git submodule update --init --recursive --remote
 ```
 
 完成！
 
 ## 开始使用
 
-此项目通过`merge_data.py`合并基准翻译与附加翻译，例如：
+默认使用 `vendor/release/zh-CN.json`，该文件不存在时使用 `vendor/demo/zh-CN.json`，并在终端提示。`main` 是上游分支名，不属于文件路径。两者都不存在，或选中的文件无法读取、解析时，命令会报错。
 
-- `vendor/zh-CN.json` + `维基中文中间文件.yaml` = `维基中文_基于官方翻译.json`
-- `基准汉化_软盘.json` + `维基中文中间文件.yaml` = `维基中文_基于软盘翻译.json`
+本地合并只读取当前磁盘文件，不自动拉取上游。需要更新时先运行上面的子模块命令；Actions 构建会自行拉取上游 `main`。
 
 运行以下命令即可：
 
 ```sh
-uv run merge-trans [-h] [-v "基准翻译.json"] [-r "附加翻译.yaml"] [-o "最后产物.json"]
+uv run merge-trans
+uv run merge-trans -v "基准翻译.json" -r "附加翻译.yaml" -o "最后产物.json"
+uv run merge-trans --verbose --build-info build-info.md
 ```
 
 - `-h | --help`：获取帮助
-- `-v | --vendor`：基准翻译，默认：`vendor/zh-CN.json`
+- `-v | --vendor`：明确指定基准文件；指定后不再自动选择或回退。
 - `-r | --raw`：wiki汉化组补丁，默认：`维基中文中间文件.yaml`
 - `-o | --output`：合并后文件，默认：`wiki-translations-official.json`
+- `--verbose`：列出补注向基准新增的完整键路径。默认只显示数量。
+- `--build-info PATH`：将本次构建输入记录写为 Markdown，父目录需已存在。
+
+基准没有的补注键仍会加入结果，不会因提示而被过滤。补注未覆盖的基准内容保持原样。以 `dsc` 结尾的字符串在追加时自动换行，其他字符串直接拼接；列表仍是整份替换，使用自定义补注时请留意。
+
+每次运行都会显示两份输入的路径、文件内版本、所属仓库当前提交号和该文件的修改状态。暂存与未暂存修改可以同时存在，命令始终读取磁盘内容。带修改状态的提交号只表示基点，不能完整还原未提交内容；Git 信息不可获取时仍可合并。
+
+输出 JSON 保留基准的游戏版本字段；补丁版本用于语言名称和产物文件名，两者分别记录。选中正式版基准并不意味着所有数值和机制注解均已完成游戏内核对。
+
+## 迁移与发布说明
+
+[迁移记录](docs/migration/README.md) 汇总本次条目去向及待办，旧暂停提示单独留档，不参与默认合并。完整改编后可删除这份短期记录及相应归档。
+
+Actions 只构建上游中文对应的补丁，构建信息会显示在运行摘要并随构建附件保存。推送版本 tag 时，发布步骤会组合 [本次公告](docs/release-notes.md)、该次构建输入和自动生成的更新记录；准备下次发布时请更新公告正文。普通分支或 PR 构建不创建 Release。

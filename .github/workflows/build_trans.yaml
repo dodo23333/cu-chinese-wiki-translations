@@ -48,10 +48,10 @@ jobs:
           GIT_CONFIG_PARAMETERS: "'core.quotePath=false'"
 
       - name: 合并官方翻译
-        run: uv run merge-trans -o wiki-translations-official.json
-
-      - name: 合并软盘翻译
-        run: uv run merge-trans -v 基准汉化_软盘.json -o wiki-translations-floppy.json
+        run: |
+          mkdir -p .local
+          uv run merge-trans -o wiki-translations-official.json --build-info .local/build-info.md
+          cat .local/build-info.md >> "$GITHUB_STEP_SUMMARY"
 
       - name: 读取翻译版本号
         id: translation-version
@@ -62,21 +62,23 @@ jobs:
       - name: 附加版本号到产物文件名
         run: |
           mv wiki-translations-official.json "wiki-translations-official-${{ steps.translation-version.outputs.version }}.json"
-          mv wiki-translations-floppy.json "wiki-translations-floppy-${{ steps.translation-version.outputs.version }}.json"
 
       - name: 上传维基中文_基于官方翻译
         uses: actions/upload-artifact@v7.0.1
         with:
           name: wiki-translations-official-${{ steps.translation-version.outputs.version }}
-          path: wiki-translations-official-${{ steps.translation-version.outputs.version }}.json
+          path: |
+            wiki-translations-official-${{ steps.translation-version.outputs.version }}.json
+            .local/build-info.md
+          include-hidden-files: true
           if-no-files-found: error
 
-      - name: 上传维基中文_基于软盘翻译
-        uses: actions/upload-artifact@v7.0.1
-        with:
-          name: wiki-translations-floppy-${{ steps.translation-version.outputs.version }}
-          path: wiki-translations-floppy-${{ steps.translation-version.outputs.version }}.json
-          if-no-files-found: error
+      - name: 整理发布说明
+        if: github.ref_type == 'tag'
+        run: |
+          cat docs/release-notes.md > .local/release-notes.md
+          printf '\n' >> .local/release-notes.md
+          cat .local/build-info.md >> .local/release-notes.md
 
       - name: 自动发布Release
         if: github.ref_type == 'tag'
@@ -85,5 +87,5 @@ jobs:
           preserve_order: true
           files: |
             wiki-translations-official-${{ steps.translation-version.outputs.version }}.json
-            wiki-translations-floppy-${{ steps.translation-version.outputs.version }}.json
+          body_path: .local/release-notes.md
           generate_release_notes: true
