@@ -2827,6 +2827,9 @@ moodles:
     ┃恐惧值替换为专注值
     ┃距离大于45格时以20/1s的速度减少
 other:
+  runsetunchippeddsc: |-
+    不建议新手开启。
+    <color=orange>可能影响结局</color>
   strengthdsc: |-
     ┃每升1等级：
     ┃近战伤害 +3.34%
