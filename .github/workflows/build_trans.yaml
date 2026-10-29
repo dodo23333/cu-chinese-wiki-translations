@@ -15,10 +15,11 @@ permissions:
 jobs:
   merge-translations:
     runs-on: ubuntu-latest
-    env:
-      TRANSLATION_BUILD_DIR: ${{ runner.temp }}/wiki-translations
 
     steps:
+      - name: 设置构建目录
+        run: echo "TRANSLATION_BUILD_DIR=$RUNNER_TEMP/wiki-translations" >> "$GITHUB_ENV"
+
       - name: 拉取项目
         uses: actions/checkout@v6.0.3
         with:
