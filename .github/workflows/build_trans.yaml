@@ -15,6 +15,8 @@ permissions:
 jobs:
   merge-translations:
     runs-on: ubuntu-latest
+    env:
+      TRANSLATION_BUILD_DIR: ${{ runner.temp }}/wiki-translations
 
     steps:
       - name: 拉取项目
@@ -49,9 +51,9 @@ jobs:
 
       - name: 合并官方翻译
         run: |
-          mkdir -p .local
-          uv run merge-trans -o wiki-translations-official.json --build-info .local/build-info.md
-          cat .local/build-info.md >> "$GITHUB_STEP_SUMMARY"
+          mkdir -p "$TRANSLATION_BUILD_DIR"
+          uv run merge-trans -o "$TRANSLATION_BUILD_DIR/wiki-translations-official.json" --build-info "$TRANSLATION_BUILD_DIR/build-info.md"
+          cat "$TRANSLATION_BUILD_DIR/build-info.md" >> "$GITHUB_STEP_SUMMARY"
 
       - name: 读取翻译版本号
         id: translation-version
@@ -61,24 +63,38 @@ jobs:
 
       - name: 附加版本号到产物文件名
         run: |
-          mv wiki-translations-official.json "wiki-translations-official-${{ steps.translation-version.outputs.version }}.json"
+          mv "$TRANSLATION_BUILD_DIR/wiki-translations-official.json" "$TRANSLATION_BUILD_DIR/wiki-translations-official-${{ steps.translation-version.outputs.version }}.json"
 
       - name: 上传维基中文_基于官方翻译
         uses: actions/upload-artifact@v7.0.1
         with:
           name: wiki-translations-official-${{ steps.translation-version.outputs.version }}
           path: |
-            wiki-translations-official-${{ steps.translation-version.outputs.version }}.json
-            .local/build-info.md
-          include-hidden-files: true
+            ${{ env.TRANSLATION_BUILD_DIR }}/wiki-translations-official-${{ steps.translation-version.outputs.version }}.json
+            ${{ env.TRANSLATION_BUILD_DIR }}/build-info.md
           if-no-files-found: error
 
       - name: 整理发布说明
         if: github.ref_type == 'tag'
         run: |
-          cat docs/release-notes.md > .local/release-notes.md
-          printf '\n' >> .local/release-notes.md
-          cat .local/build-info.md >> .local/release-notes.md
+          uv run python <<'PY'
+          import os
+          from pathlib import Path
+
+          build_dir = Path(os.environ["TRANSLATION_BUILD_DIR"])
+          notes_path = Path("docs/release-notes.md")
+          notes = notes_path.read_text(encoding="utf-8") if notes_path.is_file() else ""
+          header, _, body = notes.partition("\n")
+          tag = os.environ["GITHUB_REF_NAME"]
+          if header.strip() == f"<!-- release-tag: {tag} -->" and body.strip():
+              introduction = body.strip() + "\n\n"
+              print(f"加入 {tag} 的人工公告正文")
+          else:
+              introduction = ""
+              print(f"跳过人工公告：没有适用于 {tag} 的正文；保留构建信息和自动更新记录")
+          build_info = (build_dir / "build-info.md").read_text(encoding="utf-8")
+          (build_dir / "release-notes.md").write_text(introduction + build_info, encoding="utf-8")
+          PY
 
       - name: 自动发布Release
         if: github.ref_type == 'tag'
@@ -86,6 +102,6 @@ jobs:
         with:
           preserve_order: true
           files: |
-            wiki-translations-official-${{ steps.translation-version.outputs.version }}.json
-          body_path: .local/release-notes.md
+            ${{ env.TRANSLATION_BUILD_DIR }}/wiki-translations-official-${{ steps.translation-version.outputs.version }}.json
+          body_path: ${{ env.TRANSLATION_BUILD_DIR }}/release-notes.md
           generate_release_notes: true

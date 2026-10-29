@@ -2,7 +2,6 @@ name: <color=yellow>维基中文</color>
 version: v1.8.3
 extend_description: |-
   由<color=yellow>维基中文制作组</color>维护，在官方中文基础上补充数值、功能说明和游戏心得
-  <color=orange>本补丁不再内置多人联机汉化，请使用相应模组</color>
 
   <color=blue>感谢简中制作组，以及内华达刃脊长期以来提供的多人联机汉化</color>
   <color=purple>资料随游戏更新逐步核对，欢迎反馈遗漏与错误</color>
