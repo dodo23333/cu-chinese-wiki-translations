@@ -1,16 +1,12 @@
 name: <color=yellow>维基中文</color>
 version: v1.8.3
 extend_description: |-
-  <color=orange>包含内华达刃脊锁补丁的多人联机汉化</color>
-  并由<color=yellow>维基中文制作组</color>在此基础上扩展的功能性维基翻译补丁
-
-  <color=blue>再次感谢简中版及内华达刃脊制作组</color>
+  该翻译是由<color=yellow>维基中文制作组</color>在原翻译基础上扩展的功能性翻译
   <color=purple>所有数据信息均来自制作组解包数据，保证准确率高</color>
 
-  <color=orange>翻译项目(贡献或者反馈问题(issue&PR)进这里)：</color>
+  <color=orange>翻译项目(贡献或者反馈问题(Issue&PR)进这里)：</color>
   <color=yellow>https://github.com/dodo23333/cu-chinese-wiki-translations</color>
-  <color=orange>贡献者名单：</color>
-  <color=yellow>https://github.com/StreamWind114514/Casualties-Unknown-Simplified-Chinese-Wiki</color>
+  <color=orange>Q群：</color><color=yellow>521023836</color>
   <color=orange>更新及改动内容请前往Github查看</color>
 main:
   bandagedsc: |-
@@ -1638,9 +1634,6 @@ main:
     <color=orange>可拾起篝火，但立即掉落且无伤害
     篝火是单向热源，7格范围内，如果体温低于38°C会缓慢把体温拉向38°C，高于 38°C 时不会降温
     因为加热/降温力度的关系有一定温度差是正常情况</color>
-  lifepodheaterdsc: |-
-    <color=orange>维生舱加热模式下会将体温拉到39°C，降温模式下会将体温拉到33°C
-    因为加热/降温力度的关系有一定温度差是正常情况</color>
   firestarterdsc: |-
     <color=#ffee58>┃制作(8)：2木棍+1绳子+1纤维</color>
   charcoaldsc: |-
@@ -1700,6 +1693,9 @@ main:
     桶+液体交易上限50价值，过重时摔落伤害大大增加，版本v1.8.0
     长按投掷出去可进行反推力作用，重量越大后坐力越大(小心会受伤)</color>
 buildings:
+  lifepodheaterdsc: |-
+    <color=orange>维生舱加热模式下会将体温拉到39°C，降温模式下会将体温拉到33°C
+    因为加热/降温力度的关系有一定温度差是正常情况</color>
   animalcorpsedsc: |-
     <color=#e84e40>┃最大血量：250</color>
     <color=#ffee58>┃破坏掉落：动物肉块x2 (100%)</color>
@@ -2170,10 +2166,6 @@ moodles:
   bleeding3: (>0.23 L/分钟)
   bleeding4: (>0.45 L/分钟)
   internalBleed: (>0.04 L/分钟)
-  lowbloodvolume1: 苍白(4.5~5 L)
-  lowbloodvolume2: 低血容量(4.0~4.5 L)
-  lowbloodvolume3: 严重低血容量(3.5~4.0 L)
-  lowbloodvolume4: 失血过多(<3.5 L)
   highbloodvolume1: (>5 L)
   highbloodvolume2: (>5.25 L)
   highbloodvolume3: (>5.5 L)
@@ -2428,22 +2420,6 @@ moodles:
     ┃>0.43 L/分钟 致命
     ┃饥饿会加剧内出血
     ┃5s内你被判定呕吐2次也会发生内出血
-  lowbloodvolume1dsc: |-
-    轻微失血。体虚乏力，毛发下的皮肤苍白。
-    ┃血容量 4.50 ~ 5.00 L
-    ┃每低于5.00L 0.10L 情绪 -0.80
-  lowbloodvolume2dsc: |-
-    失血导致虚弱迷糊。感觉非常不适。建议治疗
-    ┃血容量 4.00 ~ 4.50 L
-    ┃最大氧含量开始下降
-  lowbloodvolume3dsc: |-
-    严重失血，几近昏迷。视线模糊...急需治疗
-    ┃血容量 3.50 ~ 4.00 L
-    ┃最大氧含量 -12% 以上
-  lowbloodvolume4dsc: |-
-    危及生命的失血，即将昏厥。心脏随时可能停跳。死亡将至
-    ┃血容量 < 3.50 L
-    ┃最大氧含量 -41% 以上
   highbloodvolume1dsc: |-
     ┃血容量 > 5.00 L
   highbloodvolume2dsc: |-
@@ -2851,420 +2827,9 @@ moodles:
     ┃恐惧值替换为专注值
     ┃距离大于45格时以20/1s的速度减少
 other:
-  # 多人模式翻译
-  krokosha_coop_loaderror_possible_nonascii_path: 请确保您的游戏路径仅英文：
-  krokosha_coop_autostarting_run: 正在自动开始游戏！
-  krokosha_coop_wait_for_host: 等待主机！
-  krokosha_coop_minigame_deny_server: 服务端：拒绝了迷你游戏
-  krokosha_coop_serverdeny_lockpick: 服务端：拒绝了开锁的尝试
-  krokosha_coop_serverdeny_syringeinject: 服务端：拒绝了使用注射器
-  krokosha_coop_serverdeny_bandage1: 服务端：拒绝了使用绷带（再试一次）
-  krokosha_coop_serverdeny_bandage2: 服务端：无法验证绷带使用操作
-  krokosha_coop_plr_started_drillpod: "{0}启动了钻探舱"
-  krokosha_coop_all_started_drillpod: 钻探舱被激活
-  krokosha_coop_plr_hover_dead: " (死掉了)"
-  krokosha_coop_plr_hover_sleeping: " (在睡觉)"
-  krokosha_coop_plr_hover_unconscious: " (昏迷了)"
-  krokosha_coop_plr_chattag_dead: 死
-  krokosha_coop_plr_chattag_far: 远
-  krokosha_coop_plr_too_far: 玩家过远
-  krokosha_coop_plr_moving: 玩家在动
-  krokosha_coop_plr_set_timescale: "{0} 将时间缩放设置为 {1}"
-  krokosha_coop_interact_obstructed: 没有直接视野
-  krokosha_coop_deny_refuse: 他拒绝
-  krokosha_coop_deny_heal_dead: 他现在没救了
-  krokosha_coop_voicechat_deny_mindwipe: 你不能说话了，因为你大脑记忆被清除了
-  krokosha_coop_voicechat_deny_unconscious: 你不能说话了，因为你昏迷了
-  krokosha_coop_on_plr_sleep: 正在睡觉
-  krokosha_coop_wake_up: 醒来
-  krokosha_coop_item_unreachable: 你碰不到那个物品
-  krokosha_coop_plr_unreachable: 你碰不到那个家伙
-  krokosha_coop_plrint_woundview: |-
-    查看
-    伤势
-  krokosha_coop_plrint_woundview_tooltip: 检查健康状况
-  krokosha_coop_plrint_req_woundview: 查看{0}的健康面板
-  krokosha_coop_plrint_inventory: 物品栏
-  krokosha_coop_plrint_inv_allowed: 偷他的东西！
-  krokosha_coop_plrint_inv_no: 不能偷他的物品，他醒着
-  krokosha_coop_plrint_useitem: 使用物品
-  krokosha_coop_plrint_useitem_wearable: 穿上
-  krokosha_coop_plrint_useitem_food: 喂食
-  krokosha_coop_plrint_useitem_water: 喂水
-  krokosha_coop_plrint_feed_item: 对他们使用物品
-  krokosha_coop_plrint_drag_item_here: 将一个兼容的物品拖到此处
-  krokosha_coop_plrint_carry: 背
-  krokosha_coop_plrint_carry_allow: 背上这个家伙
-  krokosha_coop_plrint_carry_no: 你只能背没行动能力的人
-  krokosha_coop_plrint_piggyback: 骑背
-  krokosha_coop_plrint_piggyback_allow: 骑到他们的背上
-  krokosha_coop_plrint_piggyback_no: 他们陷入了更大的问题
-  krokosha_coop_piggyback_stop: 停止骑乘
-  krokosha_coop_carry_stop: 停止携带
-  krokosha_coop_plr_not_sleeping: "没在睡觉 "
-  krokosha_coop_plr_sleeping_count: 正在睡觉的玩家数：
-  krokosha_coop_plrint_push: 推他
-  krokosha_coop_plrint_push_tooltip: 在悬崖旁边这么干会很好玩:)
-  krokosha_coop_sleep_is_disabled: 服务器已禁用睡眠功能
-  krokosha_coop_sleep_disabled_desc: 你总是有100%的精力
-  krokosha_coop_host_continue_run_announcement: 主机继续了游戏！
-  krokosha_coop_tutorial_finished_alert: 你完成了教程，等你的朋友吧
-  krokosha_coop_tutorial_localdied_alert: 你死在教程关了，等你的朋友吧……
-  krokosha_coop_tutorial_mp_alert: 教程多人游戏，部分系统同步已禁用
-  krokosha_coop_tutorial_finish_alert: 所有人都完成了教程，现在返回主菜单
-  krokosha_coop_drillpod_not_enough_plrs: 所有人都必须完成教程{0}/{1}
-  krokosha_coop_layerfinish_not_enough_plrs: 所有人都必须到达终点！
-  krokosha_coop_layerfinish_wait_for_friends: 你完成了这层，等你的朋友吧
-  krokosha_coop_layerfinish_wait_for_host: 你完成了这层，等待主机吧（不许问等待主什么>:(）
-  krokosha_coop_plr_finished_layer: "{0}完成了该层……"
-  krokosha_coop_everyone_is_dead: 所有人都死了
-  krokosha_coop_everyone_is_dead_host: 死光了，回到主菜单重新开始吧
-  krokosha_coop_obj_not_net_registered: |-
-    对象未在网络中注册。
-    (再试一次)
-  krokosha_coop_ur_too_weak: 太虚弱了
-  krokosha_coop_plr_dead: 他们死了
-  krokosha_coop_trader_buy_deny: 验证拒绝此次购买
-  krokosha_coop_singleplayer_warn: 多人游戏模组仍在注入！请在设置中禁用它以玩原版单人游戏！
-  krokosha_coop_antidispersion_activated_alert: 你离所有人都太远了！
-  krokosha_coop_healthchipalert_antidispersion_warn: |-
-    你的同伴
-    信号较弱
-  krokosha_coop_healthchipalert_antidispersion1: |-
-    距离你的
-    同伴过远
-  krokosha_coop_healthchipalert_antidispersion2: |-
-    惩罚协议
-    已经生效
-  krokosha_coop_healthchipalert_antidispersion3: 呆在一起
-  krokosha_coop_respawned_dead_plrs: 复活死亡玩家
-  krokosha_coop_click_to_cpr: |-
-    | 点击此处 |
-
-    | 心肺复苏 |
-  krokosha_coop_worldgen_waitforserver_seed: 多人游戏：正在等待服务器的世界生成信息
-  krokosha_coop_worldgen_waitforserver_spawn: 多人游戏：正在请求出生点位置。
-  krokosha_coop_worldgen_waitforserver: 多人游戏：正在等待服务器……
-  krokosha_coop_alert_cantcarry: 此玩家当前无法被携带
-  krokosha_coop_straggler_radline: 掉队者必须加快速度！
-  krokosha_coop_chat_preview: 预览：
-  krokosha_coop_chat_keybind: 按"{0}"键来交流
-  krokosha_coop_spectate: 观战
-  krokosha_coop_spectate_openwoundview: 打开健康菜单
-  krokosha_coop_spectate_freecam: 自由视角
-  krokosha_coop_spectate_freecamexit: 退出自由视角
-  krokosha_coop_spectate_exit: 停止观战
-  krokosha_coop_spectate_alive: 仅观战存活玩家
-  krokosha_coop_netpanel_title: 多人游戏
-  krokosha_coop_netmode: "模式： "
-  krokosha_coop_netmode_client: 客户端
-  krokosha_coop_netmode_host: 主机
-  krokosha_coop_netmode_server: 服务器
-  krokosha_coop_netpanel_ping: 延迟：
-  krokosha_coop_netpanel_avgping: 平均延迟：
-  krokosha_coop_netpanel_laststatus: 最后状态消息：
-  krokosha_coop_netpanel_connectedplrs: 已连接玩家：
-  krokosha_coop_netpanel_settings: 设置
-  krokosha_coop_netpanel_plrlist_full: 更多
-  krokosha_coop_mainmenu_mp_button_tooltip: 关于多人游戏模组
-  krokosha_coop_mainmenu_settings: 多人游戏模组菜单
-  krokosha_coop_mainmenu_mainbutton: 打开多人游戏模组菜单
-  krokosha_coop_mainmenu_mainbutton_close: 关闭多人游戏模组菜单
-  krokosha_coop_mm_apply: 应用
-  krokosha_coop_mmtb_directconnect: 连接
-  krokosha_coop_mmtb_settings: 设置
-  krokosha_coop_mmtb_about: 关于
-  krokosha_coop_mmtb_serverbrowser: 服务器浏览器
-  krokosha_coop_mmta_og_download: 官方模组下载页面：
-  krokosha_coop_mmta_discord: "Casualties: Together 模组 Discord："
-  krokosha_coop_mmta_credits: "Credits:"
-  krokosha_coop_mmta_link_copied: 已复制链接！
-  krokosha_coop_mmta_link_open: 打开链接
-  krokosha_coop_mmta_link_copy: 复制链接
-  krokosha_coop_mmta_libraries: 第三方库：
-  krokosha_coop_mmct_ipportfield: IP:PORT
-  krokosha_coop_mmct_usernamefield: 用户名
-  krokosha_coop_mmct_passwordfield: 密码
-  krokosha_coop_mmct_hideip: 隐藏IP
-  krokosha_coop_mmct_show: 显示
-  krokosha_coop_mmct_connecting: 连接中...
-  krokosha_coop_mmct_canthostinworld: 回到主界面进行主机设置或连接！
-  krokosha_coop_mmct_starthost: 启动主机
-  krokosha_coop_mmct_startserver: 启动服务器
-  krokosha_coop_mmct_startclient: 客户端连接
-  krokosha_coop_mmct_serveroptions: 服务器配置
-  krokosha_coop_mmct_disconnect_abort: 终止
-  krokosha_coop_mmct_disconnect: 断开
-  krokosha_coop_mmct_disconnect_server: 停止服务器
-  krokosha_coop_mmct_last_status_msg: 最后状态信息：
-  krokosha_coop_mmct_directconnecttitle: 通过 IP 直接连接
-  krokosha_coop_mmct_gotorunsettings: 前往启动菜单
-  krokosha_coop_mmct_colornotvalid: 无效！
-  krokosha_coop_mmct_colortoodark: 忒暗了！
-  krokosha_coop_mmct_plrs: 玩家
-  krokosha_coop_mmct_rules: 规则
-  krokosha_coop_mmct_search: 搜索：
-  krokosha_coop_mmct_presetname: "预设名字:"
-  krokosha_coop_mmct_presetsave: 保存
-  krokosha_coop_mmct_presetremove: 删除
-  krokosha_coop_mmct_presetselect: 已选择的预设：
-  krokosha_coop_mmct_plr_vc_vol: 语音聊天音量
-  krokosha_coop_mmct_plr_ping: 延迟：
-  krokosha_coop_mmct_plr_setcolor: 设置颜色
-  krokosha_coop_mmct_plr_kick: 踢出游戏
-  krokosha_coop_mmct_plr_ban: 封禁
-  krokosha_coop_mmct_bankicksafety: 安全踢出/封禁
-  krokosha_coop_mmct_plr_steamprofile: 个人
-  krokosha_coop_mmct_offline: 离线
-  krokosha_coop_mmct_nobody: 没找到服务器……
-  krokosha_coop_mmct_reset_rules: 重置规则
-  krokosha_coop_mmct_hoststeamprofile: 主机资料
-  krokosha_coop_mmct_steamlobby: Steam房间
-  krokosha_coop_mmct_steammenutoggle: 使用Steam
-  krokosha_coop_mmct_steam_mypersona: Steam用户名称
-  krokosha_coop_mmct_steam_createlobby: 创建房间
-  krokosha_coop_mmct_steam_openfriendlist: 打开好友列表
-  krokosha_coop_mmct_steam_invitefriends: 邀请好友
-  krokosha_coop_mmct_steam_lobbytype: 房间类型：
-  krokosha_coop_mmct_steam_lobbytype_private: 仅通过邀请加入
-  krokosha_coop_mmct_steam_lobbytype_friends: 仅好友加入
-  krokosha_coop_mmct_steam_lobbytype_public: 公开
-  krokosha_coop_mmct_sconfig_plrcount: 最大玩家数
-  krokosha_coop_mmct_sconfig_verifyhash: 验证游戏哈希值
-  krokosha_coop_mmct_sconfig_verifyhash_tooltip: |-
-    这不是反作弊
-    它只是用来区分正式版和测试版的
-  krokosha_coop_mmct_sconfig_servername: 服务器名称：
-  krokosha_coop_mmct_sconfig_dedicated: 专用
-  krokosha_coop_mmct_sconfig_dedicated_tooltip: |-
-    运行服务器，但不参与其中
-    此游戏实例将没有玩家角色
-  krokosha_coop_mmct_sconfig_dedicated_disabled: 已连接
-  krokosha_coop_back: 返回
-  krokosha_coop_ww_peerid: "同伴ID: "
-  krokosha_coop_ww_deceased: 已死亡
-  krokosha_coop_ww_cpr: 心肺复苏
-  krokosha_coop_ww_cprdesc: 帮助你的伙伴重启循环系统
-  krokosha_coop_ww_cprdesc_no: 他们很好
-  krokosha_coop_cpr_minigame_guide: ""
-  krokosha_coop_cpr_minigame_guide_stupid: 把手放到屏幕中间然后使劲点击,直到体力耗尽或者心跳恢复
-  krokosha_coop_cpr_minigame_slow: 按太慢了！
-  krokosha_coop_cpr_minigame_good: 正确频率！
-  krokosha_coop_cpr_minigame_fast: 按太快了！
-  krokosha_coop_cpr_minigame_bad_timing: 频率不对！
-  krokosha_coop_filter_found_nothing: 筛选条件将所有内容都隐藏了
-  krokosha_coop_mmst_general: 常规
-  krokosha_coop_mmst_gui: 用户界面
-  krokosha_coop_mmst_voip: 语音聊天
-  krokosha_coop_mmst_chat: 聊天
-  krokosha_coop_mmst_debug: Debug
-  krokosha_coop_mmst_forcereloaduitex: 强制重新加载UI纹理
-  krokosha_coop_mmst_resettodefault: 重置为默认
-  krokosha_coop_mmst_resettodefault_desc: 将此页面上的所有内容重置为默认
-  krokosha_coop_mmst_apply: 强行保存
-  krokosha_coop_mmst_voip_rule_disabled: 根据服务器规则，当前语音聊天已禁用
-  krokosha_coop_mmst_mike_test: 测试麦克风
-  krokosha_coop_mmst_mike_testing: 麦克风回环已激活！
-  krokosha_coop_mmst_vcbutton: 语音聊天按键
-  krokosha_coop_mmst_vcbutton_JASON!!!!: |-
-    作者原文：按键绑定是在别的地方编辑的，我不知道具体在哪，反正不是在这儿，是在 json 文件里
-    补充：没有安装Qol mod的时候，直接点击主菜单按键设置选项就能打开设置文件
-    默认的按键更改文件目录：
-    C:/Users/用户名/AppData/LocalLow/Orsoniks/CasualtiesUnknown/keybinds.json
-     用笔记本打开keybinds.json，里边的krokosha_coop_voicechat的变量后面的V换成你想用的按键，
-    同理也能更改所有krokosha_coop前缀的按键
-  krokosha_coop_mmst_mike: 麦克风
-  krokosha_coop_mmst_mike_osdefault: 操作系统默认
-  krokosha_coop_mmst_select_mike: 选择麦克风：
-  krokosha_coop_mmst_button_deactivate_mp: 停用多人游戏
-  krokosha_coop_mmst_button_deactivate_mp_desc: |-
-    这会重启游戏！
-    但重新启动后会恢复到原版状态
-    模组可以通过左下角的"MP MOD"按钮重新启用
-  krokosha_coop_mmst_button_deactivate_mp_desc_disabled: 你已经在玩游戏了
-  krokosha_coop_mainmenu_mp_button_tooltip_lastresort_disable_mod: 强制禁用多人游戏
-  krokosha_coop_mainmenu_mp_button_tooltip_lastresort_enable_mod: 启用多人游戏模组。（这会重启游戏！）
-  krokosha_coop_freecam_keybindalert: 使用方向键来移动
-  krokosha_coop_rule_desc_sv_cheats: 在服务器上解锁所有控制台命令
-  krokosha_coop_rule_desc_Teams: |-
-    相同颜色的玩家被视为一个队伍
-    玩家分散距离仅对你的队伍有效
-    PVP 仅对其他队伍生效
-  krokosha_coop_rule_desc_XPGainMultiplier: 智力、力量、耐力三者获得经验值的倍率
-  krokosha_coop_rule_desc_EnableTimeManipulation: 已损坏，请保持禁用！！！
-  krokosha_coop_rule_desc_LateJoinSpectate: 中途加入的玩家将立即死亡并进入旁观者模式
-  krokosha_coop_rule_desc_NoInventoryLock: 即使其他玩家处于清醒状态，也能从他们那里偷东西
-  krokosha_coop_rule_desc_StragglerRadlinePercent: |-
-    当达到该百分比的人员全部到达地层终点时，将消灭滞留者
-    （从地层中间生成辐射线）
-  krokosha_coop_rule_desc_ScatterPunishDistance: 对离开队伍最远距离达此值的玩家进行辐射惩罚
-  krokosha_coop_rule_desc_ScatterMinGroupSize: |-
-    多少人被视为一个较大的群体
-    以避免触发ScatterPunishDistance规则
-    （离开队伍过远的辐射惩罚）
-  krokosha_coop_rule_desc_AllowClientCheatCommands: |-
-    已弃用，请直接为他们设置"adminpriv"
-    此规则仅允许执行客户端命令，例如"tp"
-  krokosha_coop_rule_desc_AlwaysAllowCarry: 允许背起意识清醒且站着的玩家
-  krokosha_coop_rule_desc_OnlyProximityChat: 文本聊天栏内容只能在 "ProximityHearDistance（听觉范围）规则设定的距离"内被看到.
-  krokosha_coop_rule_desc_PVP: 开启友军伤害
-  krokosha_coop_rule_desc_SavePlayerState: 保存玩家断连时的生命值
-  krokosha_coop_rule_desc_SavePlayerInventory: |-
-    保存玩家断连时的物品栏
-    此操作不会保存在存档文件！
-  krokosha_coop_rule_desc_SavePlayerPosition: 离线玩家重连时会出生在最后出现的位置
-  krokosha_coop_rule_desc_Permadeath: |-
-    永久死亡
-    禁用所有类型的重生
-  krokosha_coop_rule_desc_ReviveOnNextLevel: 下一层复活所有玩家
-  krokosha_coop_rule_desc_ReviveFromTrader: 能力为 "招募" 的商人，触发后能随机让一名玩家复活
-  krokosha_coop_setting_chatposx: 聊天栏位置 X
-  krokosha_coop_setting_chatposy: 聊天栏位置 Y
-  krokosha_coop_setting_chatsizex: 聊天栏尺寸 X
-  krokosha_coop_setting_chatsizey: 聊天栏尺寸 Y
-  krokosha_coop_setting_chatscale: 聊天栏缩放
-  krokosha_coop_setting_chatpreview: 聊天栏预览
-  krokosha_coop_setting_chatpreview_desc: 在发送聊天消息前预览有语言障碍吐字不清的情况
-  krokosha_coop_setting_chatpreviewonside: 横向显示聊天栏预览框
-  krokosha_coop_setting_chatpreviewonside_desc: 将聊天输入预览框移至侧边
-  krokosha_coop_setting_vcattenuation: 背景音乐衰减设置
-  krokosha_coop_setting_vcattenuation_desc: 当有人讲话时，暂时降低背景音乐音量的幅度
-  krokosha_coop_setting_micmode: 语音聊天模式
-  krokosha_coop_setting_micmode_choice_off: 关闭
-  krokosha_coop_setting_micmode_choice_ptt: 按下按键以通话
-  krokosha_coop_setting_micmode_choice_on: 常开
-  krokosha_coop_setting_micmode_choice_toggle: 按键切换开关语音
-  krokosha_coop_setting_mp3vol: MP3 音量
-  krokosha_coop_setting_vclistenvol: 语音聊天监听音量
-  krokosha_coop_setting_micvol: 语音聊天麦克风音量
-  krokosha_coop_setting_vclistenvol_desc: 提高其他玩家的音量
-  krokosha_coop_setting_micvol_desc: 提高你的麦克风音量
-  krokosha_coop_mmst_mike_local_off: 麦克风已关闭
-  krokosha_coop_setting_ui_usegamefont: 使用游戏字体
-  krokosha_coop_setting_debug_verbose: 详细日志
-  krokosha_coop_setting_debug_logsteam: 将日志输出至Steam
-  krokosha_coop_setting_debug_events: 显示网络事件
-  krokosha_coop_mmsb_refresh: 刷新
-  krokosha_coop_mmsb_empty: |-
-    列表是空的 :(
-    点击刷新
-  krokosha_coop_mmsb_lobbybadver: 错误的版本！
-  krokosha_coop_mmsb_lobbyjoin: 加入
-  krokosha_coop_mmsb_lobbyjoin_alreadyjoined: 已在服务器中
-  krokosha_coop_mmsb_lobbyjoin_locked: 不可以游戏中途加入
-  krokosha_coop_mmsb_sort: 排序：
-  krokosha_coop_mmsb_lobby_islocked: 设有密码保护
-  krokosha_coop_mmsb_lobby_inmenu: 在主菜单中
-  krokosha_coop_mmsb_lobby_tutorial: 在教程中
-  krokosha_coop_mmsb_lobby_alivecount: 存活人数：
-  krokosha_coop_mmsb_lobby_avgmood: 心情：
-  krokosha_coop_mmsb_lobbyfounds: 已找到的房间{0}    显示数量：{1}
-  krokosha_coop_mmsb_steam_distfilter: 实际距离：
-  krokosha_coop_mmsb_sort_name: 字母顺序
-  krokosha_coop_mmsb_sort_plrcount: 玩家数量
-  krokosha_coop_mmsb_steam_lobbyfriend: 你好友在这个房间里：
-  krokosha_coop_mmsb_steam_dist0: 附近
-  krokosha_coop_mmsb_steam_dist1: 默认
-  krokosha_coop_mmsb_steam_dist2: 遥远
-  krokosha_coop_mmsb_steam_dist3: 全球范围
-  krokosha_coop_mmbr_send: 发送错误报告
-  krokosha_coop_mmbr_terms: |-
-    发送后您也将确认报告包含以下内容：
-    您的电脑配置
-    您的公开 SteamID 和用户名
-    您的操作系统用户名
-    聊天记录
-    您一起游戏的玩家列表
-    截屏
-  krokosha_coop_setting_bugreport_includelogprev: 包含之前的日志
-  krokosha_coop_setting_bugreport_includelogprev_desc: 如果游戏崩溃或您关闭了游戏
-  krokosha_coop_mmst_button_checkupdate: 检查更新
-  krokosha_coop_mmst_button_checkupdate_desc: 如果可用，将自动安装多人游戏模组的新版本
-  krokosha_coop_setting_bugreport_delayscreenshot: 延迟截图
-  krokosha_coop_setting_bugreport_delayscreenshot_desc: |-
-    点击"发送错误报告"进入截图模式
-    然后按 F1 键进行截图并发送错误报告
-  krokosha_coop_mmst_bugreport: 错误报告
-  krokosha_coop_mmbr_send_tooltip: ？
-  krokosha_coop_mmbr_send_tooltip_desc: |-
-    请保持礼貌
-    不要反复发送相同的内容
-  krokosha_coop_mmst_button_restart: 重新开始游戏
-  krokosha_coop_mmst_button_restart_desc: 重新开始以应用更新
-  krokosha_coop_trader_recruit: 招募
-  krokosha_coop_trader_recruitdesc: 随机让一名玩家复活
-  krokosha_coop_trader_recruitdesc_no_rep: 声望不够
-  krokosha_coop_trader_recruitdesc_no_plr: 房间内没有死去的玩家
-  krokosha_coop_gamesetkrokosha_coop_pointfingerat: MP 标点
-  krokosha_coop_gamesetkrokosha_coop_chat: MP 聊天
-  krokosha_coop_gamesetkrokosha_coop_voicechat: MP 语音
-  krokosha_coop_gamesetkrokosha_coop_push: MP 推
-  krokosha_coop_gamesetkrokosha_coop_carry: MP 背
-  krokosha_coop_gamesetkrokosha_coop_piggyback: MP 骑背
-  krokosha_coop_gamesetkrokosha_coop_woundview: MP 打开别人的医疗面板
-  krokosha_coop_gamesetkrokosha_coop_inventory: MP 打开别人的背包
-  krokosha_coop_gamesetkrokosha_coop_showplrs: MP 显示玩家名字
-  # 兼容旧版本的翻译
-  volumewarning: 音量警告
-  volumewarningtext: |-
-    本层可能出现极大的噪音
-    建议调低音量。没人想损伤听力。
-  looatmount: 物资数量
-  trapamount: 陷阱数量
-  lootdepthmultiplier: 物资层数减量
-  trapdepthincrease: 陷阱层数增量
-  radlinedisable: 禁用时间限制(无辐射线)
-  unchipped: 未植入芯片(无健康面板)
-  looatmountdsc: |- # 系奥桑在5.0版本的错拼，与我们无关
-    所有战利品的生成占比
-
-    影响每层战利品生成数量，如空投舱，物资箱等在每层刷新生成
-
-    数值过高可能导致性能异常
-  trapamountdsc: |-
-    所有陷阱的生成占比
-
-    该设置会影响游戏中生成的陷阱总数，如钉刺陷阱、敌人等在每层刷新生成
-
-    数值过高可能导致性能异常
-  lootdepthmultiplierdsc: |-
-    该设置为战利品数量倍率，每穿过一层地图，战利品的生成数量都会乘以这个倍率
-
-    也就是说，如将其设为50%，每向下一层，战利品数量将会减半
-  trapdepthincreasedsc: |-
-    该设置为陷阱数量增量值，每穿过一层地图，当前地层的陷阱生成数量都会加上这个数值
-
-    也就是说，如将其设为50%，陷阱的生成占比会从100%开始，逐层增加至150%、200%、250%以此类推
-  radlinedisabledsc: 开启后，禁用每层时间限制
-  unchippeddsc: |-
-    该设置开启后，将禁用你的健康芯片功能，你需要投入更多精力，去排查和应对场景中无处不在的危险
-
-    不建议新手使用，不过该效果仍有可能在游戏内罕见出现，以地层修饰符的形式随机生成
-  resettodefaultdsc: 重置全部运行设置为默认值
-  mainmenu: |-
-    主
-    菜单
-  screenbrightness: 屏幕亮度
-  gamma: 伽马值
-  paneltip: 按ESC键打开/关闭面板
-  keybinds: 键位设置
-  keybindsdsc: 打开键位绑定的文件。记得保存更改！
-  custommusic: 自定义背景音乐
-  custommusicdsc: |-
-    打开自定义音乐存放文件夹。
-    你可以将.mp3/.ogg/.wav格式的音频文件放置到这个自定义音乐文件夹中。之后在游戏内使用MP3播放器时，这些文件会自动显示在可选列表中。
-    除支持的音频格式外，其他文件格式均不支持。
-  deceased: 已死亡
-  statusreport: 状态报告
-  firmware: 固件版本
-  depth: 当前深度
-  caloriesconsumed: 摄入热量
-  mentalstate: 精神状态
-  timetaken: 耗时
-  missionstatus: 任务状态
-  missionstatusfailure: 失败
-  casualties: 伤亡情况
-  unknown: 未知
+  runsetunchippeddsc: |-
+    不建议新手开启。
+    <color=orange>可能影响结局</color>
   strengthdsc: |-
     ┃每升1等级：
     ┃近战伤害 +3.34%
