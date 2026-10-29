@@ -19,11 +19,6 @@ jobs:
     steps:
       - name: 拉取项目
         uses: actions/checkout@v6.0.3
-        with:
-          submodules: true
-
-      - name: 拉取最新官方翻译
-        run: git submodule update --init --recursive --remote
 
       - name: 安装uv
         uses: astral-sh/setup-uv@v8.2.0
