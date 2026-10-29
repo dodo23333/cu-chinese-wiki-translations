@@ -38,18 +38,6 @@ Q群：521023836
 git clone https://github.com/dodo23333/cu-chinese-wiki-translations.git
 ```
 
-安装项目依赖：
-
-```sh
-uv sync
-```
-
-初始化submodule：
-
-```sh
-git submodule update --init
-```
-
 完成！
 
 ## 开始使用
