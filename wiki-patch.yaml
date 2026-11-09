@@ -1115,7 +1115,7 @@ main:
     <color=#91a7ff>┃效果：肢体再生速度+50%
     ┃副作用：饥饿消耗+50%</color>
     <color=#ffee58>┃获取：交易(稀有)</color>
-  xalorisspongedsc: |-
+  heatfernspongedsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +8
     ┃患病 +2
@@ -1744,7 +1744,7 @@ buildings:
     <color=#e84e40>┃最大血量：400</color>
     <color=#ffee58>┃破坏掉落：金属废料x2 (50%~100%)</color>
     <color=orange>可用于烹饪生肉。靠近取暖，但过久会受辐射</color>
-  xalorisdsc: |-
+  heatferndsc: |-
     <color=orange>来源层：冰封裂谷层
     该植物尚未正式加入游戏</color>
   barbedwirefencedsc: |-
@@ -1863,11 +1863,6 @@ buildings:
     <color=orange>提供光源和热量，可用于御寒。
     在他附近时，会听见他会发出一种轰鸣声以方便定位他。
     输入密码2296会触发彩蛋爆炸，但需要正则</color>
-  chipcapsuledsc: |-
-    开发中的建筑，目前无法互动。
-    <color=#e84e40>┃最大血量：150</color>
-    <color=#ffee58>┃破坏掉落：随机1件(50%工具/50%芯片1)</color>
-    <color=orange>该建筑尚未正式加入游戏</color>
   lifepodbuttonshowerdsc: |-
     可以观察中间的面板颜色来判断是否使用过
     提供全身轻度消毒和清洗肮脏
@@ -2168,10 +2163,6 @@ moodles:
   bleeding3: (>0.23 L/分钟)
   bleeding4: (>0.45 L/分钟)
   internalBleed: (>0.04 L/分钟)
-  highbloodvolume1: (>5 L)
-  highbloodvolume2: (>5.25 L)
-  highbloodvolume3: (>5.5 L)
-  highbloodvolume4: (>=5.63 L)
   exertion1: (<70%)
   exertion2: (<50%)
   exertion3: (<35%)
@@ -2422,15 +2413,6 @@ moodles:
     ┃>0.43 L/分钟 致命
     ┃饥饿会加剧内出血
     ┃5s内你被判定呕吐2次也会发生内出血
-  highbloodvolume1dsc: |-
-    ┃血容量 > 5.00 L
-  highbloodvolume2dsc: |-
-    ┃血容量 > 5.25 L
-  highbloodvolume3dsc: |-
-    ┃血容量 > 5.50 L
-  highbloodvolume4dsc: |-
-    ┃血容量 >= 5.63 L
-    ┃触发呼吸停止
   exertion1dsc: |-
     体力 < 70%
     ┃最大氧含量开始下降。
