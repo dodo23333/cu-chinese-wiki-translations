@@ -44,8 +44,8 @@ git clone https://github.com/dodo23333/cu-chinese-wiki-translations.git
 
 此项目通过`merge_data.py`合并基准翻译与附加翻译，例如：
 
-- `vendor/zh-CN.json` + `维基中文中间文件.yaml` = `维基中文_基于官方翻译.json`
-- `基准汉化_软盘.json` + `维基中文中间文件.yaml` = `维基中文_基于软盘翻译.json`
+- `vendor/zh-CN.json` + `wiki-patch.yaml` = `维基中文_基于官方翻译.json`
+- `基准汉化_软盘.json` + `wiki-patch.yaml` = `维基中文_基于软盘翻译.json`
 
 运行以下命令即可：
 
@@ -55,5 +55,5 @@ uv run merge-trans [-h] [-v "基准翻译.json"] [-r "附加翻译.yaml"] [-o "�
 
 - `-h | --help`：获取帮助
 - `-v | --vendor`：基准翻译，默认：`vendor/zh-CN.json`
-- `-r | --raw`：wiki汉化组补丁，默认：`维基中文中间文件.yaml`
+- `-r | --raw`：wiki汉化组补丁，默认：`wiki-patch.yaml`
 - `-o | --output`：合并后文件，默认：`wiki-translations-official.json`

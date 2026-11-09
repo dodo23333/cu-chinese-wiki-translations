@@ -15,7 +15,7 @@ if TYPE_CHECKING:
     from collections.abc import MutableMapping
 
 VENDOR_JSON = Path("vendor/zh-CN.json")
-RAW_YAML = Path("维基中文中间文件.yaml")
+RAW_YAML = Path("wiki-patch.yaml")
 OUTPUT_JSON = Path("wiki-translations-official.json")
 METADATA_KEYS = {"name", "version", "extend_description"}
 
