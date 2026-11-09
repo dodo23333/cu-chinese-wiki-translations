@@ -1,5 +1,5 @@
 name: <color=yellow>维基中文</color>
-version: v1.8.3
+version: v1.9.0
 extend_description: |-
 
   <color=white>本翻译是由</color><color=yellow>维基中文制作组</color><color=white>在原翻译基础上扩展的功能性翻译</color>
@@ -3092,7 +3092,7 @@ other:
   dirtywaterdsc: |-
     ┃饮用(每100mL)：口渴 +6┃患病 +6~8┃体温 -0.25°C┃心情 -0.1
     ┃获取：洗涤后产生/某些区域
-  algaedsc: |-
+  lumalgaedsc: |-
     ┃饮用(每100mL)：口渴 +6.5┃饥饿 +2┃体重 +0.03kg┃体温 -0.25°C┃心情 -0.1┃65%患病 +6~8.5(过滤吸管x0.3)┃10%概率呕吐
     ┃获取：荧光藻池/菌丛深渊
   magmadsc: |-
