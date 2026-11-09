@@ -48,7 +48,7 @@ jobs:
       - name: 读取翻译版本号
         id: translation-version
         run: |
-          version="$(uv run python -c 'import yaml; print(yaml.safe_load(open("维基中文中间文件.yaml", encoding="utf-8"))["version"])')"
+          version="$(uv run python -c 'import yaml; print(yaml.safe_load(open("wiki-patch.yaml", encoding="utf-8"))["version"])')"
           echo "version=${version}" >> "$GITHUB_OUTPUT"
 
       - name: 附加版本号到产物文件名
