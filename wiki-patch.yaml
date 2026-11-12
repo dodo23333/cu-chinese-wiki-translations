@@ -1,13 +1,14 @@
 name: <color=yellow>维基中文</color>
-version: v1.9.1
+version: v1.9.4
 extend_description: |-
 
-  <color=white>本翻译是由</color><color=yellow>维基中文制作组</color><color=white>在原翻译基础上扩展的功能性翻译</color>
+  <color=white>本翻译是由</color><color=yellow>维基中文制作组</color><color=white>在原翻译基础上扩展的功能性维基翻译补丁</color>
 
-  <color=purple>所有数据信息均来自制作组解包数据，保证准确率高</color>
+  <color=purple>所有数据信息均来自制作组解包数据或灰机wiki数据，保证准确率高</color>
 
   <color=orange>翻译项目(贡献或者反馈问题(Issue&PR)进这里)：</color>
   <color=yellow>https://github.com/dodo23333/cu-chinese-wiki-translations</color>
+  <color=orange>贡献者名单可在灰机wiki的鸣谢页面查看</color>
   <color=orange>Q群：</color><color=yellow>521023836</color>
   <color=orange>更新及改动内容请前往Github或N网查看</color>
 main:
