@@ -1,5 +1,7 @@
 """校验功能的单元测试"""
 
+from __future__ import annotations
+
 import shutil
 from typing import TYPE_CHECKING
 

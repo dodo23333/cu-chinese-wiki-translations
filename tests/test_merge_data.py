@@ -1,5 +1,7 @@
 """合并功能的单元测试"""
 
+from __future__ import annotations
+
 import json
 from copy import deepcopy
 from pathlib import Path
@@ -9,6 +11,7 @@ from cu_chinese_wiki_translations import merge_data as merge_data_module
 from cu_chinese_wiki_translations.merge_data import (
     OUTPUT_JSON,
     RAW_YAML,
+    REPLACE_TAG,
     VENDOR_JSON,
     append_string,
     load_json,
@@ -70,6 +73,21 @@ def test_append_string_concatenates_non_description_fields() -> None:
     assert append_string(merger, ["name"], "官方", "附加") == "官方附加"
 
 
+def test_append_string_replaces_when_replace_tag_present() -> None:
+    """带替换标记的值应整体覆盖基准文本, 不追加"""
+    merger = merge_data_module.translation_merger
+
+    assert (
+        append_string(merger, ["main", "bandagedsc"], "官方描述", f"{REPLACE_TAG}替换文本")
+        == "替换文本"
+    )
+    assert (
+        append_string(merger, ["main", "bandagedsc"], "", f"{REPLACE_TAG}替换文本")
+        == "替换文本"
+    )
+    assert append_string(merger, ["name"], "官方", f"{REPLACE_TAG}新名称") == "新名称"
+
+
 def test_merge_data_merges_raw_patch_over_vendor_without_changing(
     data_dir: Path,
 ) -> None:
@@ -102,6 +120,67 @@ def test_merge_data_ignores_empty_raw_values(data_dir: Path) -> None:
     merged = merge_data(raw, vendor)
 
     assert merged["main"]["bandagedsc"] == "带有敷料的绷带"
+
+
+def test_merge_data_replaces_text_with_replace_tag(data_dir: Path) -> None:
+    """带替换标记的条目应完整替代基准文本"""
+    vendor = load_json(data_dir / "vendor.json")
+    raw = {
+        "name": "维基中文",
+        "version": "v1.8.3",
+        "extend_description": "补充简介",
+        "main": {"bandagedsc": f"{REPLACE_TAG}全新描述"},
+    }
+
+    merged = merge_data(raw, vendor)
+
+    assert merged["main"]["bandagedsc"] == "全新描述"
+
+
+def test_merge_data_strips_replace_tag_for_new_keys(data_dir: Path) -> None:
+    """基准中不存在的键也必须去掉替换标记"""
+    vendor = load_json(data_dir / "vendor.json")
+    raw = {
+        "name": "维基中文",
+        "version": "v1.8.3",
+        "extend_description": "补充简介",
+        "main": {"newitemdsc": f"{REPLACE_TAG}新条目描述"},
+    }
+
+    merged = merge_data(raw, vendor)
+
+    assert merged["main"]["newitemdsc"] == "新条目描述"
+    assert REPLACE_TAG not in merged["main"]["newitemdsc"]
+
+
+def test_merge_data_prefers_description_over_extend_description(data_dir: Path) -> None:
+    """同时存在description与extend_description时, 前者优先"""
+    vendor = load_json(data_dir / "vendor.json")
+    raw = {
+        "name": "维基中文",
+        "version": "v1.8.3",
+        "description": "完全替换的简介",
+        "extend_description": "补充简介",
+    }
+
+    merged = merge_data(raw, vendor)
+
+    assert merged["description"] == "完全替换的简介"
+
+
+def test_merge_data_overrides_version_field(data_dir: Path) -> None:
+    """version_override应覆盖产物中的version字段"""
+    vendor = load_json(data_dir / "vendor.json")
+    raw = {
+        "name": "维基中文",
+        "version": "v1.8.3",
+        "extend_description": "补充简介",
+        "version_override": "1.8.3",
+    }
+
+    merged = merge_data(raw, vendor)
+
+    assert merged["version"] == "1.8.3"
 
 
 def test_parse_args_uses_default_paths(monkeypatch: pytest.MonkeyPatch) -> None:
