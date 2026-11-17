@@ -536,9 +536,9 @@ main:
     ┃集齐并携带围巾至最终地表
     ┃触发雇佣兵结局</color>
     <color=#FF69B4>┃注意：此物品和结局有关</color>
-  swapchipdsc: |-
+  capacitorchipdsc: |-
     <color=#ffaa00>┃雇佣兵剧情组件
-    ┃第4层｜普通模式每层25%
+    ┃第3层｜普通模式每层25%
     ┃雇佣兵模式必定生成
     ┃无单独使用效果</color>
     <color=#72d572>┃合成：与其余5枚芯片+围巾+电路板
@@ -546,9 +546,9 @@ main:
     ┃集齐并携带围巾至最终地表
     ┃触发雇佣兵结局</color>
     <color=#FF69B4>┃注意：此物品和结局有关</color>
-  capacitorchipdsc: |-
+  swapchipdsc: |-
     <color=#ffaa00>┃雇佣兵剧情组件
-    ┃第3层｜普通模式每层25%
+    ┃第4层｜普通模式每层25%
     ┃雇佣兵模式必定生成
     ┃无单独使用效果</color>
     <color=#72d572>┃合成：与其余5枚芯片+围巾+电路板
@@ -715,8 +715,7 @@ main:
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
   alcoholdsc: <color=#91a7ff>┃容重比：0.25u/100mL</color>
   exposedcoredsc: |-
-    !R!某种曾经具有生命之物留下的休眠残骸。你可以吃下它，以营养和水分的形式吸收其中能量。<color=#ff4444>若不及时食用，它会变化成某种东西...</color>
-    <color=#72d572>┃食用效果：
+    </color><color=#72d572>┃食用效果：
     ┃饥饿 +12
     ┃口渴 +15
     ┃体重 +0.34kg
@@ -890,10 +889,7 @@ main:
     ┃制作(16)：1十字镐+2钛棒+1塑料块+20mL生化流体+1(可捶打)</color>
     <color=orange>提示：满耐久约3300次，总方块伤害46万。本游戏最强挖掘工具之一</color>
   titaniummultitooldsc: |-
-    !R!一件小巧却极为坚固耐用的制作工具。顶端配有沉重锤头，握柄内藏有微小却锋利的刃片。并不适合用于挖掘或战斗，但在制作中经久耐用，几乎不会磨损，还很轻便。
-
-    <color=#ff4444>可在医疗面板中截除肢体。</color>
-    <color=#91a7ff>┃工具属性：
+    </color><color=#91a7ff>┃工具属性：
     ┃结构 25 ┃ 挖掘冷却 0.25秒
     ┃生物 20 ┃ 攻击冷却 0.77秒
     ┃范围 5 ┃ 体力消耗 0.6
@@ -902,10 +898,7 @@ main:
     ┃制作(16)：1钛板+1钛棒+1塑料块+20mL生化流体+1(可捶打)+1(可切割)</color>
     <color=orange>极轻(0.3u)，近乎无限使用</color>
   titaniummachetedsc: |-
-    !R!一把性能卓越且经久耐用的武器，挥动时既轻巧又顺手，同时又锋利致命。刀口经过高温处理，可长期保持锋利。它是出色的自卫武器，万不得已时也可作为挖掘工具使用。
-
-    <color=#ff4444>可在医疗面板中截除肢体。</color>
-    <color=#91a7ff>┃工具属性：
+    </color><color=#91a7ff>┃工具属性：
     ┃结构 50 ┃ 挖掘冷却 0.32秒
     ┃生物 80 ┃ 攻击冷却 0.62秒
     ┃范围 5.75 ┃ 体力消耗 0.7
@@ -937,10 +930,7 @@ main:
     ┃耐久消耗 0.33%</color>
     <color=orange>100%耐久可使用约300次，总地块伤害约14700</color>
   machetedsc: |-
-    !R!一把宽刃金属大刀，很适合近身搏斗。拿着它让你感到不安。
-
-    <color=#ff4444>可在医疗面板中截除肢体。</color>
-    <color=#91a7ff>┃工具属性：
+    </color><color=#91a7ff>┃工具属性：
     ┃结构 38 ┃ 挖掘冷却 0.35秒
     ┃生物 50 ┃ 攻击冷却 0.23秒
     ┃范围 5.75 ┃ 体力消耗 0.75
@@ -949,10 +939,7 @@ main:
     ┃制作(12)：1粗制菜刀+3废料板+30mL生化流体+1(可捶打)</color>
     <color=orange>制作简单，手感好，伤害可观——游戏中期性价比最高的近战武器之一。可用于割下动物尸体上的肉</color>
   crudecleaverdsc: |-
-    !R!一把简单拼接成的金属菜刀，刀刃直接钉在了刀柄上。制作时效果不错。拿着它让你感到不安。
-
-    <color=#ff4444>可在医疗面板中截除肢体。</color>
-    <color=#91a7ff>┃工具属性：
+    </color><color=#91a7ff>┃工具属性：
     ┃结构 20 ┃ 挖掘冷却 0.35秒
     ┃生物 25 ┃ 攻击冷却 0.81秒
     ┃范围 5 ┃ 体力消耗 0.5
@@ -961,10 +948,7 @@ main:
     ┃制作(9)：1木棍+2废料板+1钉子+1(可捶打)</color>
     <color=orange>早期优秀近战武器，制作简单便宜。可用于切砍等</color>
   sickledsc: |-
-    !R!一件带有弧形刀刃的金属工具，用于收割作物或清理植被。
-
-    <color=#ff4444>可在医疗面板中截除肢体。</color>
-    <color=#91a7ff>┃工具属性：
+    </color><color=#91a7ff>┃工具属性：
     ┃结构 35 ┃ 挖掘冷却 0.3秒
     ┃生物 40 ┃ 攻击冷却 0.79秒
     ┃范围 5.2 ┃ 体力消耗 0.7
@@ -985,10 +969,7 @@ main:
     ┃耐久消耗 0.24%</color>
     <color=#ffee58>┃获取：物资箱/交易</color>
   clawsdsc: |-
-    !R!它虽然看起来像个玩具，但却异常锋利坚固。拿着它时你觉得自己威风凛凛。
-
-    <color=#ff4444>可在医疗面板中截除肢体。</color>
-    <color=#91a7ff>┃工具属性：
+    </color><color=#91a7ff>┃工具属性：
     ┃结构 24 ┃ 挖掘冷却 0.15秒
     ┃生物 35 ┃ 攻击冷却 0.47秒
     ┃范围 5 ┃ 体力消耗 0.5
@@ -1743,10 +1724,7 @@ main:
   flexiglassdsc: <color=#ffee58>┃制作(9)：2塑料块+10mL生化流体+1(可切割)</color>
   bundleofwiresdsc: <color=#ffee58>┃制作(10)：1加工铜块+3塑料块=6电线捆</color>
   flimsyknifedsc: |-
-    !R!一把脆弱粗钝的小刀。用于基础制作，在战斗中几乎无用。
-
-    <color=#ff4444>可在医疗面板中截除肢体。</color>
-    <color=#91a7ff>┃工具属性：
+    </color><color=#91a7ff>┃工具属性：
     ┃结构 16 ┃ 挖掘冷却 0.2秒
     ┃生物 16 ┃ 攻击冷却 0.53秒
     ┃范围 5 ┃ 体力消耗 0.4
@@ -1908,24 +1886,24 @@ buildings:
     <color=#e84e40>┃最大血量：800</color>
     <color=#ffee58>┃破坏掉落：颗粒菇组织块x10 (70%)</color>
     <color=orange>可破坏获取大量颗粒菇组织块作为食物来源</color>
+  mushlightdsc: |-
+    <color=#e84e40>┃最大血量：40</color>
+    <color=#ffee58>┃破坏掉落：发光果×2(100%/95%)
+    ┃植物纤维×2(100%/25%┃耐久50%~100%)</color>
   mushroomdropperdsc: |-
     <color=#e84e40>┃最大血量：100</color>
     <color=orange>┃玩家或肢体进入下方40格：菌盖在0~0.6秒内脱落(50%立即)
     ┃支撑地块被移除时也会脱落
     ┃本体破坏无掉落</color>
-  mushroomropedsc: |-
-    <color=orange>┃可攀爬
-    ┃无法直接破坏</color>
   mushroomdropperpayloaddsc: |-
     <color=#e84e40>┃最大血量：100</color>
     <color=#91a7ff>┃高速砸中时：头部意识-80/护甲┃肌肉-碰撞速度×0.75/护甲
     ┃皮肤-碰撞速度/护甲┃出血+碰撞速度×0.0015L/分钟(受护甲减免)┃强制布娃娃┃碰撞后自身销毁</color>
     <color=orange>高速物品撞击时有50%概率提前脱落
     无掉落</color>
-  mushlightdsc: |-
-    <color=#e84e40>┃最大血量：40</color>
-    <color=#ffee58>┃破坏掉落：发光果×2(100%/95%)
-    ┃植物纤维×2(100%/25%┃耐久50%~100%)</color>
+  mushroomropedsc: |-
+    <color=orange>┃可攀爬
+    ┃无法直接破坏</color>
   drillpoddsc: |-
     <color=#e84e40>┃最大血量：10000</color>
     <color=#ffee58>┃破坏掉落：金属废料x6 (100%)、电路板x2 (100%)</color>
@@ -1974,6 +1952,13 @@ buildings:
     <color=#e84e40>┃最大血量：400</color>
     <color=#ffee58>┃破坏掉落：金属废料x2 (50%~100%)</color>
     <color=orange>可用于烹饪生肉。靠近取暖，但过久会受辐射</color>
+  macrofleshrebuilderdsc: |-
+    ┃无法直接破坏
+    <color=orange>┃终局实验室专用手术台，不是通用治疗设备
+    ┃仅在麻醉生效┃手术流程开放后可用
+    ┃用于进行取出体内货物的手术小游戏
+    </color>┃破坏后无掉落
+    <color=#FF69B4>┃注意：此物品和结局有关</color>
   shuttledoordsc: |-
     <color=#e84e40>┃最大血量：5000</color>
     <color=#ffee58>┃破坏掉落：无</color>
@@ -1982,13 +1967,6 @@ buildings:
     <color=#e84e40>┃最大血量：15000</color>
     <color=#ffee58>┃破坏掉落：无</color>
     <color=orange>剧情装置，无直接交互</color>
-  macrofleshrebuilderdsc: |-
-    ┃无法直接破坏
-    <color=orange>┃终局实验室专用手术台，不是通用治疗设备
-    ┃仅在麻醉生效┃手术流程开放后可用
-    ┃用于进行取出体内货物的手术小游戏
-    </color>┃破坏后无掉落
-    <color=#FF69B4>┃注意：此物品和结局有关</color>
   heatferndsc: |-
     <color=#e84e40>┃最大血量：100</color>
     <color=#ffee58>┃破坏掉落：植物纤维×2(100%/50%)┃热蕨孢囊×2(100%/50%)</color>
@@ -2020,6 +1998,16 @@ buildings:
     ┃无法直接破坏
     ┃交互打开控制台
     ┃可执行沙盒命令，按~打开或退出
+  techballdsc: |-
+    <color=#e84e40>┃最大血量：300</color>
+    <color=#ffee58>┃破坏掉落：纳米科技扫描仪(100%)</color>
+    <color=orange>┃生成条件：已通关生物舱或逃离结局（雇佣兵结局不算）
+    ┃仅第1层｜需有芯片｜非无尽模式
+    ┃在起始层下落到约123m深时触发，位于玩家正下方25格(7.5m)
+    ┃每局仅生成1个｜生成时会挖出半径6格空腔
+    ┃玩家靠近12格内解除冻结并随机弹跳（每0.25~1.75秒一次）
+    ┃碰撞无直接伤害，但相对速度>6会打滑≈1.4秒</color>
+    <color=#FF69B4>┃注意：此物品和结局有关</color>
   veindsc: |-
     <color=orange>┃可攀爬
     ┃无法直接破坏</color>
@@ -2051,34 +2039,116 @@ buildings:
     <color=#e84e40>┃最大血量：350┃体型值：1.66</color>
     ┃破坏后无掉落
 
-  crystalbig: "!R!大水晶"
   crystalmediumdsc: |
     <color=#e84e40>┃最大血量：150┃体型值：1.0</color>
     ┃破坏后无掉落
 
+  crystalenemydsc: |-
+    ┃它会和《雨世界》中的「面条蝇」一样，持续悬浮于头顶进行机会飞插攻击
+    ┃生命 450┃攻击造成肌肉 -35/护甲┃皮肤 -50/护甲┃疼痛 +35/护甲┃出血 +15/护甲
+    ┃当它插入于物块时，正是攻击的好时候！
+    ┃击败掉落「暴露的核心」
+    ┃食用效果：饥饿 +12┃口渴 +15┃体重 +0.34kg
+    ┃能量 +10┃咖啡因 +90┃兴奋剂倍率 +0.35┃心情 +1
   crystalmedium: "!R!中水晶"
+  crystalemp: |-
+    !R!<color=#808080>
+    <color=#808080>#####电磁脉冲###############</color>
+    ┃触发：身体触碰或任意攻击（仅一次）
+    ┃目标：玩家物品栏内所有电池/电器
+    ┃数值：电池物品耐久 -0.33
+    ┃实际扣电：小型约 66%┃中型约 33%┃大型约 11%
+    ┃注意：不影响场景中的炮塔/电器
+    <color=#ffa726>┃大小影响：仅视觉特效尺寸┃吸电效果不变</color></color>
   crystalmimic: |-
     !R!<color=#FFFFFF>
     #####恶怨寄宿###############
     ┃触发：身体触碰或任意攻击
     ┃数值：生成 1~2 只水晶敌人(显现体)
     ┃敌人：生命 450┃攻击造成肌肉 -35/护甲┃皮肤 -50/护甲┃疼痛 +35/护甲┃出血 +15/护甲</color>
+  crystalmetamorphic: |-
+    !R!<color=#FFFFFF>
+    #####造物###############
+    ┃触发：仅身体触碰
+    ┃机制：生命 ×10┃金属化┃触碰后生命归零
+    ┃数值：半径 2×体型 内掉落 1~3 个随机物品
+    ┃注意：攻击会导致不触发效果
+    <color=#ffa726>┃大小影响：掉落半径 2格×体型┃数量固定 1~3</color></color>
   crystalminidsc: |
     <color=#e84e40>┃最大血量：25┃体型值：0.33</color>
     <color=orange>┃体型值低于0.4，必定无效果
     </color>┃破坏后无掉落
 
-  crystalmini: "!R!迷你水晶"
-  crystalsmalldsc: |
-    <color=#e84e40>┃最大血量：50┃体型值：0.66</color>
-    ┃破坏后无掉落
-
-  crystalsmall: "!R!小水晶"
   crystalmassivedsc: |
     <color=#e84e40>┃最大血量：600┃体型值：3.0</color>
     ┃破坏后无掉落
 
   crystalmassive: "!R!巨大水晶"
+  crystalfragile: |-
+    !R!<color=#FFFFFF>
+    #####易碎###############
+    ┃触发：被物品或身体碰到
+    ┃数值：最大生命固定为 10；碰到后生命直接归零</color>
+  crystalgravity: |-
+    !R!<color=#FFFFFF>
+    #####引力异常###############
+    ┃触发：进入光环内
+    ┃数值：吸引/排斥随机；范围内+ 45/s 加速度
+    ┃范围：16格×体型
+    <color=#ffa726>┃大小影响：范围 16格×体型；力度固定 45，不随体型增强</color></color>
+  crystalirradiated: |-
+    !R!<color=#00FF00>
+    <color=#00FF00>#####辐射###############</color>
+    ┃触发：进入光环内
+    ┃数值：贴身时 1.2Gy×体型/s
+    ┃范围：距离≈ 3.33格内满强度，之后按平方反比衰减
+    <color=#ffa726>┃大小影响：+1.2Gy/s × 体型值</color></color>
+  crystalsmalldsc: |
+    <color=#e84e40>┃最大血量：50┃体型值：0.66</color>
+    ┃破坏后无掉落
+
+  crystalsmall: "!R!小水晶"
+  crystalunstable: |-
+    !R!<color=#FF0000>
+    <color=#FF0000>#####不稳定###############</color>
+    ┃触发：身体触碰或任意攻击
+    ┃计时：5s后爆炸
+    ┃范围：13.28/16/21.28/32格（小/中/大/巨大）
+    ┃伤害：结构660/1000/1660/3000┃骨折6.6%/10%/16.6%/30%
+    ┃其余：肌肉 0~30×体型┃脱臼/毁容 5%×体型┃击退 20×体型
+    <color=#ffa726>┃大小影响：范围=8×(体型+1)┃结构伤害/概率/肌肉/击退按体型倍率</color></color>
+  crystalshy: |-
+    !R!<color=#FFFFFF>
+    #####诡诈###############
+    ┃触发：身体触碰（仅一次）
+    ┃数值：半径 64格内第一个其他水晶
+    ┃机制：交换位置/旋转┃不交换效果</color>
+  crystalmini: "!R!迷你水晶"
+  crystalkinetic: |-
+    !R!<color=#FFFFFF>
+    #####弹射###############
+    ┃触发：身体触碰
+    ┃数值：速度 50┃不布娃娃┃落地减速系数 0.5┃冷却约 4 秒</color>
+  crystalseptic: |-
+    !R!<color=#BE7DFF>
+    <color=#BE7DFF>#####腐瘴###############</color>
+    ┃触发：进入半径 12格×体型
+    ┃数值：败血症 +0.5/s┃无直接伤害
+    <color=#ffa726>┃大小影响：范围 12格×体型┃速率固定 +0.5/s</color></color>
+  crystalbig: "!R!大水晶"
+  crystalburning: |-
+    !R!<color=#FF8000>
+    <color=#FF8000>#####灼燃###############</color>
+    ┃触发：身体触碰或徒手攻击
+    ┃数值：布娃娃┃最近肢体皮肤 -60┃肌肉 -5┃疼痛 +40
+    ┃体温 +0.2┃肾上腺素 +25
+    ┃水晶：生命先 -20 再 ×0.5┃冷却 0.75s
+    <color=#ffa726>┃大小影响：仅火焰/音效范围 10格×体型┃伤害固定</color></color>
+  crystaldripping: |-
+    !R!<color=#FFFFFF>
+    #####渗液###############
+    ┃触发：每1秒
+    ┃数值：生成 50%地下水 / 50%荧光藻┃持续生成液体，可积水</color>
   crystalblinding: |-
     !R!<color=#FFFFFF>
     <color=#FFFFFF>#####光幕###############</color>
@@ -2091,14 +2161,6 @@ buildings:
     ┃全身每条肢体：出血 -10┃肌肉 +25┃皮肤 +25┃感染 -40┃疼痛=0
     ┃心情 +2┃内出血×0.5┃败血×0.5┃患病×0.66┃中风×0.1┃体温=37┃辐射×0.75┃纤颤=0
     ┃差值：脑组织/血容量向100插值10%（补缺口10%）┃饥渴向125插值25%（补缺口25%）</color>
-  crystalburning: |-
-    !R!<color=#FF8000>
-    <color=#FF8000>#####灼燃###############</color>
-    ┃触发：身体触碰或徒手攻击
-    ┃数值：布娃娃┃最近肢体皮肤 -60┃肌肉 -5┃疼痛 +40
-    ┃体温 +0.2┃肾上腺素 +25
-    ┃水晶：生命先 -20 再 ×0.5┃冷却 0.75s
-    <color=#ffa726>┃大小影响：仅火焰/音效范围 10格×体型┃伤害固定</color></color>
   crystalelectric: |-
     !R!<color=#FFEB04>
     <color=#FFEB04>#####电涌###############</color>
@@ -2120,80 +2182,6 @@ buildings:
     ┃数值：目标温度随机 20~50°C┃插值强度 0.025~0.06
     ┃表现：水晶颜色冷青/热橙┃只影响玩家
     <color=#ffa726>┃大小影响：范围 10格×体型┃目标温度与插值强度不随体型</color></color>
-  crystalmetamorphic: |-
-    !R!<color=#FFFFFF>
-    #####造物###############
-    ┃触发：仅身体触碰
-    ┃机制：生命 ×10┃金属化┃触碰后生命归零
-    ┃数值：半径 2×体型 内掉落 1~3 个随机物品
-    ┃注意：攻击会导致不触发效果
-    <color=#ffa726>┃大小影响：掉落半径 2格×体型┃数量固定 1~3</color></color>
-  crystalkinetic: |-
-    !R!<color=#FFFFFF>
-    #####弹射###############
-    ┃触发：身体触碰
-    ┃数值：速度 50┃不布娃娃┃落地减速系数 0.5┃冷却约 4 秒</color>
-  crystalseptic: |-
-    !R!<color=#BE7DFF>
-    <color=#BE7DFF>#####腐瘴###############</color>
-    ┃触发：进入半径 12格×体型
-    ┃数值：败血症 +0.5/s┃无直接伤害
-    <color=#ffa726>┃大小影响：范围 12格×体型┃速率固定 +0.5/s</color></color>
-  crystalemp: |-
-    !R!<color=#808080>
-    <color=#808080>#####电磁脉冲###############</color>
-    ┃触发：身体触碰或任意攻击（仅一次）
-    ┃目标：玩家物品栏内所有电池/电器
-    ┃数值：电池物品耐久 -0.33
-    ┃实际扣电：小型约 66%┃中型约 33%┃大型约 11%
-    ┃注意：不影响场景中的炮塔/电器
-    <color=#ffa726>┃大小影响：仅视觉特效尺寸┃吸电效果不变</color></color>
-  crystalshy: |-
-    !R!<color=#FFFFFF>
-    #####诡诈###############
-    ┃触发：身体触碰（仅一次）
-    ┃数值：半径 64格内第一个其他水晶
-    ┃机制：交换位置/旋转┃不交换效果</color>
-  crystalfragile: |-
-    !R!<color=#FFFFFF>
-    #####易碎###############
-    ┃触发：被物品或身体碰到
-    ┃数值：最大生命固定为 10；碰到后生命直接归零</color>
-  crystalunstable: |-
-    !R!<color=#FF0000>
-    <color=#FF0000>#####不稳定###############</color>
-    ┃触发：身体触碰或任意攻击
-    ┃计时：5s后爆炸
-    ┃范围：13.28/16/21.28/32格（小/中/大/巨大）
-    ┃伤害：结构660/1000/1660/3000┃骨折6.6%/10%/16.6%/30%
-    ┃其余：肌肉 0~30×体型┃脱臼/毁容 5%×体型┃击退 20×体型
-    <color=#ffa726>┃大小影响：范围=8×(体型+1)┃结构伤害/概率/肌肉/击退按体型倍率</color></color>
-  crystalirradiated: |-
-    !R!<color=#00FF00>
-    <color=#00FF00>#####辐射###############</color>
-    ┃触发：进入光环内
-    ┃数值：贴身时 1.2Gy×体型/s
-    ┃范围：距离≈ 3.33格内满强度，之后按平方反比衰减
-    <color=#ffa726>┃大小影响：+1.2Gy/s × 体型值</color></color>
-  crystalgravity: |-
-    !R!<color=#FFFFFF>
-    #####引力异常###############
-    ┃触发：进入光环内
-    ┃数值：吸引/排斥随机；范围内+ 45/s 加速度
-    ┃范围：16格×体型
-    <color=#ffa726>┃大小影响：范围 16格×体型；力度固定 45，不随体型增强</color></color>
-  crystalenemydsc: |-
-    ┃它会和《雨世界》中的「面条蝇」一样，持续悬浮于头顶进行机会飞插攻击
-    ┃生命 450┃攻击造成肌肉 -35/护甲┃皮肤 -50/护甲┃疼痛 +35/护甲┃出血 +15/护甲
-    ┃当它插入于物块时，正是攻击的好时候！
-    ┃击败掉落「暴露的核心」
-    ┃食用效果：饥饿 +12┃口渴 +15┃体重 +0.34kg
-    ┃能量 +10┃咖啡因 +90┃兴奋剂倍率 +0.35┃心情 +1
-  crystaldripping: |-
-    !R!<color=#FFFFFF>
-    #####渗液###############
-    ┃触发：每1秒
-    ┃数值：生成 50%地下水 / 50%荧光藻┃持续生成液体，可积水</color>
   cactusdsc: |-
     <color=#e84e40>┃最大血量：100</color>
     <color=#ffee58>┃破坏掉落：仙人掌肉×2(60%)┃仙人掌肉×1(35%)</color>
@@ -2271,8 +2259,7 @@ buildings:
     <color=#ffee58>┃掉落：动物肉 (100%) | 血囊0-2 (80%)</color>
     <color=orange>会挖掘地形，多次咬伤出血叠加易致死，受伤至80血会逃跑</color>
   thornbackelderdsc: |-
-    !R!<color=#ff4444>快  逃！！！
-    目前游戏的BOSS。
+    </color>目前游戏的BOSS。
     咬中即截肢，体型巨大。</color>
     <color=#e84e40>┃生命 6000 | 视野 80格 | 仇恨 100%
     ┃攻击：截肢(触颌即断) | 头/躯干重骨折、大出血、致盲毁容 | 毁容后再被攻击即死
@@ -2281,16 +2268,6 @@ buildings:
     <color=orange>会挖掘任何地形并摧毁物品。可跳上背部用枪械造成双倍伤害(两碰撞箱命中)。
     炸药可能会被嘴部摧毁(吃掉)。被截肢后请速治疗并远离，它短暂休息后会再次进攻。
     击败后心情+30，体力和精力强化10分钟</color>
-  techballdsc: |-
-    <color=#e84e40>┃最大血量：300</color>
-    <color=#ffee58>┃破坏掉落：纳米科技扫描仪(100%)</color>
-    <color=orange>┃生成条件：已通关生物舱或逃离结局（雇佣兵结局不算）
-    ┃仅第1层｜需有芯片｜非无尽模式
-    ┃在起始层下落到约123m深时触发，位于玩家正下方25格(7.5m)
-    ┃每局仅生成1个｜生成时会挖出半径6格空腔
-    ┃玩家靠近12格内解除冻结并随机弹跳（每0.25~1.75秒一次）
-    ┃碰撞无直接伤害，但相对速度>6会打滑≈1.4秒</color>
-    <color=#FF69B4>┃注意：此物品和结局有关</color>
   cavetickdsc: |-
     深砾石地层的群居小型虫，接触后成16只围攻。
     <color=#e84e40>┃生命 15 | 攻速 0.5秒 | 视野 25格 | 仇恨 100%
@@ -2356,7 +2333,6 @@ buildings:
     ┃冷却约15秒。本身不致命但可能将你抛向更危险的陷阱</color>
     <color=#ffee58>┃破坏掉落：
     ┃金属废料x1-2 (50%)、金属废料 (25%)、电路板 (50%)</color>
-  jumppad: "!R!弹跳板"
   guarddsc: |-
     <color=#e84e40>┃最大血量：450</color>
     <color=#ffee58>┃击杀掉落：手枪(剩余弹药)；弹药耗尽时额外掉落手枪弹匣┃25%概率掉落随机医疗/弹药</color>
@@ -2365,6 +2341,7 @@ buildings:
     ┃近战会击倒玩家并造成电击</color>
     <color=#FF69B4>┃注意：此物品和结局有关</color>
   guard: "!R!守卫"
+  jumppad: "!R!弹跳板"
   landminedsc: |-
     <color=#e84e40>┃最大血量：100</color>
     <color=#91a7ff>┃踩中激活后0.8秒延迟爆炸
@@ -2459,8 +2436,7 @@ buildings:
     ┃植物纤维x1-2 (20%)</color>
     <color=orange>“发光玫瑰荚”在沙漠中是重要的发光源，使用可发出闪亮的光芒</color>
   scrapeaterdsc: |-
-    !R!上面贴着“投入金属废料以开启”的标签，旁边的小屏幕显示<color=#ffffff>“<>%”。</color>
-    <color=#e84e40>┃最大血量：1000</color>
+    </color><color=#e84e40>┃最大血量：1000</color>
     <color=#ffee58>┃破坏掉落：金属废料x2 (100%)</color>
     <color=orange>投入累计150%废料可开启相邻加固门。
     超量投入会浪费；若门已缺失则无效。
@@ -2484,7 +2460,6 @@ buildings:
     <color=#ffee58>┃破坏掉落：金属废料1~3(50%)┃电路板(35%)</color>
     <color=orange>投掷物品可提前触发
     激活后永久失效</color>
-  spikestabber: "!R!穿刺陷阱"
   sidestabberdsc: |-
     <color=#e84e40>┃最大血量：400</color>
     <color=#91a7ff>┃触发：动态物体进入感应区
@@ -2501,6 +2476,7 @@ buildings:
     ┃触发后永久失效</color>
     <color=#ffee58>┃破坏掉落：菌类块×3(均100%┃耐久20%~100%)</color>
     <color=orange>可投掷物品提前触发</color>
+  spikestabber: "!R!穿刺陷阱"
   spikestabberdscused: |-
     <color=orange>即使从高处砸在它上面也不会有事
     不会进行二次充能，它已完全废弃</color>
@@ -2535,16 +2511,16 @@ buildings:
     <color=#e84e40>┃最大血量：500</color>
     <color=orange>与钟乳石不同，石笋是安全的地面装饰物，不会造成伤害。
     即使你从高处掉在它上面，跟掉在普通地板没什么两样</color>
-  stalagmitedarkdsc: |
-    <color=#e84e40>┃最大血量：1000</color>
-    <color=orange>┃安全装饰，不造成伤害
-    </color>┃破坏后无掉落
-
   lavalampdsc: |-
     <color=#e84e40>┃最大血量：250</color>
     <color=#ffee58>┃破坏掉落：干燥植物纤维×2(100%/50%)</color>
     <color=orange>┃8格内每0.5秒向44°C插值1%
     ┃只影响玩家</color>
+  stalagmitedarkdsc: |
+    <color=#e84e40>┃最大血量：1000</color>
+    <color=orange>┃安全装饰，不造成伤害
+    </color>┃破坏后无掉落
+
   icestalagmitedsc: |-
     <color=#e84e40>┃最大血量：400</color>
     <color=orange>与冰锥不同，冰笋是安全的地面装饰物，不会造成伤害。
@@ -2967,9 +2943,9 @@ moodles:
     <color=#888888>┃<88：心室颤动风险上升</color>
     <color=#3CCBE7>┃治疗:注射 <color=#3CCC78>血管加压素</color>┃补液/输血</color>
   hypotension1: (<110/73)
-  hypotension4: (<60/40)
-  hypotension3: (<83/55)
   hypotension2: (<96/63)
+  hypotension3: (<83/55)
+  hypotension4: (<60/40)
   hypotension2dsc: |-
     <color=#ffaa00>血压 <96/63</color>
     <color=#888888>┃<88：心室颤动风险上升</color>
@@ -2988,9 +2964,9 @@ moodles:
     <color=#888888>┃无直接伤害；>145开始头痛</color>
     <color=#3CCBE7>┃治疗:处理病因｜必要时注射 <color=#3CCC78>硝普钠</color></color>
   hypertension1: (>130/86)
-  hypertension4: (>180/119)
-  hypertension3: (>162/107)
   hypertension2: (>145/96)
+  hypertension3: (>162/107)
+  hypertension4: (>180/119)
   hypertension2dsc: |-
     <color=#ffaa00>血压 >145/96</color>
     <color=#888888>┃头部疼痛最高50</color>
@@ -3232,7 +3208,6 @@ moodles:
     ┃攻击时：疼痛+3</color>
     <color=#3CCBE7>┃治疗:使用 <color=#3CCC78>塑料绷带</color>
     ┃<color=#3CCC78>骨骼焊接器</color>加速愈合</color>
-  brokenribs: (胸腔骨折)
   bentprosthesisdsc: |-
     <color=#ff4444>┃假肢脱臼</color>
     <color=#888888>┃假肢不会疼痛┃流血┃感染
@@ -3248,6 +3223,15 @@ moodles:
     ┃护甲：钢1.20｜木0.90｜操作增强1.60
     ┃力量：钢1.00｜木0.45｜操作增强1.25</color>
     <color=#3CCBE7>┃修复:钢=<color=#3CCC78>废料</color>｜木=<color=#3CCC78>木料</color>｜操作增强=<color=#3CCC78>钛材</color></color>
+  loosescrewsdsc: |-
+    <color=#888888>┃松动声本身不造成任何伤害
+    ┃无疼痛┃感染┃流血</color>
+    <color=#ff4444>┃移动会持续磨损：耐久 -0.66/s</color>
+    <color=#888888>┃假肢耐久=肌肉健康，归零则整条肢体脱落</color>
+    <color=#3CCBE7>┃治疗:破片用扳手或徒手取出(无疼痛)
+    ┃骨折用 <color=#3CCC78>对应材料</color>对准受损部位修复
+    ┃钢=废料｜木=木料｜增强=钛材</color>
+  brokenribs: (胸腔骨折)
   dislocatedjawdsc: |-
     <color=#ffaa00>头部脱位</color>
     <color=#888888>┃语言障碍
@@ -3284,14 +3268,6 @@ moodles:
     <color=#888888>┃血压目标 -0.4/点</color>
     <color=#3CCBE7>┃治疗:使用 <color=#3CCC78>抗生素</color> 控制感染源
     ┃消毒/清创受感染肢体</color>
-  loosescrewsdsc: |-
-    <color=#888888>┃松动声本身不造成任何伤害
-    ┃无疼痛┃感染┃流血</color>
-    <color=#ff4444>┃移动会持续磨损：耐久 -0.66/s</color>
-    <color=#888888>┃假肢耐久=肌肉健康，归零则整条肢体脱落</color>
-    <color=#3CCBE7>┃治疗:破片用扳手或徒手取出(无疼痛)
-    ┃骨折用 <color=#3CCC78>对应材料</color>对准受损部位修复
-    ┃钢=废料｜木=木料｜增强=钛材</color>
   sepsis2dsc: |-
     <color=#ffaa00>感染性休克 >50%</color>
     <color=#ff4444>┃>75%：进入濒死判定</color>
@@ -3606,17 +3582,11 @@ moodles:
     <color=#888888>┃每秒 +0.066｜睡眠时暂停</color>
     <color=#3CCBE7>┃解除:找到 <color=#3CCC78>货物</color>并嵌入后归零并免疫</color>
     <color=#FF69B4>┃注意：此效果和结局有关</color>
-  barotrauma1: (>0)
-  barotrauma4: (>100)
-  barotrauma3: (>65)
-  barotrauma2: (>30)
-  barotrauma4dsc: |-
-    <color=#ff4444>气压伤害 >100
-    ┃胸腔肌肉 每秒-0.33
-    ┃胸腔肌肉低于4：胸腔损毁
-    ┃同时承受高于65的听力/疼痛伤害
-    ┃第9层连续升至100：25分16秒</color>
-    <color=#3CCBE7>┃无药物可治｜找到 <color=#3CCC78>货物</color>并嵌入后归零并免疫</color>
+  barotrauma2dsc: |-
+    <color=#ffaa00>气压伤害 >30</color>
+    <color=#888888>┃30~65 无额外伤害｜>50 图标闪烁
+    ┃第9层连续升至30：7分35秒</color>
+    <color=#3CCBE7>┃无药物可治｜找到 <color=#3CCC78>货物</color>并嵌入后归零</color>
     <color=#FF69B4>┃注意：此效果和结局有关</color>
   barotrauma3dsc: |-
     <color=#ff4444>气压伤害 >65</color>
@@ -3625,12 +3595,18 @@ moodles:
     ┃第9层连续升至65：16分25秒</color>
     <color=#3CCBE7>┃无药物可治｜找到 <color=#3CCC78>货物</color>并嵌入后归零</color>
     <color=#FF69B4>┃注意：此效果和结局有关</color>
-  barotrauma2dsc: |-
-    <color=#ffaa00>气压伤害 >30</color>
-    <color=#888888>┃30~65 无额外伤害｜>50 图标闪烁
-    ┃第9层连续升至30：7分35秒</color>
-    <color=#3CCBE7>┃无药物可治｜找到 <color=#3CCC78>货物</color>并嵌入后归零</color>
+  barotrauma4dsc: |-
+    <color=#ff4444>气压伤害 >100
+    ┃胸腔肌肉 每秒-0.33
+    ┃胸腔肌肉低于4：胸腔损毁
+    ┃同时承受高于65的听力/疼痛伤害
+    ┃第9层连续升至100：25分16秒</color>
+    <color=#3CCBE7>┃无药物可治｜找到 <color=#3CCC78>货物</color>并嵌入后归零并免疫</color>
     <color=#FF69B4>┃注意：此效果和结局有关</color>
+  barotrauma1: (>0)
+  barotrauma2: (>30)
+  barotrauma3: (>65)
+  barotrauma4: (>100)
   trauma2dsc: |-
     <color=#ffaa00>创伤 >25%</color>
     <color=#888888>┃情绪 -0.525/点</color>
@@ -3891,13 +3867,13 @@ moodles:
     <color=#888888>┃恐惧值替换为专注值100
     ┃离开>45格：专注 -20/s</color>
     <color=#3CCBE7>┃解除:离开范围｜击杀长老</color>
+  focused: (<45格｜非阶段1)
   focuseddscalt: |-
     </i>
     <color=#ffaa00>距离<45格且非阶段1（<3750血）</color>
     <color=#888888>┃恐惧值替换为专注值100
     ┃离开>45格：专注 -20/s</color>
     <color=#3CCBE7>┃解除:离开范围｜击杀长老</color>
-  focused: (<45格｜非阶段1)
 other:
   runsetunchippeddsc: |-
     不建议新手开启。
@@ -3942,65 +3918,20 @@ other:
   layermodifier0dsc: |-
     <color=#A5A5A5>雾浓度100%｜灰雾覆盖全屏</color>
     仅遮挡视线
-  layermodifier0: "!R!<color=#A5A5A5>多雾</color>"
-  layermodifier10: "!R!<color=#FF5600>耀斑侵袭</color>"
-  layermodifier9: "!R!<color=#5E5C5C>辐射污染</color>"
-  layermodifier8: "!R!<color=#D24762>虫害</color>"
-  layermodifier18: "!R!<color=#CFCFCF>矿物富集</color>"
-  layermodifier7: "!R!<color=#8FBDFF>多雨</color>"
-  layermodifier17: "!R!<color=#FFCED1>可怖</color>"
-  layermodifier6: "!R!<color=#FFF98F>干涸</color>"
-  layermodifier16: "!R!<color=#FF99D1>秀丽</color>"
-  layermodifier5: "!R!<color=#16CCFF>积水</color>"
-  layermodifier15: "!R!<color=#A37244>地质稳定</color>"
-  layermodifier4: "!R!<color=#C9CAFF>严寒</color>"
-  layermodifier14: "!R!<color=#A360FF>抗菌</color>"
-  layermodifier3: "!R!<color=#AFFFFC>寒冷</color>"
-  layermodifier13: "!R!<color=#A2D1FF>富氧</color>"
-  layermodifier2: "!R!<color=#FF232B>酷热</color>"
-  layermodifier12: "!R!<color=#CED1FF>光亮</color>"
-  layermodifier1: "!R!<color=#FF652B>炎热</color>"
-  layermodifier11: "!R!<color=#CD00FF>失重</color>"
-  layermodifier9dsc: |-
-    <color=#5E5C5C>辐射桶密度1.2~1.3/区块</color>
-    抗辐射药0.25~0.3/区块
-    均只生成在玩家下方
   layermodifier10dsc: |-
     <color=#FF5600>进入无芯片模式｜隐藏HUD与深度计</color>
     启用视线遮挡
   layermodifier1dsc: |-
     <color=#FF652B>环境温度修正+4°C</color>
     整层持续，离开后恢复
-  layermodifier18dsc: |-
-    <color=#CFCFCF>追加2轮矿物生成</color>
-    每轮强制生成钛
-  layermodifier8dsc: |-
-    <color=#D24762>生成密度1.7~1.8/区块</color>
-    暗影爬行者只生成在玩家下方
-  layermodifier17dsc: |-
-    <color=#FFCED1>进入时心情-7.5（一次性）</color>
-    整层心情 -10 常驻（离开后清零）
-  layermodifier7dsc: |-
-    <color=#8FBDFF>按当地雨强降雨｜淋湿向当地雨强×100</color>
-    自动冲洗污垢｜雾浓度80%
-    第9层加速岩浆冷却
-  layermodifier16dsc: |-
-    <color=#FF99D1>进入时心情+15（一次性）</color>
-    整层心情 +10 常驻（离开后清零）
-  layermodifier6dsc: |-
-    <color=#FFF98F>进入时抽干全层液体</color>
-    沙丘种不触发
-  layermodifier15dsc: |-
-    <color=#A37244>关闭地震判定</color>
-    整层不会发生地震
-  layermodifier5dsc: |-
-    <color=#16CCFF>每区块25次注水｜每次≤600</color>
-    第9层不生成
-  layermodifier14dsc: |-
-    <color=#A360FF>感染概率×0.2（-80%）</color>
-    伤口每40秒判定一次
-  layermodifier4dsc: |-
-    <color=#C9CAFF>环境温度修正-10°C</color>
+  layermodifier11dsc: |-
+    <color=#CD00FF>重力30~45｜正常55</color>
+    跳跃更高｜下落更慢
+  layermodifier12dsc: |-
+    <color=#CED1FF>特殊光源随视角移动</color>
+    提供额外照明
+  layermodifier2dsc: |-
+    <color=#FF232B>环境温度修正+8°C</color>
     整层持续，离开后恢复
   layermodifier13dsc: |-
     <color=#A2D1FF>体力恢复×2</color>
@@ -4008,15 +3939,60 @@ other:
   layermodifier3dsc: |-
     <color=#AFFFFC>环境温度修正-4°C</color>
     整层持续，离开后恢复
-  layermodifier12dsc: |-
-    <color=#CED1FF>特殊光源随视角移动</color>
-    提供额外照明
-  layermodifier2dsc: |-
-    <color=#FF232B>环境温度修正+8°C</color>
+  layermodifier14dsc: |-
+    <color=#A360FF>感染概率×0.2（-80%）</color>
+    伤口每40秒判定一次
+  layermodifier4dsc: |-
+    <color=#C9CAFF>环境温度修正-10°C</color>
     整层持续，离开后恢复
-  layermodifier11dsc: |-
-    <color=#CD00FF>重力30~45｜正常55</color>
-    跳跃更高｜下落更慢
+  layermodifier15dsc: |-
+    <color=#A37244>关闭地震判定</color>
+    整层不会发生地震
+  layermodifier5dsc: |-
+    <color=#16CCFF>每区块25次注水｜每次≤600</color>
+    第9层不生成
+  layermodifier16dsc: |-
+    <color=#FF99D1>进入时心情+15（一次性）</color>
+    整层心情 +10 常驻（离开后清零）
+  layermodifier6dsc: |-
+    <color=#FFF98F>进入时抽干全层液体</color>
+    沙丘种不触发
+  layermodifier17dsc: |-
+    <color=#FFCED1>进入时心情-7.5（一次性）</color>
+    整层心情 -10 常驻（离开后清零）
+  layermodifier7dsc: |-
+    <color=#8FBDFF>按当地雨强降雨｜淋湿向当地雨强×100</color>
+    自动冲洗污垢｜雾浓度80%
+    第9层加速岩浆冷却
+  layermodifier18dsc: |-
+    <color=#CFCFCF>追加2轮矿物生成</color>
+    每轮强制生成钛
+  layermodifier8dsc: |-
+    <color=#D24762>生成密度1.7~1.8/区块</color>
+    暗影爬行者只生成在玩家下方
+  layermodifier9dsc: |-
+    <color=#5E5C5C>辐射桶密度1.2~1.3/区块</color>
+    抗辐射药0.25~0.3/区块
+    均只生成在玩家下方
+  layermodifier0: "!R!<color=#A5A5A5>多雾</color>"
+  layermodifier2: "!R!<color=#FF232B>酷热</color>"
+  layermodifier12: "!R!<color=#CED1FF>光亮</color>"
+  layermodifier1: "!R!<color=#FF652B>炎热</color>"
+  layermodifier11: "!R!<color=#CD00FF>失重</color>"
+  layermodifier3: "!R!<color=#AFFFFC>寒冷</color>"
+  layermodifier13: "!R!<color=#A2D1FF>富氧</color>"
+  layermodifier4: "!R!<color=#C9CAFF>严寒</color>"
+  layermodifier14: "!R!<color=#A360FF>抗菌</color>"
+  layermodifier5: "!R!<color=#16CCFF>积水</color>"
+  layermodifier15: "!R!<color=#A37244>地质稳定</color>"
+  layermodifier6: "!R!<color=#FFF98F>干涸</color>"
+  layermodifier16: "!R!<color=#FF99D1>秀丽</color>"
+  layermodifier7: "!R!<color=#8FBDFF>多雨</color>"
+  layermodifier17: "!R!<color=#FFCED1>可怖</color>"
+  layermodifier8: "!R!<color=#D24762>虫害</color>"
+  layermodifier18: "!R!<color=#CFCFCF>矿物富集</color>"
+  layermodifier9: "!R!<color=#5E5C5C>辐射污染</color>"
+  layermodifier10: "!R!<color=#FF5600>耀斑侵袭</color>"
   urine: ？
   urinedsc: ┃饮用(每100mL)：口渴 +7┃心情 -2.5┃患病 +7.5┃体温 -0.3°C
   unarmed: "!R!空物品"
@@ -4143,18 +4119,18 @@ other:
     <color=#91a7ff>┃第n次波动±(25÷n)：±25｜±12.5｜±8.3…
     ┃期望为0，前两次风险最大</color>
     <color=#72d572>┃最终结果为增加好感且次数<8：智力经验+2.5</color>
-  hugdsc: |-
-    <color=#91a7ff>┃需好感≥100且肮脏≤50</color>
-    <color=#72d572>┃成功：好感+5｜心情+2.5</color>
-    <color=#ff4444>┃失败：好感-8｜心情-2.5｜被推倒
-    ┃失败后好感<30则立刻敌对</color>
-    <color=orange>┃牛奶角色心情>-50时会直接拒绝</color>
   haggledunedsc: |-
     <color=#ffa726>┃肌肉-25~40｜皮肤-12~20｜出血+6~12
     ┃疼痛+37~55｜肾上腺素+40</color>
     <color=#72d572>┃好感+20~28｜额度+6~10
     ┃假肢部位上述收益×0.4</color>
     <color=#91a7ff>┃额度满60后不能再咬</color>
+  hugdsc: |-
+    <color=#91a7ff>┃需好感≥100且肮脏≤50</color>
+    <color=#72d572>┃成功：好感+5｜心情+2.5</color>
+    <color=#ff4444>┃失败：好感-8｜心情-2.5｜被推倒
+    ┃失败后好感<30则立刻敌对</color>
+    <color=orange>┃牛奶角色心情>-50时会直接拒绝</color>
   antivenomdsc: |-
     <color=#72d572>┃饮用(每100mL)：患病 +24
     ┃注射(每mL)：总毒液 -1.2
@@ -4467,27 +4443,27 @@ other:
     ┃水晶效果颜色参考：
     <color=#00FF00>辐射</color><color=#AAAAAA>┃</color><color=#FFEB04>电涌</color><color=#AAAAAA>┃</color><color=#FF8000>灼燃</color><color=#AAAAAA>┃</color><color=#00FFFF>温度(冷)</color><color=#AAAAAA>┃</color><color=#FF8400>温度(热)</color><color=#AAAAAA>┃</color><color=#BE7DFF>腐瘴</color><color=#AAAAAA>┃</color><color=#FF0000>不稳定</color><color=#AAAAAA>┃</color><color=#FFFFFF>光幕</color><color=#AAAAAA>┃</color><color=#808080>电磁脉冲</color><color=#AAAAAA>┃</color><color=#DBFF59>治愈</color><color=#AAAAAA>
     </color>
+  crystaleffect2: |-
+    !R!
+    你可以凑近仔细检查。你能隐约察觉到它身上有些古怪。
+    <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
+    <color=#ffa726>┃此水晶拥有2种效果┃该数量26.6%概率</color>
+  crystaleffect3: |-
+    !R!
+    你可以凑近仔细检查。一股能量波动正从它身上散发出来。你注意到它周围有多处异样。
+    <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
+    <color=#ffa726>┃此水晶拥有3种效果┃该数量16.5%概率</color>
+  crystaleffect4: |-
+    !R!
+    你可以凑近仔细检查。它散发着强烈的能量波动。你甚至感觉它周围的空间在扭曲。
+    <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
+    <color=#ffa726>┃此水晶拥有4种效果┃该数量9.43%概率</color>
   crystaleffectmany: |-
     !R!
     你可以凑近仔细检查。它有什么地方非常不对劲。你也许不应该靠近它...或者，你应该过去看看？
     <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
     <color=#ffa726>┃此水晶拥有5+种效果
     </color><color=#ff4444>┃极度罕见的水晶！</color>
-  crystaleffect4: |-
-    !R!
-    你可以凑近仔细检查。它散发着强烈的能量波动。你甚至感觉它周围的空间在扭曲。
-    <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
-    <color=#ffa726>┃此水晶拥有4种效果┃该数量9.43%概率</color>
-  crystaleffect3: |-
-    !R!
-    你可以凑近仔细检查。一股能量波动正从它身上散发出来。你注意到它周围有多处异样。
-    <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
-    <color=#ffa726>┃此水晶拥有3种效果┃该数量16.5%概率</color>
-  crystaleffect2: |-
-    !R!
-    你可以凑近仔细检查。你能隐约察觉到它身上有些古怪。
-    <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
-    <color=#ffa726>┃此水晶拥有2种效果┃该数量26.6%概率</color>
   gamesetautocolorfavourite: 自动为收藏物品标色
   gamesetautocolorfavouritedsc: 如果开启，收藏的物品会自动标为黄色，这类似于演示版中的机制。
   gamesetmastervolumedsc: 游戏所有音量总称
