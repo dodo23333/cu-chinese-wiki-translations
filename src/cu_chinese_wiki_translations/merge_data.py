@@ -1,7 +1,5 @@
 """合并基准翻译和中间文件"""
 
-from __future__ import annotations
-
 import json
 from argparse import ArgumentParser, Namespace
 from copy import deepcopy
@@ -21,13 +19,7 @@ RAW_YAML = Path("wiki-patch.yaml")
 OUTPUT_JSON = Path("wiki-translations-official.json")
 
 # 元数据键：不参与正文合并，由 merge_data 单独处理
-METADATA_KEYS = {
-    "name",
-    "version",
-    "extend_description",
-    "description",
-    "version_override",
-}
+METADATA_KEYS = {"name", "version", "extend_description", "description"}
 
 # 值以该前缀开头时，表示「整体替换基准文本」而非追加
 REPLACE_TAG = "!R!"
@@ -100,15 +92,14 @@ def merge_data(raw: dict, vendor: dict) -> MutableMapping:
 
     merged["name"] = raw["name"] + raw["version"]
 
+    # version：去掉补丁版本号的前缀 v，作为产物的 version 字段
+    merged["version"] = str(raw["version"]).removeprefix("v")
+
     # description：优先整体替换，其次追加 extend_description
     if raw.get("description"):
         merged["description"] = raw["description"]
     elif raw.get("extend_description"):
         merged["description"] = merged.get("description", "") + "\n" + raw["extend_description"]
-
-    # version 字段覆盖
-    if raw.get("version_override"):
-        merged["version"] = str(raw["version_override"])
 
     return merged
 

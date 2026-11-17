@@ -1,7 +1,5 @@
 """合并功能的单元测试"""
 
-from __future__ import annotations
-
 import json
 from copy import deepcopy
 from pathlib import Path
@@ -99,6 +97,7 @@ def test_merge_data_merges_raw_patch_over_vendor_without_changing(
     assert merge_data(raw, vendor) == {
         "name": "维基中文v1.8.3",
         "description": "官方简介\n补充简介",
+        "version": "1.8.3",
         "main": {
             "bandage": "绷带",
             "bandagedsc": "带有敷料的绷带\n可治疗伤势",
@@ -168,14 +167,13 @@ def test_merge_data_prefers_description_over_extend_description(data_dir: Path) 
     assert merged["description"] == "完全替换的简介"
 
 
-def test_merge_data_overrides_version_field(data_dir: Path) -> None:
-    """version_override应覆盖产物中的version字段"""
+def test_merge_data_derives_version_from_patch_version(data_dir: Path) -> None:
+    """产物version字段应取自补丁版本号并去掉v前缀"""
     vendor = load_json(data_dir / "vendor.json")
     raw = {
         "name": "维基中文",
         "version": "v1.8.3",
         "extend_description": "补充简介",
-        "version_override": "1.8.3",
     }
 
     merged = merge_data(raw, vendor)
@@ -243,6 +241,7 @@ def test_main_writes_merged_json(
     assert json.loads(output_path.read_text(encoding="utf-8")) == {
         "name": "维基中文v1.8.3",
         "description": "官方简介\n补充简介",
+        "version": "1.8.3",
         "main": {
             "bandage": "绷带",
             "bandagedsc": "带有敷料的绷带\n可治疗伤势",
