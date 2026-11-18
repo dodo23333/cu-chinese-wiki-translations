@@ -1473,9 +1473,9 @@ main:
     ┃制作(9)：2废料管+10mL生化流体+1(可捶打)</color>
   bruisekitdsc: |-
     <color=#72d572>┃每一圈(共10圈)：
-    <color=#72d572>┃外敷：
+    ┃外敷：
     ┃皮肤 +10
-    ┃肌肉 +14(14秒内生效)</color>
+    ┃肌肉 +14(14秒内生效)
     ┃脱臼 -8%
     ┃疼痛 -8</color>
     <color=#ffa726>┃消耗 10% 耐久</color>
@@ -2076,101 +2076,110 @@ buildings:
     ┃击败掉落「暴露的核心」
     ┃食用效果：饥饿 +12┃口渴 +15┃体重 +0.34kg
     ┃能量 +10┃咖啡因 +90┃兴奋剂倍率 +0.35┃心情 +1
-  crystalirradiated: |-
-
-    <color=#00FF00>┃触发：进入光环内
+  crystalirradiated: !replace |-
+    <color=#00FF00>#####辐射###############
+    ┃触发：进入光环内
     ┃数值：贴身时 1.2Gy×体型/s
     ┃范围：距离≈ 3.33格内满强度，之后按平方反比衰减
     <color=#ffa726>┃大小影响：+1.2Gy/s × 体型值</color></color>
-  crystalfragile: |-
-
-    <color=#FFFFFF>┃触发：被物品或身体碰到
+  crystalfragile: !replace |-
+    <color=#FFFFFF>
+    #####易碎###############
+    ┃触发：被物品或身体碰到
     ┃数值：最大生命固定为 10；碰到后生命直接归零</color>
-  crystalgravity: |-
-
-    <color=#FFFFFF>┃触发：进入光环内
+  crystalgravity: !replace |-
+    <color=#FFFFFF>
+    #####引力异常###############
+    ┃触发：进入光环内
     ┃数值：吸引/排斥随机；范围内+ 45/s 加速度
     ┃范围：16格×体型
     <color=#ffa726>┃大小影响：范围 16格×体型；力度固定 45，不随体型增强</color></color>
-  crystalelectric: |-
-
-    <color=#FFEB04>┃触发：身体触碰或徒手攻击
+  crystalelectric: !replace |-
+    <color=#FFEB04>#####电涌###############
+    ┃触发：身体触碰或徒手攻击
     ┃数值：触发布娃娃┃全肢体肌肉 -0~25┃皮肤 -0~15┃疼痛=100
     ┃意识 -70┃休克 +40┃呼吸频率=0┃肾上腺素=50┃纤颤=0
     ┃冷却：30 秒
     ┃注意：只造成电击，不给电池/电器充电</color>
-  crystalburning: |-
-
-    <color=#FF8000>┃触发：身体触碰或徒手攻击
+  crystalburning: !replace |-
+    <color=#FF8000>#####灼燃###############
+    ┃触发：身体触碰或徒手攻击
     ┃数值：布娃娃┃最近肢体皮肤 -60┃肌肉 -5┃疼痛 +40
     ┃体温 +0.2┃肾上腺素 +25
     ┃水晶：生命先 -20 再 ×0.5┃冷却 0.75s
     <color=#ffa726>┃大小影响：仅火焰/音效范围 10格×体型┃伤害固定</color></color>
-  crystaltemperature: |-
-
-    <color=#FFFFFF>┃触发：半径 10格×体型┃0.5s/次
+  crystaltemperature: !replace |-
+    <color=#FFFFFF>
+    #####温度异常###############
+    ┃触发：半径 10格×体型┃0.5s/次
     ┃数值：目标温度随机 20~50°C┃插值强度 0.025~0.06
     ┃表现：水晶颜色冷青/热橙┃只影响玩家
     <color=#ffa726>┃大小影响：范围 10格×体型┃目标温度与插值强度不随体型</color></color>
-  crystalseptic: |-
-
-    <color=#BE7DFF>┃触发：进入半径 12格×体型
+  crystalseptic: !replace |-
+    <color=#BE7DFF>#####腐瘴###############
+    ┃触发：进入半径 12格×体型
     ┃数值：败血症 +0.5/s┃无直接伤害
     <color=#ffa726>┃大小影响：范围 12格×体型┃速率固定 +0.5/s</color></color>
-  crystalunstable: |-
-
-    <color=#FF0000>┃触发：身体触碰或任意攻击
+  crystalunstable: !replace |-
+    <color=#FF0000>#####不稳定###############
+    ┃触发：身体触碰或任意攻击
     ┃计时：5s后爆炸
     ┃范围：13.28/16/21.28/32格（小/中/大/巨大）
     ┃伤害：结构660/1000/1660/3000┃骨折6.6%/10%/16.6%/30%
     ┃其余：肌肉 0~30×体型┃脱臼/毁容 5%×体型┃击退 20×体型
     <color=#ffa726>┃大小影响：范围=8×(体型+1)┃结构伤害/概率/肌肉/击退按体型倍率</color></color>
-  crystalmimic: |-
-
-    <color=#FFFFFF>┃触发：身体触碰或任意攻击
+  crystalmimic: !replace |-
+    <color=#FFFFFF>
+    #####恶怨寄宿###############
+    ┃触发：身体触碰或任意攻击
     ┃数值：生成 1~2 只水晶敌人(显现体)
     ┃敌人：生命 450┃攻击造成肌肉 -35/护甲┃皮肤 -50/护甲┃疼痛 +35/护甲┃出血 +15/护甲</color>
-  crystalteleport: |-
-
-    <color=#FFFFFF>┃触发：身体触碰
+  crystalteleport: !replace |-
+    <color=#FFFFFF>
+    #####传送###############
+    ┃触发：身体触碰
     ┃数值：半径 64 内随机找地面，最多 1000次┃传送至地面上方 3格
     ┃机制：意识+ 100┃休克=0┃速度=0┃强制站起</color>
-  crystaldripping: |-
-
-    <color=#FFFFFF>┃触发：每1秒
+  crystaldripping: !replace |-
+    <color=#FFFFFF>
+    #####渗液###############
+    ┃触发：每1秒
     ┃数值：生成 50%地下水 / 50%荧光藻┃持续生成液体，可积水</color>
-  crystalkinetic: |-
-
-    <color=#FFFFFF>┃触发：身体触碰
+  crystalkinetic: !replace |-
+    <color=#FFFFFF>
+    #####弹射###############
+    ┃触发：身体触碰
     ┃数值：速度 50┃不布娃娃┃落地减速系数 0.5┃冷却约 4 秒</color>
-  crystalemp: |-
-
-    <color=#808080>┃触发：身体触碰或任意攻击（仅一次）
+  crystalemp: !replace |-
+    <color=#808080>#####电磁脉冲###############
+    ┃触发：身体触碰或任意攻击（仅一次）
     ┃目标：玩家物品栏内所有电池/电器
     ┃数值：电池物品耐久 -0.33
     ┃实际扣电：小型约 66%┃中型约 33%┃大型约 11%
     ┃注意：不影响场景中的炮塔/电器
     <color=#ffa726>┃大小影响：仅视觉特效尺寸┃吸电效果不变</color></color>
-  crystalblinding: |-
-
-    <color=#FFFFFF>┃触发：常驻
+  crystalblinding: !replace |-
+    <color=#FFFFFF>#####光幕###############
+    ┃触发：常驻
     ┃数值：灯光强度 10┃外半径 ×0.4┃无伤害，仅强光</color>
-  crystalmetamorphic: |-
-
-    <color=#FFFFFF>┃触发：仅身体触碰
+  crystalmetamorphic: !replace |-
+    <color=#FFFFFF>
+    #####造物###############
+    ┃触发：仅身体触碰
     ┃机制：生命 ×10┃金属化┃触碰后生命归零
     ┃数值：半径 2×体型 内掉落 1~3 个随机物品
     ┃注意：攻击会导致不触发效果
     <color=#ffa726>┃大小影响：掉落半径 2格×体型┃数量固定 1~3</color></color>
-  crystalhealing: |-
-
-    <color=#DBFF59>┃触发：身体触碰（仅一次）
+  crystalhealing: !replace |-
+    <color=#DBFF59>#####治愈###############
+    ┃触发：身体触碰（仅一次）
     ┃全身每条肢体：出血 -10┃肌肉 +25┃皮肤 +25┃感染 -40┃疼痛=0
     ┃心情 +2┃内出血×0.5┃败血×0.5┃患病×0.66┃中风×0.1┃体温=37┃辐射×0.75┃纤颤=0
     ┃差值：脑组织/血容量向100插值10%（补缺口10%）┃饥渴向125插值25%（补缺口25%）</color>
-  crystalshy: |-
-
-    <color=#FFFFFF>┃触发：身体触碰（仅一次）
+  crystalshy: !replace |-
+    <color=#FFFFFF>
+    #####诡诈###############
+    ┃触发：身体触碰（仅一次）
     ┃数值：半径 64格内第一个其他水晶
     ┃机制：交换位置/旋转┃不交换效果</color>
   crystalmedium: （中）
@@ -3927,6 +3936,25 @@ other:
     ┃制作(0)：470mL(液体)+30mL奶粉=500mL牛奶
   sodadsc: ┃饮用(每100mL)：口渴 +9┃心情 +1.5┃能量 +4┃体力 +4┃体重 +0.14kg┃体温 -0.3°C┃患病 +5┃精力充沛 1分20秒
   lemonadedsc: ┃饮用(每100mL)：口渴 +9┃心情 +1.2┃体重 +0.07kg┃体温 -0.3°C
+  layermodifier0: !replace <color=#A5A5A5>多雾</color>
+  layermodifier1: !replace <color=#FF652B>炎热</color>
+  layermodifier2: !replace <color=#FF232B>酷热</color>
+  layermodifier3: !replace <color=#AFFFFC>寒冷</color>
+  layermodifier4: !replace <color=#C9CAFF>严寒</color>
+  layermodifier5: !replace <color=#16CCFF>积水</color>
+  layermodifier6: !replace <color=#FFF98F>干涸</color>
+  layermodifier7: !replace <color=#8FBDFF>多雨</color>
+  layermodifier8: !replace <color=#D24762>虫害</color>
+  layermodifier9: !replace <color=#5E5C5C>辐射污染</color>
+  layermodifier10: !replace <color=#FF5600>耀斑侵袭</color>
+  layermodifier11: !replace <color=#CD00FF>失重</color>
+  layermodifier12: !replace <color=#CED1FF>光亮</color>
+  layermodifier13: !replace <color=#A2D1FF>富氧</color>
+  layermodifier14: !replace <color=#A360FF>抗菌</color>
+  layermodifier15: !replace <color=#A37244>地质稳定</color>
+  layermodifier16: !replace <color=#FF99D1>秀丽</color>
+  layermodifier17: !replace <color=#FFCED1>可怖</color>
+  layermodifier18: !replace <color=#CFCFCF>矿物富集</color>
   layermodifier0dsc: |-
     <color=#A5A5A5>雾浓度100%｜灰雾覆盖全屏</color>
     仅遮挡视线
@@ -4428,28 +4456,33 @@ other:
     <color=#FCFCFC>┃感染增生 +7.2/分钟 | 消毒抵消 -12.24/分钟
     ┃>75 肌肉开始衰减 | >90 扩散相邻肢体
     ┃免疫>195.8 不再增生</color>
-  crystaleffect1: |-
+  crystaleffect1: !replace |-
 
+    你可以凑近仔细检查。它似乎有点不对劲。
     <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
     <color=#ffa726>┃此水晶拥有1种效果</color>
 
     ┃水晶效果颜色参考：
     <color=#00FF00>辐射</color><color=#AAAAAA>┃</color><color=#FFEB04>电涌</color><color=#AAAAAA>┃</color><color=#FF8000>灼燃</color><color=#AAAAAA>┃</color><color=#00FFFF>温度(冷)</color><color=#AAAAAA>┃</color><color=#FF8400>温度(热)</color><color=#AAAAAA>┃</color><color=#BE7DFF>腐瘴</color><color=#AAAAAA>┃</color><color=#FF0000>不稳定</color><color=#AAAAAA>┃</color><color=#FFFFFF>光幕</color><color=#AAAAAA>┃</color><color=#808080>电磁脉冲</color><color=#AAAAAA>┃</color><color=#DBFF59>治愈</color><color=#AAAAAA>
     </color>
-  crystaleffect2: |-
+  crystaleffect2: !replace |-
 
+    你可以凑近仔细检查。你能隐约察觉到它身上有些古怪。
     <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
     <color=#ffa726>┃此水晶拥有2种效果┃该数量26.6%概率</color>
-  crystaleffect3: |-
+  crystaleffect3: !replace |-
 
+    你可以凑近仔细检查。一股能量波动正从它身上散发出来。你注意到它周围有多处异样。
     <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
     <color=#ffa726>┃此水晶拥有3种效果┃该数量16.5%概率</color>
-  crystaleffect4: |-
+  crystaleffect4: !replace |-
 
+    你可以凑近仔细检查。它散发着强烈的能量波动。你甚至感觉它周围的空间在扭曲。
     <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
     <color=#ffa726>┃此水晶拥有4种效果┃该数量9.43%概率</color>
-  crystaleffectmany: |-
+  crystaleffectmany: !replace |-
 
+    你可以凑近仔细检查。它有什么地方非常不对劲。你也许不应该靠近它...或者，你应该过去看看？
     <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
     <color=#ffa726>┃此水晶拥有5+种效果
     </color><color=#ff4444>┃极度罕见的水晶！</color>
