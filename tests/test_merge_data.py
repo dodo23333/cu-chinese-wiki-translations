@@ -17,6 +17,7 @@ from cu_chinese_wiki_translations.merge_data import (
     merge_data,
     parse_args,
 )
+from cu_chinese_wiki_translations.validate_data import validate_file
 
 if TYPE_CHECKING:
     import pytest
@@ -102,6 +103,37 @@ def test_merge_data_ignores_empty_raw_values(data_dir: Path) -> None:
     merged = merge_data(raw, vendor)
 
     assert merged["main"]["bandagedsc"] == "带有敷料的绷带"
+
+
+def test_merge_data_replaces_tagged_strings(tmp_path: Path, data_dir: Path) -> None:
+    patch_path = tmp_path / "patch.yaml"
+    patch_path.write_text(
+        """\
+name: 维基中文
+version: v1.8.3
+description: 维基中文简介
+main:
+  bandage: !replace 敷料
+  bandagedsc: !replace |-
+    第一行
+    第二行
+  empty: !replace ""
+  new: !replace 新条目
+""",
+        encoding="utf-8",
+    )
+    vendor = load_json(data_dir / "vendor.json")
+    vendor["main"]["empty"] = "旧文本"
+
+    assert validate_file(patch_path)
+    merged = merge_data(load_yaml(patch_path), vendor)
+
+    assert json.loads(json.dumps(merged))["main"] == {
+        "bandage": "敷料",
+        "bandagedsc": "第一行\n第二行",
+        "empty": "",
+        "new": "新条目",
+    }
 
 
 def test_parse_args_uses_default_paths(monkeypatch: pytest.MonkeyPatch) -> None:

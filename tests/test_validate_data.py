@@ -25,6 +25,13 @@ def test_returns_false_for_invalid_yaml(data_dir: Path) -> None:
     assert validate_file(yaml_path) is False
 
 
+def test_replace_tag_rejects_a_list(tmp_path: Path) -> None:
+    yaml_path = tmp_path / "invalid-replace.yaml"
+    yaml_path.write_text("text: !replace [one, two]\n", encoding="utf-8")
+
+    assert validate_file(yaml_path) is False
+
+
 def test_main_returns_zero_when_all_yaml_files_are_valid(
     tmp_path: Path,
     data_dir: Path,

@@ -6,6 +6,8 @@
 
 如果只是想贡献翻译内容，通常只需要修改 [wiki-patch.yaml](wiki-patch.yaml)，并由脚本自动合并生成翻译
 
+补丁中的普通字符串默认追加到原翻译之后，如要覆盖请在值前新增 `!replace`，多行文本则使用 `!replace |-`。
+
 ## 提交信息
 如果有可能，对于提交信息请尽可能遵循[约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0/)，例如：
 - `feat`: 新增翻译或补充内容

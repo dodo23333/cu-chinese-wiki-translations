@@ -6,10 +6,9 @@ from copy import deepcopy
 from pathlib import Path
 from typing import TYPE_CHECKING
 
-import yaml
 from deepmerge.merger import Merger
 
-from cu_chinese_wiki_translations.validate_data import validate_file
+from cu_chinese_wiki_translations.validate_data import ReplaceText, load_yaml, validate_file
 
 if TYPE_CHECKING:
     from collections.abc import MutableMapping
@@ -20,12 +19,6 @@ OUTPUT_JSON = Path("wiki-translations-official.json")
 METADATA_KEYS = {"name", "version", "description"}
 
 
-def load_yaml(path: Path) -> dict:
-    """加载yaml文件"""
-    with path.open("r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
-
-
 def load_json(path: Path) -> dict:
     """加载json文件"""
     with path.open("r", encoding="utf-8") as f:
@@ -34,6 +27,8 @@ def load_json(path: Path) -> dict:
 
 def append_string(config: Merger, path: list, base: str, nxt: str) -> str:
     """合并字符串的规范"""
+    if isinstance(nxt, ReplaceText):
+        return str(nxt)
     if not base:
         return nxt
     if not nxt:
