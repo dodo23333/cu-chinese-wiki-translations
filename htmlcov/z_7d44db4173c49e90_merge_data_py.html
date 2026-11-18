@@ -65,7 +65,7 @@
             <a id="nextFileLink" class="nav" href="z_7d44db4173c49e90_validate_data_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.17.3">coverage.py v7.17.3</a>,
-            created at 2026-11-18 13:42 +0000
+            created at 2026-11-18 14:25 +0000
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"></button>
@@ -99,7 +99,7 @@
     <p class="run"><span class="n"><a id="t17" href="#t17">17</a></span><span class="t"><span class="nam">VENDOR_JSON</span> <span class="op">=</span> <span class="nam">Path</span><span class="op">(</span><span class="str">&quot;vendor/zh-CN.json&quot;</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t18" href="#t18">18</a></span><span class="t"><span class="nam">RAW_YAML</span> <span class="op">=</span> <span class="nam">Path</span><span class="op">(</span><span class="str">&quot;wiki-patch.yaml&quot;</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t19" href="#t19">19</a></span><span class="t"><span class="nam">OUTPUT_JSON</span> <span class="op">=</span> <span class="nam">Path</span><span class="op">(</span><span class="str">&quot;wiki-translations-official.json&quot;</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t20" href="#t20">20</a></span><span class="t"><span class="nam">METADATA_KEYS</span> <span class="op">=</span> <span class="op">{</span><span class="str">&quot;name&quot;</span><span class="op">,</span> <span class="str">&quot;version&quot;</span><span class="op">,</span> <span class="str">&quot;extend_description&quot;</span><span class="op">}</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t20" href="#t20">20</a></span><span class="t"><span class="nam">METADATA_KEYS</span> <span class="op">=</span> <span class="op">{</span><span class="str">&quot;name&quot;</span><span class="op">,</span> <span class="str">&quot;version&quot;</span><span class="op">,</span> <span class="str">&quot;description&quot;</span><span class="op">}</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t21" href="#t21">21</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t22" href="#t22">22</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t23" href="#t23">23</a></span><span class="t"><span class="key">def</span> <span class="nam">load_yaml</span><span class="op">(</span><span class="nam">path</span><span class="op">:</span> <span class="nam">Path</span><span class="op">)</span> <span class="op">-&gt;</span> <span class="nam">dict</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
@@ -143,7 +143,7 @@
     <p class="pln"><span class="n"><a id="t61" href="#t61">61</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t62" href="#t62">62</a></span><span class="t">    <span class="nam">translation_merger</span><span class="op">.</span><span class="nam">merge</span><span class="op">(</span><span class="nam">merged</span><span class="op">,</span> <span class="nam">raw_patch</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t63" href="#t63">63</a></span><span class="t">    <span class="nam">merged</span><span class="op">[</span><span class="str">&quot;name&quot;</span><span class="op">]</span> <span class="op">=</span> <span class="nam">raw</span><span class="op">[</span><span class="str">&quot;name&quot;</span><span class="op">]</span> <span class="op">+</span> <span class="nam">raw</span><span class="op">[</span><span class="str">&quot;version&quot;</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t64" href="#t64">64</a></span><span class="t">    <span class="nam">merged</span><span class="op">[</span><span class="str">&quot;description&quot;</span><span class="op">]</span> <span class="op">=</span> <span class="nam">merged</span><span class="op">[</span><span class="str">&quot;description&quot;</span><span class="op">]</span> <span class="op">+</span> <span class="str">&quot;\n&quot;</span> <span class="op">+</span> <span class="nam">raw</span><span class="op">[</span><span class="str">&quot;extend_description&quot;</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t64" href="#t64">64</a></span><span class="t">    <span class="nam">merged</span><span class="op">[</span><span class="str">&quot;description&quot;</span><span class="op">]</span> <span class="op">=</span> <span class="nam">raw</span><span class="op">[</span><span class="str">&quot;description&quot;</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t65" href="#t65">65</a></span><span class="t">    <span class="key">return</span> <span class="nam">merged</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t66" href="#t66">66</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t67" href="#t67">67</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
@@ -205,7 +205,7 @@
             <a class="nav" href="z_7d44db4173c49e90_validate_data_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.17.3">coverage.py v7.17.3</a>,
-            created at 2026-11-18 13:42 +0000
+            created at 2026-11-18 14:25 +0000
         </p>
     </div>
 </footer>
