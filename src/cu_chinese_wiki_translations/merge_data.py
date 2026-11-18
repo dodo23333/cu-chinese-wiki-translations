@@ -17,7 +17,7 @@ if TYPE_CHECKING:
 VENDOR_JSON = Path("vendor/zh-CN.json")
 RAW_YAML = Path("wiki-patch.yaml")
 OUTPUT_JSON = Path("wiki-translations-official.json")
-METADATA_KEYS = {"name", "version", "extend_description"}
+METADATA_KEYS = {"name", "version", "description"}
 
 
 def load_yaml(path: Path) -> dict:
@@ -61,7 +61,7 @@ def merge_data(raw: dict, vendor: dict) -> MutableMapping:
 
     translation_merger.merge(merged, raw_patch)
     merged["name"] = raw["name"] + raw["version"]
-    merged["description"] = merged["description"] + "\n" + raw["extend_description"]
+    merged["description"] = raw["description"]
     return merged
 
 
