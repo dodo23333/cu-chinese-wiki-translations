@@ -5,9 +5,9 @@
 | Name                                                  |    Stmts |     Miss |    Cover |   Missing |
 |------------------------------------------------------ | -------: | -------: | -------: | --------: |
 | src/cu\_chinese\_wiki\_translations/\_\_init\_\_.py   |        0 |        0 |     100% |           |
-| src/cu\_chinese\_wiki\_translations/merge\_data.py    |       48 |        0 |     100% |           |
+| src/cu\_chinese\_wiki\_translations/merge\_data.py    |       77 |        0 |     100% |           |
 | src/cu\_chinese\_wiki\_translations/validate\_data.py |       22 |        0 |     100% |           |
-| **TOTAL**                                             |   **70** |    **0** | **100%** |           |
+| **TOTAL**                                             |   **99** |    **0** | **100%** |           |
 
 
 ## Setup coverage badge
