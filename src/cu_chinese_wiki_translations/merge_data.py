@@ -17,9 +17,7 @@ if TYPE_CHECKING:
 VENDOR_JSON = Path("vendor/zh-CN.json")
 RAW_YAML = Path("wiki-patch.yaml")
 OUTPUT_JSON = Path("wiki-translations-official.json")
-
-# 元数据键：不参与正文合并，由 merge_data 单独处理
-METADATA_KEYS = {"name", "version", "extend_description", "description"}
+METADATA_KEYS = {"name", "version", "extend_description"}
 
 
 def load_yaml(path: Path) -> dict:
@@ -45,46 +43,10 @@ def append_string(config: Merger, path: list, base: str, nxt: str) -> str:
     return f"{base}\n{nxt}" if key.endswith("dsc") else f"{base}{nxt}"
 
 
-def _reject_lists(patch: dict, parent: str = "") -> None:
-    for key, value in patch.items():
-        if isinstance(value, dict):
-            _reject_lists(value, f"{parent}{key}.")
-        elif isinstance(value, list):
-            raise ValueError(f"{parent}{key}: 列表须写在 replace: 下")
-
-
-def _apply_replacements(
-    merged: dict, vendor: dict, patch: dict, replacements: object
-) -> None:
-    if not isinstance(replacements, dict):
-        raise ValueError("replace: 必须是分区映射")
-    for section, values in replacements.items():
-        if not isinstance(values, dict):
-            raise ValueError(f"replace.{section}: 必须是条目映射")
-        base_section = vendor.get(section)
-        patch_section = patch.get(section)
-        for key, value in values.items():
-            path = f"replace.{section}.{key}"
-            if not isinstance(base_section, dict) or key not in base_section:
-                raise ValueError(f"{path}: 基准中没有该条目")
-            if isinstance(patch_section, dict) and key in patch_section:
-                raise ValueError(f"{path}: 与普通分区 {section}.{key} 重复")
-            base_value = base_section[key]
-            if not (
-                (isinstance(base_value, str) and isinstance(value, str))
-                or (
-                    isinstance(base_value, list)
-                    and isinstance(value, list)
-                    and all(isinstance(item, str) for item in value)
-                )
-            ):
-                raise ValueError(f"{path}: 替换值类型须与基准一致")
-            merged[section][key] = value
-
-
 translation_merger = Merger(
     [
         (dict, ["merge"]),
+        (list, ["override"]),
         (str, append_string),
     ],
     ["override"],
@@ -94,25 +56,12 @@ translation_merger = Merger(
 
 def merge_data(raw: dict, vendor: dict) -> MutableMapping:
     """合并两个dict"""
-    raw_patch = {
-        key: value
-        for key, value in raw.items()
-        if key not in METADATA_KEYS and key != "replace"
-    }
-    _reject_lists(raw_patch)
-
     merged = deepcopy(vendor)
+    raw_patch = {key: value for key, value in raw.items() if key not in METADATA_KEYS}
+
     translation_merger.merge(merged, raw_patch)
-    _apply_replacements(merged, vendor, raw_patch, raw.get("replace", {}))
-
     merged["name"] = raw["name"] + raw["version"]
-
-    # description：优先整体替换，其次追加 extend_description
-    if raw.get("description"):
-        merged["description"] = raw["description"]
-    elif raw.get("extend_description"):
-        merged["description"] = merged.get("description", "") + "\n" + raw["extend_description"]
-
+    merged["description"] = merged["description"] + "\n" + raw["extend_description"]
     return merged
 
 

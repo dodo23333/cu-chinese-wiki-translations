@@ -3,8 +3,7 @@
 import json
 from copy import deepcopy
 from pathlib import Path
-
-import pytest
+from typing import TYPE_CHECKING
 
 from cu_chinese_wiki_translations import merge_data as merge_data_module
 from cu_chinese_wiki_translations.merge_data import (
@@ -18,6 +17,9 @@ from cu_chinese_wiki_translations.merge_data import (
     merge_data,
     parse_args,
 )
+
+if TYPE_CHECKING:
+    import pytest
 
 
 def test_load_json_reads_mapping(data_dir: Path) -> None:
@@ -100,92 +102,6 @@ def test_merge_data_ignores_empty_raw_values(data_dir: Path) -> None:
     merged = merge_data(raw, vendor)
 
     assert merged["main"]["bandagedsc"] == "带有敷料的绷带"
-
-
-@pytest.mark.parametrize(
-    ("patch", "error"),
-    [
-        ({"new_section": {"nested": ["语录"]}}, r"new_section\.nested: 列表须写在 replace: 下"),
-        (
-            {"main": {"bandagedsc": "追加"}, "replace": {"main": {"bandagedsc": "替换"}}},
-            r"replace\.main\.bandagedsc: .*重复",
-        ),
-        ({"replace": {"main": {"missing": "替换"}}}, r"replace\.main\.missing: .*没有"),
-        (
-            {"replace": {"pauseQuotes": {"normal": "不是语录列表"}}},
-            r"replace\.pauseQuotes\.normal: 替换值类型须与基准一致",
-        ),
-        ({"replace": ["main"]}, r"replace: 必须是分区映射"),
-        ({"replace": {"main": "替换"}}, r"replace\.main: 必须是条目映射"),
-    ],
-)
-def test_merge_data_rejects_invalid_patch(
-    data_dir: Path, patch: dict, error: str
-) -> None:
-    vendor = load_json(data_dir / "vendor.json")
-    vendor["pauseQuotes"] = {"normal": ["原语录"]}
-    raw = {"name": "维基中文", "version": "v1.8.3", **patch}
-
-    with pytest.raises(ValueError, match=error):
-        merge_data(raw, vendor)
-
-
-def test_merge_data_applies_replace_without_emitting_it(data_dir: Path) -> None:
-    vendor = load_json(data_dir / "vendor.json")
-    vendor["pauseQuotes"] = {"normal": ["原语录"], "happy": ["另一组"]}
-    raw = {
-        "name": "维基中文",
-        "version": "v1.8.3",
-        "replace": {"main": {"bandagedsc": "全新描述"}, "pauseQuotes": {"normal": ["新语录"]}},
-    }
-
-    merged = merge_data(raw, vendor)
-
-    assert "replace" not in merged
-    assert merged["main"]["bandagedsc"] == "全新描述"
-    assert merged["pauseQuotes"] == {"normal": ["新语录"], "happy": ["另一组"]}
-
-
-def test_merge_data_replaces_text_with_empty_string(data_dir: Path) -> None:
-    vendor = load_json(data_dir / "vendor.json")
-    raw = {
-        "name": "维基中文",
-        "version": "v1.8.3",
-        "replace": {"main": {"bandagedsc": ""}},
-    }
-
-    assert merge_data(raw, vendor)["main"]["bandagedsc"] == ""
-
-
-def test_merge_data_prefers_description_over_extend_description(data_dir: Path) -> None:
-    """同时存在description与extend_description时, 前者优先"""
-    vendor = load_json(data_dir / "vendor.json")
-    raw = {
-        "name": "维基中文",
-        "version": "v1.8.3",
-        "description": "完全替换的简介",
-        "extend_description": "补充简介",
-    }
-
-    merged = merge_data(raw, vendor)
-
-    assert merged["description"] == "完全替换的简介"
-
-
-def test_merge_data_keeps_vendor_version(data_dir: Path) -> None:
-    """产物version字段应沿用基准, 不取补丁版本号"""
-    vendor = load_json(data_dir / "vendor.json")
-    vendor["version"] = "1.0.2"
-    raw = {
-        "name": "维基中文",
-        "version": "v1.8.3",
-        "extend_description": "补充简介",
-    }
-
-    merged = merge_data(raw, vendor)
-
-    assert merged["version"] == "1.0.2"
-    assert merged["name"] == "维基中文v1.8.3"
 
 
 def test_parse_args_uses_default_paths(monkeypatch: pytest.MonkeyPatch) -> None:
