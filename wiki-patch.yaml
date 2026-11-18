@@ -1,14 +1,19 @@
 name: <color=yellow>维基中文</color>
 version: v1.9.9
-extend_description: |-
+description: |-
+  <color=white>注意：本文件为民间社区增强翻译，并非 ORO 或 Orsoniks 官方作品。并且基础翻译来自简体中文，我们只在原基础上增加描述文本。</color>
 
-  <color=white>本翻译是由</color><color=yellow>维基中文制作组</color><color=white>在原翻译基础上扩展的功能性维基翻译补丁</color>
+  由 <color=yellow>简体中文汉化组</color> 翻译
+  再由<color=yellow>维基中文制作组</color>在此基础上扩展的功能性维基翻译补丁
 
-  <color=purple>所有数据信息均来自制作组解包数据或灰机wiki数据，保证准确率高</color>
+  <color=blue>再次感谢简中版制作组</color>
+  <color=purple>所有数据信息均来自制作组解包或灰机wiki数据，保证准确率高</color>
+  当前版本1.9.9(2.0测试版2026-11-17)
 
   <color=orange>翻译项目(贡献或者反馈问题(Issue&PR)进这里)：</color>
   <color=yellow>https://github.com/dodo23333/cu-chinese-wiki-translations</color>
-  <color=orange>贡献者名单可在灰机wiki的鸣谢页面查看</color>
+  <color=orange>贡献者名单：</color>
+  <color=yellow>https://github.com/StreamWind114514/Casualties-Unknown-Simplified-Chinese-Wiki</color>
   <color=orange>Q群：</color><color=yellow>521023836</color>
   <color=orange>更新及改动内容请前往Github或N网查看</color>
 main:

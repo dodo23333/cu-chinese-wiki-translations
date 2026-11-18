@@ -41,7 +41,7 @@ def test_load_yaml_reads_mapping(data_dir: Path) -> None:
         "name": "维基中文",
         "version": "v1.8.3",
         "main": {"bandagedsc": "可治疗伤势"},
-        "extend_description": "补充简介",
+        "description": "维基中文简介",
     }
 
 
@@ -80,7 +80,7 @@ def test_merge_data_merges_raw_patch_over_vendor_without_changing(
 
     assert merge_data(raw, vendor) == {
         "name": "维基中文v1.8.3",
-        "description": "官方简介\n补充简介",
+        "description": "维基中文简介",
         "main": {
             "bandage": "绷带",
             "bandagedsc": "带有敷料的绷带\n可治疗伤势",
@@ -95,7 +95,7 @@ def test_merge_data_ignores_empty_raw_values(data_dir: Path) -> None:
     raw = {
         "name": "维基中文",
         "version": "v1.8.3",
-        "extend_description": "补充简介",
+        "description": "维基中文简介",
         "main": {"bandagedsc": None},
     }
 
@@ -163,7 +163,7 @@ def test_main_writes_merged_json(
 
     assert json.loads(output_path.read_text(encoding="utf-8")) == {
         "name": "维基中文v1.8.3",
-        "description": "官方简介\n补充简介",
+        "description": "维基中文简介",
         "main": {
             "bandage": "绷带",
             "bandagedsc": "带有敷料的绷带\n可治疗伤势",
