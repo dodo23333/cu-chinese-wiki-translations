@@ -1941,7 +1941,7 @@ buildings:
     <color=#ffee58>┃破坏掉落：金属废料×2(100%/50%)┃电路板×1(50%)</color>
     <color=orange>叶片高速撞击会断裂并掉低耐久金属废料
     两片全断后失效┃中间部位可以踩┃没有支撑会乱飞</color>
-  fan: "!R!老旧旋刃风扇"
+  fan: （旋刃风扇）
   snowstriderdsc: |-
     <color=#e84e40>┃最大血量 500 | 攻速 2秒 | 视野 40格
     ┃攻击：皮肤 40 | 肌肉 20 | 疼痛 50
@@ -1992,7 +1992,7 @@ buildings:
     <color=#ffee58>┃破坏掉落：金属废料(100%)</color>
     <color=orange>可摧毁或挖掉下方地块移除
     穿戴物耐久-90%┃留意上方小红灯</color>
-  beartrap: "!R!捕兽夹"
+  beartrap: （捕兽夹）
   bioterminaldsc: <color=orange>需拥有“红血袋”右键终端，注入100mL血液解锁加固门（每袋750mL可用7次）。使用后终端与门永久开启</color>
   terminaldsc: |-
     ┃无法直接破坏
@@ -2050,7 +2050,7 @@ buildings:
     ┃击败掉落「暴露的核心」
     ┃食用效果：饥饿 +12┃口渴 +15┃体重 +0.34kg
     ┃能量 +10┃咖啡因 +90┃兴奋剂倍率 +0.35┃心情 +1
-  crystalmedium: "!R!中水晶"
+  crystalmedium: （中）
   crystalemp: |-
     !R!<color=#808080>
     <color=#808080>#####电磁脉冲###############</color>
@@ -2083,7 +2083,7 @@ buildings:
     <color=#e84e40>┃最大血量：600┃体型值：3.0</color>
     ┃破坏后无掉落
 
-  crystalmassive: "!R!巨大水晶"
+  crystalmassive: （巨大）
   crystalfragile: |-
     !R!<color=#FFFFFF>
     #####易碎###############
@@ -2107,7 +2107,7 @@ buildings:
     <color=#e84e40>┃最大血量：50┃体型值：0.66</color>
     ┃破坏后无掉落
 
-  crystalsmall: "!R!小水晶"
+  crystalsmall: （小）
   crystalunstable: |-
     !R!<color=#FF0000>
     <color=#FF0000>#####不稳定###############</color>
@@ -2123,7 +2123,7 @@ buildings:
     ┃触发：身体触碰（仅一次）
     ┃数值：半径 64格内第一个其他水晶
     ┃机制：交换位置/旋转┃不交换效果</color>
-  crystalmini: "!R!迷你水晶"
+  crystalmini: （迷你）
   crystalkinetic: |-
     !R!<color=#FFFFFF>
     #####弹射###############
@@ -2135,7 +2135,7 @@ buildings:
     ┃触发：进入半径 12格×体型
     ┃数值：败血症 +0.5/s┃无直接伤害
     <color=#ffa726>┃大小影响：范围 12格×体型┃速率固定 +0.5/s</color></color>
-  crystalbig: "!R!大水晶"
+  crystalbig: （大）
   crystalburning: |-
     !R!<color=#FF8000>
     <color=#FF8000>#####灼燃###############</color>
@@ -2340,8 +2340,8 @@ buildings:
     ┃手枪17发，约4秒换弹
     ┃近战会击倒玩家并造成电击</color>
     <color=#FF69B4>┃注意：此物品和结局有关</color>
-  guard: "!R!守卫"
-  jumppad: "!R!弹跳板"
+  guard: （守卫）
+  jumppad: （弹跳板）
   landminedsc: |-
     <color=#e84e40>┃最大血量：100</color>
     <color=#91a7ff>┃踩中激活后0.8秒延迟爆炸
@@ -2476,7 +2476,7 @@ buildings:
     ┃触发后永久失效</color>
     <color=#ffee58>┃破坏掉落：菌类块×3(均100%┃耐久20%~100%)</color>
     <color=orange>可投掷物品提前触发</color>
-  spikestabber: "!R!穿刺陷阱"
+  spikestabber: （穿刺陷阱）
   spikestabberdscused: |-
     <color=orange>即使从高处砸在它上面也不会有事
     不会进行二次充能，它已完全废弃</color>
@@ -2536,7 +2536,7 @@ buildings:
     ┃被武器击中会触发逃离与守卫战流程
     </color>┃破坏后无掉落
     <color=#FF69B4>┃注意：此物品和结局有关</color>
-  scientist: "!R!科研员"
+  scientist: （科研员）
   icestalactitedsc: |-
     <color=#e84e40>┃最大血量：100</color>
     <color=orange>玩家经过时可能掉落，造成皮肤/肌肉伤和单肢出血，伤害随速度增加。
@@ -2620,7 +2620,7 @@ buildings:
     ┃喷发期间在泉眼上方0~9格持续生成岩浆
     ┃接触岩浆会持续灼伤并烧毁物品，护甲可减免
     ┃可破坏，无掉落</color>
-  lavageyser: "!R!岩浆间歇泉"
+  lavageyser: （岩浆）
   oilpipedsc: |-
     <color=orange>┃无法直接破坏
     ┃被动产生原油淹没区域，离开后停止
@@ -2643,7 +2643,7 @@ buildings:
     <color=#ffee58>┃破坏掉落：金属废料×3(100%/50%/50%)┃废料板×2(80%/80%)┃电路板×1(80%)</color>
     <color=orange>可趁回缩时通过或从侧面绕过
     水平型号主要靠物理撞击推开玩家</color>
-  piston: "!R!活塞机"
+  piston: （活塞机）
   skullcrusherdsc: |-
     <color=#e84e40>┃最大血量：800</color>
     <color=#91a7ff>┃玩家/肢体进入下方40格后掉落
@@ -2726,7 +2726,7 @@ moodles:
   pain2: (>30%)
   pain3: (>55%)
   pain4: (>80%)
-  shock: "!R!疼痛休克(>30%)"
+  shock: (>30%)
   overdose1: (>5%)
   overdose2: (>20%)
   overdose3: (>50%)
@@ -2932,7 +2932,7 @@ moodles:
     <color=#3CCBE7>┃治疗:阿片过量用 <color=#3CCC78>纳洛酮</color>｜<color=#3CCC78>纳曲酮</color>
     ┃其他病因：提高通气并处理原发病</color>
   hypoventilation1: (<22.5次/分钟)
-  hypoventilation2: "!R!重度通气不足(<12.5次/分钟)"
+  hypoventilation2: (<12.5次/分钟)
   hypoventilation2dsc: |-
     <color=#ffaa00>呼吸频率 <12.5次/分钟</color>
     <color=#888888>┃血氧快速下降</color>
@@ -3037,6 +3037,7 @@ moodles:
     <color=#3CCBE7>┃治疗:<color=#3CCC78>阿片类药物</color>｜<color=#3CCC78>肾上腺素</color>｜处理疼痛源</color>
   shockdsc: |-
     <color=#ffaa00>疼痛休克 >30%</color>
+    <color=#888888>┃从零开始积累时，疼痛 >75 持续约9秒会显示此状态</color>
     <color=#ff4444>┃≥66%：立即失去意识</color>
     <color=#3CCBE7>┃治疗:立即用 <color=#3CCC78>阿片类药物</color> 镇痛
     ┃处理疼痛源</color>
@@ -3862,7 +3863,7 @@ moodles:
     <color=#3CCBE7>┃解除:离开范围｜击杀长老</color>
   horrified: (<45格｜阶段1)
   focuseddsc: |-
-    !R!<i>我们今天都会死，只不过是顺序问题。</i>
+    </i>
     <color=#ffaa00>距离<45格且非阶段1（<3750血）</color>
     <color=#888888>┃恐惧值替换为专注值100
     ┃离开>45格：专注 -20/s</color>
@@ -3974,28 +3975,8 @@ other:
     <color=#5E5C5C>辐射桶密度1.2~1.3/区块</color>
     抗辐射药0.25~0.3/区块
     均只生成在玩家下方
-  layermodifier0: "!R!<color=#A5A5A5>多雾</color>"
-  layermodifier2: "!R!<color=#FF232B>酷热</color>"
-  layermodifier12: "!R!<color=#CED1FF>光亮</color>"
-  layermodifier1: "!R!<color=#FF652B>炎热</color>"
-  layermodifier11: "!R!<color=#CD00FF>失重</color>"
-  layermodifier3: "!R!<color=#AFFFFC>寒冷</color>"
-  layermodifier13: "!R!<color=#A2D1FF>富氧</color>"
-  layermodifier4: "!R!<color=#C9CAFF>严寒</color>"
-  layermodifier14: "!R!<color=#A360FF>抗菌</color>"
-  layermodifier5: "!R!<color=#16CCFF>积水</color>"
-  layermodifier15: "!R!<color=#A37244>地质稳定</color>"
-  layermodifier6: "!R!<color=#FFF98F>干涸</color>"
-  layermodifier16: "!R!<color=#FF99D1>秀丽</color>"
-  layermodifier7: "!R!<color=#8FBDFF>多雨</color>"
-  layermodifier17: "!R!<color=#FFCED1>可怖</color>"
-  layermodifier8: "!R!<color=#D24762>虫害</color>"
-  layermodifier18: "!R!<color=#CFCFCF>矿物富集</color>"
-  layermodifier9: "!R!<color=#5E5C5C>辐射污染</color>"
-  layermodifier10: "!R!<color=#FF5600>耀斑侵袭</color>"
   urine: ？
   urinedsc: ┃饮用(每100mL)：口渴 +7┃心情 -2.5┃患病 +7.5┃体温 -0.3°C
-  unarmed: "!R!空物品"
   bleachdsc: |-
     ┃饮用(每100mL)：口渴 +7┃心情 -5
     ┃持续5分钟：
@@ -4205,12 +4186,12 @@ other:
     ┃每秒辐射病 -0.2，总计约 -18Gy
     ┃超过180秒过量(每秒)：患病 +0.6┃ 胸部疼痛 +1.5
     ┃获取：医疗箱/空投舱/维生舱箱子/交易/尸体
-  wantstradetip: "!R!价格更低且+7好感度"
+  wantstradetip: （+7）
   braingrowdsc: |-
     ┃饮用（每20mL）：脑健康 +10 ┃ 患病 +20 ┃ 心情 -5 ┃ 50%几率立即呕吐 | 治疗中风
     ┃获取：医疗箱/物资箱/交易/尸体
     20分钟内重复使用或单次超40mL会导致精神抹除！1mL也能治疗中风
-  tradingblocked: "!R!冷却中(不可再出售)"
+  tradingblocked: （不可转售）
   mindwipedsc: |-
     ┃使用效果：永久获得“空洞”状态(心情持续偏向0)，过程伴随全肢剧痛、听力严重受损、心情崩溃，结束后给予50脑完整度、消除中风、智力归零、黑白视野、失语、与商人初始好感-60%。
     ┃获取：医疗箱/空投舱/维生舱箱子/交易/尸体
@@ -4435,8 +4416,7 @@ other:
     ┃>75 肌肉开始衰减 | >90 扩散相邻肢体
     ┃免疫>195.8 不再增生</color>
   crystaleffect1: |-
-    !R!
-    你可以凑近仔细检查。它似乎有点不对劲。
+
     <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
     <color=#ffa726>┃此水晶拥有1种效果</color>
 
@@ -4444,42 +4424,25 @@ other:
     <color=#00FF00>辐射</color><color=#AAAAAA>┃</color><color=#FFEB04>电涌</color><color=#AAAAAA>┃</color><color=#FF8000>灼燃</color><color=#AAAAAA>┃</color><color=#00FFFF>温度(冷)</color><color=#AAAAAA>┃</color><color=#FF8400>温度(热)</color><color=#AAAAAA>┃</color><color=#BE7DFF>腐瘴</color><color=#AAAAAA>┃</color><color=#FF0000>不稳定</color><color=#AAAAAA>┃</color><color=#FFFFFF>光幕</color><color=#AAAAAA>┃</color><color=#808080>电磁脉冲</color><color=#AAAAAA>┃</color><color=#DBFF59>治愈</color><color=#AAAAAA>
     </color>
   crystaleffect2: |-
-    !R!
-    你可以凑近仔细检查。你能隐约察觉到它身上有些古怪。
+
     <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
     <color=#ffa726>┃此水晶拥有2种效果┃该数量26.6%概率</color>
   crystaleffect3: |-
-    !R!
-    你可以凑近仔细检查。一股能量波动正从它身上散发出来。你注意到它周围有多处异样。
+
     <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
     <color=#ffa726>┃此水晶拥有3种效果┃该数量16.5%概率</color>
   crystaleffect4: |-
-    !R!
-    你可以凑近仔细检查。它散发着强烈的能量波动。你甚至感觉它周围的空间在扭曲。
+
     <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
     <color=#ffa726>┃此水晶拥有4种效果┃该数量9.43%概率</color>
   crystaleffectmany: |-
-    !R!
-    你可以凑近仔细检查。它有什么地方非常不对劲。你也许不应该靠近它...或者，你应该过去看看？
+
     <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
     <color=#ffa726>┃此水晶拥有5+种效果
     </color><color=#ff4444>┃极度罕见的水晶！</color>
-  gamesetautocolorfavourite: 自动为收藏物品标色
-  gamesetautocolorfavouritedsc: 如果开启，收藏的物品会自动标为黄色，这类似于演示版中的机制。
   gamesetmastervolumedsc: 游戏所有音量总称
   gamesetmusicvolumedsc: 游戏背景音乐音量
-  runsetallowlayerendmovement: 允许在地层底部自由移动
-  runsetallowlayerendmovementdsc: 如果开启，在你抵达某一地层底部时，你将能够自由移动。建议关闭此选项，因为你可以直接拾取所有滞留在最底部的战利品，这会破坏游戏平衡。
-  char1quirks: |-
-    !R![嗜睡体质] —— 你的睡眠周期要短的多，但睡在粗糙的地面上不会对你产生负面影响。
-    [身材矮小] —— 你体型小巧！
-    [夜视适应] —— 你的视觉更强，对光照的敏感度更高。
-    [半步素食] —— 肉类食物会让你略感恶心，营养价值也更低。
-    [体质羸弱] —— 所有力量和韧性经验获取减半。
-    [枪械精通] —— 你可以使用霰弹盒给霰弹枪装弹，还能使用快捷键操作枪械，并查看弹匣余弹量。
-    [铁壁心防] —— 你的心智更加坚韧。除非必要，否则你不会轻易的表露自己的感情。
-    [犬科烙印] —— 你的胃难以容忍可可碱。
-  indifferenttip: "!R!正常价格并+4好感度"
+  indifferenttip: （+4）
   outdatedwarning: |-
     !R!
 
@@ -4496,13 +4459,6 @@ other:
 
     <color=#3CCC78>正式版更新地址：https://sps.yy-gp.com/h2ze0/index.html
     问题反馈：见上面网站内的联系方式(或mc10972981@163.com)</color>
-  mercnote1: |-
-    !R!最后几层阻碍你的砾石与岩层在眼前碎裂，你终于触及了那片广袤的天穹。<>
-
-    你跨过刀山火海，穿过无边炼狱，越过了成千上万的——那些曾是你同胞的——尸骸，成为第一个，也是唯一的一个完成任务的人...
-    ...然而，你却觉得，这不过是另一段更为宏大的征程的开端。<>
-
-    你已破土而出，抵达地表。踏上灰星冰冷的地面，地平线上，建筑、山峦与人群隐约浮现。
 pauseQuotes:
   normal:
     - |-
