@@ -107,9 +107,6 @@ def merge_data(raw: dict, vendor: dict) -> MutableMapping:
 
     merged["name"] = raw["name"] + raw["version"]
 
-    # version：去掉补丁版本号的前缀 v，作为产物的 version 字段
-    merged["version"] = str(raw["version"]).removeprefix("v")
-
     # description：优先整体替换，其次追加 extend_description
     if raw.get("description"):
         merged["description"] = raw["description"]

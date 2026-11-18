@@ -4451,16 +4451,13 @@ replace:
 
 
 
-      <size=200%><color=#FF4444>测试版本！</color><size=100%>
+      <size=200%><color=#FF4444>嘿！</color><size=100%>
 
-      <color=#FFD54F>你目前的维基中文是测试版本，但仍可使用，对应正式版1.0.2</color>
+      <color=#FFD54F>你正在使用的维基中文已落后于当前游戏版本，部分文本可能无法正常显示</color>
 
-      <color=#3CCBE7>该版本不是完整版，仅用于收集问题反馈，不代表最终品质</color>
+      <color=#3CCBE7>请前往下方地址更新维基中文，或暂时切换为英文或官方简体中文</color>
 
-      <color=#C6BEFF>想要消除此提示请打开翻译文件，将第4行【version: X.X.X】改为当前游戏版本
-      否则该提示会一直存在，这不是你的翻译文件过旧问题，是我故意设计的</color>
-
-      <color=#3CCC78>正式版更新地址：https://sps.yy-gp.com/h2ze0/index.html
+      <color=#3CCC78>更新地址：https://sps.yy-gp.com/h2ze0/index.html
       问题反馈：见上面网站内的联系方式(或mc10972981@163.com)</color>
   pauseQuotes:
     normal:

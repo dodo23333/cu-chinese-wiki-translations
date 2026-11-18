@@ -79,7 +79,6 @@ def test_merge_data_merges_raw_patch_over_vendor_without_changing(
     assert merge_data(raw, vendor) == {
         "name": "维基中文v1.8.3",
         "description": "官方简介\n补充简介",
-        "version": "1.8.3",
         "main": {
             "bandage": "绷带",
             "bandagedsc": "带有敷料的绷带\n可治疗伤势",
@@ -173,9 +172,10 @@ def test_merge_data_prefers_description_over_extend_description(data_dir: Path) 
     assert merged["description"] == "完全替换的简介"
 
 
-def test_merge_data_derives_version_from_patch_version(data_dir: Path) -> None:
-    """产物version字段应取自补丁版本号并去掉v前缀"""
+def test_merge_data_keeps_vendor_version(data_dir: Path) -> None:
+    """产物version字段应沿用基准, 不取补丁版本号"""
     vendor = load_json(data_dir / "vendor.json")
+    vendor["version"] = "1.0.2"
     raw = {
         "name": "维基中文",
         "version": "v1.8.3",
@@ -184,7 +184,8 @@ def test_merge_data_derives_version_from_patch_version(data_dir: Path) -> None:
 
     merged = merge_data(raw, vendor)
 
-    assert merged["version"] == "1.8.3"
+    assert merged["version"] == "1.0.2"
+    assert merged["name"] == "维基中文v1.8.3"
 
 
 def test_parse_args_uses_default_paths(monkeypatch: pytest.MonkeyPatch) -> None:
@@ -247,7 +248,6 @@ def test_main_writes_merged_json(
     assert json.loads(output_path.read_text(encoding="utf-8")) == {
         "name": "维基中文v1.8.3",
         "description": "官方简介\n补充简介",
-        "version": "1.8.3",
         "main": {
             "bandage": "绷带",
             "bandagedsc": "带有敷料的绷带\n可治疗伤势",
