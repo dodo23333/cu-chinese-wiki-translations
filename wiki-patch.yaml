@@ -1,5 +1,5 @@
 name: <color=yellow>维基中文</color>
-version: v1.9.9
+version: v2.0
 description: |-
   <color=white>注意：本文件为民间社区增强翻译，并非 ORO 或 Orsoniks 官方作品。并且基础翻译来自简体中文，我们只在原基础上增加描述文本。</color>
 
@@ -8,9 +8,9 @@ description: |-
 
   <color=blue>再次感谢简中版制作组</color>
   <color=purple>所有数据信息均来自制作组解包或灰机wiki数据，保证准确率高</color>
-  当前版本1.9.9(2.0测试版2026-11-17)
+  当前版本2.0(2.0测试版2026-11-19)
 
-  <color=orange>翻译项目(贡献或者反馈问题(Issue&PR)进这里)：</color>
+  <color=orange>翻译项目(贡献或者反馈问题(issue&PR)进这里)：</color>
   <color=yellow>https://github.com/dodo23333/cu-chinese-wiki-translations</color>
   <color=orange>贡献者名单：</color>
   <color=yellow>https://github.com/StreamWind114514/Casualties-Unknown-Simplified-Chinese-Wiki</color>
@@ -286,7 +286,7 @@ main:
   salinedsc: |-
     <color=#91a7ff>┃容重比：0.15u/100mL</color>
     ┃制作(11)：2塑料块+2柔性玻璃+1废料管+20mL生化流体=1静脉输液袋
-    <color=orange>也可直接在物品栏饮用，效果等同与注射（无需对准肢体）</color>
+    <color=orange>也可直接在物品栏饮用，效果等同与注射</color>
   ringersolutiondsc: |-
     <color=#91a7ff>┃容重比：0.16u/100mL</color>
     <color=orange>注射可能导致血容量过高(高血容量症)，严重时引发呼吸停止</color>
@@ -1861,7 +1861,7 @@ main:
     <color=#91a7ff>┃容重比：0.00u/100mL</color>
     <color=#ffee58>┃获取：各层随机生成(不可制作/交易)</color>
     <color=orange>随机最高8种液体，可分离：用离心机分离损失1/3。
-    桶+液体交易上限50价值，过重时摔落伤害大大增加，版本v1.9.9
+    桶+液体交易上限50价值，过重时摔落伤害大大增加，版本v2.0
     长按投掷出去可进行反推力作用，重量越大后坐力越大(小心会受伤)</color>
   minifleshrebuilderdsc: |-
     <color=#72d572>┃头部使用：需装入≥3个物品
@@ -2227,7 +2227,7 @@ buildings:
     ┃疼痛=100┃击退┃体温+5°C
     ┃意识归零┃呼吸频率=0(呼吸停止)┃休克+100
     ┃肾上腺素=50┃纤颤=0┃无视护甲
-    ┃★治疗心室颤动：触发瞬间纤颤直接归零
+    ┃治疗心室颤动：触发瞬间纤颤直接归零
     ┃冷却30秒</color>
     <color=#ffee58>┃破坏掉落：金属废料1~2(50%)
     ┃金属废料(25%)┃电路板(35%)</color>
@@ -3902,7 +3902,7 @@ moodles:
     <color=#888888>┃恐惧值替换为专注值100
     ┃持续衰减 20/s，靠近来源时重置满值</color>
     <color=#3CCBE7>┃解除:离开范围｜击杀长老</color>
-  focused: !replace 绝境专注
+  focused: !replace 绝境专注(<45格｜非阶段1)
   focuseddscalt: |-
     </i>
     <color=#ffaa00>结局逃离阶段</color>
