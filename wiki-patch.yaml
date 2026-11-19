@@ -286,6 +286,7 @@ main:
   salinedsc: |-
     <color=#91a7ff>┃容重比：0.15u/100mL</color>
     ┃制作(11)：2塑料块+2柔性玻璃+1废料管+20mL生化流体=1静脉输液袋
+    <color=orange>也可直接在物品栏饮用，效果等同与注射（无需对准肢体）</color>
   ringersolutiondsc: |-
     <color=#91a7ff>┃容重比：0.16u/100mL</color>
     <color=orange>注射可能导致血容量过高(高血容量症)，严重时引发呼吸停止</color>
@@ -1264,6 +1265,11 @@ main:
     <color=#ffee58>┃获取：制作
     ┃制作(10)：2易燃粉末+1细绳+1废料板+1(可捶打)</color>
     <color=orange>爆炸范围大，伤害高，注意保持距离</color>
+    <color=#91a7ff>┃伤害：范围18格┃结构伤害2000×Random(0~2)
+    ┃肢体：每肢按护甲减免，可触发碎片/出血/内出血
+    ┃视线：被地形遮挡的肢体免疫</color>
+    <color=#ff4444>┃伤害与耐久无关，低耐久不会削弱爆炸</color>
+    <color=#ffa726>┃耐久归零会直接销毁（不会引爆）</color>
   climbingclawsdsc: |-
     <color=#91a7ff>┃效果：可在墙壁上攀爬和跳跃</color>
     <color=#ffee58>┃获取：交易</color>
@@ -2213,6 +2219,7 @@ buildings:
     ┃疼痛=100┃击退┃体温+5°C
     ┃意识归零┃呼吸频率=0(呼吸停止)┃休克+100
     ┃肾上腺素=50┃纤颤=0┃无视护甲
+    ┃★治疗心室颤动：触发瞬间纤颤直接归零
     ┃冷却30秒</color>
     <color=#ffee58>┃破坏掉落：金属废料1~2(50%)
     ┃金属废料(25%)┃电路板(35%)</color>
@@ -3885,15 +3892,15 @@ moodles:
     </i>
     <color=#ffaa00>距离<45格且非阶段1（<3750血）</color>
     <color=#888888>┃恐惧值替换为专注值100
-    ┃离开>45格：专注 -20/s</color>
+    ┃持续衰减 20/s，靠近来源时重置满值</color>
     <color=#3CCBE7>┃解除:离开范围｜击杀长老</color>
-  focused: (<45格｜非阶段1)
+  focused: !replace 绝境专注
   focuseddscalt: |-
     </i>
-    <color=#ffaa00>距离<45格且非阶段1（<3750血）</color>
+    <color=#ffaa00>结局逃离阶段</color>
     <color=#888888>┃恐惧值替换为专注值100
-    ┃离开>45格：专注 -20/s</color>
-    <color=#3CCBE7>┃解除:离开范围｜击杀长老</color>
+    ┃持续衰减 20/s，逃离期间持续重置</color>
+    <color=#3CCBE7>┃解除:逃离阶段结束</color>
 other:
   runsetunchippeddsc: |-
     不建议新手开启。
@@ -3986,8 +3993,9 @@ other:
     <color=#C9CAFF>环境温度修正-10°C</color>
     整层持续，离开后恢复
   layermodifier15dsc: |-
-    <color=#A37244>关闭地震判定</color>
-    整层不会发生地震
+    <color=#A37244>关闭持续地震</color>
+    <color=#888888>┃消除 3~25 秒的持续震动
+    <color=#ff4444>┃仍会随机触发瞬时地震与震波，约 10 秒后衰减</color>
   layermodifier5dsc: |-
     <color=#16CCFF>每区块25次注水｜每次≤600</color>
     第9层不生成
