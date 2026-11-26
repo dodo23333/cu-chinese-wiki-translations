@@ -367,6 +367,7 @@ main:
     <color=#91a7ff>┃容重比：0.25u/100mL</color>
     <color=#ffee58>┃制作(8)：1水壶+1塑料块+1废料管+10mL生化流体</color>
   scrapmetaldsc: |-
+    <color=#72d572>钢制假肢(上限15)┃提供16片修复</color>
     <color=#ffee58>┃获取：陷阱/废料块掉落</color>
     <color=orange>┃手持可放置方块(消耗25%耐久)</color>
   climbingropedsc: "<color=#ffee58>┃制作(7)：2绳子+0.5钉子</color>"
@@ -1393,7 +1394,7 @@ main:
     ┃体温 -1°C
     ┃会随时间自动恢复到满耐久，永不损坏</color>
     <color=#ffa726>┃消耗 50% 耐久</color>
-    <color=#ffee58>┃获取：医疗箱/空投舱/交易(目前无法制作，因寒霜果尚未实装)
+    <color=#ffee58>┃获取：医疗箱/空投舱/交易
     ┃制作(14)：2寒霜果(>=50%)+200mL(液体)+2帆布+1细绳+1电路板(>=90%)</color>
     <color=orange>可降低体温以通过炮塔的热感应；在炎热地区挖矿或战斗时极其实用</color>
   cryogeniccoredsc: |-
@@ -1713,23 +1714,43 @@ main:
     <color=#ffee58>┃获取：1废料块→25弹壳 | 射击后掉落(半自动自动抛出，手动需拉栓)
     ┃制作(10)：1废料板+1(可切割)+1(可捶打)=5弹壳</color>
     <color=orange>极轻(0.02u)，可大量存放于子弹带或材料袋。过多可能使容器界面拉伸</color>
-  scrapcubedsc: "<color=#ffee58>┃制作(6)：1金属废料(>=90%)+10mL生化流体</color>"
-  scrappaneldsc: "<color=#ffee58>┃制作(5)：1废料块(>=90%)+1(可切割)=5废料板</color>"
-  scraptubedsc: "<color=#ffee58>┃制作(5)：1废料块(>=90%)+1(可切割)=2废料管</color>"
-  woodscrapsdsc: "<color=#ffee58>┃制作(3)：4纤维=1木屑</color>"
-  woodcubedsc: "<color=#ffee58>┃制作(4)：3木屑+10mL生化流体</color>"
-  woodpaneldsc: "<color=#ffee58>┃制作(4)：1木块(>=90%)+1(可切割)=5木板</color>"
+  scrapcubedsc: |-
+    <color=#72d572>钢制假肢(上限15)┃提供16片修复</color>
+    <color=#ffee58>┃制作(6)：1金属废料(>=90%)+10mL生化流体</color>
+  scrappaneldsc: |-
+    <color=#72d572>钢制假肢(上限15)┃提供2片修复</color>
+    <color=#ffee58>┃制作(5)：1废料块(>=90%)+1(可切割)=5废料板</color>
+  scraptubedsc: |-
+    <color=#72d572>钢制假肢(上限15)┃提供6片修复</color>
+    <color=#ffee58>┃制作(5)：1废料块(>=90%)+1(可切割)=2废料管</color>
+  woodscrapsdsc: |-
+    <color=#72d572>木制假肢(上限10)┃提供10片修复</color>
+    <color=#ffee58>┃制作(3)：4纤维=1木屑</color>
+  woodcubedsc: |-
+    <color=#72d572>木制假肢(上限10)┃提供10片修复</color>
+    <color=#ffee58>┃制作(4)：3木屑+10mL生化流体</color>
+  woodpaneldsc: |-
+    <color=#72d572>木制假肢(上限10)┃提供1片修复</color>
+    <color=#ffee58>┃制作(4)：1木块(>=90%)+1(可切割)=5木板</color>
   canvasdsc: |-
     <color=#ffee58>┃制作(2)：3纤维=1帆布</color>
     <color=orange>随时可搓绷带卖钱或包扎，且比绷带(0.9u)轻得多
     不会腐坏，建议材料袋里常备几个</color>
   nailsdsc: "<color=#ffee58>┃制作(5)：1废料块+1(可切割)=2钉子</color>"
   stringdsc: "<color=#ffee58>┃制作(5)：2绳子+1(可切割)=3细绳</color>"
-  stickdsc: "<color=#ffee58>┃制作(4)：1木块+1(可切割)=2木棍</color>"
+  stickdsc: |-
+    <color=#72d572>木制假肢(上限10)┃提供4片修复</color>
+    <color=#ffee58>┃制作(4)：1木块+1(可切割)=2木棍</color>
   ilmenitechunkdsc: "<color=#ffee58>┃获取：挖掘蓝色钛铁矿石</color>"
-  titaniumslabdsc: "<color=#ffee58>┃制作(15)：1钛铁矿块+50mL生化流体+100mL(液体)+4(可切割)+4(可捶打)=1厚钛板</color>"
-  titaniumroddsc: "<color=#ffee58>┃制作(15)：1厚钛板+10mL生化流体+4(可切割)=2钛棒</color>"
-  titaniumsheetdsc: "<color=#ffee58>┃制作(15)：1厚钛板+10mL生化流体+4(可切割)=5钛板</color>"
+  titaniumslabdsc: |-
+    <color=#72d572>增强型假肢(上限20)┃提供50片修复</color>
+    <color=#ffee58>┃制作(15)：1钛铁矿块+50mL生化流体+100mL(液体)+4(可切割)+4(可捶打)=1厚钛板</color>
+  titaniumroddsc: |-
+    <color=#72d572>增强型假肢(上限20)┃提供25片修复</color>
+    <color=#ffee58>┃制作(15)：1厚钛板+10mL生化流体+4(可切割)=2钛棒</color>
+  titaniumsheetdsc: |-
+    <color=#72d572>增强型假肢(上限20)┃提供10片修复</color>
+    <color=#ffee58>┃制作(15)：1厚钛板+10mL生化流体+4(可切割)=5钛板</color>
   rawcopperdsc: "<color=#ffee58>┃获取：挖掘棕色铜矿石</color>"
   processedcopperdsc: "<color=#ffee58>┃制作(10)：1粗铜矿+40mL生化流体</color>"
   plasticchunkdsc: "<color=#ffee58>┃获取：物资箱/交易(不可制作)</color>"
@@ -2016,7 +2037,7 @@ buildings:
     <color=#ffee58>┃破坏掉落：金属废料×3┃电路板×2┃塑料块×1┃冷冻核心×1(均为100%)</color>
     <color=orange>┃伪装成物资箱，首次仅在玩家进入10格时展开
     ┃激活后可在64格内再次展开
-    ┃攻击：64格光束，结构伤害50┃皮肤/疼痛15┃肌肉3.75(受护甲减免)
+    ┃攻击：64格光束，结构伤害50┃皮肤/疼痛15┃肌肉3.75(受护甲减免)┃护甲损耗0.015┃体温-0.5┃肾上腺素+25┃体力+35
     ┃每发+30热量┃>100过热冷却┃直至热量归零
     ┃过热散热：展开≈6.7秒(-15/s)┃收起≈3.3秒(-30/s)
     ┃展开时血量÷2┃收起时×2(不回血)</color>
@@ -2025,7 +2046,7 @@ buildings:
     <color=#e84e40>┃最大血量：2000(伪装)/1000(展开)</color>
     <color=#ffee58>┃破坏掉落：金属废料×3┃电路板×2┃塑料块×1┃冷冻核心×1(均100%)</color>
     <color=orange>┃伪装：首次10格触发┃激活后64格内可再展开
-    ┃攻击：64格光束┃结构50┃皮肤/疼痛15┃肌肉3.75(受护甲减免)
+    ┃攻击：64格光束┃结构50┃皮肤/疼痛15┃肌肉3.75(受护甲减免)┃护甲损耗0.015┃体温-0.5┃肾上腺素+25┃体力+35
     ┃每发+30热量┃>100过热冷却┃直至热量归零
     ┃过热散热：展开≈6.7秒(-15/s)┃收起≈3.3秒(-30/s)
     ┃展开时血量÷2┃收起时×2(不回血)</color>
@@ -2127,7 +2148,7 @@ buildings:
     <color=#ffee58>┃破坏掉落：植物纤维×2(100%/66%)
     ┃菌类块×3(75%/75%/25%)</color>
     <color=#91a7ff>┃生命低于150时喷发一次
-    ┃喷发：8格内体温-8┃雪量100┃向上速度+12</color>
+    ┃喷发：8格内体温-8┃血量100┃向上速度+12</color>
     <color=orange>喷发后描述变化，不再重复触发</color>
   spicevinedsc: |-
     <color=#e84e40>┃最大血量：250</color>
@@ -2449,6 +2470,7 @@ buildings:
     ┃肢体：皮肤-9×转速┃肌肉-7.5×转速
     ┃出血+0.06×转速L/分钟┃疼痛+7×转速
     ┃转速≥2：布娃娃
+    ┃转速≥3：断片掉落金属废料
     ┃转速>4.15：骨折┃已骨折则断肢
     ┃可破坏建筑/地形/物品</color>
     <color=#ffee58>┃破坏掉落：金属废料×2(100%/50%)┃电路板×1(50%)</color>
