@@ -147,14 +147,6 @@ main:
     <color=#91a7ff>┃容重比：0.25u/100mL</color>
     <color=#ffee58>┃获取：医疗箱/空投舱/维生舱箱子/交易
     ┃制作(7)：2水芦莓+10mL生化流体+50mL水=50mL鸦片</color>
-  peglimbdsc: |-
-    <color=#91a7ff>┃重量：2.0｜安装：胸/腹
-    ┃目标：已离断的相邻肢体
-    ┃智力<7：概率失败
-    ┃失败：皮肤-8｜肌肉-5
-    ┃疼痛+10｜出血+2</color>
-    <color=#72d572>┃成功：力量-55%｜护甲-10%
-    ┃10孔｜木料修复</color>
   heroindsc: |-
     <color=#91a7ff>┃容重比：0.20u/100mL</color>
     <color=#ffee58>┃获取：医疗箱/维生舱箱子/空投舱/交易/尸体</color>
@@ -164,17 +156,9 @@ main:
   naltrexonedsc: |-
     <color=#91a7ff>┃容重比：0.30u/100mL</color>
     <color=#ffee58>┃获取：医疗箱/空投舱/维生舱箱子/交易/尸体</color>
-  sodiumnitroprussidedsc: <color=#91a7ff>┃容重比：0.30u/100mL</color>
-  vasopressindsc: <color=#91a7ff>┃容重比：0.30u/100mL</color>
-  steelprosthesisdsc: |-
-    <color=#91a7ff>┃重量：2.5｜安装：胸/腹
-    ┃目标：已离断的相邻肢体
-    ┃智力<10：概率失败
-    ┃失败：皮肤-8｜肌肉-5
-    ┃疼痛+10｜出血+2</color>
-    <color=#72d572>┃成功：力量不变｜护甲+20%
-    ┃15孔｜废料修复</color>
-  amiodaronedsc: <color=#91a7ff>┃容重比：0.30u/100mL</color>
+  sodiumnitroprussidedsc: "<color=#91a7ff>┃容重比：0.30u/100mL</color>"
+  vasopressindsc: "<color=#91a7ff>┃容重比：0.30u/100mL</color>"
+  amiodaronedsc: "<color=#91a7ff>┃容重比：0.30u/100mL</color>"
   fentanyldsc: |-
     <color=#91a7ff>┃容重比：0.30u/100mL</color>
     <color=#ffee58>┃获取：医疗箱/维生舱箱子/空投舱/交易/尸体</color>
@@ -217,6 +201,14 @@ main:
     偏差每焦耳-2.5%成功率，>=40J偏差无效。
     电击有20%几率修复心脏骤停。
     智力影响估算范围，>=23智力最准</color>
+  minifleshrebuilderdsc: |-
+    <color=#72d572>┃头部使用：需装入≥3个物品
+    ┃消耗容器内全部物品
+    ┃优先修复：双眼→毁容→单眼
+    ┃无缺失：头部肌肉/皮肤100
+    ┃但头部感染+50</color>
+    ┃仅能修复头部器官
+    ┃装入肉块时可发光
   antidepressantsdsc: |-
     <color=#91a7ff>┃容重比：0.36u/100mL</color>
     <color=#ffee58>┃获取：医疗箱/物资箱/空投舱/维生舱箱子/交易/尸体</color>
@@ -230,10 +222,6 @@ main:
   antiraddsc: |-
     <color=#91a7ff>┃容重比：0.30u/100mL</color>
     <color=#ffee58>┃获取：医疗箱/空投舱/维生舱箱子/交易/尸体</color>
-  tutorialradiodsc: |-
-    <color=#888888>┃当前版本未启用
-    ┃无实际物品行为</color>
-    ┃仅作训练场道具
   sleepingpillsdsc: |-
     <color=#91a7ff>┃容重比：1.60u/100mL</color>
     <color=#ffee58>┃获取：医疗箱/空投舱/维生舱箱子/交易/尸体</color>
@@ -297,8 +285,7 @@ main:
     <color=#ffa726>┃腐败：1.66%/分钟</color>
     <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱</color>
     <color=orange>早期优质容器，寿命约1小时</color>
-  flammablepowderdsc: |-
-    <color=#ffee58>┃制作(8)：1石板栗+1(可捶打)+5mL生化流体</color>
+  flammablepowderdsc: "<color=#ffee58>┃制作(8)：1石板栗+1(可捶打)+5mL生化流体</color>"
   foliagebagdsc: |-
     <color=#ffa726>┃腐败：4%/分钟</color>
     <color=#ffee58>┃制作(5)：2帆布+1绳子</color>
@@ -380,9 +367,10 @@ main:
     <color=#91a7ff>┃容重比：0.25u/100mL</color>
     <color=#ffee58>┃制作(8)：1水壶+1塑料块+1废料管+10mL生化流体</color>
   scrapmetaldsc: |-
+    <color=#72d572>钢制假肢(上限15)┃提供16片修复</color>
     <color=#ffee58>┃获取：陷阱/废料块掉落</color>
     <color=orange>┃手持可放置方块(消耗25%耐久)</color>
-  climbingropedsc: <color=#ffee58>┃制作(7)：2绳子+0.5钉子</color>
+  climbingropedsc: "<color=#ffee58>┃制作(7)：2绳子+0.5钉子</color>"
   circuitboarddsc: |-
     <color=#ffee58>┃获取：物资箱/交易
     ┃修理(9)：1电线捆→恢复100%耐久</color>
@@ -528,36 +516,6 @@ main:
     <color=#ffa726>┃腐败：0.33%/分钟</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
     <color=#ffa726>特点：腐败较慢，适合作为长期口粮(需另备饮水)</color>
-  aichipdsc: |-
-    <color=#ffaa00>┃雇佣兵剧情组件
-    ┃第7层｜普通模式每层25%
-    ┃雇佣兵模式必定生成
-    ┃无单独使用效果</color>
-    <color=#72d572>┃合成：与其余5枚芯片+围巾+电路板
-    ┃→雇佣兵围巾（智力18）
-    ┃集齐并携带围巾至最终地表
-    ┃触发雇佣兵结局</color>
-    <color=#FF69B4>┃注意：此物品和结局有关</color>
-  capacitorchipdsc: |-
-    <color=#ffaa00>┃雇佣兵剧情组件
-    ┃第3层｜普通模式每层25%
-    ┃雇佣兵模式必定生成
-    ┃无单独使用效果</color>
-    <color=#72d572>┃合成：与其余5枚芯片+围巾+电路板
-    ┃→雇佣兵围巾（智力18）
-    ┃集齐并携带围巾至最终地表
-    ┃触发雇佣兵结局</color>
-    <color=#FF69B4>┃注意：此物品和结局有关</color>
-  swapchipdsc: |-
-    <color=#ffaa00>┃雇佣兵剧情组件
-    ┃第4层｜普通模式每层25%
-    ┃雇佣兵模式必定生成
-    ┃无单独使用效果</color>
-    <color=#72d572>┃合成：与其余5枚芯片+围巾+电路板
-    ┃→雇佣兵围巾（智力18）
-    ┃集齐并携带围巾至最终地表
-    ┃触发雇佣兵结局</color>
-    <color=#FF69B4>┃注意：此物品和结局有关</color>
   cerealdsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +6
@@ -649,42 +607,11 @@ main:
   ketchupdsc: |-
     <color=#91a7ff>┃容重比：0.33u/100mL</color>
     <color=#ffee58>┃获取：食物箱/空投舱/维生舱箱子/交易/尸体</color>
-  kineticchipdsc: |-
-    <color=#ffaa00>┃雇佣兵剧情组件
-    ┃第9层｜普通模式每层25%
-    ┃雇佣兵模式必定生成
-    ┃无单独使用效果</color>
-    <color=#72d572>┃合成：与其余5枚芯片+围巾+电路板
-    ┃→雇佣兵围巾（智力18）
-    ┃集齐并携带围巾至最终地表
-    ┃触发雇佣兵结局</color>
-    <color=#FF69B4>┃注意：此物品和结局有关</color>
-  regenerationchipdsc: |-
-    <color=#ffaa00>┃雇佣兵剧情组件
-    ┃第2层｜普通模式每层25%
-    ┃雇佣兵模式必定生成
-    ┃无单独使用效果</color>
-    <color=#72d572>┃合成：与其余5枚芯片+围巾+电路板
-    ┃→雇佣兵围巾（智力18）
-    ┃集齐并携带围巾至最终地表
-    ┃触发雇佣兵结局</color>
-    <color=#FF69B4>┃注意：此物品和结局有关</color>
-  rejuvenationchipdsc: |-
-    <color=#ffaa00>┃雇佣兵剧情组件
-    ┃第5层｜普通模式每层25%
-    ┃雇佣兵模式必定生成
-    ┃无单独使用效果</color>
-    <color=#72d572>┃合成：与其余5枚芯片+围巾+电路板
-    ┃→雇佣兵围巾（智力18）
-    ┃集齐并携带围巾至最终地表
-    ┃触发雇佣兵结局</color>
-    <color=#FF69B4>┃注意：此物品和结局有关</color>
   waterjugdsc: |-
     <color=#91a7ff>┃容重比：0.17u/100mL</color>
     <color=#ffee58>┃获取：医疗箱/食物箱/空投舱/维生舱箱子</color>
     <color=orange>容量大且容重比低，是最优质液体容器之一</color>
-  bleachdsc: |-
-    <color=#91a7ff>┃容重比：0.20u/100mL</color>
+  bleachdsc: "<color=#91a7ff>┃容重比：0.20u/100mL</color>"
   energydrinkdsc: |-
     <color=#91a7ff>┃容重比：0.30u/100mL</color>
     <color=#ffee58>┃获取：医疗箱/空投舱/维生舱箱子/交易</color>
@@ -706,19 +633,13 @@ main:
   iceteadsc: |-
     <color=#91a7ff>┃容重比：0.25u/100mL</color>
     <color=#ffee58>┃获取：空投舱/维生舱箱子/物资箱/医疗箱/尸体</color>
-  spicevineleafdsc: |-
-    <color=#72d572>┃食用：饥饿+7｜体重+0.05kg
-    ┃口渴-1.5｜心情+0.2｜体温+1°C
-    ┃头部疼痛+30
-    ┃外敷：皮肤治疗量+30
-    ┃疼痛+20｜消毒120秒</color>
-    ┃味道辛辣
   sodacandsc: |-
     <color=#91a7ff>┃容重比：0.30u/100mL</color>
     <color=#ffee58>┃获取：食物箱/空投舱/交易</color>
-  alcoholdsc: <color=#91a7ff>┃容重比：0.25u/100mL</color>
-  exposedcoredsc: |-
-    </color><color=#72d572>┃食用效果：
+  alcoholdsc: "<color=#91a7ff>┃容重比：0.25u/100mL</color>"
+  exposedcoredsc: !replace |-
+    某种曾经具有生命之物留下的休眠残骸。你可以吃下它，以营养和水分的形式吸收其中能量。<color=#ff4444>若不及时食用，它会变化成某种东西...</color>
+    <color=#72d572>┃食用效果：
     ┃饥饿 +12
     ┃口渴 +15
     ┃体重 +0.34kg
@@ -728,12 +649,6 @@ main:
     ┃心情 +1</color>
     <color=#ffa726>┃腐败：25%/分钟┃腐坏后变为两个灵能晶（显现体）</color>
     <color=orange>建议：尽早食用，以免核心分裂为灵能晶</color>
-  cryogeniccoredsc: |-
-    <color=#72d572>┃温度>41.5°C且距离<8：自动激活
-    ┃投入岩浆：立即激活
-    ┃激活：体温-10（距离<8）
-    ┃清除半径8内全部岩浆
-    ┃单次使用</color>
   foliagedsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +5
@@ -892,8 +807,11 @@ main:
     <color=#ffee58>┃获取：物资箱/交易
     ┃制作(16)：1十字镐+2钛棒+1塑料块+20mL生化流体+1(可捶打)</color>
     <color=orange>提示：满耐久约3300次，总方块伤害46万。本游戏最强挖掘工具之一</color>
-  titaniummultitooldsc: |-
-    </color><color=#91a7ff>┃工具属性：
+  titaniummultitooldsc: !replace |-
+    一件小巧却极为坚固耐用的制作工具。顶端配有沉重锤头，握柄内藏有微小却锋利的刃片。并不适合用于挖掘或战斗，但在制作中经久耐用，几乎不会磨损，还很轻便。
+
+    <color=#ff4444>可在医疗面板中截除肢体。</color>
+    <color=#91a7ff>┃工具属性：
     ┃结构 25 ┃ 挖掘冷却 0.25秒
     ┃生物 20 ┃ 攻击冷却 0.77秒
     ┃范围 5 ┃ 体力消耗 0.6
@@ -901,8 +819,11 @@ main:
     <color=#ffee58>┃获取：制作/交易/物资箱/空投舱/维生舱箱子
     ┃制作(16)：1钛板+1钛棒+1塑料块+20mL生化流体+1(可捶打)+1(可切割)</color>
     <color=orange>极轻(0.3u)，近乎无限使用</color>
-  titaniummachetedsc: |-
-    </color><color=#91a7ff>┃工具属性：
+  titaniummachetedsc: !replace |-
+    一把性能卓越且经久耐用的武器，挥动时既轻巧又顺手，同时又锋利致命。刀口经过高温处理，可长期保持锋利。它是出色的自卫武器，万不得已时也可作为挖掘工具使用。
+
+    <color=#ff4444>可在医疗面板中截除肢体。</color>
+    <color=#91a7ff>┃工具属性：
     ┃结构 50 ┃ 挖掘冷却 0.32秒
     ┃生物 80 ┃ 攻击冷却 0.62秒
     ┃范围 5.75 ┃ 体力消耗 0.7
@@ -933,8 +854,11 @@ main:
     ┃范围 5.2 ┃ 体力消耗 1
     ┃耐久消耗 0.33%</color>
     <color=orange>100%耐久可使用约300次，总地块伤害约14700</color>
-  machetedsc: |-
-    </color><color=#91a7ff>┃工具属性：
+  machetedsc: !replace |-
+    一把宽刃金属大刀，很适合近身搏斗。拿着它让你感到不安。
+
+    <color=#ff4444>可在医疗面板中截除肢体。</color>
+    <color=#91a7ff>┃工具属性：
     ┃结构 38 ┃ 挖掘冷却 0.35秒
     ┃生物 50 ┃ 攻击冷却 0.23秒
     ┃范围 5.75 ┃ 体力消耗 0.75
@@ -942,8 +866,11 @@ main:
     <color=#ffee58>┃获取：制作
     ┃制作(12)：1粗制菜刀+3废料板+30mL生化流体+1(可捶打)</color>
     <color=orange>制作简单，手感好，伤害可观——游戏中期性价比最高的近战武器之一。可用于割下动物尸体上的肉</color>
-  crudecleaverdsc: |-
-    </color><color=#91a7ff>┃工具属性：
+  crudecleaverdsc: !replace |-
+    一把简单拼接成的金属菜刀，刀刃直接钉在了刀柄上。制作时效果不错。拿着它让你感到不安。
+
+    <color=#ff4444>可在医疗面板中截除肢体。</color>
+    <color=#91a7ff>┃工具属性：
     ┃结构 20 ┃ 挖掘冷却 0.35秒
     ┃生物 25 ┃ 攻击冷却 0.81秒
     ┃范围 5 ┃ 体力消耗 0.5
@@ -951,8 +878,11 @@ main:
     <color=#ffee58>┃获取：制作
     ┃制作(9)：1木棍+2废料板+1钉子+1(可捶打)</color>
     <color=orange>早期优秀近战武器，制作简单便宜。可用于切砍等</color>
-  sickledsc: |-
-    </color><color=#91a7ff>┃工具属性：
+  sickledsc: !replace |-
+    一件带有弧形刀刃的金属工具，用于收割作物或清理植被。
+
+    <color=#ff4444>可在医疗面板中截除肢体。</color>
+    <color=#91a7ff>┃工具属性：
     ┃结构 35 ┃ 挖掘冷却 0.3秒
     ┃生物 40 ┃ 攻击冷却 0.79秒
     ┃范围 5.2 ┃ 体力消耗 0.7
@@ -972,8 +902,11 @@ main:
     ┃范围 5.2 ┃ 体力消耗 0.88
     ┃耐久消耗 0.24%</color>
     <color=#ffee58>┃获取：物资箱/交易</color>
-  clawsdsc: |-
-    </color><color=#91a7ff>┃工具属性：
+  clawsdsc: !replace |-
+    它虽然看起来像个玩具，但却异常锋利坚固。拿着它时你觉得自己威风凛凛。
+
+    <color=#ff4444>可在医疗面板中截除肢体。</color>
+    <color=#91a7ff>┃工具属性：
     ┃结构 24 ┃ 挖掘冷却 0.15秒
     ┃生物 35 ┃ 攻击冷却 0.47秒
     ┃范围 5 ┃ 体力消耗 0.5
@@ -1006,14 +939,6 @@ main:
   ropedsc: |-
     <color=#ffee58>┃获取：破坏水芦/交易
     ┃制作(1)：2纤维=1绳子</color>
-  peodsc: |-
-    <color=#91a7ff>┃重量：2.5｜安装：胸/腹
-    ┃目标：已离断的相邻肢体
-    ┃智力<14：概率失败
-    ┃失败：皮肤-8｜肌肉-5
-    ┃疼痛+10｜出血+2</color>
-    <color=#72d572>┃成功：力量+25%｜护甲+60%
-    ┃20孔｜钛材修复</color>
   animalfleshdsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +7.5 | 体重 +0.34kg | 患病 +4 | 心情 -1.15</color>
@@ -1067,6 +992,10 @@ main:
     <color=#91a7ff>┃功能：
     ┃每20s报房颤；每30s报失血时间；每1分40s报感染/骨折/脱臼；每10分报体重变化(+3.25心情)</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
+  tutorialradiodsc: |-
+    <color=#888888>┃当前版本未启用
+    ┃无实际物品行为</color>
+    ┃仅作训练场道具
   mp3playerdsc: |-
     <color=#91a7ff>┃效果：切换/播放音乐，提升心情</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
@@ -1099,7 +1028,7 @@ main:
     <color=#ffa726>┃腐败：10%/分钟</color>
     <color=#ffee58>┃获取：破坏水芦</color>
     <color=#ffa726>腐败极快，不可榨汁</color>
-  droppingsdsc: <color=#ffee58>┃制作(7)：1热源+1屎+10mL生化流体=3木炭</color>
+  droppingsdsc: "<color=#ffee58>┃制作(7)：1热源+1屎+10mL生化流体=3木炭</color>"
   smallpackdsc: |-
     <color=#ffa726>┃腐败：0.48%/分钟</color>
     <color=#ffee58>┃获取：物资箱/维生舱箱子/空投舱</color>
@@ -1158,7 +1087,67 @@ main:
     ┃替换普通地表结局
     ┃触发雇佣兵结局</color>
     <color=#FF69B4>┃注意：此物品和结局有关</color>
-  blueprintdsc: <color=#ffee58>┃获取：维生舱箱子/空投舱/交易</color>
+  regenerationchipdsc: |-
+    <color=#ffaa00>┃雇佣兵剧情组件
+    ┃第2层｜普通模式每层25%
+    ┃雇佣兵模式必定生成
+    ┃无单独使用效果</color>
+    <color=#72d572>┃合成：与其余5枚芯片+围巾+电路板
+    ┃→雇佣兵围巾（智力18）
+    ┃集齐并携带围巾至最终地表
+    ┃触发雇佣兵结局</color>
+    <color=#FF69B4>┃注意：此物品和结局有关</color>
+  capacitorchipdsc: |-
+    <color=#ffaa00>┃雇佣兵剧情组件
+    ┃第3层｜普通模式每层25%
+    ┃雇佣兵模式必定生成
+    ┃无单独使用效果</color>
+    <color=#72d572>┃合成：与其余5枚芯片+围巾+电路板
+    ┃→雇佣兵围巾（智力18）
+    ┃集齐并携带围巾至最终地表
+    ┃触发雇佣兵结局</color>
+    <color=#FF69B4>┃注意：此物品和结局有关</color>
+  swapchipdsc: |-
+    <color=#ffaa00>┃雇佣兵剧情组件
+    ┃第4层｜普通模式每层25%
+    ┃雇佣兵模式必定生成
+    ┃无单独使用效果</color>
+    <color=#72d572>┃合成：与其余5枚芯片+围巾+电路板
+    ┃→雇佣兵围巾（智力18）
+    ┃集齐并携带围巾至最终地表
+    ┃触发雇佣兵结局</color>
+    <color=#FF69B4>┃注意：此物品和结局有关</color>
+  rejuvenationchipdsc: |-
+    <color=#ffaa00>┃雇佣兵剧情组件
+    ┃第5层｜普通模式每层25%
+    ┃雇佣兵模式必定生成
+    ┃无单独使用效果</color>
+    <color=#72d572>┃合成：与其余5枚芯片+围巾+电路板
+    ┃→雇佣兵围巾（智力18）
+    ┃集齐并携带围巾至最终地表
+    ┃触发雇佣兵结局</color>
+    <color=#FF69B4>┃注意：此物品和结局有关</color>
+  aichipdsc: |-
+    <color=#ffaa00>┃雇佣兵剧情组件
+    ┃第7层｜普通模式每层25%
+    ┃雇佣兵模式必定生成
+    ┃无单独使用效果</color>
+    <color=#72d572>┃合成：与其余5枚芯片+围巾+电路板
+    ┃→雇佣兵围巾（智力18）
+    ┃集齐并携带围巾至最终地表
+    ┃触发雇佣兵结局</color>
+    <color=#FF69B4>┃注意：此物品和结局有关</color>
+  kineticchipdsc: |-
+    <color=#ffaa00>┃雇佣兵剧情组件
+    ┃第9层｜普通模式每层25%
+    ┃雇佣兵模式必定生成
+    ┃无单独使用效果</color>
+    <color=#72d572>┃合成：与其余5枚芯片+围巾+电路板
+    ┃→雇佣兵围巾（智力18）
+    ┃集齐并携带围巾至最终地表
+    ┃触发雇佣兵结局</color>
+    <color=#FF69B4>┃注意：此物品和结局有关</color>
+  blueprintdsc: "<color=#ffee58>┃获取：维生舱箱子/空投舱/交易</color>"
   safetyglassesdsc: |-
     <color=#91a7ff>┃护甲：0.25
     ┃损耗系数：0.45</color>
@@ -1176,6 +1165,11 @@ main:
     ┃保温：20%
     ┃损耗系数：0.35</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
+  earmuffsdsc: |-
+    <color=#91a7ff>┃部位：头部｜护甲12.5%
+    ┃保温0.20｜耐久损耗×0.10
+    ┃腐败：240分钟</color>
+    <color=#72d572>┃装备时完全抵挡枪声/炮塔/爆炸的听力损伤</color>
   latexglovesdsc: |-
     <color=#91a7ff>┃保温：8%
     ┃损耗系数：0.50</color>
@@ -1400,9 +1394,15 @@ main:
     ┃体温 -1°C
     ┃会随时间自动恢复到满耐久，永不损坏</color>
     <color=#ffa726>┃消耗 50% 耐久</color>
-    <color=#ffee58>┃获取：医疗箱/空投舱/交易(目前无法制作，因寒霜果尚未实装)
+    <color=#ffee58>┃获取：医疗箱/空投舱/交易
     ┃制作(14)：2寒霜果(>=50%)+200mL(液体)+2帆布+1细绳+1电路板(>=90%)</color>
     <color=orange>可降低体温以通过炮塔的热感应；在炎热地区挖矿或战斗时极其实用</color>
+  cryogeniccoredsc: |-
+    <color=#72d572>┃温度>41.5°C且距离<8：自动激活
+    ┃投入岩浆：立即激活
+    ┃激活：体温-10（距离<8）
+    ┃清除半径8内全部岩浆
+    ┃单次使用</color>
   armwarmersdsc: |-
     <color=#91a7ff>┃护甲：0.25
     ┃保温：10%
@@ -1520,11 +1520,6 @@ main:
     <color=#ffa726>┃腐败：0.33%/分钟</color>
     <color=#ffee58>┃获取：物资箱/空投舱/交易</color>
     <color=orange>可撕碎为绷带</color>
-  earmuffsdsc: |-
-    <color=#91a7ff>┃部位：头部｜护甲12.5%
-    ┃保温0.20｜耐久损耗×0.10
-    ┃腐败：240分钟</color>
-    <color=#72d572>┃装备时完全抵挡枪声/炮塔/爆炸的听力损伤</color>
   tacticalbootsdsc: |-
     <color=#91a7ff>┃护甲：2.0
     ┃保温：30%
@@ -1555,6 +1550,13 @@ main:
     <color=#ffa726>┃腐败：0.33%/分钟</color>
     <color=#ffee58>┃获取：破坏炮果草/交易</color>
     <color=orange>极轻(0.10u)，注意控制体温</color>
+  spicevineleafdsc: |-
+    <color=#72d572>┃食用：饥饿+7｜体重+0.05kg
+    ┃口渴-1.5｜心情+0.2｜体温+1°C
+    ┃头部疼痛+30
+    ┃外敷：皮肤治疗量+30
+    ┃疼痛+20｜消毒120秒</color>
+    ┃味道辛辣
   bulbskindsc: |-
     <color=#72d572>┃食用效果：
     ┃口渴 +4.5
@@ -1662,16 +1664,16 @@ main:
     ┃沾水后120s内算潮湿状态┃潮湿固定+4.5%卡壳┃每开一枪最多判定3次
     <color=##FFD54F>注意：50%耐久卡壳率最高！100%和0%反而是0.25%
     我也不知道代码为什么这么写</color>
-  9mmrounddsc: |-
+  "9mmrounddsc": |-
     <color=#ffee58>┃获取：制作
     ┃制作(12)：5弹壳+1易燃粉末+0.5(可捶打)=5发</color>
     <color=#91a7ff>┃单发伤害：76.5~103.5(生物/建筑相同)</color>
-  556rounddsc: |-
+  "556rounddsc": |-
     <color=#ffee58>┃获取：制作
     ┃制作(12)：4弹壳+1易燃粉末+0.5(可捶打)=4发</color>
     <color=#91a7ff>┃单发伤害(生物)：102~138
     ┃单发伤害(建筑)：114.75~155.25</color>
-  12gaugedsc: |-
+  "12gaugedsc": |-
     <color=#ffee58>┃获取：制作
     ┃制作(12)：3弹壳+1塑料块+1易燃粉末+0.5(可捶打)=3发</color>
     <color=#91a7ff>┃伤害(生物)：272~368(8发全中)┃单发弹丸34~46
@@ -1713,47 +1715,52 @@ main:
     ┃制作(10)：1废料板+1(可切割)+1(可捶打)=5弹壳</color>
     <color=orange>极轻(0.02u)，可大量存放于子弹带或材料袋。过多可能使容器界面拉伸</color>
   scrapcubedsc: |-
+    <color=#72d572>钢制假肢(上限15)┃提供16片修复</color>
     <color=#ffee58>┃制作(6)：1金属废料(>=90%)+10mL生化流体</color>
   scrappaneldsc: |-
+    <color=#72d572>钢制假肢(上限15)┃提供2片修复</color>
     <color=#ffee58>┃制作(5)：1废料块(>=90%)+1(可切割)=5废料板</color>
   scraptubedsc: |-
+    <color=#72d572>钢制假肢(上限15)┃提供6片修复</color>
     <color=#ffee58>┃制作(5)：1废料块(>=90%)+1(可切割)=2废料管</color>
   woodscrapsdsc: |-
+    <color=#72d572>木制假肢(上限10)┃提供10片修复</color>
     <color=#ffee58>┃制作(3)：4纤维=1木屑</color>
   woodcubedsc: |-
+    <color=#72d572>木制假肢(上限10)┃提供10片修复</color>
     <color=#ffee58>┃制作(4)：3木屑+10mL生化流体</color>
   woodpaneldsc: |-
+    <color=#72d572>木制假肢(上限10)┃提供1片修复</color>
     <color=#ffee58>┃制作(4)：1木块(>=90%)+1(可切割)=5木板</color>
   canvasdsc: |-
     <color=#ffee58>┃制作(2)：3纤维=1帆布</color>
     <color=orange>随时可搓绷带卖钱或包扎，且比绷带(0.9u)轻得多
     不会腐坏，建议材料袋里常备几个</color>
-  nailsdsc: |-
-    <color=#ffee58>┃制作(5)：1废料块+1(可切割)=2钉子</color>
-  stringdsc: |-
-    <color=#ffee58>┃制作(5)：2绳子+1(可切割)=3细绳</color>
+  nailsdsc: "<color=#ffee58>┃制作(5)：1废料块+1(可切割)=2钉子</color>"
+  stringdsc: "<color=#ffee58>┃制作(5)：2绳子+1(可切割)=3细绳</color>"
   stickdsc: |-
+    <color=#72d572>木制假肢(上限10)┃提供4片修复</color>
     <color=#ffee58>┃制作(4)：1木块+1(可切割)=2木棍</color>
-  ilmenitechunkdsc: |-
-    <color=#ffee58>┃获取：挖掘蓝色钛铁矿石</color>
+  ilmenitechunkdsc: "<color=#ffee58>┃获取：挖掘蓝色钛铁矿石</color>"
   titaniumslabdsc: |-
+    <color=#72d572>增强型假肢(上限20)┃提供50片修复</color>
     <color=#ffee58>┃制作(15)：1钛铁矿块+50mL生化流体+100mL(液体)+4(可切割)+4(可捶打)=1厚钛板</color>
   titaniumroddsc: |-
+    <color=#72d572>增强型假肢(上限20)┃提供25片修复</color>
     <color=#ffee58>┃制作(15)：1厚钛板+10mL生化流体+4(可切割)=2钛棒</color>
   titaniumsheetdsc: |-
+    <color=#72d572>增强型假肢(上限20)┃提供10片修复</color>
     <color=#ffee58>┃制作(15)：1厚钛板+10mL生化流体+4(可切割)=5钛板</color>
-  rawcopperdsc: |-
-    <color=#ffee58>┃获取：挖掘棕色铜矿石</color>
-  processedcopperdsc: |-
-    <color=#ffee58>┃制作(10)：1粗铜矿+40mL生化流体</color>
-  plasticchunkdsc: |-
-    <color=#ffee58>┃获取：物资箱/交易(不可制作)</color>
-  flexiglassdsc: |-
-    <color=#ffee58>┃制作(9)：2塑料块+10mL生化流体+1(可切割)</color>
-  bundleofwiresdsc: |-
-    <color=#ffee58>┃制作(10)：1加工铜块+3塑料块=6电线捆</color>
-  flimsyknifedsc: |-
-    </color><color=#91a7ff>┃工具属性：
+  rawcopperdsc: "<color=#ffee58>┃获取：挖掘棕色铜矿石</color>"
+  processedcopperdsc: "<color=#ffee58>┃制作(10)：1粗铜矿+40mL生化流体</color>"
+  plasticchunkdsc: "<color=#ffee58>┃获取：物资箱/交易(不可制作)</color>"
+  flexiglassdsc: "<color=#ffee58>┃制作(9)：2塑料块+10mL生化流体+1(可切割)</color>"
+  bundleofwiresdsc: "<color=#ffee58>┃制作(10)：1加工铜块+3塑料块=6电线捆</color>"
+  flimsyknifedsc: !replace |-
+    一把脆弱粗钝的小刀。用于基础制作，在战斗中几乎无用。
+
+    <color=#ff4444>可在医疗面板中截除肢体。</color>
+    <color=#91a7ff>┃工具属性：
     ┃结构 16 ┃ 挖掘冷却 0.2秒
     ┃生物 16 ┃ 攻击冷却 0.53秒
     ┃范围 5 ┃ 体力消耗 0.4
@@ -1783,8 +1790,7 @@ main:
     ┃制作(6)：2塑料块+1绳子+10mL生化流体</color>
     <color=orange>重量不受容器内液体数量影响，前期可以做一个用来装生化流体
     后期建议换成更优质的液体容器</color>
-  lcdscreendsc: |-
-    <color=#ffee58>┃制作(11)：1柔性玻璃+1塑料块+1钉子+1电线捆+1电路板(>=90%)+10mL生化流体+1(可切割)</color>
+  lcdscreendsc: "<color=#ffee58>┃制作(11)：1柔性玻璃+1塑料块+1钉子+1电线捆+1电路板(>=90%)+10mL生化流体+1(可切割)</color>"
   autoinjectordsc: |-
     <color=#ffee58>┃获取：制作
     ┃制作(12)：1废料管+1柔性玻璃+1塑料块+10mL生化流体+1电线捆+1电路板(>=90%)+1(可切割)</color>
@@ -1806,15 +1812,12 @@ main:
     <color=orange>可拾起篝火，但立即掉落且无伤害
     篝火是单向热源，7格范围内，如果体温低于38°C会缓慢把体温拉向38°C，高于 38°C 时不会降温
     因为加热/降温力度的关系有一定温度差是正常情况</color>
-  firestarterdsc: |-
-    <color=#ffee58>┃制作(8)：2木棍+1绳子+1纤维</color>
-  charcoaldsc: |-
-    <color=#ffee58>┃制作(7)：1(热源)+1屎+10mL生化流体=3木炭</color>
+  firestarterdsc: "<color=#ffee58>┃制作(8)：2木棍+1绳子+1纤维</color>"
+  charcoaldsc: "<color=#ffee58>┃制作(7)：1(热源)+1屎+10mL生化流体=3木炭</color>"
   ryebulbdsc: |-
     <color=#ffa726>┃腐败：3.33%/分钟</color>
     <color=#ffee58>┃获取：破坏天花板黑麦</color>
-  ryeflourdsc: |-
-    <color=#ffee58>┃制作(6)：1悬垂麦苞+0.5(可捶打)</color>
+  ryeflourdsc: "<color=#ffee58>┃制作(6)：1悬垂麦苞+0.5(可捶打)</color>"
   breaddsc: |-
     <color=#72d572>┃食用效果：
     ┃饥饿 +9
@@ -1864,19 +1867,32 @@ main:
     <color=orange>随机最高8种液体，可分离：用离心机分离损失1/3。
     桶+液体交易上限50价值，过重时摔落伤害大大增加，版本v2.0
     长按投掷出去可进行反推力作用，重量越大后坐力越大(小心会受伤)</color>
-  minifleshrebuilderdsc: |-
-    <color=#72d572>┃头部使用：需装入≥3个物品
-    ┃消耗容器内全部物品
-    ┃优先修复：双眼→毁容→单眼
-    ┃无缺失：头部肌肉/皮肤100
-    ┃但头部感染+50</color>
-    ┃仅能修复头部器官
-    ┃装入肉块时可发光
+  peglimbdsc: |-
+    <color=#91a7ff>┃重量：2.0｜安装：胸/腹
+    ┃目标：已离断的相邻肢体
+    ┃智力<7：概率失败
+    ┃失败：皮肤-8｜肌肉-5
+    ┃疼痛+10｜出血+2</color>
+    <color=#72d572>┃成功：力量-55%｜护甲-10%
+    ┃10孔｜木料修复</color>
+  steelprosthesisdsc: |-
+    <color=#91a7ff>┃重量：2.5｜安装：胸/腹
+    ┃目标：已离断的相邻肢体
+    ┃智力<10：概率失败
+    ┃失败：皮肤-8｜肌肉-5
+    ┃疼痛+10｜出血+2</color>
+    <color=#72d572>┃成功：力量不变｜护甲+20%
+    ┃15孔｜废料修复</color>
+  peodsc: |-
+    <color=#91a7ff>┃重量：2.5｜安装：胸/腹
+    ┃目标：已离断的相邻肢体
+    ┃智力<14：概率失败
+    ┃失败：皮肤-8｜肌肉-5
+    ┃疼痛+10｜出血+2</color>
+    <color=#72d572>┃成功：力量+25%｜护甲+60%
+    ┃20孔｜钛材修复</color>
 buildings:
-  lifepodheaterdsc: |-
-    <color=orange>维生舱加热模式下会将体温拉到39°C，降温模式下会将体温拉到33°C
-    因为加热/降温力度的关系有一定温度差是正常情况</color>
-  animalcorpsedsc: |-
+  animalcorpsedsc: !replace |-
     <color=#e84e40>┃最大血量：250</color>
     <color=#ffee58>┃破坏掉落：动物肉块x2 (100%)</color>
     <color=orange>注意：与实验体尸体不同，观看动物尸体不会降低心情</color>
@@ -1896,60 +1912,22 @@ buildings:
     <color=#ffee58>┃破坏掉落：颗粒菇组织块x2 (100%)</color>
     <color=orange>可用于弹回高处，注意落地安全。
     不导致瘫倒，比跳跃板更安全</color>
-  climbingropeextendeddsc: <color=orange>┃无法直接破坏</color>
+  climbingropeextendeddsc: "<color=orange>┃无法直接破坏</color>"
   glowshroomdsc: |-
     <color=#e84e40>┃最大血量：75</color>
     <color=#91a7ff>┃辐射：贴身 0.325Gy/s｜3.33格内满强度</color>
     <color=#888888>┃3.33格外按平方反比衰减｜约6.0格外归零</color>
     <color=#ffee58>┃破坏掉落：颗粒菇组织块x1 (100%)、x1 (50%)｜耐久50%~100%</color>
     <color=orange>可收获食物，但放射性较强，建议保持距离</color>
-  grabbershroomdsc: |-
-    <color=#e84e40>┃最大血量：2000</color>
-    <color=#ffee58>┃破坏掉落：菌类块×14
-    ┃5×100%┃4×75%┃5×25%</color>
-    <color=#91a7ff>┃触手尖端接近至3.2格内
-    ┃抓住随机肢体并拖拽
-    ┃强制布娃娃+尖叫┃休克至少20
-    ┃持续约2秒或直到昏迷
-    ┃两次抓取间隔5秒
-    ┃间接造成内出血、骨折、脱臼</color>
-    <color=orange>触手会随机摆动并避开地面
-    攻击触手不会立即解除抓取</color>
   mushroomtreedsc: |-
     <color=#e84e40>┃最大血量：800</color>
     <color=#ffee58>┃破坏掉落：颗粒菇组织块x10 (70%)</color>
     <color=orange>可破坏获取大量颗粒菇组织块作为食物来源</color>
-  mushlightdsc: |-
-    <color=#e84e40>┃最大血量：40</color>
-    <color=#ffee58>┃破坏掉落：发光果×2(100%/95%)
-    ┃植物纤维×2(100%/25%┃耐久50%~100%)</color>
-  mushroomdropperdsc: |-
-    <color=#e84e40>┃最大血量：100</color>
-    <color=orange>┃玩家或肢体进入下方40格：菌盖在0~0.6秒内脱落(50%立即)
-    ┃支撑地块被移除时也会脱落
-    ┃本体破坏无掉落</color>
-  mushroomdropperpayloaddsc: |-
-    <color=#e84e40>┃最大血量：100</color>
-    <color=#91a7ff>┃高速砸中时：头部意识-80/护甲┃肌肉-碰撞速度×0.75/护甲
-    ┃皮肤-碰撞速度/护甲┃出血+碰撞速度×0.0015L/分钟(受护甲减免)┃强制布娃娃┃碰撞后自身销毁</color>
-    <color=orange>高速物品撞击时有50%概率提前脱落
-    无掉落</color>
-  mushroomropedsc: |-
-    <color=orange>┃可攀爬
-    ┃无法直接破坏</color>
   drillpoddsc: |-
     <color=#e84e40>┃最大血量：10000</color>
     <color=#ffee58>┃破坏掉落：金属废料x6 (100%)、电路板x2 (100%)</color>
     <color=orange>用钻机舱维修工具包修复后可乘坐向下跳2层(例如从第1层穿越到第3层)。</color>
     破坏可获大量金属废料
-  drillpodbrokendsc: |-
-    <color=#e84e40>┃最大血量：300</color>
-    <color=#ffee58>┃破坏掉落：金属废料×6┃电路板×2(均100%)</color>
-    <color=orange>残骸，无交互</color>
-  highpowereddrillpodbrokendsc: |-
-    <color=#e84e40>┃最大血量：100000</color>
-    <color=orange>┃结局残骸：无交互┃无法修复</color>┃破坏后无掉落
-    <color=#FF69B4>┃注意：此物品和结局有关</color>
   highpowereddrillpoddsc: |-
     <color=#e84e40>┃最大血量：100000</color>
     <color=orange>┃终局逃生舱：体内嵌入货物后才可启动
@@ -1959,22 +1937,18 @@ buildings:
   highpowereddrillpoddsc2: |-
 
     <color=#FF69B4>┃注意：此物品和结局有关</color>
+  highpowereddrillpodbrokendsc: |-
+    <color=#e84e40>┃最大血量：100000</color>
+    <color=orange>┃结局残骸：无交互┃无法修复</color>┃破坏后无掉落
+    <color=#FF69B4>┃注意：此物品和结局有关</color>
+  drillpodbrokendsc: |-
+    <color=#e84e40>┃最大血量：300</color>
+    <color=#ffee58>┃破坏掉落：金属废料×6┃电路板×2(均100%)</color>
+    <color=orange>残骸，无交互</color>
   frigiantdsc: |-
     <color=#e84e40>┃最大血量：120</color>
     <color=#ffee58>┃破坏掉落：寒霜果x2 (100%)</color>
     <color=orange>掉落2个寒霜果，食用可快速降温，适合体温过高时使用</color>
-  fandsc: |-
-    <color=#e84e40>┃最大血量：500</color>
-    <color=#91a7ff>┃转速0.2~5转/秒┃刀片扫过半径6.5格
-    ┃肢体：皮肤-9×转速┃肌肉-7.5×转速
-    ┃出血+0.06×转速L/分钟┃疼痛+7×转速
-    ┃转速≥2：布娃娃
-    ┃转速>4.15：骨折┃已骨折则断肢
-    ┃可破坏建筑/地形/物品</color>
-    <color=#ffee58>┃破坏掉落：金属废料×2(100%/50%)┃电路板×1(50%)</color>
-    <color=orange>叶片高速撞击会断裂并掉低耐久金属废料
-    两片全断后失效┃中间部位可以踩┃没有支撑会乱飞</color>
-  fan: （旋刃风扇）
   snowstriderdsc: |-
     <color=#e84e40>┃最大血量 500 | 攻速 2秒 | 视野 40格
     ┃攻击：皮肤 40 | 肌肉 20 | 疼痛 50
@@ -1985,27 +1959,15 @@ buildings:
     <color=#e84e40>┃最大血量：400</color>
     <color=#ffee58>┃破坏掉落：金属废料x2 (50%~100%)</color>
     <color=orange>可用于烹饪生肉。靠近取暖，但过久会受辐射</color>
-  macrofleshrebuilderdsc: |-
-    ┃无法直接破坏
-    <color=orange>┃终局实验室专用手术台，不是通用治疗设备
-    ┃仅在麻醉生效┃手术流程开放后可用
-    ┃用于进行取出体内货物的手术小游戏
-    </color>┃破坏后无掉落
-    <color=#FF69B4>┃注意：此物品和结局有关</color>
-  shuttledoordsc: |-
-    <color=#e84e40>┃最大血量：5000</color>
-    <color=#ffee58>┃破坏掉落：无</color>
-    <color=orange>剧情屏障，无直接交互</color>
-  shuttleelevatordsc: |-
-    <color=#e84e40>┃最大血量：15000</color>
-    <color=#ffee58>┃破坏掉落：无</color>
-    <color=orange>剧情装置，无直接交互</color>
   heatferndsc: |-
     <color=#e84e40>┃最大血量：100</color>
     <color=#ffee58>┃破坏掉落：植物纤维×2(100%/50%)┃热蕨孢囊×2(100%/50%)</color>
     <color=orange>┃加热：6格内缓慢将玩家体温拉向38°C
     ┃孢子：5.5格内败血症+0.148/s
     ┃加热与孢子只影响玩家</color>
+  lifepodheaterdsc: |-
+    <color=orange>维生舱加热模式下会将体温拉到39°C，降温模式下会将体温拉到33°C
+    因为加热/降温力度的关系有一定温度差是正常情况</color>
   barbedwirefencedsc: |-
     <color=#e84e40>┃最大血量：600</color>
     <color=#91a7ff>碰触尖刺瘫倒
@@ -2014,6 +1976,7 @@ buildings:
     <color=#ffee58>┃破坏掉落：金属废料80~100%</color>
     <color=orange>可被摧毁或用促凝剂快速止血。垂直摔在上面会导致大面积伤口。剧痛可致休克，止痛药或大量舒缓膏是唯一可靠对策。
     皮肤、流血、疼痛受护甲减免，造成0.2的耐久损耗，会造成瘫痪效果</color>
+  beartrap: !replace "捕兽夹"
   beartrapdsc: |-
     <color=#e84e40>┃最大血量：500</color>
     <color=#91a7ff>触发后夹住肢体无法动弹：
@@ -2025,25 +1988,7 @@ buildings:
     <color=#ffee58>┃破坏掉落：金属废料(100%)</color>
     <color=orange>可摧毁或挖掉下方地块移除
     穿戴物耐久-90%┃留意上方小红灯</color>
-  beartrap: （捕兽夹）
-  bioterminaldsc: <color=orange>需拥有“红血袋”右键终端，注入100mL血液解锁加固门（每袋750mL可用7次）。使用后终端与门永久开启</color>
-  terminaldsc: |-
-    ┃无法直接破坏
-    ┃交互打开控制台
-    ┃可执行沙盒命令，按~打开或退出
-  techballdsc: |-
-    <color=#e84e40>┃最大血量：300</color>
-    <color=#ffee58>┃破坏掉落：纳米科技扫描仪(100%)</color>
-    <color=orange>┃生成条件：已通关生物舱或逃离结局（雇佣兵结局不算）
-    ┃仅第1层｜需有芯片｜非无尽模式
-    ┃在起始层下落到约123m深时触发，位于玩家正下方25格(7.5m)
-    ┃每局仅生成1个｜生成时会挖出半径6格空腔
-    ┃玩家靠近12格内解除冻结并随机弹跳（每0.25~1.75秒一次）
-    ┃碰撞无直接伤害，但相对速度>6会打滑≈1.4秒</color>
-    <color=#FF69B4>┃注意：此物品和结局有关</color>
-  veindsc: |-
-    <color=orange>┃可攀爬
-    ┃无法直接破坏</color>
+  bioterminaldsc: "<color=orange>需拥有“红血袋”右键终端，注入100mL血液解锁加固门（每袋750mL可用7次）。使用后终端与门永久开启</color>"
   lifepodshowerdsc: |-
     <color=#ffee58>┃破坏掉落：金属废料×1(100%)</color>
     <color=#91a7ff>┃启动后持续3秒
@@ -2062,20 +2007,293 @@ buildings:
     <color=#ffee58>┃破坏掉落：血晶碎片 (100%)</color>
     <color=orange>带在身上（非容器）且血容量<4.975L时
     血容量 +0.002L/s 可用20分钟</color>
+  cactusdsc: |-
+    <color=#e84e40>┃最大血量：100</color>
+    <color=#ffee58>┃破坏掉落：仙人掌肉×2(60%)┃仙人掌肉×1(35%)</color>
+    <color=#91a7ff>┃碰触：击退并休克+30
+    ┃随机肢体：皮肤-10┃出血+0.03L/分钟┃疼痛+30
+    ┃仙人掌自身-30生命</color>
+    <color=orange>沙漠中的重要食物来源</color>
+  coildsc: |-
+    <color=#e84e40>┃最大血量：500</color>
+    <color=#91a7ff>┃触摸触发：全肢肌肉0~40┃皮肤0~25
+    ┃疼痛=100┃击退┃体温+5°C
+    ┃意识归零┃呼吸频率=0(呼吸停止)┃休克+100
+    ┃肾上腺素=50┃纤颤=0┃无视护甲
+    ┃治疗心室颤动：触发瞬间纤颤直接归零
+    ┃冷却30秒</color>
+    <color=#ffee58>┃破坏掉落：金属废料1~2(50%)
+    ┃金属废料(25%)┃电路板(35%)</color>
+    <color=orange>枪或炸药可安全摧毁
+    大部分挖掘工具不导电(爪套除外)
+    可靠近击打或从下方挖掉地块</color>
+  containercratedsc: |-
+    <color=#e84e40>┃最大血量：5000</color>
+    <color=#ffee58>┃破坏/开锁掉落：
+    ┃随机1件(工具16.7%/容器33.3%/医疗16.7%/杂项33.3%)</color>
+    <color=orange>需要开锁工具，极耐打(5000血)，建议直接开锁</color>
+  laserdronedsc: |-
+    <color=#e84e40>┃最大血量：2000(伪装)/1000(展开)</color>
+    <color=#ffee58>┃破坏掉落：金属废料×3┃电路板×2┃塑料块×1┃冷冻核心×1(均为100%)</color>
+    <color=orange>┃伪装成物资箱，首次仅在玩家进入10格时展开
+    ┃激活后可在64格内再次展开
+    ┃攻击：64格光束，结构伤害50┃皮肤/疼痛15┃肌肉3.75(受护甲减免)┃护甲损耗0.015┃体温-0.5┃肾上腺素+25┃体力+35
+    ┃每发+30热量┃>100过热冷却┃直至热量归零
+    ┃过热散热：展开≈6.7秒(-15/s)┃收起≈3.3秒(-30/s)
+    ┃展开时血量÷2┃收起时×2(不回血)</color>
+  laserdronedsc2: |-
+
+    <color=#e84e40>┃最大血量：2000(伪装)/1000(展开)</color>
+    <color=#ffee58>┃破坏掉落：金属废料×3┃电路板×2┃塑料块×1┃冷冻核心×1(均100%)</color>
+    <color=orange>┃伪装：首次10格触发┃激活后64格内可再展开
+    ┃攻击：64格光束┃结构50┃皮肤/疼痛15┃肌肉3.75(受护甲减免)┃护甲损耗0.015┃体温-0.5┃肾上腺素+25┃体力+35
+    ┃每发+30热量┃>100过热冷却┃直至热量归零
+    ┃过热散热：展开≈6.7秒(-15/s)┃收起≈3.3秒(-30/s)
+    ┃展开时血量÷2┃收起时×2(不回血)</color>
+  piston: !replace "活塞机"
+  pistondsc: |-
+    <color=#e84e40>┃最大血量：2000</color>
+    <color=#91a7ff>┃每1~2.5s/次
+    ┃伸出4格┃伸出速度60┃回缩速度18
+    ┃垂直型伸出时压到玩家：强制布娃娃+尖叫
+    ┃不直接造成肢体伤害</color>
+    <color=#ffee58>┃破坏掉落：金属废料×3(100%/50%/50%)┃废料板×2(80%/80%)┃电路板×1(80%)</color>
+    <color=orange>可趁回缩时通过或从侧面绕过
+    水平型号主要靠物理撞击推开玩家</color>
+  corpsedsc: !replace |-
+    其他实验体的遗体。
+    <color=#e84e40>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：黄色肉块x3 (50%)</color>
+    <color=orange>距离尸体距离<=7触发检测
+    首次观看：心情-3.5、患病+6。每次观看效果递减至前次的90%，最多累计心情-35、患病+60。
+    观看9具后完全麻木不再掉心情。但破坏尸体 -5心情。
+    破坏尸体底下的方块也会掉心情(算作破坏尸体)
+    地震和枪械破坏不算</color>
+  glassshardsdsc: !replace |-
+    破坏玻璃方块后40%概率生成
+    <color=#e84e40>┃最大血量：30</color>
+    <color=#91a7ff>踩上造成：5破片┃皮肤20-40伤┃肌肉20伤
+    ┃出血0.075-0.3L/分钟┃80%疼痛┃70%肾上腺素</color>
+    <color=orange>穿足部装备可避免伤害</color>
+  sandvinedsc: "<color=orange>从天花板垂到地面，可攀爬或用来缓冲坠落。藤蔓越粗越容易攀爬。无法被破坏</color>"
+  veindsc: |-
+    <color=orange>┃可攀爬
+    ┃无法直接破坏</color>
+  ladderdsc: |-
+    <color=#ffee58>┃破坏掉落：金属废料×3(均100%┃耐久10%~100%)</color>
+    <color=orange>┃无法直接破坏
+    ┃可攀爬：W/Up上┃S下</color>
+  shadecrawlerdsc: !replace |-
+    砾石地层的入门敌对生物，行动迟缓的橙色小蜘蛛。
+    <color=#e84e40>┃生命 100 | 攻速 5秒 | 视野 8格 | 仇恨 15%
+    ┃攻击：皮肤 15 | 疼痛 15 | 出血 0.144L/分钟
+    ┃感染率 50% | 肾上腺素 +75 | 毒素 20</color>
+    <color=#ffee58>┃掉落：硬化虫尸 (100%) | 血囊 (50%) | 毒囊 (50%)</color>
+    <color=orange>尸体用于制作工具/头盔，血囊可备食</color>
+  wallbiterdsc: |-
+    <color=#e84e40>┃生命 400 | 攻速 1.5秒 | 视野 30格 | 仇恨 95%
+    ┃攻击：皮肤 30 | 肌肉 15 | 疼痛 50
+    ┃出血 0.18L/分钟 | 5%感染</color>
+    <color=#ffee58>┃掉落：动物肉 (100%) | 血囊0-2 (80%)</color>
+    <color=orange>会追击并穿墙发现你，近战换血不划算，推荐用枪</color>
+  thornbackyoungdsc: |-
+    <color=#e84e40>┃生命 280 | 攻速 1.5秒 | 视野 40格 | 仇恨 95%
+    ┃攻击：皮肤 24 | 肌肉 15 | 疼痛 40
+    ┃出血 0.108L/分钟 | 5%感染 | 可骨折</color>
+    <color=#ffee58>┃掉落：动物肉 (100%) | 血囊0-2 (80%)</color>
+    <color=orange>会挖掘地形，多次咬伤出血叠加易致死，受伤至80血会逃跑</color>
+  thornbackelderdsc: !replace |-
+    <color=#ff4444>快  逃！！！
+    目前游戏的BOSS。
+    咬中即截肢，体型巨大。</color>
+    <color=#e84e40>┃生命 6000 | 视野 80格 | 仇恨 100%
+    ┃攻击：截肢(触颌即断) | 头/躯干重骨折、大出血、致盲毁容 | 毁容后再被攻击即死
+    ┃共三阶段：追击(>=3750)→逃跑(>=2500)→狂暴(<=2499,加速追击)</color>
+    <color=#ffee58>┃掉落：大肉块x4、血囊x6、硬化虫尸x3、大型虫尸x2、内脏+7件(医/药/工具/杂项各25%)</color>
+    <color=orange>会挖掘任何地形并摧毁物品。可跳上背部用枪械造成双倍伤害(两碰撞箱命中)。
+    炸药可能会被嘴部摧毁(吃掉)。被截肢后请速治疗并远离，它短暂休息后会再次进攻。
+    击败后心情+30，体力和精力强化10分钟</color>
+  cavetickdsc: !replace |-
+    深砾石地层的群居小型虫，接触后成16只围攻。
+    <color=#e84e40>┃生命 15 | 攻速 0.5秒 | 视野 25格 | 仇恨 100%
+    ┃攻击：皮肤 3 | 肌肉 0.2 | 疼痛 25
+    ┃出血 0.009L/分钟 | 毒素 0.25</color>
+    <color=#ffee58>┃掉落：毒囊(极低概率)</color>
+    <color=orange>群体可迅速撕裂皮肤致失血死亡，建议避开</color>
+  overgrowntickdsc: |-
+    <color=#e84e40>┃生命 300 | 攻速 1.5秒 | 视野 35格 | 仇恨 100%
+    ┃攻击：皮肤 30 | 肌肉 15 | 疼痛 50 | 毒素 14
+    ┃情绪 -0.25 | 出血 0.144L/分钟 | 5%感染</color>
+    <color=#ffee58>┃掉落：动物肉 (100%)
+    血囊0-2 (80%) | 硬化虫尸 (100%)</color>
+  DigestionCrystaldsc: |-
+    <color=#e84e40>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：消化晶碎片 (100%)</color>
+    <color=orange>带在身上（非容器）患病 -0.5/s 可用20分钟</color>
+  dropcapsuledsc: |-
+    <color=#e84e40>┃最大血量：2500</color>
+    <color=#ffee58>┃破坏/开锁掉落：
+    ┃随机2件(医疗21.4%/食物14.3%/饮水14.3%/杂项14.3%/容器14.3%/药品14.3%/工具7.1%)</color>
+    <color=orange>提供光源和热量，可用于御寒。
+    在他附近时，会听见他会发出一种轰鸣声以方便定位他。
+    输入密码2296会触发彩蛋爆炸，但需要正则</color>
+  lavalampdsc: |-
+    <color=#e84e40>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：干燥植物纤维×2(100%/50%)</color>
+    <color=orange>┃8格内每0.5秒向44°C插值1%
+    ┃只影响玩家</color>
+  coldpuffdsc: |-
+    不知为何，它非常寒冷。
+    <color=#e84e40>┃最大血量：200</color>
+    <color=#ffee58>┃破坏掉落：植物纤维×2(100%/66%)
+    ┃菌类块×3(75%/75%/25%)</color>
+    <color=#91a7ff>┃生命低于150时喷发一次
+    ┃喷发：8格内体温-8┃血量100┃向上速度+12</color>
+    <color=orange>喷发后描述变化，不再重复触发</color>
+  spicevinedsc: |-
+    <color=#e84e40>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：辛香叶×4(100%/50%/50%/50%)
+    ┃干燥植物纤维×1(10%)</color>
+    <color=orange>┃可攀爬</color>
+  lifepodbuttonheatdsc: |-
+    ┃无法直接破坏
+    <color=orange>┃三档循环：加热39°C┃制冷33°C┃关闭</color>
+  lifepodbuttonshowerdsc: |-
+    ┃无法直接破坏
+    <color=orange>┃启动一次性清洁泡沫
+    </color>┃使用后按钮变色
+  EmissiveCrystaldsc: |-
+    <color=#e84e40>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：荧光晶碎片 (100%)</color>
+    <color=orange>带在身上（非容器）可发光
+    掉落的碎片是极佳的早期光源。可用30分钟
+    提示：做成提灯耐久延长66%+</color>
+  foodboxdsc: |-
+    <color=#e84e40>┃最大血量：600</color>
+    <color=#ffee58>可直接打开：
+    随机1件(食物66.7%/饮水33.3%)</color>
+    <color=orange>无需开锁，直接点击即可打开。
+    在水中开箱可能导致食物潮湿或污染</color>
+  geotreedsc: |-
+    <color=#e84e40>┃最大血量：80</color>
+    <color=#ffee58>┃破坏掉落：地生果x1-2 (50%)、地生果 (25%)、植物纤维x1-2 (30%)</color>
+  glowplantdsc: |-
+    <color=#e84e40>┃最大血量：40</color>
+    <color=#ffee58>┃破坏掉落：
+    发光草果实x1-2 (95%)、植物纤维x1-2 (25%)</color>
+  mushlightdsc: |-
+    <color=#e84e40>┃最大血量：40</color>
+    <color=#ffee58>┃破坏掉落：发光果×2(100%/95%)
+    ┃植物纤维×2(100%/25%┃耐久50%~100%)</color>
+  jumppad: !replace "弹跳板"
+  jumppaddsc: |-
+    <color=#e84e40>┃最大血量：600</color>
+    <color=#91a7ff>┃将物体弹飞到空中，弹力与物体重量成反比。
+    ┃冷却约15秒。本身不致命但可能将你抛向更危险的陷阱</color>
+    <color=#ffee58>┃破坏掉落：
+    ┃金属废料x1-2 (50%)、金属废料 (25%)、电路板 (50%)</color>
+  landminedsc: |-
+    <color=#e84e40>┃最大血量：100</color>
+    <color=#91a7ff>┃踩中激活后0.8秒延迟爆炸
+    ┃血量归零后无延迟引爆
+    ┃爆炸半径12格┃耳鸣范围30格
+    ┃肌肉0~60/护甲┃20%皮肤0~75/护甲
+    ┃15%出血0.06~0.45L/分钟
+    ┃胸部50%：内出血0~0.205L/分钟(除护甲)
+    ┃40%5破片┃13.5%脱臼┃6%骨折
+    ┃15%断肢
+    ┃头部：34%毁容┃34%摘除眼球
+    ┃70%概率脑伤0~30
+    ┃建筑伤害0~1000┃物品耐久-0~325%</color>
+    <color=#ffee58>┃破坏掉落：金属废料(0~20%)</color>
+    <color=orange>可投掷物品或射击引爆
+    留意灌木丛中埋藏的地雷</color>
+  leadbushdsc: |-
+    <color=#e84e40>┃最大血量：120</color>
+    <color=#ffee58>┃破坏掉落：
+    ┃胶质肉块x1-2 (50%)、胶质肉块 (20%)</color>
+  lifepodchestdsc: |-
+    <color=#e84e40>┃最大血量：2000</color>
+    <color=#ffee58>┃破坏/开锁掉落：
+    ┃设计图 (100%)
+    ┃随机2件(医疗21.4%/食物14.3%/饮水14.3%/杂项14.3%/容器14.3%/药品14.3%/废品7.1%)</color>
+    <color=orange>必掉一张设计图！不受物理影响，可在上面睡觉(普通质量)</color>
+  LifePodLightdsc: |-
+    <color=#91a7ff>┃可进行拆卸，会获得包含小型电池的灯泡。
+    ┃将可拆卸工具移至该灯泡的物品栏上方即可拆卸</color>
+    <color=orange>注意一定不要把灯泡放在嘴部！！</color>
+  medcratedsc: |-
+    <color=#e84e40>┃最大血量：1000</color>
+    <color=#ffee58>┃破坏/开锁掉落：
+    ┃红色血袋 (5%)、随机1件(医疗62.5%/药品25%/饮水12.5%)</color>
+    <color=orange>受物理影响</color>
+  techballdsc: |-
+    <color=#e84e40>┃最大血量：300</color>
+    <color=#ffee58>┃破坏掉落：纳米科技扫描仪(100%)</color>
+    <color=orange>┃生成条件：已通关生物舱或逃离结局（雇佣兵结局不算）
+    ┃仅第1层｜需有芯片｜非无尽模式
+    ┃在起始层下落到约123m深时触发，位于玩家正下方25格(7.5m)
+    ┃每局仅生成1个｜生成时会挖出半径6格空腔
+    ┃玩家靠近12格内解除冻结并随机弹跳（每0.25~1.75秒一次）
+    ┃碰撞无直接伤害，但相对速度>6会打滑≈1.4秒</color>
+    <color=#FF69B4>┃注意：此物品和结局有关</color>
+  rechargingstationdsc: |-
+    <color=#e84e40>┃最大血量：1000</color>
+    <color=orange>┃两个充电口，可同时充2块电池
+    ┃充满时间=最大电量÷1.35秒
+    ┃小型50：37.0秒┃中型100：74.1秒
+    ┃大型300：222.2秒
+    ┃首次使用赠送MP3播放器
+    ┃只刷新在：3(干旱沙漠)┃4(辐射废土)
+    ┃5(深林丛渊)┃12层(终极实验室)</color>┃无掉落
+  hydreeddsc: |-
+    <color=#e84e40>┃最大血量：150</color>
+    <color=#ffee58>┃破坏掉落：
+    ┃水芦果x2-4 (50%)、水芦藤x1-3 (50%)
+    ┃水芦莓 (100%)、安眠尾 (50%)</color>
+    <color=orange>食物价值低但药用价值高：水芦藤可作绷带、水芦莓可制鸦片、安眠尾可改善心情</color>
+  OxygenCrystaldsc: |-
+    <color=#e84e40>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：
+    ┃氧晶碎片 (100%)</color>
+    <color=orange>带在身上（非容器）体力 +2%/s 可用20分钟</color>
+  reinforceddoordsc: |-
+    <color=#e84e40>┃最大血量：15000</color>
+    <color=#ffee58>┃破坏掉落：无</color>
+    <color=orange>由附近的生物终端或废料吞噬者解锁
+    直接破坏不是常规解法，等离子切割器会比较快</color>
+  ReliefCrystaldsc: |-
+    <color=#e84e40>┃最大血量：250</color>
+    <color=#ffee58>┃破坏掉落：
+    ┃镇痛晶碎片 (100%)</color>
+    <color=orange>带在身上（非容器）全身疼痛 -20/s 可用20分钟</color>
+  crystalmini: !replace "迷你水晶"
+  crystalminidsc: |
+    <color=#e84e40>┃最大血量：25┃体型值：0.33</color>
+    <color=orange>┃体型值低于0.4，必定无效果
+    </color>┃破坏后无掉落
+  crystalsmall: !replace "小水晶"
+  crystalsmalldsc: |
+    <color=#e84e40>┃最大血量：50┃体型值：0.66</color>
+    ┃破坏后无掉落
+  crystalmedium: !replace "中水晶"
+  crystalmediumdsc: |
+    <color=#e84e40>┃最大血量：150┃体型值：1.0</color>
+    ┃破坏后无掉落
+  crystalbig: !replace "大水晶"
+  crystalbigdsc: |
+    <color=#e84e40>┃最大血量：350┃体型值：1.66</color>
+    ┃破坏后无掉落
+  crystalmassive: !replace "巨大水晶"
+  crystalmassivedsc: |
+    <color=#e84e40>┃最大血量：600┃体型值：3.0</color>
+    ┃破坏后无掉落
   corecrystaldsc: |-
     <color=#e84e40>┃最大血量：200</color>
     <color=#ffee58>┃破坏掉落：暴露的核心(100%┃耐久10%~100%)</color>
     <color=orange>┃晶蚀空穴特殊水晶，不含普通水晶的随机效果
     ┃核心会腐败，约0.4~4分钟归零
     ┃归零时会生成2只显现体(终局实验室除外)</color>
-  crystalbigdsc: |
-    <color=#e84e40>┃最大血量：350┃体型值：1.66</color>
-    ┃破坏后无掉落
-
-  crystalmediumdsc: |
-    <color=#e84e40>┃最大血量：150┃体型值：1.0</color>
-    ┃破坏后无掉落
-
   crystalenemydsc: |-
     ┃它会和《雨世界》中的「面条蝇」一样，持续悬浮于头顶进行机会飞插攻击
     ┃生命 450┃攻击造成肌肉 -35/护甲┃皮肤 -50/护甲┃疼痛 +35/护甲┃出血 +15/护甲
@@ -2197,288 +2415,32 @@ buildings:
     ┃触发：身体触碰（仅一次）
     ┃数值：半径 64格内第一个其他水晶
     ┃机制：交换位置/旋转┃不交换效果</color>
-  crystalmedium: （中）
-  crystalminidsc: |
-    <color=#e84e40>┃最大血量：25┃体型值：0.33</color>
-    <color=orange>┃体型值低于0.4，必定无效果
-    </color>┃破坏后无掉落
-
-  crystalmassivedsc: |
-    <color=#e84e40>┃最大血量：600┃体型值：3.0</color>
-    ┃破坏后无掉落
-
-  crystalmassive: （巨大）
-  crystalsmalldsc: |
-    <color=#e84e40>┃最大血量：50┃体型值：0.66</color>
-    ┃破坏后无掉落
-
-  crystalsmall: （小）
-  crystalmini: （迷你）
-  crystalbig: （大）
-  cactusdsc: |-
-    <color=#e84e40>┃最大血量：100</color>
-    <color=#ffee58>┃破坏掉落：仙人掌肉×2(60%)┃仙人掌肉×1(35%)</color>
-    <color=#91a7ff>┃碰触：击退并休克+30
-    ┃随机肢体：皮肤-10┃出血+0.03L/分钟┃疼痛+30
-    ┃仙人掌自身-30生命</color>
-    <color=orange>沙漠中的重要食物来源</color>
-  coildsc: |-
-    <color=#e84e40>┃最大血量：500</color>
-    <color=#91a7ff>┃触摸触发：全肢肌肉0~40┃皮肤0~25
-    ┃疼痛=100┃击退┃体温+5°C
-    ┃意识归零┃呼吸频率=0(呼吸停止)┃休克+100
-    ┃肾上腺素=50┃纤颤=0┃无视护甲
-    ┃治疗心室颤动：触发瞬间纤颤直接归零
-    ┃冷却30秒</color>
-    <color=#ffee58>┃破坏掉落：金属废料1~2(50%)
-    ┃金属废料(25%)┃电路板(35%)</color>
-    <color=orange>枪或炸药可安全摧毁
-    大部分挖掘工具不导电(爪套除外)
-    可靠近击打或从下方挖掉地块</color>
-  coldpuffdsc: |-
-    不知为何，它非常寒冷。
-    <color=#e84e40>┃最大血量：200</color>
-    <color=#ffee58>┃破坏掉落：植物纤维×2(100%/66%)
-    ┃菌类块×3(75%/75%/25%)</color>
-    <color=#91a7ff>┃生命低于150时喷发一次
-    ┃喷发：8格内体温-8┃雪量100┃向上速度+12</color>
-    <color=orange>喷发后描述变化，不再重复触发</color>
-  containercratedsc: |-
-    <color=#e84e40>┃最大血量：5000</color>
-    <color=#ffee58>┃破坏/开锁掉落：
-    ┃随机1件(工具16.7%/容器33.3%/医疗16.7%/杂项33.3%)</color>
-    <color=orange>需要开锁工具，极耐打(5000血)，建议直接开锁</color>
-  corpsedsc: |-
-    其他实验体的遗体。
-    <color=#e84e40>┃最大血量：250</color>
-    <color=#ffee58>┃破坏掉落：黄色肉块x3 (50%)</color>
-    <color=orange>距离尸体距离<=7触发检测
-    首次观看：心情-3.5、患病+6。每次观看效果递减至前次的90%，最多累计心情-35、患病+60。
-    观看9具后完全麻木不再掉心情。但破坏尸体 -5心情。
-    破坏尸体底下的方块也会掉心情(算作破坏尸体)
-    地震和枪械破坏不算</color>
-  glassshardsdsc: |-
-    破坏玻璃方块后40%概率生成
-    <color=#e84e40>┃最大血量：30</color>
-    <color=#91a7ff>踩上造成：5破片┃皮肤20-40伤┃肌肉20伤
-    ┃出血0.075-0.3L/分钟┃80%疼痛┃70%肾上腺素</color>
-    <color=orange>穿足部装备可避免伤害</color>
-  sandvinedsc: <color=orange>从天花板垂到地面，可攀爬或用来缓冲坠落。藤蔓越粗越容易攀爬。无法被破坏</color>
-  spicevinedsc: |-
-    <color=#e84e40>┃最大血量：250</color>
-    <color=#ffee58>┃破坏掉落：辛香叶×4(100%/50%/50%/50%)
-    ┃干燥植物纤维×1(10%)</color>
-    <color=orange>┃可攀爬</color>
-  ladderdsc: |-
-    <color=#ffee58>┃破坏掉落：金属废料×3(均100%┃耐久10%~100%)</color>
-    <color=orange>┃无法直接破坏
-    ┃可攀爬：W/Up上┃S下</color>
-  shadecrawlerdsc: |-
-    砾石地层的入门敌对生物，行动迟缓的橙色小蜘蛛。
-    <color=#e84e40>┃生命 100 | 攻速 5秒 | 视野 8格 | 仇恨 15%
-    ┃攻击：皮肤 15 | 疼痛 15 | 出血 0.144L/分钟
-    ┃感染率 50% | 肾上腺素 +75 | 毒素 20</color>
-    <color=#ffee58>┃掉落：硬化虫尸 (100%) | 血囊 (50%) | 毒囊 (50%)</color>
-    <color=orange>尸体用于制作工具/头盔，血囊可备食</color>
-  wallbiterdsc: |-
-    <color=#e84e40>┃生命 400 | 攻速 1.5秒 | 视野 30格 | 仇恨 95%
-    ┃攻击：皮肤 30 | 肌肉 15 | 疼痛 50
-    ┃出血 0.18L/分钟 | 5%感染</color>
-    <color=#ffee58>┃掉落：动物肉 (100%) | 血囊0-2 (80%)</color>
-    <color=orange>会追击并穿墙发现你，近战换血不划算，推荐用枪</color>
-  thornbackyoungdsc: |-
-    <color=#e84e40>┃生命 280 | 攻速 1.5秒 | 视野 40格 | 仇恨 95%
-    ┃攻击：皮肤 24 | 肌肉 15 | 疼痛 40
-    ┃出血 0.108L/分钟 | 5%感染 | 可骨折</color>
-    <color=#ffee58>┃掉落：动物肉 (100%) | 血囊0-2 (80%)</color>
-    <color=orange>会挖掘地形，多次咬伤出血叠加易致死，受伤至80血会逃跑</color>
-  thornbackelderdsc: |-
-    </color>目前游戏的BOSS。
-    咬中即截肢，体型巨大。
-    <color=#e84e40>┃生命 6000 | 视野 80格 | 仇恨 100%
-    ┃攻击：截肢(触颌即断) | 头/躯干重骨折、大出血、致盲毁容 | 毁容后再被攻击即死
-    ┃共三阶段：追击(>=3750)→逃跑(>=2500)→狂暴(<=2499,加速追击)</color>
-    <color=#ffee58>┃掉落：大肉块x4、血囊x6、硬化虫尸x3、大型虫尸x2、内脏+7件(医/药/工具/杂项各25%)</color>
-    <color=orange>会挖掘任何地形并摧毁物品。可跳上背部用枪械造成双倍伤害(两碰撞箱命中)。
-    炸药可能会被嘴部摧毁(吃掉)。被截肢后请速治疗并远离，它短暂休息后会再次进攻。
-    击败后心情+30，体力和精力强化10分钟</color>
-  cavetickdsc: |-
-    深砾石地层的群居小型虫，接触后成16只围攻。
-    <color=#e84e40>┃生命 15 | 攻速 0.5秒 | 视野 25格 | 仇恨 100%
-    ┃攻击：皮肤 3 | 肌肉 0.2 | 疼痛 25
-    ┃出血 0.009L/分钟 | 毒素 0.25</color>
-    <color=#ffee58>┃掉落：毒囊(极低概率)</color>
-    <color=orange>群体可迅速撕裂皮肤致失血死亡，建议避开</color>
-  pussackdsc: |-
-    <color=#e84e40>┃最大血量：150</color>
-    <color=#ffee58>┃彻底破坏掉落：赤色纤维×3(100%/75%/33%)┃胶质肉块×1(100%)┃血囊×2(100%/50%)</color>
-    <color=orange>┃生命低于140时破裂一次：生成猩红垢泥，8格内被溅脏并向上击飞
-    ┃破裂后仍可继续破坏</color>
-  overgrowntickdsc: |-
-    <color=#e84e40>┃生命 300 | 攻速 1.5秒 | 视野 35格 | 仇恨 100%
-    ┃攻击：皮肤 30 | 肌肉 15 | 疼痛 50 | 毒素 14
-    ┃情绪 -0.25 | 出血 0.144L/分钟 | 5%感染</color>
-    <color=#ffee58>┃掉落：动物肉 (100%)
-    血囊0-2 (80%) | 硬化虫尸 (100%)</color>
-  DigestionCrystaldsc: |-
-    <color=#e84e40>┃最大血量：250</color>
-    <color=#ffee58>┃破坏掉落：消化晶碎片 (100%)</color>
-    <color=orange>带在身上（非容器）患病 -0.5/s 可用20分钟</color>
-  dropcapsuledsc: |-
-    <color=#e84e40>┃最大血量：2500</color>
-    <color=#ffee58>┃破坏/开锁掉落：
-    ┃随机2件(医疗21.4%/食物14.3%/饮水14.3%/杂项14.3%/容器14.3%/药品14.3%/工具7.1%)</color>
-    <color=orange>提供光源和热量，可用于御寒。
-    在他附近时，会听见他会发出一种轰鸣声以方便定位他。
-    输入密码2296会触发彩蛋爆炸，但需要正则</color>
-  lifepodbuttonshowerdsc: |-
-    ┃无法直接破坏
-    <color=orange>┃启动一次性清洁泡沫
-    </color>┃使用后按钮变色
-  lifepodbuttonheatdsc: |-
-    ┃无法直接破坏
-    <color=orange>┃三档循环：加热39°C┃制冷33°C┃关闭</color>
-  EmissiveCrystaldsc: |-
-    <color=#e84e40>┃最大血量：250</color>
-    <color=#ffee58>┃破坏掉落：荧光晶碎片 (100%)</color>
-    <color=orange>带在身上（非容器）可发光
-    掉落的碎片是极佳的早期光源。可用30分钟
-    提示：做成提灯耐久延长66%+</color>
-  foodboxdsc: |-
-    <color=#e84e40>┃最大血量：600</color>
-    <color=#ffee58>可直接打开：
-    随机1件(食物66.7%/饮水33.3%)</color>
-    <color=orange>无需开锁，直接点击即可打开。
-    在水中开箱可能导致食物潮湿或污染</color>
-  geotreedsc: |-
-    <color=#e84e40>┃最大血量：80</color>
-    <color=#ffee58>┃破坏掉落：地生果x1-2 (50%)、地生果 (25%)、植物纤维x1-2 (30%)</color>
-  LoreNotedsc: |-
-    ┃无法直接破坏
-    ┃6格内可阅读(需能阅读)
-    ┃阅读期间时间减速
-  glowplantdsc: |-
-    <color=#e84e40>┃最大血量：40</color>
-    <color=#ffee58>┃破坏掉落：
-    发光草果实x1-2 (95%)、植物纤维x1-2 (25%)</color>
-  jumppaddsc: |-
-    <color=#e84e40>┃最大血量：600</color>
-    <color=#91a7ff>┃将物体弹飞到空中，弹力与物体重量成反比。
-    ┃冷却约15秒。本身不致命但可能将你抛向更危险的陷阱</color>
-    <color=#ffee58>┃破坏掉落：
-    ┃金属废料x1-2 (50%)、金属废料 (25%)、电路板 (50%)</color>
-  guarddsc: |-
-    <color=#e84e40>┃最大血量：450</color>
-    <color=#ffee58>┃击杀掉落：手枪(剩余弹药)；弹药耗尽时额外掉落手枪弹匣┃25%概率掉落随机医疗/弹药</color>
-    <color=orange>┃终局实验室守卫，会走位┃瞄准射击并近战电击
-    ┃手枪17发，约4秒换弹
-    ┃近战会击倒玩家并造成电击</color>
-    <color=#FF69B4>┃注意：此物品和结局有关</color>
-  guard: （守卫）
-  jumppad: （弹跳板）
-  landminedsc: |-
-    <color=#e84e40>┃最大血量：100</color>
-    <color=#91a7ff>┃踩中激活后0.8秒延迟爆炸
-    ┃血量归零后无延迟引爆
-    ┃爆炸半径12格┃耳鸣范围30格
-    ┃肌肉0~60/护甲┃20%皮肤0~75/护甲
-    ┃15%出血0.06~0.45L/分钟
-    ┃胸部50%：内出血0~0.205L/分钟(除护甲)
-    ┃40%5破片┃13.5%脱臼┃6%骨折
-    ┃15%断肢
-    ┃头部：34%毁容┃34%摘除眼球
-    ┃70%概率脑伤0~30
-    ┃建筑伤害0~1000┃物品耐久-0~325%</color>
-    <color=#ffee58>┃破坏掉落：金属废料(0~20%)</color>
-    <color=orange>可投掷物品或射击引爆
-    留意灌木丛中埋藏的地雷</color>
-  laserdronedsc: |-
-    <color=#e84e40>┃最大血量：2000(伪装)/1000(展开)</color>
-    <color=#ffee58>┃破坏掉落：金属废料×3┃电路板×2┃塑料块×1┃冷冻核心×1(均为100%)</color>
-    <color=orange>┃伪装成物资箱，首次仅在玩家进入10格时展开
-    ┃激活后可在64格内再次展开
-    ┃攻击：64格光束，结构伤害50┃皮肤/疼痛15┃肌肉3.75(受护甲减免)
-    ┃每发+30热量┃>100过热冷却┃直至热量归零
-    ┃过热散热：展开≈6.7秒(-15/s)┃收起≈3.3秒(-30/s)
-    ┃展开时血量÷2┃收起时×2(不回血)</color>
-  laserdronedsc2: |-
-
-    <color=#e84e40>┃最大血量：2000(伪装)/1000(展开)</color>
-    <color=#ffee58>┃破坏掉落：金属废料×3┃电路板×2┃塑料块×1┃冷冻核心×1(均100%)</color>
-    <color=orange>┃伪装：首次10格触发┃激活后64格内可再展开
-    ┃攻击：64格光束┃结构50┃皮肤/疼痛15┃肌肉3.75(受护甲减免)
-    ┃每发+30热量┃>100过热冷却┃直至热量归零
-    ┃过热散热：展开≈6.7秒(-15/s)┃收起≈3.3秒(-30/s)
-    ┃展开时血量÷2┃收起时×2(不回血)</color>
-  leadbushdsc: |-
-    <color=#e84e40>┃最大血量：120</color>
-    <color=#ffee58>┃破坏掉落：
-    ┃胶质肉块x1-2 (50%)、胶质肉块 (20%)</color>
-  lifepodchestdsc: |-
-    <color=#e84e40>┃最大血量：2000</color>
-    <color=#ffee58>┃破坏/开锁掉落：
-    ┃设计图 (100%)
-    ┃随机2件(医疗21.4%/食物14.3%/饮水14.3%/杂项14.3%/容器14.3%/药品14.3%/废品7.1%)</color>
-    <color=orange>必掉一张设计图！不受物理影响，可在上面睡觉(普通质量)</color>
-  LifePodLightdsc: |-
-    <color=#91a7ff>┃可进行拆卸，会获得包含小型电池的灯泡。
-    ┃将可拆卸工具移至该灯泡的物品栏上方即可拆卸</color>
-    <color=orange>注意一定不要把灯泡放在嘴部！！</color>
-  medcratedsc: |-
-    <color=#e84e40>┃最大血量：1000</color>
-    <color=#ffee58>┃破坏/开锁掉落：
-    ┃红色血袋 (5%)、随机1件(医疗62.5%/药品25%/饮水12.5%)</color>
-    <color=orange>受物理影响</color>
-  gratedsc: |-
-    金属格栅。
-    <color=#e84e40>┃最大血量：100</color>
-    <color=#ffee58>┃破坏掉落：金属废料×1(100%┃耐久10%~100%)</color>
-  rechargingstationdsc: |-
-    <color=#e84e40>┃最大血量：1000</color>
-    <color=orange>┃两个充电口，可同时充2块电池
-    ┃充满时间=最大电量÷1.35秒
-    ┃小型50：37.0秒┃中型100：74.1秒
-    ┃大型300：222.2秒
-    ┃首次使用赠送MP3播放器
-    ┃只刷新在：3(干旱沙漠)┃4(辐射废土)
-    ┃5(深林丛渊)┃12层(终极实验室)</color>┃无掉落
-  hydreeddsc: |-
-    <color=#e84e40>┃最大血量：150</color>
-    <color=#ffee58>┃破坏掉落：
-    ┃水芦果x2-4 (50%)、水芦藤x1-3 (50%)
-    ┃水芦莓 (100%)、安眠尾 (50%)</color>
-    <color=orange>食物价值低但药用价值高：水芦藤可作绷带、水芦莓可制鸦片、安眠尾可改善心情</color>
-  OxygenCrystaldsc: |-
-    <color=#e84e40>┃最大血量：250</color>
-    <color=#ffee58>┃破坏掉落：
-    ┃氧晶碎片 (100%)</color>
-    <color=orange>带在身上（非容器）体力 +2%/s 可用20分钟</color>
-  reinforceddoordsc: |-
-    <color=#e84e40>┃最大血量：15000</color>
-    <color=#ffee58>┃破坏掉落：无</color>
-    <color=orange>由附近的生物终端或废料吞噬者解锁
-    直接破坏不是常规解法，等离子切割器会比较快</color>
-  ReliefCrystaldsc: |-
-    <color=#e84e40>┃最大血量：250</color>
-    <color=#ffee58>┃破坏掉落：
-    ┃镇痛晶碎片 (100%)</color>
-    <color=orange>带在身上（非容器）全身疼痛 -20/s 可用20分钟</color>
   sandrosedsc: |-
     <color=#e84e40>┃最大血量：80</color>
     <color=#ffee58>┃破坏掉落：
     ┃发光玫瑰荚x1-2 (50%)、发光玫瑰荚 (10%)
     ┃植物纤维x1-2 (20%)</color>
     <color=orange>“发光玫瑰荚”在沙漠中是重要的发光源，使用可发出闪亮的光芒</color>
-  scrapeaterdsc: |-
-    </color><color=#e84e40>┃最大血量：1000</color>
+  scrapeaterdsc: !replace |-
+    上面贴着“投入金属废料以开启”的标签，旁边的小屏幕显示<color=#ffffff>“<>%”。</color>
+    <color=#e84e40>┃最大血量：1000</color>
     <color=#ffee58>┃破坏掉落：金属废料x2 (100%)</color>
     <color=orange>投入累计150%废料可开启相邻加固门。
     超量投入会浪费；若门已缺失则无效。
     触发后无法再互动或破坏，废料不可回收</color>
+  shuttledoordsc: |-
+    <color=#e84e40>┃最大血量：5000</color>
+    <color=#ffee58>┃破坏掉落：无</color>
+    <color=orange>剧情屏障，无直接交互</color>
+  shuttleelevatordsc: |-
+    <color=#e84e40>┃最大血量：15000</color>
+    <color=#ffee58>┃破坏掉落：无</color>
+    <color=orange>剧情装置，无直接交互</color>
   SoothingCrystaldsc: |-
     <color=#e84e40>┃最大血量：250</color>
     <color=#ffee58>┃破坏掉落：宁神晶碎片 (100%)</color>
     <color=orange>带在身上（非容器）心情 +0.04/s 可用20分钟</color>
+  spikestabber: !replace "穿刺陷阱"
   spikestabberdsc: |-
     <color=#e84e40>┃最大血量：800</color>
     <color=#91a7ff>┃触发：物体经过中心长钉范围
@@ -2494,23 +2456,6 @@ buildings:
     <color=#ffee58>┃破坏掉落：金属废料1~3(50%)┃电路板(35%)</color>
     <color=orange>投掷物品可提前触发
     激活后永久失效</color>
-  sidestabberdsc: |-
-    <color=#e84e40>┃最大血量：400</color>
-    <color=#91a7ff>┃触发：动态物体进入感应区
-    ┃尖刺判定：朝向前方6格
-    ┃每肢体50%命中
-    ┃伤害(均受护甲)：皮肤20~32┃肌肉12~20
-    ┃出血0~0.24L/分钟┃疼痛28~40
-    ┃休克+28┃肾上腺素+100
-    ┃头部：意识归零
-    ┃20%脑伤2~28+毁容
-    ┃否则80%摘除眼球
-    ┃头部/躯干：内出血6.4~12/护甲
-    ┃骨折概率12%/护甲
-    ┃触发后永久失效</color>
-    <color=#ffee58>┃破坏掉落：菌类块×3(均100%┃耐久20%~100%)</color>
-    <color=orange>可投掷物品提前触发</color>
-  spikestabber: （穿刺陷阱）
   spikestabberdscused: |-
     <color=orange>即使从高处砸在它上面也不会有事
     不会进行二次充能，它已完全废弃</color>
@@ -2518,6 +2463,19 @@ buildings:
     <color=#e84e40>┃最大血量：200</color>
     <color=#ffee58>┃破坏掉落：
     ┃闭合石果x1-2 (80%)、闭合石果 (50%)、闭合石果 (30%)</color>
+  fan: !replace "老旧旋刃风扇"
+  fandsc: |-
+    <color=#e84e40>┃最大血量：500</color>
+    <color=#91a7ff>┃转速0.2~5转/秒┃刀片扫过半径6.5格
+    ┃肢体：皮肤-9×转速┃肌肉-7.5×转速
+    ┃出血+0.06×转速L/分钟┃疼痛+7×转速
+    ┃转速≥2：布娃娃
+    ┃转速≥3：断片掉落金属废料
+    ┃转速>4.15：骨折┃已骨折则断肢
+    ┃可破坏建筑/地形/物品</color>
+    <color=#ffee58>┃破坏掉落：金属废料×2(100%/50%)┃电路板×1(50%)</color>
+    <color=orange>叶片高速撞击会断裂并掉低耐久金属废料
+    两片全断后失效┃中间部位可以踩┃没有支撑会乱飞</color>
   TurbulentCrystaldsc: |-
     <color=#e84e40>┃最大血量：250</color>
     <color=#ffee58>┃破坏掉落：漩涡晶碎片 (100%)</color>
@@ -2541,20 +2499,25 @@ buildings:
     ┃头部：20%毁容 ┃ 20%单眼失明 ┃ 70%概率0~30脑损伤</color>
     <color=orange>仅沿顶部水平线探测射击，可跳躲或蹲伏滑藤避开。体温<32°C不触发。头/胸部中弹极致命，失血量过大则自动泵无效。
     可使用等离子切割器快速切割，就能无伤破坏</color>
+  ceilingturretdsc: |-
+    <color=#e84e40>┃最大血量：1000</color>
+    <color=#ffee58>┃破坏掉落：金属废料×2(100%/85%)┃电路板×1(100%，低耐久)</color>
+    <color=orange>┃通常需玩家速度>15且无遮挡才会锁定；部分固定炮塔始终检测
+    ┃锁定约0.7秒后开火，单发约70~100伤害(受护甲减免)
+    ┃可造成骨折┃内出血┃昏迷
+    ┃生命低于350后约2秒自爆(9格)</color>
+  gratedsc: !replace |-
+    金属格栅。
+    <color=#e84e40>┃最大血量：100</color>
+    <color=#ffee58>┃破坏掉落：金属废料×1(100%┃耐久10%~100%)</color>
   stalagmitedsc: |-
     <color=#e84e40>┃最大血量：500</color>
     <color=orange>与钟乳石不同，石笋是安全的地面装饰物，不会造成伤害。
     即使你从高处掉在它上面，跟掉在普通地板没什么两样</color>
-  lavalampdsc: |-
-    <color=#e84e40>┃最大血量：250</color>
-    <color=#ffee58>┃破坏掉落：干燥植物纤维×2(100%/50%)</color>
-    <color=orange>┃8格内每0.5秒向44°C插值1%
-    ┃只影响玩家</color>
   stalagmitedarkdsc: |
     <color=#e84e40>┃最大血量：1000</color>
     <color=orange>┃安全装饰，不造成伤害
     </color>┃破坏后无掉落
-
   icestalagmitedsc: |-
     <color=#e84e40>┃最大血量：400</color>
     <color=orange>与冰锥不同，冰笋是安全的地面装饰物，不会造成伤害。
@@ -2564,20 +2527,12 @@ buildings:
     <color=orange>玩家经过时可能掉落，造成皮肤/肌肉伤和单肢出血，伤害随速度增加。
     可提前打掉或引诱掉落来排除。
     注意头部！被砸会遭受重创，但不致死</color>
-  scientistdsc: |-
-    <color=#e84e40>┃最大血量：300</color>
-    <color=orange>┃终局实验室剧情NPC，不主动攻击
-    ┃被武器击中会触发逃离与守卫战流程
-    </color>┃破坏后无掉落
-    <color=#FF69B4>┃注意：此物品和结局有关</color>
-  scientist: （科研员）
   icestalactitedsc: |-
     <color=#e84e40>┃最大血量：100</color>
     <color=orange>玩家经过时可能掉落，造成皮肤/肌肉伤和单肢出血，伤害随速度增加。
     可提前打掉或引诱掉落来排除。
     注意头部！被砸会遭受重创，但不致死</color>
-  stalactitedscdropped: |-
-    <color=orange>经过时仍有可能会滑倒，务必小心</color>
+  stalactitedscdropped: "<color=orange>经过时仍有可能会滑倒，务必小心</color>"
   drybushdsc: |-
     <color=#e84e40>┃最大血量：100</color>
     <color=#ffee58>┃破坏掉落：
@@ -2593,6 +2548,11 @@ buildings:
     <color=#ffee58>┃破坏掉落：木屑×4(100%/75%/50%/25%)
     ┃赤色纤维×3(均50%)</color>
     <color=orange>纯装饰植物，无特殊效果</color>
+  pussackdsc: |-
+    <color=#e84e40>┃最大血量：150</color>
+    <color=#ffee58>┃彻底破坏掉落：赤色纤维×3(100%/75%/33%)┃胶质肉块×1(100%)┃血囊×2(100%/50%)</color>
+    <color=orange>┃生命低于140时破裂一次：生成猩红垢泥，8格内被溅脏并向上击飞
+    ┃破裂后仍可继续破坏</color>
   brownshroomdsc: |-
     <color=#e84e40>┃最大血量：50</color>
     <color=#ffee58>┃破坏掉落：
@@ -2648,6 +2608,7 @@ buildings:
     <color=orange>接触触发喷涌，射出地下水或荧光藻，冲走附近物体。
     冷却10秒后可重新触发。可投掷物品触发后安全通过。
     小心被冲击导致动弹不得，和瘫痪一样，随着水流坠落底层</color>
+  lavageyser: !replace "岩浆间歇泉"
   lavageyserdsc: |-
     <color=#e84e40>┃最大血量：250</color>
     <color=orange>┃被攻击，或动态物体碰到喷口(玩家在64格内)时触发
@@ -2655,7 +2616,6 @@ buildings:
     ┃喷发期间在泉眼上方0~9格持续生成岩浆
     ┃接触岩浆会持续灼伤并烧毁物品，护甲可减免
     ┃可破坏，无掉落</color>
-  lavageyser: （岩浆）
   oilpipedsc: |-
     <color=orange>┃无法直接破坏
     ┃被动产生原油淹没区域，离开后停止
@@ -2669,16 +2629,36 @@ buildings:
     ┃炮果皮x1-3 (50%)、炮果皮 (25%)
     ┃紫辛药x0-2 (50%)、干燥植物纤维 (100%)</color>
     <color=orange>废土层宝贵资源：果实可充饥解渴、紫辛药减内出血、炮果皮可作临时绷带镇痛</color>
-  pistondsc: |-
-    <color=#e84e40>┃最大血量：2000</color>
-    <color=#91a7ff>┃每1~2.5s/次
-    ┃伸出4格┃伸出速度60┃回缩速度18
-    ┃垂直型伸出时压到玩家：强制布娃娃+尖叫
-    ┃不直接造成肢体伤害</color>
-    <color=#ffee58>┃破坏掉落：金属废料×3(100%/50%/50%)┃废料板×2(80%/80%)┃电路板×1(80%)</color>
-    <color=orange>可趁回缩时通过或从侧面绕过
-    水平型号主要靠物理撞击推开玩家</color>
-  piston: （活塞机）
+  mushroomdropperdsc: |-
+    <color=#e84e40>┃最大血量：100</color>
+    <color=orange>┃玩家或肢体进入下方40格：菌盖在0~0.6秒内脱落(50%立即)
+    ┃支撑地块被移除时也会脱落
+    ┃本体破坏无掉落</color>
+  mushroomdropperpayloaddsc: |-
+    <color=#e84e40>┃最大血量：100</color>
+    <color=#91a7ff>┃高速砸中时：头部意识-80/护甲┃肌肉-碰撞速度×0.75/护甲
+    ┃皮肤-碰撞速度/护甲┃出血+碰撞速度×0.0015L/分钟(受护甲减免)┃强制布娃娃┃碰撞后自身销毁</color>
+    <color=orange>高速物品撞击时有50%概率提前脱落
+    无掉落</color>
+  mushroomropedsc: |-
+    <color=orange>┃可攀爬
+    ┃无法直接破坏</color>
+  sidestabberdsc: |-
+    <color=#e84e40>┃最大血量：400</color>
+    <color=#91a7ff>┃触发：动态物体进入感应区
+    ┃尖刺判定：朝向前方6格
+    ┃每肢体50%命中
+    ┃伤害(均受护甲)：皮肤20~32┃肌肉12~20
+    ┃出血0~0.24L/分钟┃疼痛28~40
+    ┃休克+28┃肾上腺素+100
+    ┃头部：意识归零
+    ┃20%脑伤2~28+毁容
+    ┃否则80%摘除眼球
+    ┃头部/躯干：内出血6.4~12/护甲
+    ┃骨折概率12%/护甲
+    ┃触发后永久失效</color>
+    <color=#ffee58>┃破坏掉落：菌类块×3(均100%┃耐久20%~100%)</color>
+    <color=orange>可投掷物品提前触发</color>
   skullcrusherdsc: |-
     <color=#e84e40>┃最大血量：800</color>
     <color=#91a7ff>┃玩家/肢体进入下方40格后掉落
@@ -2714,16 +2694,13 @@ buildings:
     <color=#ffee58>┃破坏掉落：金属废料×2(100%┃耐久20%~100%)</color>
     <color=orange>物品碰撞：耐久-80%┃自身生命-5后×0.5
     固定陷阱，持续发出噪音</color>
+  LoreNotedsc: |-
+    ┃无法直接破坏
+    ┃6格内可阅读(需能阅读)
+    ┃阅读期间时间减速
   ceilingryedsc: |-
     <color=#e84e40>┃最大血量：100</color>
     <color=#ffee58>┃破坏掉落：黑麦粒x1-3 (100%)</color>
-  ceilingturretdsc: |-
-    <color=#e84e40>┃最大血量：1000</color>
-    <color=#ffee58>┃破坏掉落：金属废料×2(100%/85%)┃电路板×1(100%，低耐久)</color>
-    <color=orange>┃通常需玩家速度>15且无遮挡才会锁定；部分固定炮塔始终检测
-    ┃锁定约0.7秒后开火，单发约70~100伤害(受护甲减免)
-    ┃可造成骨折┃内出血┃昏迷
-    ┃生命低于350后约2秒自爆(9格)</color>
   grabberplantdsc: |-
     <color=#e84e40>┃最大血量：1500</color>
     <color=#ffee58>┃破坏掉落：植物纤维×5
@@ -2736,143 +2713,206 @@ buildings:
     ┃不直接造成伤害┃但间接会造成内出血、骨折、脱臼</color>
     <color=orange>触手会随机摆动并避开地面
     攻击触手不会立即解除抓取</color>
+  grabbershroomdsc: |-
+    <color=#e84e40>┃最大血量：2000</color>
+    <color=#ffee58>┃破坏掉落：菌类块×14
+    ┃5×100%┃4×75%┃5×25%</color>
+    <color=#91a7ff>┃触手尖端接近至3.2格内
+    ┃抓住随机肢体并拖拽
+    ┃强制布娃娃+尖叫┃休克至少20
+    ┃持续约2秒或直到昏迷
+    ┃两次抓取间隔5秒
+    ┃间接造成内出血、骨折、脱臼</color>
+    <color=orange>触手会随机摆动并避开地面
+    攻击触手不会立即解除抓取</color>
+  scientist: !replace "科研员"
+  scientistdsc: |-
+    <color=#e84e40>┃最大血量：300</color>
+    <color=orange>┃终局实验室剧情NPC，不主动攻击
+    ┃被武器击中会触发逃离与守卫战流程
+    </color>┃破坏后无掉落
+    <color=#FF69B4>┃注意：此物品和结局有关</color>
+  guard: !replace "守卫"
+  guarddsc: |-
+    <color=#e84e40>┃最大血量：450</color>
+    <color=#ffee58>┃击杀掉落：手枪(剩余弹药)；弹药耗尽时额外掉落手枪弹匣┃25%概率掉落随机医疗/弹药</color>
+    <color=orange>┃终局实验室守卫，会走位┃瞄准射击并近战电击
+    ┃手枪17发，约4秒换弹
+    ┃近战会击倒玩家并造成电击</color>
+    <color=#FF69B4>┃注意：此物品和结局有关</color>
+  terminaldsc: |-
+    ┃无法直接破坏
+    ┃交互打开控制台
+    ┃可执行沙盒命令，按~打开或退出
+  macrofleshrebuilderdsc: |-
+    ┃无法直接破坏
+    <color=orange>┃终局实验室专用手术台，不是通用治疗设备
+    ┃仅在麻醉生效┃手术流程开放后可用
+    ┃用于进行取出体内货物的手术小游戏
+    </color>┃破坏后无掉落
+    <color=#FF69B4>┃注意：此物品和结局有关</color>
 moodles:
-  braindamage4: (<30%)
-  braindamage3: (<60%)
-  braindamage2: (<80%)
-  braindamage1: (<95%)
-  stroke: (>70%)
-  cantbreathe: (≤2.5次/分钟)
-  thoraxdestroyed: (胸腔肌肉<4%)
-  pulmonaryembolism: (血液粘稠度>90)
-  oxygen1: (<90%)
-  oxygen2: (<75%)
-  oxygen3: (<60%)
-  oxygen4: (<45%)
-  fibrillation1: (>15%)
-  fibrillation2: (>50%｜心率>240)
-  fibrillation3: (>75%)
-  palpitations: (>50%｜心率>240)
-  venom1: (>2%)
-  venom2: (>25%)
-  venom3: (>55%)
-  venom4: (>90%)
-  pain1: (>10%)
-  pain2: (>30%)
-  pain3: (>55%)
-  pain4: (>80%)
-  shock: (>30%)
-  overdose1: (>5%)
-  overdose2: (>20%)
-  overdose3: (>50%)
-  overdose4: (>80%)
-  withdrawal1: (<-5%)
-  withdrawal2: (<-15%)
-  withdrawal3: (<-25%)
-  withdrawal4: (<-34%)
-  stimulated: (>0秒)
-  drugoverdose: (非阿片类)
-  bleeding1: (>0.00L/分钟)
-  bleeding2: (>0.09L/分钟)
-  bleeding3: (>0.23L/分钟)
-  bleeding4: (>0.45L/分钟)
-  internalBleed: (>0.04L/分钟)
-  exertion1: (<70%)
-  exertion2: (<50%)
-  exertion3: (<35%)
-  exertion4: (≤15%)
-  brokenneck: (头部骨折)
-  infected1: (≥25%)
-  infected2: (>40%)
-  infected3: (>60%)
-  infected4: (>80%)
-  sepsis1: (>10%)
-  sepsis2: (>50%)
-  sepsis3: (>80%)
-  concussion: (<14.4%)
-  unconscious: (≤20%)
-  incapacitated: (<30%)
-  asleep: (≤20%)
-  badsleep: (中/差睡眠)
-  confused1: (<90%)
-  confused2: (<72%)
-  confused3: (<55%)
-  tired1: (<35%)
-  tired2: (<25%)
-  tired3: (<15%)
-  tired4: (≤7%)
-  hunger1: (<80)
-  hunger2: (<60)
-  hunger3: (<40)
-  hunger4: (≤17.5)
-  hunger5: (>100)
-  hunger6: (>120)
-  thirst1: (<75)
-  thirst2: (<60)
-  thirst3: (<40)
-  thirst4: (≤20)
-  overhydrated1: (>100)
-  overhydrated2: (>125)
-  overhydrated3: (>175)
-  sick1: (>10)
-  sick2: (>30)
-  sick3: (>50)
-  sick4: (>75)
-  hot1: (38.0°C~39.0°C)
-  hot2: (39.0°C~40.25°C)
-  hot3: (40.25°C~41.5°C)
-  hot4: (>41.5°C)
-  cold1: (34.0°C~35.5°C)
-  cold2: (32.5°C~34.0°C)
-  cold3: (28.0°C~32.5°C)
-  cold4: (<28.0°C)
-  wet1: (>5%)
-  wet2: (>20%)
-  wet3: (>45%)
-  wet4: (>70%)
-  underweight1: (<44.9kg)
-  underweight2: (<39.8kg)
-  underweight3: (<36.4kg)
-  underweight4: (<33kg)
-  overweight1: (>55kg)
-  overweight2: (>60.2kg)
-  overweight3: (>63.6kg)
-  overweight4: (>67kg)
-  depression1: (<-10)
-  depression2: (<-30)
-  depression3: (<-50)
-  depression4: (≤-75)
-  trauma1: (>10%)
-  trauma2: (>25%)
-  trauma3: (>45%)
-  trauma4: (>80%)
-  happy1: (>10)
-  happy2: (>30)
-  happy3: (>50)
-  happy4: (≥75)
-  impairedspeech: (嘴部问题)
-  deaf2: (>15%)
-  deaf3: (>40%)
-  deaf4: (>70%)
-  encumbered1: (>0%)
-  encumbered2: (>30%)
-  encumbered3: (>55%)
-  encumbered4: (>85%)
-  irradiated1: (>3.0 Gy)
-  irradiated2: (>9.0 Gy)
-  irradiated3: (>15.0 Gy)
-  irradiated4: (>24.0 Gy)
-  hemothorax: (>40%)
-  hollow: (永久)
-  dirty1: (>50%)
-  dirty2: (>80%)
-  adrenaline: (>20%)
-  tachycardia: (>110)
-  bradycardia: (<60)
-  lowimmunity: (<55%)
-  highimmunity: (>150%)
-  clawdamage1: (<60%)
-  clawdamage2: (<25%)
+  braindamage4: "(<30%)"
+  braindamage3: "(<60%)"
+  braindamage2: "(<80%)"
+  braindamage1: "(<95%)"
+  stroke: "(>70%)"
+  cantbreathe: "(≤2.5次/分钟)"
+  thoraxdestroyed: "(胸腔肌肉<4%)"
+  pulmonaryembolism: "(血液粘稠度>90)"
+  oxygen1: "(<90%)"
+  oxygen2: "(<75%)"
+  oxygen3: "(<60%)"
+  oxygen4: "(<45%)"
+  fibrillation1: "(>15%)"
+  fibrillation2: "(>50%｜心率>240)"
+  fibrillation3: "(>75%)"
+  palpitations: "(>50%｜心率>240)"
+  cardiacarrest: "(心率<20)"
+  hypoventilation1: "(<22.5次/分钟)"
+  hypoventilation2: !replace "重度通气不足(<12.5次/分钟)"
+  hypotension1: "(<110/73)"
+  hypotension2: "(<96/63)"
+  hypotension3: "(<83/55)"
+  hypotension4: "(<60/40)"
+  hypertension1: "(>130/86)"
+  hypertension2: "(>145/96)"
+  hypertension3: "(>162/107)"
+  hypertension4: "(>180/119)"
+  venom1: "(>2%)"
+  venom2: "(>25%)"
+  venom3: "(>55%)"
+  venom4: "(>90%)"
+  pain1: "(>10%)"
+  pain2: "(>30%)"
+  pain3: "(>55%)"
+  pain4: "(>80%)"
+  shock: !replace "疼痛休克(>30%)"
+  overdose1: "(>5%)"
+  overdose2: "(>20%)"
+  overdose3: "(>50%)"
+  overdose4: "(>80%)"
+  withdrawal1: "(<-5%)"
+  withdrawal2: "(<-15%)"
+  withdrawal3: "(<-25%)"
+  withdrawal4: "(<-34%)"
+  stimulated: "(>0秒)"
+  drugoverdose: "(非阿片类)"
+  bleeding1: "(>0.00L/分钟)"
+  bleeding2: "(>0.09L/分钟)"
+  bleeding3: "(>0.23L/分钟)"
+  bleeding4: "(>0.45L/分钟)"
+  internalBleed: "(>0.04L/分钟)"
+  exertion1: "(<70%)"
+  exertion2: "(<50%)"
+  exertion3: "(<35%)"
+  exertion4: "(≤15%)"
+  brokenbone: "(任意骨骼)"
+  dislocation: "(任意关节)"
+  brokenneck: "(头部骨折)"
+  brokenribs: "(胸腔骨折)"
+  dislocatedjaw: "(头部脱位)"
+  dislocatedspine: "(胸腔脱位)"
+  infected1: "(≥25%)"
+  infected2: "(>40%)"
+  infected3: "(>60%)"
+  infected4: "(>80%)"
+  sepsis1: "(>10%)"
+  sepsis2: "(>50%)"
+  sepsis3: "(>80%)"
+  concussion: "(<14.4%)"
+  unconscious: "(≤20%)"
+  incapacitated: "(<30%)"
+  asleep: "(≤20%)"
+  confused1: "(<90%)"
+  confused2: "(<72%)"
+  confused3: "(<55%)"
+  tired1: "(<35%)"
+  tired2: "(<25%)"
+  tired3: "(<15%)"
+  tired4: "(≤7%)"
+  hunger1: "(<80)"
+  hunger2: "(<60)"
+  hunger3: "(<40)"
+  hunger4: "(≤17.5)"
+  hunger5: "(>100)"
+  hunger6: "(>120)"
+  thirst1: "(<75)"
+  thirst2: "(<60)"
+  thirst3: "(<40)"
+  thirst4: "(≤20)"
+  overhydrated1: "(>100)"
+  overhydrated2: "(>125)"
+  overhydrated3: "(>175)"
+  sick1: "(>10)"
+  sick2: "(>30)"
+  sick3: "(>50)"
+  sick4: "(>75)"
+  hot1: "(38.0°C~39.0°C)"
+  hot2: "(39.0°C~40.25°C)"
+  hot3: "(40.25°C~41.5°C)"
+  hot4: "(>41.5°C)"
+  cold1: "(34.0°C~35.5°C)"
+  cold2: "(32.5°C~34.0°C)"
+  cold3: "(28.0°C~32.5°C)"
+  cold4: "(<28.0°C)"
+  wet1: "(>5%)"
+  wet2: "(>20%)"
+  wet3: "(>45%)"
+  wet4: "(>70%)"
+  underweight1: "(<44.9kg)"
+  underweight2: "(<39.8kg)"
+  underweight3: "(<36.4kg)"
+  underweight4: "(<33kg)"
+  overweight1: "(>55kg)"
+  overweight2: "(>60.2kg)"
+  overweight3: "(>63.6kg)"
+  overweight4: "(>67kg)"
+  depression1: "(<-10)"
+  depression2: "(<-30)"
+  depression3: "(<-50)"
+  depression4: "(≤-75)"
+  trauma1: "(>10%)"
+  trauma2: "(>25%)"
+  trauma3: "(>45%)"
+  trauma4: "(>80%)"
+  happy1: "(>10)"
+  happy2: "(>30)"
+  happy3: "(>50)"
+  happy4: "(≥75)"
+  impairedspeech: "(嘴部问题)"
+  deaf2: "(>15%)"
+  deaf3: "(>40%)"
+  deaf4: "(>70%)"
+  encumbered1: "(>0%)"
+  encumbered2: "(>30%)"
+  encumbered3: "(>55%)"
+  encumbered4: "(>85%)"
+  irradiated1: "(>3.0 Gy)"
+  irradiated2: "(>9.0 Gy)"
+  irradiated3: "(>15.0 Gy)"
+  irradiated4: "(>24.0 Gy)"
+  barotrauma1: "(>0)"
+  barotrauma2: "(>30)"
+  barotrauma3: "(>65)"
+  barotrauma4: "(>100)"
+  energized: "(>0秒)"
+  hemothorax: "(>40%)"
+  hollow: "(永久)"
+  badsleep: "(中/差睡眠)"
+  laststand: "(≤15%判定)"
+  dirty1: "(>50%)"
+  dirty2: "(>80%)"
+  adrenaline: "(>20%)"
+  tachycardia: "(>110)"
+  bradycardia: "(<60)"
+  lowimmunity: "(<55%)"
+  highimmunity: "(>150%)"
+  clawdamage1: "(<60%)"
+  clawdamage2: "(<25%)"
+  impendingdoom: "(45~101.25格)"
+  horrified: "(<45格｜阶段1)"
+  focused: "(<45格｜非阶段1)"
   braindamage4dsc: |-
     <color=#ff4444>脑组织完整性 <30%</color>
     <color=#888888>┃状态：完全丧失意识</color>
@@ -2960,14 +3000,11 @@ moodles:
     <color=#888888>┃循环停止；脑缺氧后脑健康 -1.5/s</color>
     <color=#3CCBE7>┃治疗:使用 <color=#3CCC78>手动除颤仪</color>｜<color=#3CCC78>自动体外除颤仪</color>（20%起搏）
     ┃注射 <color=#3CCC78>肾上腺素</color>（5%起搏；>240秒强制心室颤动）</color>
-  cardiacarrest: (心率<20)
   hypoventilation1dsc: |-
     <color=#888888>呼吸频率 <22.5次/分钟</color>
     <color=#888888>┃血氧会逐步下降</color>
     <color=#3CCBE7>┃治疗:阿片过量用 <color=#3CCC78>纳洛酮</color>｜<color=#3CCC78>纳曲酮</color>
     ┃其他病因：提高通气并处理原发病</color>
-  hypoventilation1: (<22.5次/分钟)
-  hypoventilation2: (<12.5次/分钟)
   hypoventilation2dsc: |-
     <color=#ffaa00>呼吸频率 <12.5次/分钟</color>
     <color=#888888>┃血氧快速下降</color>
@@ -2977,10 +3014,6 @@ moodles:
     <color=#888888>血压 <110/73</color>
     <color=#888888>┃<88：心室颤动风险上升</color>
     <color=#3CCBE7>┃治疗:注射 <color=#3CCC78>血管加压素</color>┃补液/输血</color>
-  hypotension1: (<110/73)
-  hypotension2: (<96/63)
-  hypotension3: (<83/55)
-  hypotension4: (<60/40)
   hypotension2dsc: |-
     <color=#ffaa00>血压 <96/63</color>
     <color=#888888>┃<88：心室颤动风险上升</color>
@@ -2998,10 +3031,6 @@ moodles:
     <color=#888888>血压 >130/86</color>
     <color=#888888>┃无直接伤害；>145开始头痛</color>
     <color=#3CCBE7>┃治疗:处理病因｜必要时注射 <color=#3CCC78>硝普钠</color></color>
-  hypertension1: (>130/86)
-  hypertension2: (>145/96)
-  hypertension3: (>162/107)
-  hypertension4: (>180/119)
   hypertension2dsc: |-
     <color=#ffaa00>血压 >145/96</color>
     <color=#888888>┃头部疼痛最高50</color>
@@ -3182,13 +3211,6 @@ moodles:
     ┃持续降低血容量</color>
     <color=#3CCBE7>┃治疗:注射 <color=#3CCC78>促凝剂</color>
     ┃对胸部使用 <color=#3CCC78>局部复苏装置</color></color>
-  materiallossdsc: |-
-    <color=#ff4444>┃假肢骨折</color>
-    <color=#888888>┃假肢不会疼痛┃流血┃感染
-    ┃材料耐久决定可修补孔数</color>
-    <color=#3CCBE7>┃治疗:用对应材料修复
-    ┃钢=<color=#3CCC78>废料</color>｜木=<color=#3CCC78>木料</color>｜增强=<color=#3CCC78>钛材</color>
-    ┃需未脱臼、肌肉健康<99%</color>
   exertion1dsc: |-
     <color=#888888>耐力 <70%</color>
     <color=#888888>┃移动按耐力曲线下降
@@ -3222,7 +3244,6 @@ moodles:
     ┃骨骼焊接器9分41秒</color>
     <color=#3CCBE7>┃治疗:使用 <color=#3CCC78>夹板</color>
     ┃<color=#3CCC78>塑料绷带</color>｜<color=#3CCC78>骨骼焊接器</color></color>
-  brokenbone: (任意骨骼)
   dislocationdsc: |-
     <color=#ffaa00>任意关节脱位</color>
     ┃脱臼会导致该肌肉健康度最高锁定小于50
@@ -3231,7 +3252,6 @@ moodles:
     ┃夹板使恢复速度×2</color>
     <color=#3CCBE7>┃治疗:徒手或 <color=#3CCC78>任意扳手</color> 复位
     ┃复位后可用 <color=#3CCC78>夹板</color> 固定</color>
-  dislocation: (任意关节)
   brokenneckdsc: |-
     <color=#ff4444>头部骨折</color>
     <color=#888888>┃移动速度上限70%
@@ -3244,43 +3264,17 @@ moodles:
     ┃攻击时：疼痛+3</color>
     <color=#3CCBE7>┃治疗:使用 <color=#3CCC78>塑料绷带</color>
     ┃<color=#3CCC78>骨骼焊接器</color>加速愈合</color>
-  bentprosthesisdsc: |-
-    <color=#ff4444>┃假肢脱臼</color>
-    <color=#888888>┃假肢不会疼痛┃流血┃感染
-    ┃脱臼不会自行痊愈，必须手动复位</color>
-    <color=#3CCBE7>┃治疗:手持任意 <color=#3CCC78>扳手</color> 对该肢体使用
-    ┃徒手无法复位假肢，只对血肉肢体有效
-    ┃平均疼痛>75时无法操作
-    ┃复位后解除，心情+3</color>
-  prosthesisdsc: |-
-    <color=#888888>┃皮肤栏隐藏，以肌肉健康作耐久
-    ┃不会流血、疼痛或感染
-    ┃不会自然愈合；损坏/脱臼时力量=0
-    ┃护甲：钢1.20｜木0.90｜操作增强1.60
-    ┃力量：钢1.00｜木0.45｜操作增强1.25</color>
-    <color=#3CCBE7>┃修复:钢=<color=#3CCC78>废料</color>｜木=<color=#3CCC78>木料</color>｜操作增强=<color=#3CCC78>钛材</color></color>
-  loosescrewsdsc: |-
-    <color=#888888>┃松动声本身不造成任何伤害
-    ┃无疼痛┃感染┃流血</color>
-    <color=#ff4444>┃移动会持续磨损：耐久 -0.66/s</color>
-    <color=#888888>┃假肢耐久=肌肉健康，归零则整条肢体脱落</color>
-    <color=#3CCBE7>┃治疗:破片用扳手或徒手取出(无疼痛)
-    ┃骨折用 <color=#3CCC78>对应材料</color>对准受损部位修复
-    ┃钢=废料｜木=木料｜增强=钛材</color>
-  brokenribs: (胸腔骨折)
   dislocatedjawdsc: |-
     <color=#ffaa00>头部脱位</color>
     <color=#888888>┃语言障碍
     ┃进食时受到疼痛：食物饥饿值×0.5
     ┃进食效率75%</color>
     <color=#3CCBE7>┃治疗:用 <color=#3CCC78>任意扳手</color> 或徒手复位</color>
-  dislocatedjaw: (头部脱位)
   dislocatedspinedsc: |-
     <color=#ffaa00>胸腔脱位</color>
     <color=#888888>┃移动速度上限70%
     ┃攻击/跳跃：疼痛+4</color>
     <color=#3CCBE7>┃治疗:用 <color=#3CCC78>任意扳手</color> 或徒手复位</color>
-  dislocatedspine: (胸腔脱位)
   infected1dsc: |-
     <color=#ffaa00>任意肢体感染 ≥25%</color>
     <color=#888888>┃基础进展7.20%/分钟(100%免疫)</color>
@@ -3491,16 +3485,6 @@ moodles:
     <color=#888888>体温 34.00°C~35.50°C</color>
     <color=#ffaa00>┃免疫增减：(体温-37)×8</color>
     <color=#3CCBE7>┃治疗:运动｜进食｜保暖</color>
-  cargodsc: |-
-    <color=#ffaa00>嵌入：腹部皮肤/肌肉=20｜疼痛+80｜出血+15｜休克50
-    ┃全肢体出血×0.2｜内出血×0.2｜辐射病×0.25</color>
-    <color=#88ff88>┃每秒：心情→35(+0.1)｜体力→100(+0.25)
-    ┃内出血每秒-0.05｜脑健康每秒+0.125
-    ┃气压伤害归零并免疫
-    ┃跳跃初速+25%，不受腿部伤残减速</color>
-    <color=#3CCBE7>┃治疗:最终实验室手术
-    ┃强拖会使腹部皮肤/肌肉=0｜出血=100</color>
-    <color=#FF69B4>┃注意：此效果和结局有关</color>
   cold2dsc: |-
     <color=#ffaa00>体温 32.50°C~34.00°C</color>
     <color=#ffaa00>┃免疫增减：(体温-37)×8</color>
@@ -3613,36 +3597,6 @@ moodles:
     <color=#888888>┃情绪 -0.525/点</color>
     <color=#3CCBE7>┃治疗:时间恢复｜控制疼痛
     ┃抗抑郁药仅缓解情绪</color>
-  barotrauma1dsc: |-
-    <color=#888888>气压伤害 >0｜第9层整层</color>
-    <color=#888888>┃每秒 +0.066｜睡眠时暂停</color>
-    <color=#3CCBE7>┃解除:找到 <color=#3CCC78>货物</color>并嵌入后归零并免疫</color>
-    <color=#FF69B4>┃注意：此效果和结局有关</color>
-  barotrauma2dsc: |-
-    <color=#ffaa00>气压伤害 >30</color>
-    <color=#888888>┃30~65 无额外伤害｜>50 图标闪烁
-    ┃第9层连续升至30：7分35秒</color>
-    <color=#3CCBE7>┃无药物可治｜找到 <color=#3CCC78>货物</color>并嵌入后归零</color>
-    <color=#FF69B4>┃注意：此效果和结局有关</color>
-  barotrauma3dsc: |-
-    <color=#ff4444>气压伤害 >65</color>
-    <color=#888888>┃听力损失 每秒+0.25
-    ┃头部疼痛 每秒+1.5（胸痛低于15）
-    ┃第9层连续升至65：16分25秒</color>
-    <color=#3CCBE7>┃无药物可治｜找到 <color=#3CCC78>货物</color>并嵌入后归零</color>
-    <color=#FF69B4>┃注意：此效果和结局有关</color>
-  barotrauma4dsc: |-
-    <color=#ff4444>气压伤害 >100
-    ┃胸腔肌肉 每秒-0.33
-    ┃胸腔肌肉低于4：胸腔损毁
-    ┃同时承受高于65的听力/疼痛伤害
-    ┃第9层连续升至100：25分16秒</color>
-    <color=#3CCBE7>┃无药物可治｜找到 <color=#3CCC78>货物</color>并嵌入后归零并免疫</color>
-    <color=#FF69B4>┃注意：此效果和结局有关</color>
-  barotrauma1: (>0)
-  barotrauma2: (>30)
-  barotrauma3: (>65)
-  barotrauma4: (>100)
   trauma2dsc: |-
     <color=#ffaa00>创伤 >25%</color>
     <color=#888888>┃情绪 -0.525/点</color>
@@ -3742,13 +3696,38 @@ moodles:
     ┃自然衰减 -0.033/s</color>
     <color=#3CCBE7>┃治疗:立即远离辐射源
     ┃服用 <color=#3CCC78>抗辐射剂</color>（20mL约-18Gy）</color>
+  barotrauma1dsc: |-
+    <color=#888888>气压伤害 >0｜第9层整层</color>
+    <color=#888888>┃每秒 +0.066｜睡眠时暂停</color>
+    <color=#3CCBE7>┃解除:找到 <color=#3CCC78>货物</color>并嵌入后归零并免疫</color>
+    <color=#FF69B4>┃注意：此效果和结局有关</color>
+  barotrauma2dsc: |-
+    <color=#ffaa00>气压伤害 >30</color>
+    <color=#888888>┃30~65 无额外伤害｜>50 图标闪烁
+    ┃第9层连续升至30：7分35秒</color>
+    <color=#3CCBE7>┃无药物可治｜找到 <color=#3CCC78>货物</color>并嵌入后归零</color>
+    <color=#FF69B4>┃注意：此效果和结局有关</color>
+  barotrauma3dsc: |-
+    <color=#ff4444>气压伤害 >65</color>
+    <color=#888888>┃听力损失 每秒+0.25
+    ┃头部疼痛 每秒+1.5（胸痛低于15）
+    ┃第9层连续升至65：16分25秒</color>
+    <color=#3CCBE7>┃无药物可治｜找到 <color=#3CCC78>货物</color>并嵌入后归零</color>
+    <color=#FF69B4>┃注意：此效果和结局有关</color>
+  barotrauma4dsc: |-
+    <color=#ff4444>气压伤害 >100
+    ┃胸腔肌肉 每秒-0.33
+    ┃胸腔肌肉低于4：胸腔损毁
+    ┃同时承受高于65的听力/疼痛伤害
+    ┃第9层连续升至100：25分16秒</color>
+    <color=#3CCBE7>┃无药物可治｜找到 <color=#3CCC78>货物</color>并嵌入后归零并免疫</color>
+    <color=#FF69B4>┃注意：此效果和结局有关</color>
   energizeddsc: |-
     <color=#88ff88>兴奋剂持续 <></color>
     <color=#888888>┃体力恢复×2
     ┃体力消耗×0.25
     ┃睡眠精力流失×0.55</color>
     <color=#3CCBE7>┃正面状态：无需治疗</color>
-  energized: (>0秒)
   hemothoraxdsc: |-
     <color=#ffaa00>血胸 >40%</color>
     <color=#ff4444>┃>70%：最大氧含量 -21</color>
@@ -3758,7 +3737,7 @@ moodles:
     ┃呼吸 -0.125/点</color>
     <color=#3CCBE7>┃治疗:对胸部使用 <color=#3CCC78>胸腔引流器</color>（血胸-35）
     ┃先控制内出血</color>
-  hollowdsc: |-
+  hollowdsc: !replace |-
     精神被彻底抹除。
     <color=#ff4444>永久状态</color>
     <color=#888888>┃总心情固定0｜无法交谈
@@ -3789,7 +3768,6 @@ moodles:
     ┃清除安眠药/抗抑郁药/阿片耐受
     ┃清除所有定时效果
     ┃5分钟内肾上腺素+5/s</color>
-  laststand: (≤15%判定)
   dirty1dsc: |-
     <color=#888888>肮脏 >50%</color>
     <color=#888888>┃自然积累 +0.04%/分钟
@@ -3891,29 +3869,101 @@ moodles:
     <color=#888888>┃恐惧值锁定50
     ┃心情上限±75</color>
     <color=#3CCBE7>┃解除:离开范围｜击杀长老</color>
-  impendingdoom: (45~101.25格)
   horrifieddsc: |-
     <color=#ff4444>距离<45格且阶段1（≥3750血）</color>
     <color=#888888>┃恐惧值100｜心情上限±50</color>
     <color=#3CCBE7>┃解除:离开范围｜击杀长老</color>
-  horrified: (<45格｜阶段1)
   focuseddsc: !replace |-
     <i>我们今天都会死，只不过是顺序问题。</i>
     <color=#ffaa00>距离<45格且非阶段1（<3750血）</color>
     <color=#888888>┃恐惧值替换为专注值100
     ┃持续衰减 20/s，靠近来源时重置满值</color>
     <color=#3CCBE7>┃解除:离开范围｜击杀长老</color>
-  focused: !replace 绝境专注(<45格｜非阶段1)
   focuseddscalt: |-
     </i>
     <color=#ffaa00>结局逃离阶段</color>
     <color=#888888>┃恐惧值替换为专注值100
     ┃持续衰减 20/s，逃离期间持续重置</color>
     <color=#3CCBE7>┃解除:逃离阶段结束</color>
+  cargodsc: |-
+    <color=#ffaa00>嵌入：腹部皮肤/肌肉=20｜疼痛+80｜出血+15｜休克50
+    ┃全肢体出血×0.2｜内出血×0.2｜辐射病×0.25</color>
+    <color=#88ff88>┃每秒：心情→35(+0.1)｜体力→100(+0.25)
+    ┃内出血每秒-0.05｜脑健康每秒+0.125
+    ┃气压伤害归零并免疫
+    ┃跳跃初速+25%，不受腿部伤残减速</color>
+    <color=#3CCBE7>┃治疗:最终实验室手术
+    ┃强拖会使腹部皮肤/肌肉=0｜出血=100</color>
+    <color=#FF69B4>┃注意：此效果和结局有关</color>
+  prosthesisdsc: |-
+    <color=#888888>┃皮肤栏隐藏，以肌肉健康作耐久
+    ┃不会流血、疼痛或感染
+    ┃不会自然愈合；损坏/脱臼时力量=0
+    ┃护甲：钢1.20｜木0.90｜操作增强1.60
+    ┃力量：钢1.00｜木0.45｜操作增强1.25</color>
+    <color=#3CCBE7>┃修复:钢=<color=#3CCC78>废料</color>｜木=<color=#3CCC78>木料</color>｜操作增强=<color=#3CCC78>钛材</color></color>
+  loosescrewsdsc: |-
+    <color=#888888>┃松动声本身不造成任何伤害
+    ┃无疼痛┃感染┃流血</color>
+    <color=#ff4444>┃移动会持续磨损：耐久 -0.66/s</color>
+    <color=#888888>┃假肢耐久=肌肉健康，归零则整条肢体脱落</color>
+    <color=#3CCBE7>┃治疗:破片用扳手或徒手取出(无疼痛)
+    ┃骨折用 <color=#3CCC78>对应材料</color>对准受损部位修复
+    ┃钢=废料｜木=木料｜增强=钛材</color>
+  bentprosthesisdsc: |-
+    <color=#ff4444>┃假肢脱臼</color>
+    <color=#888888>┃假肢不会疼痛┃流血┃感染
+    ┃脱臼不会自行痊愈，必须手动复位</color>
+    <color=#3CCBE7>┃治疗:手持任意 <color=#3CCC78>扳手</color> 对该肢体使用
+    ┃徒手无法复位假肢，只对血肉肢体有效
+    ┃平均疼痛>75时无法操作
+    ┃复位后解除，心情+3</color>
+  materiallossdsc: |-
+    <color=#ff4444>┃假肢骨折</color>
+    <color=#888888>┃假肢不会疼痛┃流血┃感染
+    ┃材料耐久决定可修补孔数</color>
+    <color=#3CCBE7>┃治疗:用对应材料修复
+    ┃钢=<color=#3CCC78>废料</color>｜木=<color=#3CCC78>木料</color>｜增强=<color=#3CCC78>钛材</color>
+    ┃需未脱臼、肌肉健康<99%</color>
 other:
-  runsetunchippeddsc: |-
-    不建议新手开启。
-    <color=orange>可能影响结局</color>
+  layermodifier0: !replace "<color=#A5A5A5>多雾</color>"
+  layermodifier1: !replace "<color=#FF652B>炎热</color>"
+  layermodifier2: !replace "<color=#FF232B>酷热</color>"
+  layermodifier3: !replace "<color=#AFFFFC>寒冷</color>"
+  layermodifier4: !replace "<color=#C9CAFF>严寒</color>"
+  layermodifier5: !replace "<color=#16CCFF>积水</color>"
+  layermodifier6: !replace "<color=#FFF98F>干涸</color>"
+  layermodifier7: !replace "<color=#8FBDFF>多雨</color>"
+  layermodifier8: !replace "<color=#D24762>虫害</color>"
+  layermodifier9: !replace "<color=#5E5C5C>辐射污染</color>"
+  layermodifier10: !replace "<color=#FF5600>耀斑侵袭</color>"
+  layermodifier11: !replace "<color=#CD00FF>失重</color>"
+  layermodifier12: !replace "<color=#CED1FF>光亮</color>"
+  layermodifier13: !replace "<color=#A2D1FF>富氧</color>"
+  layermodifier14: !replace "<color=#A360FF>抗菌</color>"
+  layermodifier15: !replace "<color=#A37244>地质稳定</color>"
+  layermodifier16: !replace "<color=#FF99D1>秀丽</color>"
+  layermodifier17: !replace "<color=#FFCED1>可怖</color>"
+  layermodifier18: !replace "<color=#CFCFCF>矿物富集</color>"
+  layermodifier0dsc: "<color=#A5A5A5>雾浓度100%｜灰雾覆盖全屏</color>｜仅遮挡视线"
+  layermodifier1dsc: "<color=#FF652B>环境温度修正+4°C</color>｜整层持续，离开后恢复"
+  layermodifier2dsc: "<color=#FF232B>环境温度修正+8°C</color>｜整层持续，离开后恢复"
+  layermodifier3dsc: "<color=#AFFFFC>环境温度修正-4°C</color>｜整层持续，离开后恢复"
+  layermodifier4dsc: "<color=#C9CAFF>环境温度修正-10°C</color>｜整层持续，离开后恢复"
+  layermodifier5dsc: "<color=#16CCFF>每区块25次注水｜每次≤600</color>｜第9层不生成"
+  layermodifier6dsc: "<color=#FFF98F>进入时抽干全层液体</color>｜沙丘角色不触发"
+  layermodifier7dsc: "<color=#8FBDFF>按当地雨强降雨｜淋湿向当地雨强×100</color>｜自动冲洗污垢｜雾浓度80%｜第9层加速岩浆冷却"
+  layermodifier8dsc: "<color=#D24762>生成密度1.7~1.8/区块</color>｜暗影爬行者只生成在玩家下方"
+  layermodifier9dsc: "<color=#5E5C5C>辐射桶密度1.2~1.3/区块</color>┃抗辐射药0.25~0.3/区块"
+  layermodifier10dsc: "<color=#FF5600>进入无芯片模式｜隐藏HUD与深度计</color>｜启用视线遮挡"
+  layermodifier11dsc: "<color=#CD00FF>重力30~45｜正常55</color>｜跳跃更高｜下落更慢"
+  layermodifier12dsc: "<color=#CED1FF>特殊光源随视角移动</color>｜提供额外照明"
+  layermodifier13dsc: "<color=#A2D1FF>体力恢复×2</color>｜仅影响体力恢复"
+  layermodifier14dsc: "<color=#A360FF>感染概率×0.2（-80%）</color>｜伤口每40秒判定一次"
+  layermodifier15dsc: "<color=#A37244>关闭持续地震</color>｜<color=#888888>消除 3~25 秒的持续震动<color=#ff4444>｜仍会随机触发瞬时地震与震波，约 10 秒后衰减</color>"
+  layermodifier16dsc: "<color=#FF99D1>进入时心情+15（一次性）</color>｜整层心情 +10 常驻（离开后清零）"
+  layermodifier17dsc: "<color=#FFCED1>进入时心情-7.5（一次性）</color>｜整层心情 -10 常驻（离开后清零）"
+  layermodifier18dsc: "<color=#CFCFCF>追加2轮矿物生成</color>｜每轮强制生成钛"
   strengthdsc: |-
     ┃每升1等级：
     ┃近战伤害 +3.34%
@@ -3939,10 +3989,8 @@ other:
   lrdserumdsc: |-
     ┃饮用(每100mL)：患病 +5
     ┃制作(11)：25mL(消毒)+50mL(液体)+25mL(阿片)+25mL(血液)+25mL生化流体=25mL LRD血清
-  tradermovedsc: ┃好感度<70时不能要求移动
-  cleanwaterdsc: ┃饮用(每100mL)：口渴 +9┃体温 -0.25°C
-  carbonatedwaterdsc: |-
-    ┃饮用(每100mL)：口渴 +9┃体温 -0.25°C┃心情 +0.8
+  cleanwaterdsc: "┃饮用(每100mL)：口渴 +9┃体温 -0.25°C"
+  carbonatedwaterdsc: "┃饮用(每100mL)：口渴 +9┃体温 -0.25°C┃心情 +0.8"
   alcoholdsc: |-
     ┃饮用(每100mL)：口渴 +7.5┃患病 +7┃体温 -0.25°C
     ┃外敷(每100mL)：消毒 5分50秒┃疼痛 +10
@@ -3950,124 +3998,36 @@ other:
   milkdsc: |-
     ┃饮用(每100mL)：饥饿 +3┃体重 +0.14kg┃口渴 +9┃心情 +0.5┃体温 -0.25°C
     ┃制作(0)：470mL(液体)+30mL奶粉=500mL牛奶
-  sodadsc: ┃饮用(每100mL)：口渴 +9┃心情 +1.5┃能量 +4┃体力 +4┃体重 +0.14kg┃体温 -0.3°C┃患病 +5┃精力充沛 1分20秒
-  lemonadedsc: ┃饮用(每100mL)：口渴 +9┃心情 +1.2┃体重 +0.07kg┃体温 -0.3°C
-  layermodifier0: !replace <color=#A5A5A5>多雾</color>
-  layermodifier1: !replace <color=#FF652B>炎热</color>
-  layermodifier2: !replace <color=#FF232B>酷热</color>
-  layermodifier3: !replace <color=#AFFFFC>寒冷</color>
-  layermodifier4: !replace <color=#C9CAFF>严寒</color>
-  layermodifier5: !replace <color=#16CCFF>积水</color>
-  layermodifier6: !replace <color=#FFF98F>干涸</color>
-  layermodifier7: !replace <color=#8FBDFF>多雨</color>
-  layermodifier8: !replace <color=#D24762>虫害</color>
-  layermodifier9: !replace <color=#5E5C5C>辐射污染</color>
-  layermodifier10: !replace <color=#FF5600>耀斑侵袭</color>
-  layermodifier11: !replace <color=#CD00FF>失重</color>
-  layermodifier12: !replace <color=#CED1FF>光亮</color>
-  layermodifier13: !replace <color=#A2D1FF>富氧</color>
-  layermodifier14: !replace <color=#A360FF>抗菌</color>
-  layermodifier15: !replace <color=#A37244>地质稳定</color>
-  layermodifier16: !replace <color=#FF99D1>秀丽</color>
-  layermodifier17: !replace <color=#FFCED1>可怖</color>
-  layermodifier18: !replace <color=#CFCFCF>矿物富集</color>
-  layermodifier0dsc: |-
-    <color=#A5A5A5>雾浓度100%｜灰雾覆盖全屏</color>
-    仅遮挡视线
-  layermodifier10dsc: |-
-    <color=#FF5600>进入无芯片模式｜隐藏HUD与深度计</color>
-    启用视线遮挡
-  layermodifier1dsc: |-
-    <color=#FF652B>环境温度修正+4°C</color>
-    整层持续，离开后恢复
-  layermodifier11dsc: |-
-    <color=#CD00FF>重力30~45｜正常55</color>
-    跳跃更高｜下落更慢
-  layermodifier12dsc: |-
-    <color=#CED1FF>特殊光源随视角移动</color>
-    提供额外照明
-  layermodifier2dsc: |-
-    <color=#FF232B>环境温度修正+8°C</color>
-    整层持续，离开后恢复
-  layermodifier13dsc: |-
-    <color=#A2D1FF>体力恢复×2</color>
-    仅影响体力恢复
-  layermodifier3dsc: |-
-    <color=#AFFFFC>环境温度修正-4°C</color>
-    整层持续，离开后恢复
-  layermodifier14dsc: |-
-    <color=#A360FF>感染概率×0.2（-80%）</color>
-    伤口每40秒判定一次
-  layermodifier4dsc: |-
-    <color=#C9CAFF>环境温度修正-10°C</color>
-    整层持续，离开后恢复
-  layermodifier15dsc: |-
-    <color=#A37244>关闭持续地震</color>
-    <color=#888888>┃消除 3~25 秒的持续震动
-    <color=#ff4444>┃仍会随机触发瞬时地震与震波，约 10 秒后衰减</color>
-  layermodifier5dsc: |-
-    <color=#16CCFF>每区块25次注水｜每次≤600</color>
-    第9层不生成
-  layermodifier16dsc: |-
-    <color=#FF99D1>进入时心情+15（一次性）</color>
-    整层心情 +10 常驻（离开后清零）
-  layermodifier6dsc: |-
-    <color=#FFF98F>进入时抽干全层液体</color>
-    沙丘种不触发
-  layermodifier17dsc: |-
-    <color=#FFCED1>进入时心情-7.5（一次性）</color>
-    整层心情 -10 常驻（离开后清零）
-  layermodifier7dsc: |-
-    <color=#8FBDFF>按当地雨强降雨｜淋湿向当地雨强×100</color>
-    自动冲洗污垢｜雾浓度80%
-    第9层加速岩浆冷却
-  layermodifier18dsc: |-
-    <color=#CFCFCF>追加2轮矿物生成</color>
-    每轮强制生成钛
-  layermodifier8dsc: |-
-    <color=#D24762>生成密度1.7~1.8/区块</color>
-    暗影爬行者只生成在玩家下方
-  layermodifier9dsc: |-
-    <color=#5E5C5C>辐射桶密度1.2~1.3/区块</color>
-    抗辐射药0.25~0.3/区块
-    均只生成在玩家下方
-  urine: ？
-  urinedsc: ┃饮用(每100mL)：口渴 +7┃心情 -2.5┃患病 +7.5┃体温 -0.3°C
+  sodadsc: "┃饮用(每100mL)：口渴 +9┃心情 +1.5┃能量 +4┃体力 +4┃体重 +0.14kg┃体温 -0.3°C┃患病 +5┃精力充沛 1分20秒"
+  lemonadedsc: "┃饮用(每100mL)：口渴 +9┃心情 +1.2┃体重 +0.07kg┃体温 -0.3°C"
+  urine: "？"
+  urinedsc: "┃饮用(每100mL)：口渴 +7┃心情 -2.5┃患病 +7.5┃体温 -0.3°C"
   bleachdsc: |-
     ┃饮用(每100mL)：口渴 +7┃心情 -5
     ┃持续5分钟：
     ┃每秒：口渴 -0.2┃头部皮肤 -0.1┃胸部肌肉 -0.23┃胸部疼痛 +1.5(<50)┃患病 +0.3
     ┃外敷(每100mL)：消毒 6分40秒┃皮肤 -20┃肌肉 -15┃感染 -5┃疼痛 +25
     饮用后果严重，千万别喝
-  energydrinkdsc: ┃饮用(每100mL)：口渴 +9┃心情 +2.5┃能量 +20┃体力 +25┃体重 +0.14kg┃患病 +20┃精力充沛 6分40秒
-  sportsdrinkdsc: ┃饮用(每100mL)：口渴 +13┃体力 +25┃能量 +10┃体重 +0.34kg┃心情 +0.5┃患病 +2
-  oliveoildsc: ┃饮用(每100mL)：口渴 +3┃饥饿 +8┃体重 +0.68kg┃患病 +12┃肮脏 +5┃心情 -1
-  valuegiventipdsc: |-
-
-    <color=#91a7ff>┃总额上限60，累计到60后拒收任何物品
-    ┃单件只按剩余额度折算，太贵也不会被拒</color>
-    <color=#ffa726>┃买来的物品带5分钟标记，期间不能卖回去
-    ┃容器里有东西时不能卖（迷你桶特殊卖不掉）
-    ┃价格区间：绿色0.7┃黄色1.0┃红色1.5</color>
+  energydrinkdsc: "┃饮用(每100mL)：口渴 +9┃心情 +2.5┃能量 +20┃体力 +25┃体重 +0.14kg┃患病 +20┃精力充沛 6分40秒"
+  sportsdrinkdsc: "┃饮用(每100mL)：口渴 +13┃体力 +25┃能量 +10┃体重 +0.34kg┃心情 +0.5┃患病 +2"
+  oliveoildsc: "┃饮用(每100mL)：口渴 +3┃饥饿 +8┃体重 +0.68kg┃患病 +12┃肮脏 +5┃心情 -1"
   icecreamdsc: |-
     ┃食用效果(每100mL)：饥饿 +6┃体重 +0.4kg┃口渴 +6┃心情 +1.5┃患病 +1.5
     ┃体温＞28.5°C时(持续15秒)：体温 -0.2/s
-  radwater: ？
-  radwaterdsc: ┃饮用(每100mL)：口渴 +9┃体温 -0.2°C┃辐射 +0.35/s(45秒)
-  yogurtdsc: ┃饮用(每100mL)：口渴 +4┃饥饿 +9┃体重 +0.14kg┃心情 +0.2┃患病 +1┃体温 -0.15°C
-  molddsc: ┃饮用(每100mL)：饥饿 +3┃体重 +0.14kg┃患病 +30┃心情 -4┃饮＞25mL呕吐
-  orangejuicedsc: |-
-    ┃饮用(每100mL)：口渴 +9┃体重 +0.02kg┃体温 -0.1°C┃心情 -1.5┃患病 -2.5
-  applejuicedsc: ┃饮用(每100mL)：口渴 +9┃体重 +0.03kg┃体温 -0.3°C┃心情 +1
-  hotsaucedsc: ┃饮用(每100mL)：口渴 +4┃饥饿 +5┃体重 +0.68kg┃患病 +3┃头部疼痛 +12┃体温＜41°C时(持续25秒)：体温 +0.2/s
+  radwater: "？"
+  radwaterdsc: "┃饮用(每100mL)：口渴 +9┃体温 -0.2°C┃辐射 +0.35/s(45秒)"
+  yogurtdsc: "┃饮用(每100mL)：口渴 +4┃饥饿 +9┃体重 +0.14kg┃心情 +0.2┃患病 +1┃体温 -0.15°C"
+  molddsc: "┃饮用(每100mL)：饥饿 +3┃体重 +0.14kg┃患病 +30┃心情 -4┃饮＞25mL呕吐"
+  orangejuicedsc: "┃饮用(每100mL)：口渴 +9┃体重 +0.02kg┃体温 -0.1°C┃心情 -1.5┃患病 -2.5"
+  applejuicedsc: "┃饮用(每100mL)：口渴 +9┃体重 +0.03kg┃体温 -0.3°C┃心情 +1"
+  hotsaucedsc: "┃饮用(每100mL)：口渴 +4┃饥饿 +5┃体重 +0.68kg┃患病 +3┃头部疼痛 +12┃体温＜41°C时(持续25秒)：体温 +0.2/s"
   chloroformdsc: |-
     ┃饮用(每100mL)：持续180秒意识以8/s向0靠近
     ┃注射(每100mL)：持续180秒意识以8/s向0靠近
   mercurydsc: |-
     ┃饮用(每100mL)：患病 +25┃血液粘稠度 -20┃心情 -4
     ┃持续200秒：脑健康 -0.05/s
-  ketchupdsc: |-
-    ┃饮用(每100mL)：饥饿 +8┃体重 +0.34kg┃口渴 +6┃患病 +5┃心情 -2.5
+  ketchupdsc: "┃饮用(每100mL)：饥饿 +8┃体重 +0.34kg┃口渴 +6┃患病 +5┃心情 -2.5"
   powderedmilkdsc: |-
     ┃饮用（每100mL）：口渴 -26.7┃饥饿 +26.7
     ┃体重 +0.45kg┃患病 +13.3┃心情 -1.67
@@ -4100,6 +4060,10 @@ other:
     ┃饮用(每100mL)：患病 +10 ┃ 概率呕吐(饮用mL数x1.25)%
     ┃外敷(每100mL)：皮肤 +30(100s内) ┃ 消毒 5分钟 ┃ 持续强力镇痛
     ┃制作(9)：易燃粉末+50mL(液体)+25mL(血液)+50mL(阿片)+25mL生化流体=100mL镇痛膏
+  localanestheticdsc: |-
+    <color=#72d572>┃注射(每10mL)：疼痛0｜力量0｜持续1分钟
+    ┃饮用(每100mL)：患病+10｜≥80mL呕吐</color>
+    <color=#FF69B4>┃注意：此物品和结局有关</color>
   woundgluedsc: |-
     ┃饮用(每100mL)：患病 +10 ┃ 概率呕吐(饮用mL数x1.25)%
     ┃外敷(每100mL)：皮肤 +50(100s内) ┃ 肌肉 +25 ┃ 感染 -25
@@ -4140,53 +4104,16 @@ other:
   ringersolutiondsc: |-
     ┃饮用(每100mL)：口渴 +8 ┃ 患病 +3 ┃ 心情 -1
     ┃注射(每100mL)：血容量 +0.13L ┃ 口渴 +9 ┃ 血液粘稠度 -6
-  reputationtipdsc: |-
-    <color=#91a7ff>┃初始好感：75~135 + 智力×4，再按状态增减
-    ┃口齿不清-20｜毁容-5｜肮脏>50：-肮脏×0.25
-    ┃听力损伤>50%：-20｜手持枪械：-20且敌意+50
-    ┃上限200｜<30敌对｜<70不能要求移动｜<100不能拥抱
-    ┃价格系数(好感→价格倍率)：0=2｜50=1.47｜100=1
-    ┃150=0.72｜200=0.5</color>
-    <color=#ffee58>┃货架分三档：绿(想要)｜黄(无所谓)｜橙(想留)</color>
-    <color=#72d572>┃买绿+7好感｜买黄+4｜买橙不加
-    ┃卖出物品不加好感，只加交易额度</color>
-    <color=#ff4444>┃额度不足时购买：-2好感</color>
   salinedsc: |-
     ┃饮用(每100mL)：口渴 +9 ┃ 患病 +4 ┃ 心情 -1
     ┃注射(每100mL)：血容量 +0.13L ┃ 口渴 +9 ┃ 血液粘稠度 -7
     ┃制作(9)：150mL过滤水+10mL生化流体+15mL(血液)=175mL生理盐水
-  haggledsc: |-
-    <color=#91a7ff>┃第n次波动±(25÷n)：±25｜±12.5｜±8.3…
-    ┃期望为0，前两次风险最大</color>
-    <color=#72d572>┃最终结果为增加好感且次数<8：智力经验+2.5</color>
-  haggledunedsc: |-
-    <color=#ffa726>┃肌肉-25~40｜皮肤-12~20｜出血+6~12
-    ┃疼痛+37~55｜肾上腺素+40</color>
-    <color=#72d572>┃好感+20~28｜额度+6~10
-    ┃假肢部位上述收益×0.4</color>
-    <color=#91a7ff>┃额度满60后不能再咬</color>
-  hugdsc: |-
-    <color=#91a7ff>┃需exp好感>100┃牛奶>115┃沙丘>150┃且肮脏≤50</color>
-    <color=#72d572>┃成功：好感+5｜心情+2.5(沙丘除外)</color>
-    <color=#ff4444>┃失败：好感-8｜心情-2.5｜被推倒
-    ┃失败后好感<30则立刻敌对</color>
-    <color=orange>┃牛奶角色心情>-50时会直接拒绝</color>
   antivenomdsc: |-
     <color=#72d572>┃饮用(每100mL)：患病 +24
     ┃注射(每mL)：总毒液 -1.2
     ┃注射(每100mL)：总毒液 -120</color>
     <color=#ffee58>┃制作(10)：毒囊+5mL生化流体
     ┃+25mL血液+10mL消毒=50mL</color>
-  hpvenom: |-
-
-    <color=#FCFCFC>┃显示毒素ppm；内部毒×0.1=ppm
-    ┃>2/25/55/90：中毒等级
-    ┃血氧上限 100-毒×0.5
-    ┃血液粘稠度向毒靠拢 +0.222/s
-    ┃血容量 -毒/500/s
-    ┃毒≥20：自然止血归零
-    ┃总毒自然 -0.01/s
-    ┃>90：1.66%/s肺栓塞风险</color>
   blooddsc: |-
     ┃饮用(每100mL)：口渴 +3┃患病 +8┃心情 -1
     ┃注射(每100mL)：血容量 +0.1L
@@ -4196,9 +4123,6 @@ other:
     ┃注射(每100mL)：血容量 +0.1L┃肌肉 -4┃败血症 +5┃患病 +7
     ┃获取：医疗箱/交易
     用于开启生物终端或制作盐水。
-  redsludgedsc: |-
-    <color=#72d572>┃饮用(每100mL)：口渴 +3｜饥饿 +3┃体重 +1.00kg｜心情 -5┃患病 +10┃50%概率呕吐</color>
-    <color=#ffaa00>┃手持过滤吸管时不呕吐</color>
   alienblooddsc: |-
     ┃饮用(每100mL)：口渴 +3┃患病 +8┃心情 -1
     ┃注射(每100mL)：血容量 +0.09L┃患病 +3┃败血症 +1
@@ -4222,10 +4146,6 @@ other:
     ┃每秒：内出血 x0.95 ┃ 血液粘稠度 +1.75 ┃ 中风值 -10 ┃ 全肢体出血 x0.96
     ┃获取：医疗箱/空投舱/维生舱箱子/交易/尸体
     ┃制作(14)：凝血糊剂+50mL(血液)+2凝血菇块+25mL生化流体=100mL凝血剂
-  localanestheticdsc: |-
-    <color=#72d572>┃注射(每10mL)：疼痛0｜力量0｜持续1分钟
-    ┃饮用(每100mL)：患病+10｜≥80mL呕吐</color>
-    <color=#FF69B4>┃注意：此物品和结局有关</color>
   epinephrinedsc: |-
     ┃饮用(每100mL)：肾上腺素设为100 持续100秒 ┃ 心脏停搏时5%概率：心率设置为200+纤颤设置为50
     ┃注射(每100mL)：肾上腺素设为100 持续600秒 ┃ 心脏停搏时5%概率：心率设置为200+纤颤设置为50
@@ -4245,12 +4165,10 @@ other:
     ┃每秒辐射病 -0.2，总计约 -18Gy
     ┃超过180秒过量(每秒)：患病 +0.6┃ 胸部疼痛 +1.5
     ┃获取：医疗箱/空投舱/维生舱箱子/交易/尸体
-  wantstradetip: （+7）
   braingrowdsc: |-
     ┃饮用（每20mL）：脑健康 +10 ┃ 患病 +20 ┃ 心情 -5 ┃ 50%几率立即呕吐 | 治疗中风
     ┃获取：医疗箱/物资箱/交易/尸体
     20分钟内重复使用或单次超40mL会导致精神抹除！1mL也能治疗中风
-  tradingblocked: （不可转售）
   mindwipedsc: |-
     ┃使用效果：永久获得“空洞”状态(心情持续偏向0)，过程伴随全肢剧痛、听力严重受损、心情崩溃，结束后给予50脑完整度、消除中风、智力归零、黑白视野、失语、与商人初始好感-60%。
     ┃获取：医疗箱/空投舱/维生舱箱子/交易/尸体
@@ -4310,6 +4228,9 @@ other:
   lumalgaedsc: |-
     ┃饮用(每100mL)：口渴 +6.5┃饥饿 +2┃体重 +0.03kg┃体温 -0.25°C┃心情 -0.1┃65%患病 +6~8.5(过滤吸管x0.3)┃10%概率呕吐
     ┃获取：荧光藻池/菌丛深渊
+  redsludgedsc: |-
+    <color=#72d572>┃饮用(每100mL)：口渴 +3｜饥饿 +3┃体重 +1.00kg｜心情 -5┃患病 +10┃50%概率呕吐</color>
+    <color=#ffaa00>┃手持过滤吸管时不呕吐</color>
   magmadsc: |-
     ┃进入液体区域：
     ┃每帧伤害：皮肤：50/护甲┃肌肉：8/护甲┃疼痛：20/护甲
@@ -4334,6 +4255,12 @@ other:
   refinedjuicedsc: |-
     ┃饮用(每100mL)：饥饿 +2.5┃口渴 +9.5┃心情 +0.2┃体重 +0.07kg┃体温 -0.2
     ┃制作(4)：250mL混合果汁+热源=200mL精制果汁
+  runsetunchippeddsc: |-
+    不建议新手开启。
+    <color=orange>可能影响结局</color>
+  gamesetmastervolumedsc: !replace "游戏所有音量总称"
+  gamesetmusicvolumedsc: !replace "游戏背景音乐音量"
+  unarmed: !replace "空物品"
   watchweight: |-
     ┃<color=#FCFCFC>权重偏移 -80~100 | 显示 偏移×0.34+50
     ┃影响负重/隔热/血压/移动</color>
@@ -4397,14 +4324,6 @@ other:
     ┃<-70 概率自残
     ┃<-75 无法使用非阿片类药物
     ┃<-90 概率挖眼/自杀</color>
-  hpopiate: |-
-
-    <color=#FCFCFC>┃显示实际阿片受体值（op）
-    ┃>0 才显示｜自然代谢 -0.059/s
-    ┃>5/20/50/80：过量等级
-    ┃>0：疼痛 -0.30/s/点｜心情 +1/点
-    ┃>30：精力 -阿片×0.0025/s
-    ┃>90：呼吸目标<10，呼吸停止</color>
   hphunger: |-
     ┃<color=#FCFCFC>自然消耗 -2.6/分钟
     ┃>100 加负重+1.5u | <40 减负重-1.5u
@@ -4438,23 +4357,6 @@ other:
     ┃<nobr>>160 心动过速加重 | >200 更严重</nobr>
     ┃<nobr>>240或纤颤>50%触发心悸</nobr>
     ┃<nobr>归零=心脏停搏 | 氧≤5%触发骤停</nobr>
-  threatendsc: |-
-    <color=#ffa726>┃代价：好感×0.3｜心情-5｜创伤+5
-    计算机制
-    ┃好感≤100时计算完必≤30，判定直接失效(永不成功)</color>
-    <color=#91a7ff>┃判定：掷0~1随机数，>0.6且好感>30才算成功
-    ┃持枪把掷点往高值方向拉25%｜沙丘商人掷点减半
-    ┃沙丘玩家掷点×1.3
-    直接概率
-    ┃威胁成功率：非沙丘商人 空手40%｜持枪53%
-    ┃沙丘玩家 空手54%｜持枪72%
-    ┃沙丘商人 空手0%｜持枪0%
-    但同时沙丘玩家对沙丘：空手7.7%｜持枪10%</color>
-    <color=#ff4444>┃失败分两种：仅警告，或立刻敌对开打
-    ┃普通商人：30%警告｜30%开战（持枪40%警告｜7%开战）
-    ┃沙丘商人：40%警告｜60%开战</color>
-  restdsc: |-
-    ┃获得睡得好buff┃好感+8┃无次数限制
   hppressuredsc: |-
     ┃<nobr>血液粘稠度 ±0.6/0.4 | 血容量 ±0.66/0.44(每0.025L)</nobr>
     ┃<nobr>心率>70 +0.7/0.466(每BPM) | <70 +2/1.33</nobr>
@@ -4476,6 +4378,24 @@ other:
     <color=#FCFCFC>┃感染增生 +7.2/分钟 | 消毒抵消 -12.24/分钟
     ┃>75 肌肉开始衰减 | >90 扩散相邻肢体
     ┃免疫>195.8 不再增生</color>
+  hpopiate: |-
+
+    <color=#FCFCFC>┃显示实际阿片受体值（op）
+    ┃>0 才显示｜自然代谢 -0.059/s
+    ┃>5/20/50/80：过量等级
+    ┃>0：疼痛 -0.30/s/点｜心情 +1/点
+    ┃>30：精力 -阿片×0.0025/s
+    ┃>90：呼吸目标<10，呼吸停止</color>
+  hpvenom: |-
+
+    <color=#FCFCFC>┃显示毒素ppm；内部毒×0.1=ppm
+    ┃>2/25/55/90：中毒等级
+    ┃血氧上限 100-毒×0.5
+    ┃血液粘稠度向毒靠拢 +0.222/s
+    ┃血容量 -毒/500/s
+    ┃毒≥20：自然止血归零
+    ┃总毒自然 -0.01/s
+    ┃>90：1.66%/s肺栓塞风险</color>
   crystaleffect1: !replace |-
 
     你可以凑近仔细检查。它似乎有点不对劲。
@@ -4506,9 +4426,60 @@ other:
     <color=#72d572>┃靠近该水晶，对准其按右键可查看详细效果</color>
     <color=#ffa726>┃此水晶拥有5+种效果
     </color><color=#ff4444>┃极度罕见的水晶！</color>
-  gamesetmastervolumedsc: 游戏所有音量总称
-  gamesetmusicvolumedsc: 游戏背景音乐音量
-  indifferenttip: （+4）
+  wantstradetip: !replace "价格更低且+7好感度"
+  indifferenttip: !replace "正常价格并+4好感度"
+  reputationtipdsc: |-
+    <color=#91a7ff>┃初始好感：75~135 + 智力×4，再按状态增减
+    ┃口齿不清-20｜毁容-5｜肮脏>50：-肮脏×0.25
+    ┃听力损伤>50%：-20｜手持枪械：-20且敌意+50
+    ┃上限200｜<30敌对｜<70不能要求移动｜<100不能拥抱
+    ┃价格系数(好感→价格倍率)：0=2｜50=1.47｜100=1
+    ┃150=0.72｜200=0.5</color>
+    <color=#ffee58>┃货架分三档：绿(想要)｜黄(无所谓)｜橙(想留)</color>
+    <color=#72d572>┃买绿+7好感｜买黄+4｜买橙不加
+    ┃卖出物品不加好感，只加交易额度</color>
+    <color=#ff4444>┃额度不足时购买：-2好感</color>
+  valuegiventipdsc: |-
+
+    <color=#91a7ff>┃总额上限60，累计到60后拒收任何物品
+    ┃单件只按剩余额度折算，太贵也不会被拒</color>
+    <color=#ffa726>┃买来的物品带5分钟标记，期间不能卖回去
+    ┃容器里有东西时不能卖（迷你桶特殊卖不掉）
+    ┃价格区间：绿色0.7┃黄色1.0┃红色1.5</color>
+  tradingblocked: !replace "冷却中(不可再出售)"
+  haggledsc: |-
+    <color=#91a7ff>┃第n次波动±(25÷n)：±25｜±12.5｜±8.3…
+    ┃期望为0，前两次风险最大</color>
+    <color=#72d572>┃最终结果为增加好感且次数<8：智力经验+2.5</color>
+  haggledunedsc: |-
+    <color=#ffa726>┃肌肉-25~40｜皮肤-12~20｜出血+6~12
+    ┃疼痛+37~55｜肾上腺素+40</color>
+    <color=#72d572>┃好感+20~28｜额度+6~10
+    ┃假肢部位上述收益×0.4</color>
+    <color=#91a7ff>┃额度满60后不能再咬</color>
+  hugdsc: |-
+    <color=#91a7ff>┃需exp好感>100┃牛奶>115┃沙丘>150┃且肮脏≤50</color>
+    <color=#72d572>┃成功：好感+5｜心情+2.5(沙丘除外)</color>
+    <color=#ff4444>┃失败：好感-8｜心情-2.5｜被推倒
+    ┃失败后好感<30则立刻敌对</color>
+    <color=orange>┃牛奶角色心情>-50时会直接拒绝</color>
+  threatendsc: |-
+    <color=#ffa726>┃代价：好感×0.3｜心情-5｜创伤+5
+    计算机制
+    ┃好感≤100时计算完必≤30，判定直接失效(永不成功)</color>
+    <color=#91a7ff>┃判定：掷0~1随机数，>0.6且好感>30才算成功
+    ┃持枪把掷点往高值方向拉25%｜沙丘商人掷点减半
+    ┃沙丘玩家掷点×1.3
+    直接概率
+    ┃威胁成功率：非沙丘商人 空手40%｜持枪53%
+    ┃沙丘玩家 空手54%｜持枪72%
+    ┃沙丘商人 空手0%｜持枪0%
+    但同时沙丘玩家对沙丘：空手7.7%｜持枪10%</color>
+    <color=#ff4444>┃失败分两种：仅警告，或立刻敌对开打
+    ┃普通商人：30%警告｜30%开战（持枪40%警告｜7%开战）
+    ┃沙丘商人：40%警告｜60%开战</color>
+  restdsc: "┃获得睡得好buff┃好感+8┃无次数限制"
+  tradermovedsc: "┃好感度<70时不能要求移动"
   outdatedwarning: !replace |-
 
 
@@ -5211,3 +5182,416 @@ pauseQuotes:
       但不要在液体旁使用，否则
 
       掉入水中将造成严重后果！</color></size>
+pdaNotes:
+    - Item1:
+        |-
+        [研究备忘 29-01-24XX]<>
+        我正在观察的对象简直不可思议。观察对象尺寸大约一拳，色泽偏黄，质感黏滑，怎么看这都是一团肉块。我们完全不清楚它从何地，又或是何种生物而来，但是设备已经给出结论：它来源于一种截然不同的生命体系。观察对象是从██████ ███████的残骸中回收得来的，当时它牢牢粘在接收器上。这东西无疑算是我们研究的重大突破，但是和我们报废的设备相比，只能算是一点小小的安慰。我想不通，我们只是摆弄粒子，在传送科技的死胡同里踱步十年有余，然后这东西就从天而降了？<>
+        放眼全宇宙，这次实验刚好链接到某个星球，刚好链接到某个生物，这概率至多有十的负五十次方。理论上根本不可能，但现在观察对象又确确实实在我的眼前。我们得想办法把这事圆过去，在这个节骨眼上，我们不能冒险失去投资人的资金，也不能引起公众恐慌，至少观察对象会被转交给生化组，让他们在整个项目重头再来的期间有点事情做。
+      Item2:
+        ""
+    - Item1:
+        |-
+        [研究备忘 3-11-24XX]<>
+        从█████████事件中取得的“黄血” 确实能力出众，它的适应能力远超在地球上的任何生命：就算暴露在强辐射下，它也有本事立刻着手自我修复。我只在我们的免疫细胞中见过这般水平的重组能力，但在黄血中，所有细胞都具有这种能力。我们还尝试借病毒载体覆盖其DNA序列，它居然保持了自身的序列，还将载体序列合入了自己的DNA序列。<>
+        我们将相关基因导入大鼠细胞中，实验结果让█████博士大惊失色。细胞进入了过表达状态，从周围的一切抓取DNA，毫无障碍地将其整合入自己的序列，这结果让过去百年的生物学研究沦为笑谈。宿主细胞不久后死亡。这段外源基因更像是起框架作用，让细胞不会立刻癌变的情况下，赋予DNA序列换位和重组的能力。我们用数个基因组重复进行实验，甚至整合成功了远缘物种的DNA序列。尽管如此，实际结果仍然难以预测，比起正经生物学研究，这更像开炉炼丹，谁也猜不透这东西有多大的潜力。
+      Item2:
+        ""
+    - Item1:
+        |-
+        [研究备忘 29-7-24XX]<>
+        终于！我的努力总算有了结果，有了第一个可用的样本！它现在处于镇静状态，但已经能在培养舱外自主呼吸了。此前的失败品因致命的胚胎变异而失败，但这个样本并没有类似迹象，它也没有变成又一团失控增生的畸形组织。它是第一个真正意义上的人造生命，我已然明白，我创造了一个全新的种族。<>
+        和其他试验一样，黄血被加入到最新一批的稳定混合剂中，再注入人类胚胎。样本果然大量取用人类特征，但又处处不同。它的爪子像猫科，它的耳朵像禽类或者是爬行类。还能在颅骨里检测到狗、狐狸、啮齿动物的基因痕迹，可能基因库里有上千个潜在供体。它的眼睛甚至有很微弱的生物荧光。
+        更重要的是，和预期一致，它的智力水平已经接近人类水平。这将为我们打开无限可能！我可要对这只样本温柔点。至于破坏性测试，可以等到样本的克隆工作完成再说。
+        我将赐予我的造物以SAW-01之名。
+      Item2:
+        ""
+    - Item1:
+        |-
+        [研究备忘 24-12-24XX]<>
+        应多次要求，我正在调整SAW-01的基因组。它们和公司研究内容的相性远超我的预期。原来我确信，生育能力的缺失正是其完美无瑕的证明。可惜克隆机器已经跟不上火爆的需求，现在，我理解落后繁殖方式的优势了。
+        解除对性征表达的抑制后，基因对我的调整迅速做出了反应。它们是雌雄同体，同时具有两套生殖器官。不过，它们并没有乳腺，这样还能叫做哺乳动物吗？不清楚这种特征是来自地球生物，还是来自于黄血。超出了我们的术语所能描述的范畴。<>
+        看起来它们对同类没有什么交配的欲望，不过能够、也满足于独自完成繁殖。这样依赖，它们便能以远低于以往的成本，实现近乎自我克隆的繁殖。
+      Item2:
+        ""
+    - Item1:
+        |-
+        [个人备忘]
+        [██████████博士，6-05-24XX]<>
+        我怎么也想不通。我在事故发生前就参与了██████ ███████项目。当时我们尝试了每一种方法，检查了每一个细节。现在██年过去了，我们重复了当年被否决的实验，却取得了非常完美的结果。就好像是那场事故之后，宇宙中的某些隐藏变量被悄然改变了。
+        事情本不该是这样的。<>
+        真正的定点传送技术发展至今，似乎第一次变得触手可及。但自那场事故以来，我们对这项技术的认知不进反退。恐怕我们在干涉一些超出我们认知的东西。如果我们当时抓取到的不是一小块肉，而是一小块中子星，会落得什么样的下场呢？
+        当然，如此高的重力定会干扰传送定位。但我们已经“熟悉”的事物，又有哪些已经悄然变化了？给穴居人一台我们最先进的算力单元，他们也只会将其当做电暖炉。我们是否也处于同样无知的局面里...？ 我们也许只是懵懂幼童，摆弄着父亲上了膛的枪。
+      Item2:
+        ""
+    - Item1:
+        |-
+        嘿，老大。
+        关于 ████ █████ 的最新进展。进展不错。那帮小子靠它几乎给整个破空间站供了电，而这玩意儿毫无压力。它是我们见过的能量密度最高的东西。想想看，整个传送阵列，靠一个手掌大小的玩意驱动。不过奇怪的是，它居然是 █████ 形状的。说不定是某个Experiment的碎片卡进去了，谁知道呢。但有了这个，我们根本不需要再扩建戴森云了。
+        问题是，我们没法造出第二个。<>
+        那帮小子坚称，他们完全复刻了实验条件。上次他们试图把时空导管"抽出来"而不是"穿越它"，但这次？什么都没发生。机器确实像之前一样炸了，但就是没有出现 ████ █████。这跟 ██████████ 事件如出一辙，只不过那次事故带来了黄色血液，最终促成了SAW样本的诞生。而这次，说不定还有更大的突破。
+        我会通过传送器把这东西送到总部。希望你们能搞明白它到底是什么。哦...对了，既然说到这个，再给我们送些SAW样本上来。在轨道上维持足够的库存可不是件容易的事。
+        ——空间站总监 ███████████
+      Item2:
+        ""
+    - Item1:
+        |-
+        [事故报告]
+        [已恢复音频转录稿 B7-187545]
+        [传送舱：鱼鹰]<>
+        “我检查过规格书了，但...这他妈也太大了。”
+        “那当然了，它本来就要传送整栋建筑的。”
+        “那传送过去之后，建筑还能完好无损吗？”
+        “我们还在调试，不过这也就是为什么我们要确保大部分货物都经得起颠簸——比方说...从大气层颠簸下来。”
+        <PDA通知音> “对，就是那里，把这玩意放正中间就行了！”
+        “他们在搬的是什么东西？”
+        “你小子新来的吧。这就是那个新型能源装置，管理层最近一直对它赞不绝口。”
+        “哦...长官，他们待在下面那个位移舱里真的安全吗？”
+        “当然了，只要别开机就行。不过，当年它还在开发阶段的时候，有几个被拉来测试的倒霉样本被直接整齐地切成了两半。后来我们才发现，启动线圈运转时产生的寄生电容居然触发场投射器，这也是我们从来不亲自维修这玩意的原因。至于那些样本的另半截...最后出现在了总部的员工厕所里。”
+        “我敢打赌那里的清洁工肯定要怀疑人生了。”
+        “那种黄色血液跟狗皮膏药一样难去。现在那块地方还能看到些血迹”<>
+        <沉重的撞击声>
+        <机械轰鸣声>
+        “发生什么了！”
+        “超质量位移器启动了而已！总监看盯着用电量呢，赶紧的！目的地确认？！”
+        “嗯...！确认！长官！”
+        "位移舱?!"
+        “确认！长官！”
+        “指示灯？”
+        “一切正常！长官！”
+        “那就开干！”
+        <警报轰鸣> “什——!”
+        “你干了什么？！”
+        “啥——啥也没干啊！”
+        “稳定器在解——解体！关——关——关——掉！”
+        “关关关关关——不掉！它——它在！”
+        <多重交叠的警报声>
+        "为——什么——不不不不不——行!?"
+        "再试试试试——<>
+        [转录稿结束]
+      Item2:
+        ""
+    - Item1:
+        |-
+        [会议转写 AA-226213]
+        [██████ █████办公室]
+        [日期：6-06-25XX]<>
+        缩减...？你到底想说什么！
+        字面意思而已，█████博士。我们要缩减SAW项目的规模。
+        恕我直言，正是这个项目造就了公司如今的辉煌。SAW样本在我们的所有研究中都扮演关键角色。你不能就这样取消它。
+        你到底知不知道有多少钱都拿来替你擦屁股了？光是安保就砸了一半的预算。万一有人察觉到了我们手上的活，我们都会被拖走上街吊死！到时候他们对我们做的事，哪怕只有你所作所为的十分之一都算是幸运了。<>
+        我理解，先生，但我们的成果——<>
+        早几年就已经停滞不前了。容易解决的问题都被你们解决干净了。你现在不过是在拿它们玩过家家，而我是那个买单的冤大头。
+        我们一直都有稳步进展：从癌症、到表观遗传漂变、到干细胞衰竭...甚至逼近真正的永生！这难道不值得冒险吗？
+        要是我活不到那一天，一切都没有意义！我们会保留少量样本，但传送技术...那才是我们面向公众的招牌。毕竟这是我们原定的目标。想象一下吧，█████博士——数百个人类世界，全部由 我 们 的机器连接。就和控制燃油、控制汽车、控制公路一样。我们将变得不可撼动。
+        听起来很美好，先生...但它们数量太多了，更是投入了几十年的心血。我要怎么简单地“缩减”？
+        我知道你已经是屠戮它们的行家了。发挥点创造力吧。
+      Item2:
+        ""
+    - Item1:
+        |-
+        [群聊 — 摧残科]
+              — 有新的消息 —<>
+
+        有人看见我的咖啡杯了吗？就是写着“我在这里很想你，活跃分子们”的那个。如果有人见到了，麻烦带到我的办公室来，谢啦。
+      Item2:
+        ""
+    - Item1:
+        |-
+        [邮件主题] 关于你上条消息的通知
+        [发件人]人力资源部
+        [收件人] █████████博士<>
+
+        这封邮件是向您通知，您的上条消息的以下内容：
+
+            “你们这群 狗 养 的谁 他 妈 传送了半截Experiment到 天 杀 的卫生间里面？！！老 子 他 奶 奶 的 在 里面坐地好好的 尼 玛 血 流 如 注 的东西就这么 日 了 狗 的 砸在老子的头上。它还咕涌把血都喷得 到 处 都是！我操 他 大 爷的全身都是血！ 屎 都 给 你 吐 出 来！！！老子要把另半截糊你办公室，给老子等着！”
+
+        经认定，不符合公司专业沟通氛围的要求。我们期望所有的员工和同事相处中相互尊重、专业高效。
+
+        敬请您确保未来沟通时，发言符合我们的沟通氛围要求。
+      Item2:
+        ""
+    - Item1:
+        |-
+        [个人备忘]
+        [█████博士， 2-11-25XX]<>
+
+        缩减...他真能说出缩减这两个字！
+        他难道不明白吗？他难道对SAW计划为这家公司所做的一切毫无感激吗？对 我 为这家公司所做的一切毫无感激吗？我们的研究从未停滞。我马上就要完成 SAW-13 了。只要找到合适的样本，我们就能重回正轨。
+
+        我不会销毁它们，同时我也可以让他满意。<>
+
+        那颗星球，它们从那里汲取了血液，那里才是它们的家，属于它们的地球。换句话说，它们一直都属于那里。我会称之为一次“延申实验”——观察它们在脱离掌控后的行为表现。这样无需多少开销，又能避人耳目。要是我们需要更多样本，随时可以把它们抓回来。一切都很完美。
+
+        你们便去吧。去开枝散叶，去与子同袍，去手足相残，去重蹈我们的覆辙，去纵情山野，无拘无束。但记住——你们都是我的孩子，你们也永远无法摆脱我。
+      Item2:
+        ""
+    - Item1:
+        |-
+        [主题] 信息安全人人有责！
+        [发件人] 运营监督部门
+        [收件人] 全体人员<>`
+
+        请停止在个人设备里保存内部邮件的行为。我理解员工邮件终端可能并不好用，但是保存内部邮件可是巨大的安全风险！我们找回了若干遗失的设备，它们几乎都带有某些保密级信息。如果其中有一两条被有心之人获得，你能承担得起责任吗？
+
+        以后请多加留心！
+        运营监督部门
+      Item2:
+        ""
+    - Item1:
+        |-
+        [神经硬件部门]
+        [日期：11-10-25XX]
+        [首席工程师 ████████]<>
+
+        我们已完成“数字化内感装置”（部分工程师戏称为“健康抬头显示”）的最新原型件。在与SAW项目团队的合作下，我们取得了多项突破性进展。“脊髓分层”问题已基本得到解决，我敢说，我们已经可以推进人体植入实验了！<>
+
+        该装置本体是一枚芯片，植入于小脑下方，通过导电纳米细丝于延髓牢固链接。其工作原理是截获那些用于身体潜意识调节的内脏感知和躯体感觉信号，并将其放大，以便捷的用户界面的形式投射至视觉中枢。
+
+        该植入物不依赖电池供电，而是从循环代谢物中获取能量。因此，除非遭到物理损坏，否则应该可以无限期使用下去。有了它，任何用户都能像机器一样精确地查看自己的心率、含氧量、体温。肌肉和皮肤的刺激、炎症等也包括在内。真是大有可为啊！
+      Item2:
+        ""
+    - Item1:
+        |-
+        [邮件主题] 回复：我想提问？
+        [发件人] ████████████
+        [收件人] █████博士<>
+
+        我写邮件是为了通知您，上周暴动涉及的所有SAW已全部处决，所以恐怕您已经没机会向他们提问了。
+
+        我亲自安排了全面审讯。它们招供说，所知道的一切都是来自那个SAW-03个体，所以这事到此为止。它们还承认，遇害者中有不少是它们的管理者，这并非巧合，而是有意为之。原因我用脚趾头都能猜到。我怀疑就算换你去拷问也问不出什么东西，所以它们的脑组织你就尽管去取吧。<>
+
+        我们将加强安保措施，希望以后不会再发生这种闹剧。
+
+        此致
+        安保主管████████████
+      Item2:
+        ""
+    - Item1:
+        |-
+        [全体人员通告]<>
+
+        内部审查发现，一名员工与指定研究资产之间存在长期的私下接触。该员工多次伪造访问代码，绕开记录流程，私自与一名SAW-03样本会面。
+
+        这些未经授权的会面中，包含向SAW样本泄露严禁共享的信息，以及不当的情感交流。该行为对一项正在进行的实验引入了不可控的行为变量。该员工已被强制调离岗位。该样本随后表现出自我了结行为，已不具有研究价值。<>
+
+        现提醒全体员工，任何未经授权的，与SAW样本的接触行为，均会严重影响实验的完整性。如果不确定某种互动行为是否符合规程，请在行动前咨询您的主管。
+
+        感谢配合，
+        项目管理办公室
+      Item2:
+        ""
+    - Item1:
+        |-
+        [归档消息 ID:LUXRJGY4]
+        [██████博士，████████工程师]<>
+
+        > 我和你说啊，开这个玩偶产线的人高低有点幽默感在身上。我女儿对它们跟着了迷一样。这些玩偶可比它们的原型可爱多了，哈哈哈！如果我们秘密的兜不住了，人们可会说“啥， 和那些玩偶一样吗？”啊哈哈哈哈！你觉得人们会把真相当真吗？
+
+        > 当然，怪好奇一个真的填馅SAW会是什么样的，笑死。不知道你的女儿拿到一个会不会开心。
+
+        > 这可难说，哈哈哈！
+      Item2:
+        ""
+    - Item1:
+        |-
+        [邮件主题] 我超棒的新发明
+        [收件人] ████博士
+        [发件人] 首席工程师████████<>
+
+        它叫：酷刑炼狱！
+
+        我借鉴了你们开发中的脑植入技术，不过改为发送神经信号，而不是读取神经信号。经过一番调试，现在它能让人感受到生理极限的痛感！我本来还预期测试对象会产生脱敏耐受，结果完全没有！
+
+        这项发明在刑事司法系统来会非常有用。一直以来，我们都很难判断一个人究竟有没有吃够苦头。现在问题解决了！我在SAW们身上做了很多测试，现在它们光是看到“酷刑炼狱”被开起来，就全部不敢惹事了。
+
+        能尽快把这个投产吗？
+      Item2:
+        ""
+    - Item1:
+        |-
+        [项目跟进]<>
+
+        坏消息啊各位...
+        “酷刑炼狱”项目被取消了。部门负责人说它“不切实际”，还“简直疯得离谱”，而且会成为“该死的公关噩梦”。解决司法公正问题，到底哪里看起来不好了？？？
+
+        算了。至少我们拿到了内部使用的许可。
+      Item2:
+        ""
+    - Item1:
+        |-
+        [运营监督部门]
+        [事件报告，编号：YVLVH4EB]
+        [证据编号 #54]
+        <>
+        我再也扛不下去了。
+        我们在做的事错得离谱，是恶魔般的行径。
+
+        早在█████████事件发生之前，我就在这里工作了。那时候，这一切还不是这样的。现在他们招的人净是些心理变态，但我也好不到哪去。我和其他人一样在使用SAW样本辅助实验。我们取得的进展来得太容易，令人沉醉。但我告诉自己，我是为了人类的福祉去使用它们，告诉我自己，它们和我们不一样。<>
+
+        我曾被指派对一只SAW-01进行植入物的长期测试。起初我还很冷漠，但它从不抱怨。对它来说，那竟是一天中最美好的时光。那之后肯定过了一年有余，我们在测试期间的交谈慢慢活络起来。再后来，我开始编造理由来扩大试验范围。直到那会，我才意识到，Experiment也会回馈以微笑。它谈不上聪明，但也开始学着在我的办公室里帮我干些杂活。<>
+
+        我和它一起工作了十四年。终究，我还是护不住它。我已经把测试延长到了极限。我试过了，我真的试过了。我坐在办公室里，一遍又一遍地刷新SAW台账，直到我亲眼确认——它的ID状态变成了“已死亡”。那一刻，所有被我压抑的良知，如同寻仇的冤魂一般，扯碎了我，吞没了我。<>
+
+        在这份EPDA中，你们会找到扳倒这家公司所需的一切证据。
+        我祈祷这能奏效，祈祷它能落到记者手里。
+
+        我对不起你，Mason。
+        真的，真的，真的很对不起...
+        <>
+        >更新事件状态：<>已解决
+      Item2:
+        ""
+    - Item1:
+        |-
+        [SAW项目备忘]
+        [█████博士，1-11,25XX]<>
+
+        Experiment们带来的好处不容小觑，但在一项关键指标上，它们的表现并不理想。
+        它们那永远停留在青春期水平的智力，已经阻碍了更复杂的心理试验的开展。<>
+
+        针对该痛点，我相信专门设计的SAW-03会有更出色的表现。它的毛色乳白，触感柔软。或许是得益于某种鲸类的基因影响，其背部生有鳍状突起，智力也因此提升。它比它的同类脆弱得多，但这不会影响它的预定用途。
+      Item2:
+        ""
+    - Item1:
+        |-
+        [邮件主题] 那些新SAW们
+        [发件人] 应用弹道学主任，█████████博士
+        [收件人] ██████博士<>
+
+        我发誓，█████博士那个组只是想给我添堵。他们明明知道我最讨厌虫子了！我只是想要一种更耐造的样本，然后他们就端给我那些SAW-12们，怎么想都是故意的。它们是很耐造，但是它们不听指令，还蠢到家了。我知道样本的精细性状是很难控制，但是他们组不至于就搞出这么个玩意儿吧。<>
+
+        不过，它们也不是毫无用处，拿来处理我们弹药测试留下来的各种残肢碎肉倒是不错。
+      Item2:
+        ""
+    - Item1:
+        |-
+        [邮件主题] 恭喜你啦！
+        [发件人] 传送部门主管，████████
+        [收件人] ████████工程师<>
+
+        亏你想得出用公众废料生活垃圾来做校准测试的法子！这一手让我们在山姆大叔那儿立了大功。不仅如此，这还是个绝佳的路子，能处理我们那些更...敏感的物件。真一块石头砸两只鸟，或者说，一根针管扎两只Experiment，可不是嘛？
+
+        至于传送定位的问题。谁在乎定位为什么偏偏被那颗星球吸引？它想往那儿传，我们何必拦着？反正那上面又没有环保疯子来揪我们的小辫子。<>
+
+        说到这个，那些废料给我盯好点。运营监督部门居然在一批废弃燃料棒里发现了间谍设备！估计是竞争对手想偷我们的传送技术，但无论如何，都不能让我们的其他机密外泄。
+      Item2:
+        ""
+    - Item1:
+        |-
+        [邮件主题] 清洁工？
+        [发件人] ████████████博士
+        [收件人] ███████博士<>
+
+        我一直在想一件事，管理层到底是从哪招来这些清洁工的？我们都是自己研究领域的学术大牛，安保人员都是雇佣兵或特种部队出身的。但那些清洁工又是怎么进来的？难不成有人办了个清洁工奥运会来选拔顶尖选手，然后给他们进入许可？
+
+        我真的想问问看，但我觉得在这里显得爱管闲事，不是什么好主意...
+      Item2:
+        ""
+    - Item1:
+        |-
+        [监听信息]
+
+        [原始发件人：MICHAEL WATSON，██████████████]
+        [预定收件人：KATE BARLOW]
+        <>
+        我已经跟你吐槽过不少他们给我的变态差事了，但这件事实在是诡异的很。
+
+        你听说过他们最近推出的那款健康芯片吗？就是那种可以连接到你脑干，让你能查看血压和杂七杂八的玩意？呃，我的团队正在为芯片开发一个插件。这插件能赋予芯片无线链接功能，就像是直连某人的大脑。我想说的是，这东西是给谁用的？囚犯？军队？<>
+
+        为此，我们不得不提高电池容量，还要增加一个无线收发器。但问题是，我检查过规格要求，功率上限简直不可理喻。如果你将传输波束直接对准大脑，并把输出调到最大，能直接用辐射弄死人！我把这个问题告诉了项目负责人，结果她告诉我，这没问题。<>
+
+        最奇怪的地方是，我查看了他们给我们的一部分生物遥测数据，发现所有受试者的身高都不到五英尺。他们是在儿童身上测试这个吗？依我看，这个东西可以作为某种远程杀人开关使用。我在申请加入这家公司时就知道他们做过不少不光彩的事情，但现在这事已经诡异过头了。<>
+
+        不过，也许我只是想太多了。你怎么想？
+        话说回来，如果你那边有职位空出来，记得告诉我。
+        <>
+        >>> 正在发送拦截到的信息 >>>
+        <>
+        发件人：首席安全长官████████████████
+        收件人：部门主管███████████████<>
+
+        此事不构成完整的安全漏洞，问题也已处理完毕。但我希望你发一份通告，强调如何正确清理拟发送给低权限员工的数据。
+      Item2:
+        ""
+    - Item1:
+        |-
+        [项目备忘：增脑剂]
+        [████████博士]<>
+
+        增脑剂是公司最成功的产品之一。明面上是神经学家拿走了所有功劳，但如果没有我们的实验数据，他们根本办不成这事。
+
+        说来讽刺，为了学会如何修复脑损伤，我们必须先学会制造脑损伤。最简单的方法就是剥夺受试者的氧气供应，从而造成弥漫性缺氧损伤。大部分时候这么做就可以满足我们的实验需求，但是想制造局部脑损伤，就得动点脑筋了。<>
+
+        最开始，我们选择让它们的额叶和锤子硬碰硬，但这样很难保证实验一致性。虽然工程部给我们做了一套标准挥锤测试装置。实验一致性的问题解决了，但带来的组织损伤又是个麻烦事。所以我们改用监管区那些用来控制大群实验体的音波炮。但音波炮又有那个老问题：实验一致性不好。<>
+
+        经过一番头脑风暴，团队对音波炮进行微调，终于达到精确破坏单条血管的程度。现在我们想在哪里诱发中风都轻而易举。由此可见，有了合适的测试样本，一切皆有可能；要是没有，那么你就制造一个。
+      Item2:
+        ""
+    - Item1:
+        "aGV5LCBvcnNvbmlrcyBoZXJlLiBzdXNoaSBpcyBteSBmYXZvdXJpdGUgZm9vZCwgeW91IHNob3VsZCB0cnkgaXQgdG9vIQ==注射部位出现亚急性水肿。心率为160 BPM，血压为 157/98。可见明显疼痛反应，受试对象持续剧烈挣扎，试图挣脱约束。局部水肿已发展为急性水肿，真皮层出现大量水疱。由于受试对象反应剧烈，已对其实施口部约束。不良反应迅速扩散至整个胸廓区域。注射部位皮肤开裂。心率升至198 BPM。皮肤颜色由红色转为黑色。水疱破裂，可见深色液体渗出。其他部位亦开始出现大疱，直径约为一拳大。心率升至219 BPM，血压降至 71/40。全身皮肤已完全变黑，可见持续渗液。受试对象现已确认死亡，但病理反应仍在持续。可见致命性细胞溶解及细胞膜系统功能衰竭。受试对象正逐渐融化为aSBob3BlIHlvdSdyZSBoYXZpbmcgYSBuaWNlIGRheSBkZWNvZGluZyB0aGVzZSA6KQ=="
+      Item2:
+        ""
+    - Item1:
+        |-
+        [项目备忘 宗教思维观察]
+        [心理学家 ███████博士]<>
+
+        理性认知在缺乏客观关联的情境下仍试图建构意义，这一现象着实令人着迷。在实验中，我们随机选择两只SAW受试对象，并将其置于同一间隔离室中。起初它们表现出紧张缓解。但仅一天后，它们便开始对着摄像头忏悔它们做过的和没做过的事。此外，食物的投放间隔完全随机。
+
+        它们为假想中的观察者所建构的那些忏悔与仪式颇为耐人寻味。他们似乎深信，这些行为能左右随机系统的结果。实验中，食物供给被刻意设定为不足以维生的水平，旨在观察这一设定是否会引发受试者间的攻击行为，不过该现象并未出现。<>
+
+        当受试者处于极度饥饿状态时，系统偶然连续两次给出食物奖励。于是它们将其归因于“祈祷得到了回应”。在此之后，当下一次挨饿时，它们选择持续进行仪式性祈祷，而非屈服于生理需求，直至机体功能彻底衰竭死亡。
+
+        我拟在受试群体规模不同，以及有无摄像头作为变量的条件下，重复此实验。
+      Item2:
+        ""
+    - Item1:
+        |-
+        [项目备忘 “生活中的一天”]
+        [第1页，共2页]
+        [记录 #1]<>
+
+        有人给我了这个设备，让我写日记，我不明白为什么，但是不听话是不对的，那我就写写我的的生活吧。
+
+        我拿着这种叫“EPDA”的东西，感觉怪怪的，因为我只见过你们天天拿着它，它把我的脸照得亮亮的，弄得其他人都很好奇，这里好黑啊，我们只能看到彼此眼睛里的那点亮光，我们屋里的灯一关，就该睡觉了，要是那时候还没回到自己的小隔间里，就会绊到什么东西，或者是绊到某个累到动不了的人。今晚还好没有。
+
+        其他人抱怨说屏幕太亮了，等灯亮了再接着写吧。<>
+
+        [记录 #2]
+        灯一亮，我们大多数就醒了，只有伤得特别重的人才会睡过头，连开饭的嗡嗡声都听不见，我们会挤在送饭口旁边，等着自己的那一份。
+        我们平时都是吃营养棒，有时候也会有特别好吃的东西，有些人有专门给他们的饭，年纪小的会眼馋，可我见过吃了那种饭以后出的怪事，要是有人想偷吃或者换吃的，就会受到惩罚，这么做是不对的。
+
+        开饭的嗡嗡声响了！<>
+
+        [记录 #3]
+        吃完第一顿饭，你们就会来带我们走，你们按编号叫我们，叫到谁谁就得去，然后你们就把我们带走了，离开自己的房间很吓人，被带走的时候，我有时会看见别的房间，我好想跟他们说话，可隔着玻璃，他们听不见我，也看不见我，有一次我看到有一间房间，里面的人都和我们长得一模一样，可他们看起来都...空空的，真的好吓人，我问他们为什么会那样，结果你们中的一个人打了我。<>
+
+        今天选了四个人，这次把我留下了，可能是因为我在写这个吧，他们都很健康，不过也就是说，他们回来的时候就很可能带着伤了，平时的测试一般不会伤到我们，但有时特别特别糟，运气好的时候也有好事，有段时间他们天天都会把我带进去，往我胳膊里打东西，那感觉特别特别特别舒服，可后来不给我打了，然后我就觉得自己快死了一样，我希望你们多给我安排这样的测试！<>
+      Item2:
+        ""
+    - Item1:
+        |-
+        [项目备忘 “生活中的一天”]
+        [第2页，共2页]
+        [记录 #4]<>
+        现在很安静，这种时候，我们一般就是休息，或者去帮帮那些受伤的人，我们会拿到一些东西玩，好打发时间，有时那些刚从育儿室出来的，年龄小的人，居然会期待被选中，年龄大的人不一定会告诉他们选中是什么意思，不过他们迟早都会明白的。
+
+        如果被带走的人里有我的朋友，这段时间就会特别特别紧张，要是有人去了好几天都没回来，那基本再也回不来了，然后守卫就会进来，把他们的东西全拿走，如果那人是你的朋友的话，有时守卫会让你留下一两件东西。<>
+
+        [记录 #5]
+        晚饭时间到了，我分到肉了！
+        我还以为会有人要跟我抢肉吃，我只能吃得特别快，真希望有时间多吃一会，不过等大家都回来之后，我们就会一起聊天，玩耍，有时候还唱歌，晚饭后很少有人会被带走，所以我们都会放松下来，有些人会讲自己被带走做的测试，不过大多人都不想讲这些。<>
+
+        [记录 #6]
+        我有时候会想，白天和黑夜到底是什么，我们从偷听你们说话，还有你们给我们的书里，学到一些东西，我不懂为什么一天有24个小时，我知道有个叫“外面”的地方，听起来应该很大，那里的灯也会像这里一样亮起熄灭，但是管灯的不是你们，而且那里的天花板特别高，高到看不见，有些年龄大点的会跟我讲他们听来的怪事，但是我不知道是不是真的。<>
+
+        [记录 #7]
+        操
+        我的手在抖 打字很难
+        他们说今晚有附加测试 刚刚叫到我的编号了<>
+
+        回来再继续写 等我回<>
+        [结束]
+      Item2:
+        ""
